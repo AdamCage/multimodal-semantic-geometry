@@ -1,0 +1,70 @@
+{
+  "phase": "independent-replication",
+  "packet_sha256": "b59bd302774b6952bed6a2ecdc31ff1738124852c633739baa9577c158b861d1",
+  "roles": [
+    {
+      "role": "design",
+      "requested_model": "anthropic/claude-haiku-4.5",
+      "provider": {
+        "id": "rai-1795631086-HggwMOXpGfKWK12hQ0Et",
+        "model": "anthropic/claude-haiku-4.5",
+        "usage": {
+          "total_tokens": 1507,
+          "prompt_tokens": 487,
+          "prompt_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "completion_tokens": 1020,
+          "cost": 0.59678277984
+        }
+      },
+      "content": "# Phase Independent-Replication: Discriminating Check Analysis\n\n## Weakest Assumptions Identified\n\n**1. Participant-Stratum Exchangeability (Critical)**\nThe design assumes two distinct participant groups per concept panel sufficiently decorrelate behavior. No rationale given for *why* two groups prove independence. Risk: Systematic recording equipment, lighting, or behavioral conventions may co-vary within institution (University of Bristol), undermining the claim that encoder geometry arises from task structure rather than production confounds.\n\n**2. Collision Arbitration via \"Coarse Visual Action Gates + Independent Human Narration\" (High Risk)**\nWhen EPIC-SOUNDS and EPIC-KITCHENS timestamps collide, using independent human narration as \"raw text (canonical audio class for label/control only)\" conflates three problems:\n- Which modality defines ground truth for the collision window?\n- Does \"canonical audio class\" remain truly held-out if used for label selection?\n- Coarse visual gates may mask fine-grained semantic alignment failures exactly where native geometry should differ most across modalities.\n\n**3. Midpoint Visibility and Temporal Alignment (Moderate)**\nNo specification of how centered window boundaries handle occluded or ambiguous frames. If audio events (clinks, chops) temporally precede or lag visual frame centers, encoder geometries may reflect *synchronization artifacts* rather than native semantic structure.\n\n**4. No Direct Measurement of Modality-Specific Variance**\nThe plan measures alignment post-hoc but does not establish baseline within-modality reproducibility. If text encoder outputs are noisier than audio encoders at the same resolution, observed geometry differences may reflect signal quality rather than semantic structure.\n\n---\n\n## Recommended Minimal Discriminating Check\n\n**Option A: Modality-Stratified Null Test (Low Cost, High Discriminating Power)**\n- Select 8 windows (1 per final class): deliberately match text descriptions to audio labels post-hoc without viewing video.\n- Encode both pairs independently; compute cross-modality similarity.\n- Compare to 8 windows where you enforce collision-free timestamps (video-only validation, audio description supplied separately).\n- **Decision criterion:** If collision-free pairs show significantly different native geometry than collision pairs, participant/production confounds dominate; if similarity is indistinguishable, proceed with full 64-window replication.\n- **Cost:** ~2 GPU hours; uses no held-out data.\n- **Weakness:** Only covers 8/64 cases.\n\n**Option B: Encoder Reproducibility Baseline (Medium Cost, Clearer Stopping Rule)**\n- Re-encode the same 16 windows twice with RouterAI under identical inference settings (same seed, batch, device if possible).\n- Measure within-encoder, between-run similarity for each modality separately.\n- Compare to cross-modality similarity planned for full study.\n- **Decision criterion:** If within-encoder stability is <0.80 correlation, measurement noise may exceed native geometry signal; redesign preprocessing or gating.\n- **Cost:** ~1 GPU hour; directly tests measurement feasibility.\n- **Strength:** Applies to all modalities; independent of collision resolution.\n\n**Option C: Participant-Stratum Orthogonality Check (Lowest Cost, Addresses Highest-Risk Assumption)**\n- For 2 concept panels, compare metadata distributions (timestamp distribution, action duration, lighting histograms if available from video headers, participant ID encoding).\n- Cluster by participant/recording session; compute silhouette score.\n- If participant clusters explain >40% of variance, re-randomize panels to enforce cross-session mixing.\n- **Cost:** ~10 minutes; metadata-only.\n- **Weakness:** Correlational; does not verify independence post-encoding.\n\n---\n\n## Recommendation\n\n**Choose Option B + Option C in sequence:**\n1. **First (Option C, 10 min):** Verify participant-stratum orthogonality is achievable. If not, stop and redesign panel assignment.\n2. **Then (Option B, 1 hr):** Establish within-encoder stability floor. If signal-to-noise is <0.80, do not proceed to full 64-window replication; instead, refine preprocessing or gating.\n\nThis sequence is **selection-independent**, uses no model-output calibration, and answers whether measurement feasibility and design independence hold before committing 64 windows. It changes the decision boundary: only proceed if both checks pass."
+    },
+    {
+      "role": "statistics",
+      "requested_model": "deepseek/deepseek-v4-flash",
+      "provider": {
+        "id": "rai-1795631086-pVDPSToupsgQEt6MU7J0",
+        "model": "deepseek/deepseek-v4-flash",
+        "usage": {
+          "total_tokens": 1156,
+          "prompt_tokens": 448,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 0,
+            "video_tokens": 0
+          },
+          "completion_tokens": 708,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "image_tokens": 0,
+            "audio_tokens": 0
+          },
+          "cost": 0.02138868628416
+        }
+      },
+      "content": "## Evidence & Uncertainty Assessment\n\n**1. Text encoder independence is unconfirmed.**  \nThe packet states \"native routes currently verify one text checkpoint and no other families.\" This is a *selection* concern: only a single text encoder is checked for independence, leaving open whether its training data overlaps with image, audio, or video encoders from different families. The hypothesis requires independence across *all* four modalities, but text remains a singular, unverified sample.  \n*Actionable next test:* Obtain one additional text encoder from a different training pipeline (e.g., a purely text-only model with no vision pretraining) and confirm its checkpoint family, provenance, and release date precede all other encoders in the study.\n\n**2. EPIC-SOUNDS annotation independence is uncertain for 16-class sampling.**  \nAudio timestamps are described as \"independent human\" and \"collision materials checked with visual evidence.\" However, the intended 16-class design requires selecting \"maximally overlapping compatible visual narration\" when collisions contain \"coarse visual action gates.\" This selection *depends on human judgment of visual narration*, which may implicitly rely on visual concepts that the image encoder was trained on. If the collision-resolver has seen visual-action labels from EPIC-KITCHENS, they are not independent sources—they are *data-mediated*.  \n*Null scope:* The design does not specify whether the solving human had access to visual-action category labels prior to selection.  \n*Next test:* Redo collision resolution using only timestamps and duration, without any category labels or visual descriptors. Compare resulting window selection distribution to the proposed one.\n\n**3. Participant-stratum exchangeability is untested.**  \n\"Two distinct participant/recording groups per concept per A and B, no recording or participant sharing across panels\" implies separate strata. However, EPIC-KITCHENS and EPIC-SOUNDS collect from overlapping kitchens and participants. If a participant contributed to both datasets and the same event yields both audio and visual timestamps, the panels are *not* exchangeable across modalities. The packet does not provide a check that A/B assignments avoid same-participant or same-location confounding.  \n*Next test:* List all participant IDs and locations for both datasets; confirm zero intersection across the 16 selected windows. If intersection exists, block-randomize recordings within participant.\n\n**4. Midpoint visibility is assumed, not proven.**  \nThe centered-window decode to \"native formats\" assumes the midpoint of the audio-visual timestamp pair is visible in both modalities. For environmental audio, \"preserve measurement gating\" may require that acoustic features at the midpoint are not null (silent gaps). The packet provides no proof that midpoint audio energy exceeds a baseline threshold for all 64 windows.  \n*Next test:* Compute RMS or zero-crossing rate at the middle 100ms of each window; discard any window where audio is < −60 dBFS.\n\n**5. Data leakage from MD5/SHA metadata.**  \n\"Snapshot individual sources by original known publisher MD5 only as metadata\" – if publisher MD5 is used to fetch byte ranges, and byte ranges contain model-relevant patterns (e.g., filenames, timestamps, dataset splits), then the window selection leaks data identity. However, MD5s are hashes of entire original files, not window content; this is likely low risk.  \n*Verdict:* Acceptable with minor concern if original files are not model-training inputs."
+    },
+    {
+      "role": "falsification",
+      "requested_model": "anthropic/claude-haiku-5.5",
+      "provider": {
+        "id": "rai-1795631086-uFrf1fHQhBLZNyPc9etZ",
+        "model": "anthropic/claude-haiku-5.5",
+        "usage": {
+          "total_tokens": 3155,
+          "prompt_tokens": 750,
+          "prompt_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0
+          },
+          "completion_tokens": 2405,
+          "cost": 0.1364578488
+        }
+      },
+      "content": "# Independent-Replication Review: Alternative Explanations and Required Checks\n\n## Strongest alternative explanation\nAny geometry that appears in the replication may reflect shared **annotation provenance and visual salience**, not native semantic structure. Both EPIC resources come from overlapping research groups and pipelines (verify this against the dataset papers and release notes). If the same annotators, timing conventions, or class vocabularies shaped both the audio labels and the visual narrations, the \"independent\" text is not independent. Picking the \"maximally overlapping\" narration also favors clips where the visual event is salient and well described. That selects for visually dominant events, so any text–audio alignment may track salience rather than shared meaning.\n\n## Misleading scope and mechanistic conclusions\n- **\"Native\" across families is not yet supported.** Only one text checkpoint is verified. Claims about image, audio, or video geometry need each family's own encoder run on each family's native format, with format-specific preprocessing documented.\n- **Collision classes are not a clean test.** Using canonical audio labels as the control while using human narration as text means the label and the text may share an annotation source. Any match then reflects label leakage, not representation.\n- **Midpoint visibility is assumed, not measured.** A centered window may miss the visual action, or show it only partially. The packet does not report how often the visual event is visible in the window.\n- **Participant-stratum exchangeability is unlikely.** Two recording groups per concept per A/B yields very few independent strata. Recording setting, kitchen, or participant style may confound class with stratum. Non-sharing across panels does not remove this within-panel confound.\n- **Power is minimal.** 16 classes and 64 windows cannot support a claim about geometry, only a feasibility check.\n- **Hashing does not establish identity.** Publisher MD5 as metadata plus a fetched/normalized SHA shows the bytes changed during normalization, not that the content matches. Partial byte-range fetches may also truncate the window.\n- **Data terms may differ.** Footage and annotation manifests can carry different licences. Confirm both before release.\n\n## Demanded checks (no model outputs, no calibration leakage)\n1. **Provenance audit:** document annotator overlap, timing conventions, and class vocabulary across EPIC-SOUNDS and EPIC-KITCHENS. Exclude any pair that fails.\n2. **Visibility audit:** have a blinded human rater score, on the exact 64 windows, whether the cited visual event is visible. Pre-set a minimum pass rate and report exclusions.\n3. **Selection sensitivity:** repeat window selection with random seeded choice among compatible narrations. Report whether results change.\n4. **Salience control:** stratify by visual-event salience (rater-scored, not model-scored) and report each stratum.\n5. **Label-shuffle and text-shuffle controls** within class, to measure chance-level alignment.\n6. **Stratum check:** report variance by recording group before any class comparison.\n7. **Frozen gates:** fix all thresholds and exclusion rules before the heldout panel is opened; log any change.\n\n## Next test and stopping rationale\nRun only the provenance audit and visibility audit (checks 1–2), with no model inference. **Stop the alignment study** if provenance overlap cannot be ruled out or fewer than a pre-set share of the 64 windows show a visible centered event. Do not reopen the heldout panel until these checks pass and the gates are frozen."
+    }
+  ]
+}

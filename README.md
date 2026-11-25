@@ -1,39 +1,87 @@
 # Multimodal Semantic Geometry
 
-Investigating which semantic relationships are shared by independently trained text, image, audio, and video encoders, and whether those relationships can help predict the cost of aligning their representations.
+Исследование сравнивает связи между понятиями в пространствах текста, изображений, экологического звука и видео без звука. Исходная задача также предусматривает проверку того, предсказывает ли эта геометрия качество выравнивания и необходимое число пар.
 
-**Status: research proposal.** This repository currently contains documentation only. No experiments have been run for this project, and no empirical results or trained models are claimed.
+Результаты разведочного пилота, исходная постановка и границы проверки изложены в [RESEARCH.md](RESEARCH.md). Повторная проверка с фиксированным провайдером прошла для обеих текстовых семей. Для четырёхмодального теста и оценки бюджета пар пока отсутствуют подтверждённые маршруты независимо обученных энкодеров изображения, звука и видео. Пилот измеряет доступные текстовые и визуальные представления, описания отдельных каналов и фиксированные признаки, с отдельной проверкой аудио–текст на Clotho.
 
-## Research question
+## Материалы
 
-Do independently trained encoders preserve similar relationships between the same concepts across modalities? If they do, does that agreement make it easier to build a useful shared embedding space?
+- [RESEARCH.md](RESEARCH.md) содержит выводы, исходные гипотезы и ссылки на первоисточники.
+- [Протокол](study/protocol.json) задаёт пары моделей, перестановки, критерии включения и условие перехода к выравниванию.
+- [Нативный протокол](study/native_protocol.json) задаёт две отдельные семьи на модальность и разбиения для последующей проверки.
+- [Пакет данных](evidence/README.md) позволяет перепроверить результаты без API.
+- [Журнал EpistemeOS](evidence/episteme/summary.json) показывает принятые решения, вычислительные проверки и открытые возражения.
 
-The study will distinguish four claims:
+## Повторный запуск
 
-- **Local agreement:** concepts have similar nearest neighbors.
-- **Ordinal agreement:** distances between concepts have similar rankings.
-- **Metric agreement:** numerical distances agree after a predefined normalization.
-- **Partial agreement:** relationships are shared only for semantic factors observable in the compared modalities.
+Подготовьте Python 3.13, FFmpeg и FFprobe. Для онлайн-запуска передайте ключ только через переменную среды `ROUTERAI_API_KEY`. Команды для PowerShell из корня проекта приведены ниже.
 
-These claims will be evaluated separately. Similar neighborhoods do not establish identical geometry, and successful learned alignment does not establish that representations were aligned beforehand.
+```powershell
+uv venv --python 3.13
+uv pip install -r requirements.txt
+uv pip install "epistemeos @ git+https://github.com/AdamCage/EpistemeOS.git@7f5a1a0e43d7c35196cc8b3c9c74a618aa2559c3"
+$studyPython = ".venv/Scripts/python.exe"
+& $studyPython -m study.preflight
+& $studyPython -m study.research_roles feasibility study/protocol.json
+& $studyPython -m study.workflow audit --preflight .research/transport-audit/observed-transport.json
+& $studyPython -m study.acquire
+& $studyPython -m study.roster
+& $studyPython -m study.workflow freeze
+& $studyPython -m study.workflow run
+& $studyPython -m study.clotho
+& $studyPython -m study.review_packet results .research/roles/results-packet.json
+& $studyPython -m study.research_roles results-review .research/roles/results-packet.json
+& $studyPython -m study.workflow followup
+& $studyPython -m study.workflow adapt
+& $studyPython -m study.review_packet final .research/roles/final-packet.json
+& $studyPython -m study.research_roles adaptive-closure .research/roles/final-packet.json
+& $studyPython -m study.provider_audit
+& $studyPython -m study.workflow postflight
+```
 
-## Planned approach
+В этой последовательности EpistemeOS использует отдельный рабочий каталог `.research/episteme`. Для повторения опубликованных расчётов по зафиксированным входам достаточно команд из [evidence/README.md](evidence/README.md).
 
-1. Build a curated pilot with text, images, environmental audio, and silent video, including cases where information is missing from one modality.
-2. Extract frozen representations from multiple encoder families and compare concept-level distance matrices and neighborhood structure.
-3. Test robustness to sampling, coarse category structure, source overlap, representation extraction, and chance similarity.
-4. Evaluate small alignment heads on held-out concepts and sources, then investigate whether pre-alignment measurements predict performance and paired-data requirements on new encoder families.
+## Нативный эксперимент
 
-The initial pilot targets approximately 100 concepts and 30 independent source recordings per concept. These are planning targets, not collected data. Dataset availability, checkpoints, and the evaluation protocol will be finalized before the confirmatory experiments.
+Команды проверяют RouterAI, готовят записи Commons и материализуют независимые окна EPIC-SOUNDS с человеческими описаниями из EPIC-KITCHENS. Для подготовки файлов нужно несколько минут и доступ к исходным записям Университета Бристоля.
 
-## Scope and contribution
+```powershell
+$nativeDir = ".research/native-reopen"
+$replicationDir = ".research/replication-lab"
+& $studyPython -m study.native_routes --root "$nativeDir/new-live"
+& $studyPython -m study.native_provider_control --root "$nativeDir/new-provider-control"
+& $studyPython -m study.native_discovery --output "$nativeDir/discovery"
+& $studyPython -m study.native_data_audit --output "$nativeDir/avcaps.json"
+& $studyPython -m study.epic_replication --root $replicationDir --acquire
+& $studyPython -m study.replication_check --discovery "$nativeDir/discovery/discovery-candidate.json" --replication "$replicationDir/epic-candidate.json"
+```
 
-The project builds on the [Platonic Representation Hypothesis](https://proceedings.mlr.press/v235/huh24a.html), subsequent studies of representational similarity, and existing multimodal alignment methods. Cross-modal geometric agreement and multimodal embedding models are established research topics.
+В общем манифесте указываются роли `discovery` и `replication`, происхождение, лицензия и оценка возможного пересечения с предобучением. Для источника фиксируются авторство, идентификаторы зависимых записей, объём материала, к которому относится SHA-256 записи, и относительный путь к каждому входу вместе с контрольной суммой. Связанные записи целиком остаются в одной части разбиения. Отдельный аудит показывает разрешение таксономических перестановок в текущих выборках. [Commons](evidence/native-reopen/discovery-candidate.json) · [EPIC-SOUNDS](evidence/replication/epic-candidate.json) · [Аудит разбиения](evidence/replication/replication-check.json).
 
-The intended contribution is a reproducible account of the limits of shared semantic structure and, if supported by experiments, a useful way to anticipate alignment success or data requirements. Novelty and practical gains remain to be demonstrated against existing methods and simple pilot-training baselines.
+```powershell
+& $studyPython -m study.native_measure freeze --root "$nativeDir/measure" --manifest ".research/native-combined-candidate.json" --routes "$nativeDir/new-live/native-route-audit.json"
+& $studyPython -m study.native_measure extract --root "$nativeDir/measure" --manifest ".research/native-combined-candidate.json"
+& $studyPython -m study.native_measure analyze --root "$nativeDir/measure"
+```
 
-## Documents
+Заморозка проверяет допуск маршрутов до чтения медиа. Числа нативного расчёта появляются после извлечения четырёх типов признаков через RouterAI. Проверка бюджета пар зависит от результата независимой репликации.
 
-- [RESEARCH.md](RESEARCH.md) — motivation, hypotheses, experimental design, controls, evaluation criteria, limitations, and references.
+### Расширенные выборки
 
-Implementation, datasets, experiments, and results will be added in later stages.
+Дополнительный поиск Commons и пересборка выборки EPIC используют отдельные каталоги. При нехватке подтверждённых голосов животных дополнительный проход сначала оценивает метаданные, затем скачивает подходящие медиа. Расширенное разбиение подбирает понятия и группы связанных источников совместно.
+
+```powershell
+$expandedCommons = ".research/commons-expansion"
+$expandedEpic = ".research/replication-expanded"
+$expandedDiscovery = ".research/native-discovery-expanded/supplemented"
+& $studyPython -m study.commons_expansion --root $expandedCommons
+& $studyPython -m study.acquire --root $expandedCommons --target 10 --extension study/commons_extension.json --reuse .research/commons-v3
+& $studyPython -m study.roster --root $expandedCommons --screen-only
+& $studyPython -m study.commons_expansion --root $expandedCommons --supplement-animals
+& $studyPython -m study.native_discovery_expanded --source $expandedCommons --output $expandedDiscovery --augmented
+& $studyPython -m study.epic_replication --root $expandedEpic --expanded --acquire
+& $studyPython -m study.replication_check --discovery "$expandedDiscovery/discovery-candidate.json" --replication "$expandedEpic/epic-candidate.json" --manifest-output .research/native-expanded-combined-candidate.json --report-output "$expandedEpic/full-expanded-check.json"
+& $studyPython -m study.native_smoke --manifest .research/native-expanded-combined-candidate.json --output "$expandedEpic/full-expanded-synthetic.json"
+```
+
+Проверка `native_smoke` использует синтетические векторы при фактическом разбиении источников. Такой прогон проверяет расчёты без запросов к энкодерам.

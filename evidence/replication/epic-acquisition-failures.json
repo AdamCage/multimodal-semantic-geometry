@@ -1,0 +1,42 @@
+{
+  "P04_24": {
+    "annotation": "P04_24_8",
+    "type": "ValueError",
+    "error": "truncated or invalid three-second audio"
+  },
+  "P02_06": {
+    "annotation": "P02_06_153",
+    "type": "ValueError",
+    "error": "truncated or invalid three-second audio"
+  },
+  "P24_04": {
+    "annotation": "P24_04_11",
+    "type": "TimeoutExpired",
+    "error": "quests', '1', '-ss', '67.2055', '-i', 'https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P24/P24_04.MP4', '-t', '3', '-map', '0:v:0', '-map', '0:a:0', '-map_metadata', '-1', '-vf', 'scale=480:-2,fps=12', '-pix_fmt', 'yuv420p', '-c:v', 'libx264', '-threads', '2', '-preset', 'fast', '-c:a', 'flac', '-ar', '16000', '-ac', '1', 'C:\\\\projects\\\\multimodal-semantic-geometry\\\\.research\\\\replication-lab\\\\assets\\\\epic-P24_04_11\\\\tmp6iivsu83\\\\window.mkv']' timed out after 110 seconds"
+  },
+  "P30_06": {
+    "annotation": "P30_06_128",
+    "type": "TimeoutExpired",
+    "error": "ests', '1', '-ss', '371.9015', '-i', 'https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P30/P30_06.MP4', '-t', '3', '-map', '0:v:0', '-map', '0:a:0', '-map_metadata', '-1', '-vf', 'scale=480:-2,fps=12', '-pix_fmt', 'yuv420p', '-c:v', 'libx264', '-threads', '2', '-preset', 'fast', '-c:a', 'flac', '-ar', '16000', '-ac', '1', 'C:\\\\projects\\\\multimodal-semantic-geometry\\\\.research\\\\replication-lab\\\\assets\\\\epic-P30_06_128\\\\tmp9rv50blg\\\\window.mkv']' timed out after 110 seconds"
+  },
+  "P35_108": {
+    "annotation": "P35_108_37",
+    "type": "TimeoutExpired",
+    "error": "e_requests', '1', '-ss', '143.718', '-i', 'https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P35/videos/P35_108.MP4', '-t', '3', '-map', '0:v:0', '-map', '0:a:0', '-map_metadata', '-1', '-vf', 'scale=480:-2,fps=12', '-pix_fmt', 'yuv420p', '-c:v', 'libx264', '-threads', '2', '-preset', 'fast', '-c:a', 'flac', '-ar', '16000', '-ac', '1', 'C:\\\\projects\\\\multimodal-semantic-geometry\\\\.research\\\\replication-lab\\\\assets\\\\epic-P35_108_37\\\\tmp2czgoiio\\\\window.mkv']' timed out after 110 seconds"
+  },
+  "P07_10": {
+    "annotation": "P07_10_274",
+    "type": "TimeoutExpired",
+    "error": "sts', '1', '-ss', '1135.1065', '-i', 'https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P07/P07_10.MP4', '-t', '3', '-map', '0:v:0', '-map', '0:a:0', '-map_metadata', '-1', '-vf', 'scale=480:-2,fps=12', '-pix_fmt', 'yuv420p', '-c:v', 'libx264', '-threads', '2', '-preset', 'fast', '-c:a', 'flac', '-ar', '16000', '-ac', '1', 'C:\\\\projects\\\\multimodal-semantic-geometry\\\\.research\\\\replication-lab\\\\assets\\\\epic-P07_10_274\\\\tmpp1eb7nzb\\\\window.mkv']' timed out after 110 seconds"
+  },
+  "P24_03": {
+    "annotation": "P24_03_55",
+    "type": "TimeoutExpired",
+    "error": "uests', '1', '-ss', '296.9405', '-i', 'https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P24/P24_03.MP4', '-t', '3', '-map', '0:v:0', '-map', '0:a:0', '-map_metadata', '-1', '-vf', 'scale=480:-2,fps=12', '-pix_fmt', 'yuv420p', '-c:v', 'libx264', '-threads', '2', '-preset', 'fast', '-c:a', 'flac', '-ar', '16000', '-ac', '1', 'C:\\\\projects\\\\multimodal-semantic-geometry\\\\.research\\\\replication-lab\\\\assets\\\\epic-P24_03_55\\\\tmp5d_of885\\\\window.mkv']' timed out after 110 seconds"
+  },
+  "P04_118": {
+    "annotation": "P04_118_18",
+    "type": "TimeoutExpired",
+    "error": "e_requests', '1', '-ss', '138.872', '-i', 'https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P04/videos/P04_118.MP4', '-t', '3', '-map', '0:v:0', '-map', '0:a:0', '-map_metadata', '-1', '-vf', 'scale=480:-2,fps=12', '-pix_fmt', 'yuv420p', '-c:v', 'libx264', '-threads', '2', '-preset', 'fast', '-c:a', 'flac', '-ar', '16000', '-ac', '1', 'C:\\\\projects\\\\multimodal-semantic-geometry\\\\.research\\\\replication-lab\\\\assets\\\\epic-P04_118_18\\\\tmphqs6jsm7\\\\window.mkv']' timed out after 110 seconds"
+  }
+}

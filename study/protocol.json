@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "question": "Do independently trained text, image, environmental-audio and silent-video encoders preserve similar relationships between the same concepts, at different semantic granularities and information constraints?",
+  "inference": "exploratory feasibility and contextual measurements",
+  "seed": 20261125,
+  "permutations": 4999,
+  "creator_bootstraps": 399,
+  "minimum_concepts": 8,
+  "minimum_sources_per_concept_fold": 2,
+  "neighbors": [1, 3, 5],
+  "conditions": {
+    "paired": "average of A-A and B-B; same complete recordings in the two representations",
+    "cross_source": "average of A-B and B-A; no source, normalized author or uploader shared across folds"
+  },
+  "primary_pilot_statistic": "cross-source concept-centroid Spearman RSA with global and taxonomy-preserving label nulls",
+  "multiple_testing": "One Holm family over every registered pair and estimable condition/null combination for ordinal RSA; missing estimands retain their slots as p=1.",
+  "test_direction": "upper tail; finite Monte Carlo correction (1 + count) / (1 + permutations)",
+  "uncertainty": "percentile interval from common exponential creator-component weights within the fixed roster; leave-one-group-out range separately; conditional sensitivity, no population coverage guarantee",
+  "metric": "fit nonnegative zero-intercept scale on disjoint development concepts, assess relative RMSE and constant comparator on held-out concepts, and repeat fitting in every permuted draw",
+  "subset_rules": "pairwise finite/nonzero complete sources; retain concepts with >=2 per fold; balance fold sizes by source ID; use same units in paired and cross-source conditions",
+  "native_gate": {
+    "minimum_families_per_modality": 2,
+    "minimum_modalities": 4,
+    "classification": "verified native encoder without explicit cross-modal alignment training",
+    "requires": ["eligible checkpoint and route", "reliable source-held-out native measurements", "dataset and family-held-out evidence"],
+    "applied_policy": "do not run empirical alignment utility before reproducible native geometry; the present sample is for contextual geometry"
+  },
+  "pairs": [
+    ["text_bge", "text_qwen", "within_text", "reliability_context"],
+    ["image_titan", "image_voyage", "within_image", "co_aligned_image_families"],
+    ["text_bge", "image_titan", "text_image", "native_inputs_separate_models_image_coaligned"],
+    ["text_qwen", "image_voyage", "text_image", "native_inputs_separate_models_image_coaligned"],
+    ["text_bge", "image_voyage", "text_image", "native_inputs_separate_models_image_coaligned"],
+    ["text_qwen", "image_titan", "text_image", "native_inputs_separate_models_image_coaligned"],
+    ["text_gemini", "image_gemini", "text_image", "shared_coaligned_model"],
+    ["text_bge", "audio_caption_bge", "text_audio", "text_mediated_shared_text_head"],
+    ["text_bge", "video_caption_bge", "text_video", "text_mediated_shared_text_head"],
+    ["image_titan", "audio_caption_bge", "image_audio", "text_mediated_audio"],
+    ["image_titan", "video_caption_bge", "image_video", "text_mediated_video"],
+    ["audio_caption_bge", "video_caption_bge", "audio_video", "text_mediated_shared_captioner_and_text_head"],
+    ["audio_caption_qwen", "video_caption_qwen", "audio_video", "text_mediated_shared_captioner_and_text_head"],
+    ["image_caption_bge", "audio_caption_bge", "image_audio", "text_mediated_shared_captioner_and_text_head"],
+    ["image_caption_bge", "video_caption_bge", "image_video", "text_mediated_shared_captioner_and_text_head"],
+    ["text_qwen", "audio_caption_qwen", "text_audio", "text_mediated_shared_text_head"],
+    ["text_qwen", "video_caption_qwen", "text_video", "text_mediated_shared_text_head"],
+    ["text_bge", "audio_signal", "text_audio", "fixed_signal_control"],
+    ["image_titan", "video_static", "image_video", "fixed_signal_control"],
+    ["image_titan", "video_motion", "image_video", "fixed_signal_control"],
+    ["audio_signal", "video_motion", "audio_video", "fixed_signal_control"]
+  ]
+}

@@ -1,0 +1,847 @@
+{
+  "direction": "dependency_to_referrer",
+  "edges": [
+    {
+      "derivation": "recorded_reference",
+      "field": "question",
+      "reference_event": "explanation_set-1f85ccf204e846ba",
+      "relation": "explanation_question",
+      "scientific_validity": "not_assessed",
+      "source": "research_question-ff866742756d4591",
+      "target": "explanation_set-1f85ccf204e846ba"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[0]",
+      "reference_event": "explanation_set-1f85ccf204e846ba",
+      "relation": "explanation_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-635dd1bd97e54060",
+      "target": "explanation_set-1f85ccf204e846ba"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[1]",
+      "reference_event": "explanation_set-1f85ccf204e846ba",
+      "relation": "explanation_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-d7744ca72bd6483c",
+      "target": "explanation_set-1f85ccf204e846ba"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "data",
+      "reference_event": "data_exposure-d41d8185b8cf4286",
+      "relation": "exposed_data",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:25cd8ec057726870a1b28af4dadcc8a3c2d9542f1526656fe2d44e8df4d5ec69",
+      "target": "data_exposure-d41d8185b8cf4286"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "data",
+      "reference_event": "data_exposure-e79b529938894a2b",
+      "relation": "exposed_data",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:c970b09336c81dc2e47c40c8e7d157bcb0feab2d4cc69c007be6adc460c98d6c",
+      "target": "data_exposure-e79b529938894a2b"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "data",
+      "reference_event": "data_exposure-11e5892f402444a9",
+      "relation": "exposed_data",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:d5238592d2c217e480bbf563838618cc8f5930d9558a58f4f725ca37c4102977",
+      "target": "data_exposure-11e5892f402444a9"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "data",
+      "reference_event": "data_exposure-6773ad3776834e05",
+      "relation": "exposed_data",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:7e6643b0ddf40c8ed99205a450dacda8cfcb51f5d19b1b38db530b7f68aca19a",
+      "target": "data_exposure-6773ad3776834e05"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "data",
+      "reference_event": "data_exposure-e95fe53431ca4c40",
+      "relation": "exposed_data",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:e7f9b909f4283357cc32459636c9b000b1b27047cf749af198f15541717336d6",
+      "target": "data_exposure-e95fe53431ca4c40"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[0]",
+      "reference_event": "protocol-76a86217665c403e",
+      "relation": "registered_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-635dd1bd97e54060",
+      "target": "protocol-76a86217665c403e"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[1]",
+      "reference_event": "protocol-76a86217665c403e",
+      "relation": "registered_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-d7744ca72bd6483c",
+      "target": "protocol-76a86217665c403e"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "planning.question",
+      "reference_event": "protocol-76a86217665c403e",
+      "relation": "protocol_question",
+      "scientific_validity": "not_assessed",
+      "source": "research_question-ff866742756d4591",
+      "target": "protocol-76a86217665c403e"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "planning.explanation_set",
+      "reference_event": "protocol-76a86217665c403e",
+      "relation": "protocol_explanation_set",
+      "scientific_validity": "not_assessed",
+      "source": "explanation_set-1f85ccf204e846ba",
+      "target": "protocol-76a86217665c403e"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "implementation",
+      "reference_event": "protocol-76a86217665c403e",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:dc950ca375cdec19c67250b47aea160849cdad2048881c34ce82d77b7a0b3ce1",
+      "target": "protocol-76a86217665c403e"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "environment",
+      "reference_event": "protocol-76a86217665c403e",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+      "target": "protocol-76a86217665c403e"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "data",
+      "reference_event": "protocol-76a86217665c403e",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:481abc6441d097e84bf85783a28aaa7768e7a5404fc57e431cd585619c7bd004",
+      "target": "protocol-76a86217665c403e"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "tree",
+      "reference_event": "experiment_node-5682092261e04f7b",
+      "relation": "tree_node",
+      "scientific_validity": "not_assessed",
+      "source": "search_tree-a379dd299bdb411e",
+      "target": "experiment_node-5682092261e04f7b"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "protocol",
+      "reference_event": "experiment_node-5682092261e04f7b",
+      "relation": "node_protocol",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-76a86217665c403e",
+      "target": "experiment_node-5682092261e04f7b"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "tree",
+      "reference_event": "search_selection-fe7fd864086846c1",
+      "relation": "selection_tree",
+      "scientific_validity": "not_assessed",
+      "source": "search_tree-a379dd299bdb411e",
+      "target": "search_selection-fe7fd864086846c1"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "node",
+      "reference_event": "search_selection-fe7fd864086846c1",
+      "relation": "selection_node",
+      "scientific_validity": "not_assessed",
+      "source": "experiment_node-5682092261e04f7b",
+      "target": "search_selection-fe7fd864086846c1"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "protocol",
+      "reference_event": "search_selection-fe7fd864086846c1",
+      "relation": "selection_protocol",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-76a86217665c403e",
+      "target": "search_selection-fe7fd864086846c1"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "frontier[0].node",
+      "reference_event": "search_selection-fe7fd864086846c1",
+      "relation": "selection_frontier",
+      "scientific_validity": "not_assessed",
+      "source": "experiment_node-5682092261e04f7b",
+      "target": "search_selection-fe7fd864086846c1"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "protocol",
+      "reference_event": "run-08c67a4f10874ff3",
+      "relation": "run_protocol",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-76a86217665c403e",
+      "target": "run-08c67a4f10874ff3"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "implementation",
+      "reference_event": "run-08c67a4f10874ff3",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:dc950ca375cdec19c67250b47aea160849cdad2048881c34ce82d77b7a0b3ce1",
+      "target": "run-08c67a4f10874ff3"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "environment",
+      "reference_event": "run-08c67a4f10874ff3",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+      "target": "run-08c67a4f10874ff3"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "run",
+      "reference_event": "result-2ebb2ce7441445aa",
+      "relation": "run_result",
+      "scientific_validity": "not_assessed",
+      "source": "run-08c67a4f10874ff3",
+      "target": "result-2ebb2ce7441445aa"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.log",
+      "reference_event": "result-2ebb2ce7441445aa",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:daed6aa56880812c68a543f38e93477048533c4e620a0ac2e71357a992e2702e",
+      "target": "result-2ebb2ce7441445aa"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.metrics",
+      "reference_event": "result-2ebb2ce7441445aa",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:d534d7d20f9d4326ffce36bb04bfc76a9f8e068bf849fdf10ffee5891dc8d5dc",
+      "target": "result-2ebb2ce7441445aa"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.raw_data",
+      "reference_event": "result-2ebb2ce7441445aa",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:481abc6441d097e84bf85783a28aaa7768e7a5404fc57e431cd585619c7bd004",
+      "target": "result-2ebb2ce7441445aa"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "tree",
+      "reference_event": "search_terminal-fb8ebb29a2be40d8",
+      "relation": "terminal_tree",
+      "scientific_validity": "not_assessed",
+      "source": "search_tree-a379dd299bdb411e",
+      "target": "search_terminal-fb8ebb29a2be40d8"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "selection",
+      "reference_event": "search_terminal-fb8ebb29a2be40d8",
+      "relation": "terminal_selection",
+      "scientific_validity": "not_assessed",
+      "source": "search_selection-fe7fd864086846c1",
+      "target": "search_terminal-fb8ebb29a2be40d8"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "node",
+      "reference_event": "search_terminal-fb8ebb29a2be40d8",
+      "relation": "terminal_node",
+      "scientific_validity": "not_assessed",
+      "source": "experiment_node-5682092261e04f7b",
+      "target": "search_terminal-fb8ebb29a2be40d8"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "run",
+      "reference_event": "search_terminal-fb8ebb29a2be40d8",
+      "relation": "terminal_run",
+      "scientific_validity": "not_assessed",
+      "source": "run-08c67a4f10874ff3",
+      "target": "search_terminal-fb8ebb29a2be40d8"
+    },
+    {
+      "derivation": "resolved_terminal_selection_run",
+      "field": "run",
+      "reference_event": "search_terminal-fb8ebb29a2be40d8",
+      "relation": "selection_run_reference",
+      "scientific_validity": "not_assessed",
+      "source": "search_selection-fe7fd864086846c1",
+      "target": "run-08c67a4f10874ff3"
+    }
+  ],
+  "graph_version": 1,
+  "nodes": [
+    {
+      "actor": "native-planner",
+      "created_at": "2026-11-25T18:59:06.851908+00:00",
+      "event_hash": "5f290c308214a41ce7d9098921dfca284bac04c0dee8db53eae68a0be17dd8a7",
+      "id": "research_question-ff866742756d4591",
+      "kind": "research_question",
+      "payload": {
+        "constraints": [
+          "RouterAI is the only model inference API.",
+          "Empirical alignment requires reproducible native geometry."
+        ],
+        "objective": "Verify stable direct native routes and independent source capacity for the existing research question.",
+        "parent": null,
+        "parent_hash": null,
+        "revision_reason": null,
+        "schema_version": 1,
+        "scope": {
+          "inference": "experimental readiness only",
+          "mode": "native_readiness",
+          "population": "authenticated RouterAI and existing pilot roster"
+        },
+        "statement": "Is the original native experiment executable?",
+        "stopping_criteria": [
+          "Verify the eight registered family routes.",
+          "Count unique paired pilot sources."
+        ],
+        "study_id": "multimodal-semantic-geometry-native"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 1
+    },
+    {
+      "actor": "native-planner",
+      "created_at": "2026-11-25T18:59:06.852684+00:00",
+      "event_hash": "3b85a6da2e68528af12bcd2cf7e9b8f1a780231756b07415e5bfd9366292e710",
+      "id": "hypothesis-635dd1bd97e54060",
+      "kind": "hypothesis",
+      "payload": {
+        "falsifier": "A required family has no verified native route.",
+        "prediction": "All eight registered, separately trained family routes are eligible.",
+        "scope": {
+          "inference": "experimental readiness only",
+          "mode": "native_readiness",
+          "population": "authenticated RouterAI and existing pilot roster"
+        },
+        "statement": "The original native experiment is executable through the approved API."
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 2
+    },
+    {
+      "actor": "native-planner",
+      "created_at": "2026-11-25T18:59:06.853331+00:00",
+      "event_hash": "a2a253d2090ecacdb0e73cc788dd5e1cde7dd1cd27c12bdf9bb4a6220f05510c",
+      "id": "hypothesis-d7744ca72bd6483c",
+      "kind": "hypothesis",
+      "payload": {
+        "falsifier": "Every registered family passes the three route checks.",
+        "prediction": "One or more families fail catalog, modality transport or alias validation.",
+        "scope": {
+          "inference": "experimental readiness only",
+          "mode": "native_readiness",
+          "population": "authenticated RouterAI and existing pilot roster"
+        },
+        "statement": "Provider capacity blocks a subset of the native experiment."
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 3
+    },
+    {
+      "actor": "native-planner",
+      "created_at": "2026-11-25T18:59:06.854059+00:00",
+      "event_hash": "950c6247fb3a1ff8f0398c7a3283750da54964e7c9fc80db3ff41932ec51f5bd",
+      "id": "explanation_set-1f85ccf204e846ba",
+      "kind": "explanation_set",
+      "payload": {
+        "comparison_plan": "Audit authenticated routes and count capacity; distinguish both from empirical results.",
+        "excluded_reasons": {},
+        "hypotheses": [
+          "hypothesis-635dd1bd97e54060",
+          "hypothesis-d7744ca72bd6483c"
+        ],
+        "hypothesis_hashes": {
+          "hypothesis-635dd1bd97e54060": "3b85a6da2e68528af12bcd2cf7e9b8f1a780231756b07415e5bfd9366292e710",
+          "hypothesis-d7744ca72bd6483c": "a2a253d2090ecacdb0e73cc788dd5e1cde7dd1cd27c12bdf9bb4a6220f05510c"
+        },
+        "parent": null,
+        "parent_hash": null,
+        "question": "research_question-ff866742756d4591",
+        "question_hash": "5f290c308214a41ce7d9098921dfca284bac04c0dee8db53eae68a0be17dd8a7",
+        "revision_reason": null,
+        "schema_version": 1,
+        "study_id": "multimodal-semantic-geometry-native"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 4
+    },
+    {
+      "actor": "native-planner",
+      "created_at": "2026-11-25T18:59:06.857131+00:00",
+      "event_hash": "6fcfd74a28798812f231adbdc2e298aab95170573df4c04d93d1d6f38519589b",
+      "id": "data_exposure-d41d8185b8cf4286",
+      "kind": "data_exposure",
+      "payload": {
+        "data": "25cd8ec057726870a1b28af4dadcc8a3c2d9542f1526656fe2d44e8df4d5ec69",
+        "protocol": null,
+        "purpose": "Native reopen evidence: routes"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 5
+    },
+    {
+      "actor": "native-planner",
+      "created_at": "2026-11-25T18:59:06.864224+00:00",
+      "event_hash": "3514435b47cddb6a9da2e4e562f74212f95204a6d3544c32e3d8e5c450daa0cf",
+      "id": "data_exposure-e79b529938894a2b",
+      "kind": "data_exposure",
+      "payload": {
+        "data": "c970b09336c81dc2e47c40c8e7d157bcb0feab2d4cc69c007be6adc460c98d6c",
+        "protocol": null,
+        "purpose": "Native reopen evidence: pilot_roster"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 6
+    },
+    {
+      "actor": "native-planner",
+      "created_at": "2026-11-25T18:59:06.873896+00:00",
+      "event_hash": "0515674817f5d08a90f411f283475bee33af624e032aa0add90a3e68253a6e7c",
+      "id": "data_exposure-11e5892f402444a9",
+      "kind": "data_exposure",
+      "payload": {
+        "data": "d5238592d2c217e480bbf563838618cc8f5930d9558a58f4f725ca37c4102977",
+        "protocol": null,
+        "purpose": "Native reopen evidence: critical_roles"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 7
+    },
+    {
+      "actor": "native-planner",
+      "created_at": "2026-11-25T18:59:06.876355+00:00",
+      "event_hash": "85b5acf5a88f7663e406d8ca17b10970b2dcb89e953ecb78344a5793541fcaaf",
+      "id": "data_exposure-6773ad3776834e05",
+      "kind": "data_exposure",
+      "payload": {
+        "data": "7e6643b0ddf40c8ed99205a450dacda8cfcb51f5d19b1b38db530b7f68aca19a",
+        "protocol": null,
+        "purpose": "Native reopen evidence: replication_cohort_verification"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 8
+    },
+    {
+      "actor": "native-planner",
+      "created_at": "2026-11-25T18:59:06.882673+00:00",
+      "event_hash": "75642853060821b400d986465fe559ce463a46ac5f4d975862f7b6682e638129",
+      "id": "data_exposure-e95fe53431ca4c40",
+      "kind": "data_exposure",
+      "payload": {
+        "data": "e7f9b909f4283357cc32459636c9b000b1b27047cf749af198f15541717336d6",
+        "protocol": null,
+        "purpose": "Native reopen evidence: provider_selection_negative_control"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 9
+    },
+    {
+      "actor": "native-planner",
+      "created_at": "2026-11-25T18:59:06.948689+00:00",
+      "event_hash": "bdfdce68e031ba59f9583ae4b70a5d93ebf7796144b3f17a72b4df3e305ee1c2",
+      "id": "protocol-76a86217665c403e",
+      "kind": "protocol",
+      "payload": {
+        "analysis_plan": "All eight rows must pass. Cohort counts and null resolution are readiness only.",
+        "data": "481abc6441d097e84bf85783a28aaa7768e7a5404fc57e431cd585619c7bd004",
+        "design": "Read authenticated model-route evidence and verified independent cohort inputs.",
+        "environment": "43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+        "hypotheses": [
+          "hypothesis-635dd1bd97e54060",
+          "hypothesis-d7744ca72bd6483c"
+        ],
+        "implementation": "dc950ca375cdec19c67250b47aea160849cdad2048881c34ce82d77b7a0b3ce1",
+        "metric": "eligible_family_count",
+        "parent": null,
+        "planning": {
+          "explanation_set": "explanation_set-1f85ccf204e846ba",
+          "explanation_set_hash": "950c6247fb3a1ff8f0398c7a3283750da54964e7c9fc80db3ff41932ec51f5bd",
+          "question": "research_question-ff866742756d4591",
+          "question_hash": "5f290c308214a41ce7d9098921dfca284bac04c0dee8db53eae68a0be17dd8a7",
+          "schema_version": 1,
+          "study_id": "multimodal-semantic-geometry-native"
+        },
+        "replication_tolerance": 0,
+        "run_limit": 2,
+        "scope": {
+          "inference": "experimental readiness only",
+          "mode": "native_readiness",
+          "population": "authenticated RouterAI and existing pilot roster"
+        },
+        "seeds": [
+          20261125
+        ],
+        "stopping_rule": "One route snapshot and one source-capacity audit."
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 10
+    },
+    {
+      "actor": "native-planner",
+      "created_at": "2026-11-25T18:59:06.949475+00:00",
+      "event_hash": "81e60f198b02b135679da9438fe107e75cc9e45f0fb492d180ad92a5fa2d0a45",
+      "id": "search_tree-a379dd299bdb411e",
+      "kind": "search_tree",
+      "payload": {
+        "budget": 1,
+        "cost_unit": "readiness_audit",
+        "cost_weight": 0.1,
+        "max_depth": 1,
+        "max_inflight": 1,
+        "max_nodes": 1,
+        "max_retries": 2,
+        "max_selections": 1,
+        "max_width": 1,
+        "meaning": "research_priority_only",
+        "policy": "bounded_best_first_v1",
+        "seed": 20261125,
+        "tournament": null,
+        "weights": {
+          "coverage": 0.4,
+          "discrimination": 1.0,
+          "invalidity_risk": 1.0,
+          "uncertainty": 0.4
+        }
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 11
+    },
+    {
+      "actor": "native-planner",
+      "created_at": "2026-11-25T18:59:06.950155+00:00",
+      "event_hash": "31d98c3b4707e6934d08d84b2bd3ac637c80a6743fa6428c2facbe8f22874a8a",
+      "id": "experiment_node-5682092261e04f7b",
+      "kind": "experiment_node",
+      "payload": {
+        "action": "baseline",
+        "components": {
+          "coverage": 1.0,
+          "discrimination": 1.0,
+          "invalidity_risk": 0.0,
+          "uncertainty": 0.2
+        },
+        "depth": 0,
+        "estimated_cost": 1.0,
+        "execution_mode": "primary",
+        "parent": null,
+        "protocol": "protocol-76a86217665c403e",
+        "protocol_hash": "bdfdce68e031ba59f9583ae4b70a5d93ebf7796144b3f17a72b4df3e305ee1c2",
+        "rationale": "Verify that new evidence can reopen the original experiment.",
+        "scientific_evidence_eligible": true,
+        "score": 1.38,
+        "technical_attempt": 0,
+        "tree": "search_tree-a379dd299bdb411e"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 12
+    },
+    {
+      "actor": "native-planner",
+      "created_at": "2026-11-25T18:59:06.950844+00:00",
+      "event_hash": "dca3c91ec222158c150a248f1b7814310e76e257b680003f9b0e05edb62bfcd8",
+      "id": "search_selection-fe7fd864086846c1",
+      "kind": "search_selection",
+      "payload": {
+        "action": "baseline",
+        "frontier": [
+          {
+            "estimated_cost": 1.0,
+            "node": "experiment_node-5682092261e04f7b",
+            "reason": "eligible",
+            "score": 1.38
+          }
+        ],
+        "node": "experiment_node-5682092261e04f7b",
+        "policy": "bounded_best_first_v1",
+        "protocol": "protocol-76a86217665c403e",
+        "reason": "best_affordable_priority",
+        "remaining_before": "1",
+        "reserved_cost": 1.0,
+        "scientific_validity": "not_assessed",
+        "tree": "search_tree-a379dd299bdb411e"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 13
+    },
+    {
+      "actor": "native-audit-executor",
+      "created_at": "2026-11-25T18:59:06.966386+00:00",
+      "event_hash": "bfef4246ba09ab114c2e477774b751f3b5a289492d3b4479c6671c914090ce6a",
+      "id": "run-08c67a4f10874ff3",
+      "kind": "run",
+      "payload": {
+        "command": [
+          "study.native_audit",
+          "read authenticated route evidence and count pilot pairs"
+        ],
+        "environment": "43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+        "implementation": "dc950ca375cdec19c67250b47aea160849cdad2048881c34ce82d77b7a0b3ce1",
+        "protocol": "protocol-76a86217665c403e",
+        "protocol_hash": "bdfdce68e031ba59f9583ae4b70a5d93ebf7796144b3f17a72b4df3e305ee1c2",
+        "replicate_of": null,
+        "role_profile": {
+          "backend": "local_subprocess",
+          "code_relation": "not_compared",
+          "filesystem_enforcement": "not_enforced",
+          "host_user": "same",
+          "independent_replication": false,
+          "network_enforcement": "not_enforced",
+          "os_isolation": "none",
+          "proves_implementation_withheld": false,
+          "role": "executor",
+          "sandbox": false,
+          "schema_version": 1
+        },
+        "seed": 20261125
+      },
+      "role": "executor",
+      "scientific_validity": "not_assessed",
+      "seq": 14
+    },
+    {
+      "actor": "native-audit-executor",
+      "created_at": "2026-11-25T18:59:06.973757+00:00",
+      "event_hash": "771fdb40755558397683d4c747d532d20e356a37111c338e5d29c76aef20fec2",
+      "id": "result-2ebb2ce7441445aa",
+      "kind": "result",
+      "payload": {
+        "outputs": {
+          "log": "daed6aa56880812c68a543f38e93477048533c4e620a0ac2e71357a992e2702e",
+          "metrics": "d534d7d20f9d4326ffce36bb04bfc76a9f8e068bf849fdf10ffee5891dc8d5dc",
+          "raw_data": "481abc6441d097e84bf85783a28aaa7768e7a5404fc57e431cd585619c7bd004"
+        },
+        "reason": "",
+        "run": "run-08c67a4f10874ff3",
+        "status": "completed"
+      },
+      "role": "executor",
+      "scientific_validity": "not_assessed",
+      "seq": 15
+    },
+    {
+      "actor": "native-planner",
+      "created_at": "2026-11-25T18:59:06.974486+00:00",
+      "event_hash": "0c594d35a0e573192e179b841917a3161d6b261346ee8a0e86844849cd38bc26",
+      "id": "search_terminal-fb8ebb29a2be40d8",
+      "kind": "search_terminal",
+      "payload": {
+        "actual_cost": 1.0,
+        "claim": null,
+        "cost_overrun": 0,
+        "cost_overrun_exact": "0",
+        "node": "experiment_node-5682092261e04f7b",
+        "reason": "Readiness and source capacity recorded separately from scientific claims.",
+        "reserved_cost": 1.0,
+        "run": "run-08c67a4f10874ff3",
+        "scientific_outcome": "not_assessed",
+        "scientific_validity": "not_assessed",
+        "selection": "search_selection-fe7fd864086846c1",
+        "status": "completed",
+        "tree": "search_tree-a379dd299bdb411e"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 16
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:25cd8ec057726870a1b28af4dadcc8a3c2d9542f1526656fe2d44e8df4d5ec69",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 6265,
+        "integrity": "verified",
+        "sha256": "25cd8ec057726870a1b28af4dadcc8a3c2d9542f1526656fe2d44e8df4d5ec69"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 338,
+        "integrity": "verified",
+        "sha256": "43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:481abc6441d097e84bf85783a28aaa7768e7a5404fc57e431cd585619c7bd004",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 449,
+        "integrity": "verified",
+        "sha256": "481abc6441d097e84bf85783a28aaa7768e7a5404fc57e431cd585619c7bd004"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:7e6643b0ddf40c8ed99205a450dacda8cfcb51f5d19b1b38db530b7f68aca19a",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 3723,
+        "integrity": "verified",
+        "sha256": "7e6643b0ddf40c8ed99205a450dacda8cfcb51f5d19b1b38db530b7f68aca19a"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:c970b09336c81dc2e47c40c8e7d157bcb0feab2d4cc69c007be6adc460c98d6c",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 282179,
+        "integrity": "verified",
+        "sha256": "c970b09336c81dc2e47c40c8e7d157bcb0feab2d4cc69c007be6adc460c98d6c"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:d5238592d2c217e480bbf563838618cc8f5930d9558a58f4f725ca37c4102977",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 12922,
+        "integrity": "verified",
+        "sha256": "d5238592d2c217e480bbf563838618cc8f5930d9558a58f4f725ca37c4102977"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:d534d7d20f9d4326ffce36bb04bfc76a9f8e068bf849fdf10ffee5891dc8d5dc",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 1609,
+        "integrity": "verified",
+        "sha256": "d534d7d20f9d4326ffce36bb04bfc76a9f8e068bf849fdf10ffee5891dc8d5dc"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:daed6aa56880812c68a543f38e93477048533c4e620a0ac2e71357a992e2702e",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 68,
+        "integrity": "verified",
+        "sha256": "daed6aa56880812c68a543f38e93477048533c4e620a0ac2e71357a992e2702e"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:dc950ca375cdec19c67250b47aea160849cdad2048881c34ce82d77b7a0b3ce1",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 105767,
+        "integrity": "verified",
+        "sha256": "dc950ca375cdec19c67250b47aea160849cdad2048881c34ce82d77b7a0b3ce1"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:e7f9b909f4283357cc32459636c9b000b1b27047cf749af198f15541717336d6",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 8250,
+        "integrity": "verified",
+        "sha256": "e7f9b909f4283357cc32459636c9b000b1b27047cf749af198f15541717336d6"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    }
+  ],
+  "revision": 16,
+  "scientific_validity": "not_assessed",
+  "snapshot_hash": "0c594d35a0e573192e179b841917a3161d6b261346ee8a0e86844849cd38bc26",
+  "validation": "event_chain_references_and_artifact_bytes_at_construction"
+}

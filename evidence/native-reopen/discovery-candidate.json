@@ -1,0 +1,4093 @@
+{
+  "version": 1,
+  "datasets": {
+    "commons-discovery": {
+      "role": "discovery",
+      "origin": "https://commons.wikimedia.org/",
+      "license": "per-recording licenses",
+      "training_overlap_assessment": "Unknown. Existing public recordings and contextual pilot exposures are known."
+    }
+  },
+  "sources": [
+    {
+      "source_id": "commons-114991391",
+      "dataset": "commons-discovery",
+      "concept": "dog_bark",
+      "group": "animal_vocalizations",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "bc190865940935cbf670e0bea822130832cf44d77c8d2b1ebe2094c3eaf04bc8",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bellender_Zwergspitz.webm",
+      "attribution": "Fiver, der Hellseher",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "bfe166a3c7b7f410"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-114991391/image.jpg",
+          "sha256": "b1db3d2f54301b4034817787b943ac0caf758335b7ba8d6fd2238554d0e8f749"
+        },
+        "audio": {
+          "path": "assets/commons-114991391/audio.wav",
+          "sha256": "55b0a87b9ec4401e5fb3438bb941155ef8bc2decc03b6259149539ec6ac63548"
+        },
+        "video": {
+          "path": "assets/commons-114991391/video.mp4",
+          "sha256": "438b86119e4baf702189815f4bd5aef0553194d642432ebe0d958345a03494b8"
+        },
+        "text": {
+          "path": "assets/commons-114991391/description.txt",
+          "sha256": "bade8461485303955b0ae4a8eb711f40025146f167ed0553c759ee16c85b08e1"
+        }
+      }
+    },
+    {
+      "source_id": "commons-16088125",
+      "dataset": "commons-discovery",
+      "concept": "dog_bark",
+      "group": "animal_vocalizations",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "84d886a81539f979a0f6db4bdece3f812cc10f3dc970118688e94159177ae4a9",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Labrador_barking_on_command.theora.ogv",
+      "attribution": "Sadie Campbell",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "7d52ac22527a5f85"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-16088125/image.jpg",
+          "sha256": "f93ddb58b8dd598396275e63d9d0f136911ded1bfc09c00e4113b2af322922e9"
+        },
+        "audio": {
+          "path": "assets/commons-16088125/audio.wav",
+          "sha256": "436bd820a943f57532ab673fa9161cfaa3d37e784a6b4b46804b29a86e03b2b3"
+        },
+        "video": {
+          "path": "assets/commons-16088125/video.mp4",
+          "sha256": "7568f603695653ff3951534a746c4444940a3ced110e163639290b1ed19f39ee"
+        },
+        "text": {
+          "path": "assets/commons-16088125/description.txt",
+          "sha256": "d17c1745b5c9f433ee413bfb07e793ae8818d6fabd9c36ad5992b569a8f24ffe"
+        }
+      }
+    },
+    {
+      "source_id": "commons-192473195",
+      "dataset": "commons-discovery",
+      "concept": "dog_bark",
+      "group": "animal_vocalizations",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "fae45849de877613e68aa8378b7724148504f6d7b0c4fd47370015f8416bf236",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Muntjac_Deer_Barking.webm",
+      "attribution": "Nick Frewin",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "861010cb5ae4d65a"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-192473195/image.jpg",
+          "sha256": "9e33c08d3bdfe2713468ae265dc87dd27cda913d4ca6911d5b957009e1a48800"
+        },
+        "audio": {
+          "path": "assets/commons-192473195/audio.wav",
+          "sha256": "50f01b875773a6cec416eeb9deee649987d8eb8e11a73310dbbe815c1f265e65"
+        },
+        "video": {
+          "path": "assets/commons-192473195/video.mp4",
+          "sha256": "779191c6ec05c7d58832411029dd31747ac14459b33fb287e621e9189513dd48"
+        },
+        "text": {
+          "path": "assets/commons-192473195/description.txt",
+          "sha256": "df4b4eb602b28648765253f268fbb8c20a7f6b8cbdcf78f1617748ffe17f0854"
+        }
+      }
+    },
+    {
+      "source_id": "commons-195799246",
+      "dataset": "commons-discovery",
+      "concept": "dog_bark",
+      "group": "animal_vocalizations",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "cb46380ea88fd66f2b6d87868ab2ede412fd82e152091a746f8a00f27415ae30",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Barking_Dogs_(1933).webm",
+      "attribution": "Van Beuren",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "1a68f0057b16c4bf"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-195799246/image.jpg",
+          "sha256": "279f0282d2c7bbd7018b03c44c73da5f8b79fdb7e19f703dac2a02cb32cc14ad"
+        },
+        "audio": {
+          "path": "assets/commons-195799246/audio.wav",
+          "sha256": "86826ffd7cc775f5c5bfe0d5d22c87f19b503fe001897a446b56d34a3f30183d"
+        },
+        "video": {
+          "path": "assets/commons-195799246/video.mp4",
+          "sha256": "36fd7daa23a275446da4b7385c9fb8f439eb3b61524885a929c5de0a70031ec5"
+        },
+        "text": {
+          "path": "assets/commons-195799246/description.txt",
+          "sha256": "8e9ff395f9b67675eac2e83364e732a80575998aaf3ac05516789287a0a51978"
+        }
+      }
+    },
+    {
+      "source_id": "commons-151969280",
+      "dataset": "commons-discovery",
+      "concept": "rooster_crow",
+      "group": "animal_vocalizations",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "2522e11119d12570f489feb7a0cca327ee92a80a8eedbe9115a19c92fa09b8aa",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Alora,_gallos.webm",
+      "attribution": "Draceane",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "02fedc206eab1382"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-151969280/image.jpg",
+          "sha256": "b6f3ea1d89ae2c7bad2b583079cb2471e70aaf116731c2b1acd291b2df6432ee"
+        },
+        "audio": {
+          "path": "assets/commons-151969280/audio.wav",
+          "sha256": "1e5a22e4b2d01618d373de4b820dd70d62036422db2574a80eb31475905bd529"
+        },
+        "video": {
+          "path": "assets/commons-151969280/video.mp4",
+          "sha256": "79c8e1691d4f81df77400a970f360600d257302c9fd3e2789b73a97829d1e471"
+        },
+        "text": {
+          "path": "assets/commons-151969280/description.txt",
+          "sha256": "671011ef74fb4f09a278d9ce74f822aa67925ff5d78bfd13be8d7f8de809e19a"
+        }
+      }
+    },
+    {
+      "source_id": "commons-42964528",
+      "dataset": "commons-discovery",
+      "concept": "rooster_crow",
+      "group": "animal_vocalizations",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "219200b59d5a367df5622b572a554daf84dd1eca237c4ec096bb6edecf1616e9",
+      "license": "CC BY-SA 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cockerel_crowing.webm",
+      "attribution": "Steven & Courtney Johnson & Horwitz",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "9d1a03202f49dbb2"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-42964528/image.jpg",
+          "sha256": "7cd1828ca99dfe59be4ed526ccab2bfdd547c295d1b9328c32ae313d2ca168f9"
+        },
+        "audio": {
+          "path": "assets/commons-42964528/audio.wav",
+          "sha256": "f0c734fe39c92cb2fd6267d68a33b176f6add23c9386e395e4c0af88628580f2"
+        },
+        "video": {
+          "path": "assets/commons-42964528/video.mp4",
+          "sha256": "19b0f3df9cc7e2ac6d48ba12625b492f47790258183e4404f1cb72d374052dd7"
+        },
+        "text": {
+          "path": "assets/commons-42964528/description.txt",
+          "sha256": "f823d135ade101b7e5503156ae48cc6dd87b3bab37876233c2aa67f99c38ca04"
+        }
+      }
+    },
+    {
+      "source_id": "commons-126393954",
+      "dataset": "commons-discovery",
+      "concept": "rooster_crow",
+      "group": "animal_vocalizations",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "22dd74ed80108c6083ae4d5684401ab22956d2ac8d6dfad2c2b4f259a28d6b63",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Watching_the_Fish_in_Masjid_Gedhe_Mataram_while_Children_Practise_Gamelan.webm",
+      "attribution": "Joaquim Baeta",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "538d106996d745ba"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-126393954/image.jpg",
+          "sha256": "b918032b693b42a2f65544f4b4aa8fc1442872572637d9a16d696287878928b6"
+        },
+        "audio": {
+          "path": "assets/commons-126393954/audio.wav",
+          "sha256": "ba4b331c2eefcc17f8e3ebba3f78d55049e6546f37036b053465ba85ae5e2810"
+        },
+        "video": {
+          "path": "assets/commons-126393954/video.mp4",
+          "sha256": "5c8e0b91e8e2e05f69e0a4a49c04df6b85d3b873e7f06b6fbbb26d4d25e27f33"
+        },
+        "text": {
+          "path": "assets/commons-126393954/description.txt",
+          "sha256": "53fb73863fb4faa71dd27f36ff753b7d25ecdbbcec35a66322d43cbe9c0c132a"
+        }
+      }
+    },
+    {
+      "source_id": "commons-38823205",
+      "dataset": "commons-discovery",
+      "concept": "rooster_crow",
+      "group": "animal_vocalizations",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "23911303277a3c7061bf47c204db8f2c58469ce6e0a24ac2e05d2cecab5dac1a",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sedlasi_stari_Driton.webm",
+      "attribution": "Sanjakcrower",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "66dbdb88816e416c"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-38823205/image.jpg",
+          "sha256": "5d90fdc7010fa0c58fd8ac767e244c6b30c51560b8471a0ccff60433ebb630ad"
+        },
+        "audio": {
+          "path": "assets/commons-38823205/audio.wav",
+          "sha256": "8937a366277f0627eaf1a8c784017bcb6a3a215f701c0c9e0156313589fa938b"
+        },
+        "video": {
+          "path": "assets/commons-38823205/video.mp4",
+          "sha256": "3518618f7c38a01eea9a34710e9e5bf84e028b779bb1a1fb6eeaeaa6c7ced569"
+        },
+        "text": {
+          "path": "assets/commons-38823205/description.txt",
+          "sha256": "0590e1d95f69f34cd58553997ac2fe3fcb32c94e56e8d989e3832e0502ceda46"
+        }
+      }
+    },
+    {
+      "source_id": "commons-107178172",
+      "dataset": "commons-discovery",
+      "concept": "accordion",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "a9d68b0ac6359e029333b746dd24e912e97d8692171199c906a82f52cf5b619d",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:A_Kazakh_in_China_devoted_his_life_to_accordion.webm",
+      "attribution": "China News Service",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "a0d5899a8c6d08d8"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-107178172/image.jpg",
+          "sha256": "7d8e0d18450d96f7ce7f824e9744e6bc3cd07bb714d296aa5b7f5049237d101b"
+        },
+        "audio": {
+          "path": "assets/commons-107178172/audio.wav",
+          "sha256": "b2a7f4f4259529e14326acb75f29204e4c1053441f30c6afa9842cdb687966e0"
+        },
+        "video": {
+          "path": "assets/commons-107178172/video.mp4",
+          "sha256": "7b8cd56e2c77e2dae0fef87641eba188b7256c3e16049fe8e80b67c3040853d6"
+        },
+        "text": {
+          "path": "assets/commons-107178172/description.txt",
+          "sha256": "472a3227b5417605942adcc0968bbc13b09f5bdd925b72ba4ee7c82d1ff5f5ce"
+        }
+      }
+    },
+    {
+      "source_id": "commons-148911282",
+      "dataset": "commons-discovery",
+      "concept": "accordion",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "3a9f006a435f2b320d4fefc64f16b30554594c58844dc5709b3701f9c1ee81fd",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:L%C3%B5%C3%B5tspillilugu.webm",
+      "attribution": "Ivo Kruusamägi",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "def005676d03258b"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-148911282/image.jpg",
+          "sha256": "387f992a13c996ece8a0e3e2d4d3eac5645ee6a086b65e5da76dbc2fe95d17c3"
+        },
+        "audio": {
+          "path": "assets/commons-148911282/audio.wav",
+          "sha256": "24ecc7ee52de2093149f780599f6adacf5ca493fcf763f840fb379f37797f91e"
+        },
+        "video": {
+          "path": "assets/commons-148911282/video.mp4",
+          "sha256": "0660fd0b426b364b82fd0a9c2ee8a64a2386cb21dc1dfa6015de6da3f2d8d398"
+        },
+        "text": {
+          "path": "assets/commons-148911282/description.txt",
+          "sha256": "cb6b9ffdc0dc81c1bb6ee87ad4a8b3349697c55fe81433b1a45fcd01fe260bea"
+        }
+      }
+    },
+    {
+      "source_id": "commons-165958665",
+      "dataset": "commons-discovery",
+      "concept": "accordion",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "e1d14238d583dff354f3e154a7f0ea79588059a390d5c300d974ce23ff65a5b6",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Taraf_de_Ak%C3%A1cfa_-_Geamparale_de_la_Clejani_-_2025-03-18_-_1080p.webm",
+      "attribution": "Gnissah",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "404d55f5d23c4972"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-165958665/image.jpg",
+          "sha256": "2572cb71b307481e9f329319bb5458d612fd4b4f35ae7497bfc81d77f327800f"
+        },
+        "audio": {
+          "path": "assets/commons-165958665/audio.wav",
+          "sha256": "b2ac3bbcaa68e835a71f20fec64f5e184ec4b802ebb2fb8c15e8e7a1ef57f499"
+        },
+        "video": {
+          "path": "assets/commons-165958665/video.mp4",
+          "sha256": "244f0a619be62a4c66b2cc3dbf627c363e4b8e3fef182f92017686ba34508ba7"
+        },
+        "text": {
+          "path": "assets/commons-165958665/description.txt",
+          "sha256": "bac699cb0d91a92a58e8206b6a70f55b4ba71951847a38006d4b73eb1c55037d"
+        }
+      }
+    },
+    {
+      "source_id": "commons-173048142",
+      "dataset": "commons-discovery",
+      "concept": "accordion",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "65af1343d931a4d8c97047c49453a1e1ef2ccb440292d8dc7edf5b2d00d8f1eb",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Street_musicians_in_Shirokaya_Street_Bayan_(accordion).webm",
+      "attribution": "Predatorsamsung",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "39445df23d3722da"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-173048142/image.jpg",
+          "sha256": "95a64ceb4d425eabf0ae77c7e05b5f15f368900343caa50c1e80b47584521419"
+        },
+        "audio": {
+          "path": "assets/commons-173048142/audio.wav",
+          "sha256": "c58b41d01843b2b4ce5c41975c6bd8931a5c603304e717ecdb5b4c9e3878d534"
+        },
+        "video": {
+          "path": "assets/commons-173048142/video.mp4",
+          "sha256": "7fbbcca8577e0a35d0fe66fb920693d78615db78e3f56340f63ea5e2387fd28a"
+        },
+        "text": {
+          "path": "assets/commons-173048142/description.txt",
+          "sha256": "dadadbac06741d7a49f1d0933dbd7edc5da3d8b8a0bac2c6a65760947efeb649"
+        }
+      }
+    },
+    {
+      "source_id": "commons-1310297",
+      "dataset": "commons-discovery",
+      "concept": "accordion",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "b8644cfd62bd6c95ad96469c8404788879e83b15f92675b2714f5658d2dc1681",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Spirk.ogv",
+      "attribution": "Johann Pascher",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "64cfc8f9142e5d9e"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-1310297/image.jpg",
+          "sha256": "410865e363e8ad683d8aa48459ab6d88d6b3518a6ac8b212bd88be0262741420"
+        },
+        "audio": {
+          "path": "assets/commons-1310297/audio.wav",
+          "sha256": "807bec424dff733197b0a9b6c472672084810868b8f6e1ddc2a17ee31b9aae39"
+        },
+        "video": {
+          "path": "assets/commons-1310297/video.mp4",
+          "sha256": "6d7b01a72769f5d7f5f2297dc3548175cddcca63db5b99a5936281a43cacf308"
+        },
+        "text": {
+          "path": "assets/commons-1310297/description.txt",
+          "sha256": "1ebaeb2ea3e5fb540a47a01e438f147e506d42757e37325c6d6f9b5074651f54"
+        }
+      }
+    },
+    {
+      "source_id": "commons-202244182",
+      "dataset": "commons-discovery",
+      "concept": "accordion",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "c6fc447d8edd9bb47db7db0d925fcd96a3d78c1f09b22cc60c2ebec6ee7ecc42",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Music_band_at_the_Wikimania_2026_opening_ceremony_in_Paris_01.webm",
+      "attribution": "Dev Jadiya",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "fb1e4191af81013a"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-202244182/image.jpg",
+          "sha256": "fd2d1ae46c7720adb88003dd45f3d5732752471fd4a7c9f0ac77d2121eda9a02"
+        },
+        "audio": {
+          "path": "assets/commons-202244182/audio.wav",
+          "sha256": "59129e13f12cac52ced3a6ff505856b05b50dcae3597d7ad2c78b03970750599"
+        },
+        "video": {
+          "path": "assets/commons-202244182/video.mp4",
+          "sha256": "12296fba105af462662322693d184f0cf63e033088c4dbc3c473b7bda54f3c93"
+        },
+        "text": {
+          "path": "assets/commons-202244182/description.txt",
+          "sha256": "58f3048fc04edbf013ccc8a74db47de1216ad3eb4dcc8e11bef021c3e6fc3348"
+        }
+      }
+    },
+    {
+      "source_id": "commons-48009040",
+      "dataset": "commons-discovery",
+      "concept": "accordion",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "a457b3309bc660b9f048ff1a7d94ead0721bda58220ad10b9c9cf135e84e8152",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:1934_%D0%93%D0%B0%D1%80%D0%BC%D0%BE%D0%BD%D1%8C.webm",
+      "attribution": "съёмочная группа, см. в титрах",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "182559d664262899"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-48009040/image.jpg",
+          "sha256": "04f9220efcec091793e20b1f5b715009ff12ae646d2fe9e4ff583db825dbe175"
+        },
+        "audio": {
+          "path": "assets/commons-48009040/audio.wav",
+          "sha256": "a026a1b5a001c635d1b1ce44e31901504f1c6102587ae1070c5cb77a22ecf3d6"
+        },
+        "video": {
+          "path": "assets/commons-48009040/video.mp4",
+          "sha256": "2253b772b9c3526a30150eea6960d17c575b50b9cae029462dbcab36f9d863d3"
+        },
+        "text": {
+          "path": "assets/commons-48009040/description.txt",
+          "sha256": "44a3897a51ad55493d8210aee8f0897ae793464c9699f32d3b34cd9b0cf9882f"
+        }
+      }
+    },
+    {
+      "source_id": "commons-75044984",
+      "dataset": "commons-discovery",
+      "concept": "accordion",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "3fd6ec37a24bef2ba183c262f80800ceed6265a6b322b84a43461c048450e9fc",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Christmas_market_in_Ljubljana_-_part_2;_accordion.webm",
+      "attribution": "barbara.grilc; Sound recording: Dušan Oblak, Video recording: Barbara Rezar Grilc, Photo: Irena Marušič",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "145e45dd01139c46"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-75044984/image.jpg",
+          "sha256": "0df9240db5bd28dad124c8ec6ec3bbb41e0d943f1f1a8e4cc74db5d01a9d933e"
+        },
+        "audio": {
+          "path": "assets/commons-75044984/audio.wav",
+          "sha256": "e9c831120ba3496fb547372b45ee62e89ce5ba59e42781098aa359c01500aeb5"
+        },
+        "video": {
+          "path": "assets/commons-75044984/video.mp4",
+          "sha256": "3ae2247e09212e15c630161795348737ed1ddae94956beefa7287a1e9c9537d5"
+        },
+        "text": {
+          "path": "assets/commons-75044984/description.txt",
+          "sha256": "b559981e5222cbe74626b9c9666ef021eb428fe8aa6eb1f16e862b9aabc6c053"
+        }
+      }
+    },
+    {
+      "source_id": "commons-120375980",
+      "dataset": "commons-discovery",
+      "concept": "acoustic_guitar",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "98290998b7f485ed0f21c40a0769203948794114b7dafe77692e6f5845cca45c",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Acoustic_bass_guitar_-_Breedlove_Discovery_S_Concert_Edgeburst_Bass_CE.webm",
+      "attribution": "MooreMusicGuitars",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "cc98871d40f74797"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-120375980/image.jpg",
+          "sha256": "2ca6d284911644370fbf1347b57e5348d640bdbddb15f21c058868472aa44c71"
+        },
+        "audio": {
+          "path": "assets/commons-120375980/audio.wav",
+          "sha256": "91deedae74a6db18a56e42c76934929b132fc0a801d4a6ef1f40b57f3cd736df"
+        },
+        "video": {
+          "path": "assets/commons-120375980/video.mp4",
+          "sha256": "52ac0fa26d913b42d1c8acabac2cf5b460af17f403a6cb94bab24bd28d5b9017"
+        },
+        "text": {
+          "path": "assets/commons-120375980/description.txt",
+          "sha256": "00dc17b477c46311951f8c15bc534de1d7d79427c5c7253a6a9e45ed415570bb"
+        }
+      }
+    },
+    {
+      "source_id": "commons-21666809",
+      "dataset": "commons-discovery",
+      "concept": "acoustic_guitar",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "92b34e571c0c182358d91820592d830f8568262b4d6af98bbf8b8e996ba1aadc",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20091104_Sharon_Isbin_-_Isaac_Alb%C3%A9niz%27s_Asturias.ogv",
+      "attribution": "Isaac Albéniz (1860 - 1909), composer. Video by White House (edited by myself), music originally for piano by Isaac Albéniz (1860–1909); the guitar transcription is attributed to Francisco Tárrega (1852–1909).",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "2d600e8acdd4f834"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-21666809/image.jpg",
+          "sha256": "117a2d9b4ac0d8eea7501654bb7c93a85a7296a7eb7e820e4a1d127f475e1cf5"
+        },
+        "audio": {
+          "path": "assets/commons-21666809/audio.wav",
+          "sha256": "3f879b5d3e06f2811328f4fa882bbc51a800ac1416b981be0eee3e69cd2938c9"
+        },
+        "video": {
+          "path": "assets/commons-21666809/video.mp4",
+          "sha256": "17bab9d574941524a0b5eeece861971f12e760ae3bda168616a6ba27ad1ff5ef"
+        },
+        "text": {
+          "path": "assets/commons-21666809/description.txt",
+          "sha256": "a5c915dc32e890ded8cf7d311b63b8120423c5506ca0e41a8b4376b4a90986b2"
+        }
+      }
+    },
+    {
+      "source_id": "commons-34600124",
+      "dataset": "commons-discovery",
+      "concept": "acoustic_guitar",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "de5da8f9b0c4024b559ced2f9b5417e2adb6b544e7faf762470e848879dc70df",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Alisa_Gladyseva-Romanza_Espa%C3%B1ola.ogv",
+      "attribution": "Composer Unknown. (Anonymous). Popular song.",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "cc43878f88dc1e82"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-34600124/image.jpg",
+          "sha256": "b914677d593e7f734c0c43402e86075a5be1b7bf6f331ca15690f89624824ba4"
+        },
+        "audio": {
+          "path": "assets/commons-34600124/audio.wav",
+          "sha256": "e323e200eb16a2428575b0394fe8b85cdd852d0cdfb764336b30bc8d458a22e9"
+        },
+        "video": {
+          "path": "assets/commons-34600124/video.mp4",
+          "sha256": "dd3604569eb10cecb9fff5accac5f478e8d7afbbf841c0180128d8a18ebdc235"
+        },
+        "text": {
+          "path": "assets/commons-34600124/description.txt",
+          "sha256": "468778853ee4ddad0518c4205e733e97453f55e0cf46bcee49e9d66c9f309da5"
+        }
+      }
+    },
+    {
+      "source_id": "commons-75051022",
+      "dataset": "commons-discovery",
+      "concept": "acoustic_guitar",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "788cc32d8fda359cf61fb5fc25973f43cb8da1beddb95142b54de7206c95c8ca",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Changing_a_String_to_Classical_Guitar.webm",
+      "attribution": "Sound, photo, video: Antti Makkonen",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "145e45dd01139c46"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-75051022/image.jpg",
+          "sha256": "ad0d3c56f05db6bb08c66d730230ed6fd0c11c1a5ad7e88080089ee871d2da76"
+        },
+        "audio": {
+          "path": "assets/commons-75051022/audio.wav",
+          "sha256": "40a1ca1e3c30cf730af2348d516e829a91bfc027fc99da21a6713e6b0dde0a38"
+        },
+        "video": {
+          "path": "assets/commons-75051022/video.mp4",
+          "sha256": "efc59f239fc8a3b025c6dd37b460e095ced3461c83706599b0da8c67e9a9d024"
+        },
+        "text": {
+          "path": "assets/commons-75051022/description.txt",
+          "sha256": "6f1877e46b0d9b647328e3e7e1db2cdd083a600b5902a32bd709327b20275877"
+        }
+      }
+    },
+    {
+      "source_id": "commons-129752475",
+      "dataset": "commons-discovery",
+      "concept": "cello",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "be38015af7c5d2235734a80bfed31f0d9b8353b8452de2640e1e2b627742e430",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Vibrato_on_cello.webm",
+      "attribution": "Wikimedia Foundation",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "cc98871d40f74797"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-129752475/image.jpg",
+          "sha256": "fc61ce0f2443a5bf32ea3a57184aa92179113b3066ef9f43ec627744fb1a93aa"
+        },
+        "audio": {
+          "path": "assets/commons-129752475/audio.wav",
+          "sha256": "243cce379a3205fcd5dd88490d50019b6be883c2359b6f8963d31d22fa3aa7e6"
+        },
+        "video": {
+          "path": "assets/commons-129752475/video.mp4",
+          "sha256": "f1c332b8a64327a87bdfccfbdbfc1ef6bf5e6b32f4f7b9c6a241a071b82842ba"
+        },
+        "text": {
+          "path": "assets/commons-129752475/description.txt",
+          "sha256": "a53c5e7b3b8b9566faff2ae6b78eeda8d466f6f610890599457e5bafed2934dc"
+        }
+      }
+    },
+    {
+      "source_id": "commons-15063370",
+      "dataset": "commons-discovery",
+      "concept": "cello",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "e8fa2a7c756f90eca7b823da45d20c15d6cbe940d1a5b15d9845d8f800ad1926",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20091104_Alisa_Weilerstein_and_Sujari_Britt_-_Boccherini%27s_Sonata_for_Two_Cellos_in_C_Major,_1st_movement_Allegro_moderato.theora.ogv",
+      "attribution": "w:Luigi Boccherini , Whitehouse.gov",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "c5f3c7a579874aff"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-15063370/image.jpg",
+          "sha256": "2131a5809553650e19d4869c0b261410712cbd5ab47ee300ad1f90a975f1fdf5"
+        },
+        "audio": {
+          "path": "assets/commons-15063370/audio.wav",
+          "sha256": "92adba6f03c8fef570526094987ce516a5c45910b03061b0dfae965ce7214394"
+        },
+        "video": {
+          "path": "assets/commons-15063370/video.mp4",
+          "sha256": "068d243340845a0f226ac9f230aa05da766b2dbfa87ce984ca8b98b51cc1e6f3"
+        },
+        "text": {
+          "path": "assets/commons-15063370/description.txt",
+          "sha256": "2aca9162bd876bef031835ab1f72f335b634c643bea1d922966d4fa2879544ea"
+        }
+      }
+    },
+    {
+      "source_id": "commons-101734895",
+      "dataset": "commons-discovery",
+      "concept": "cello",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "b8affdf1f40cdfa4caadd740ae2f25b22bb8c399d567f4a11e0079be587a3e6b",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:J._Ch._Bach_-_Trio_in_F_Major,_W.B_40,_Op._8_Nr.6_(flute,_violin_%26_cello_version)_(2._Allegretto).webm",
+      "attribution": "La Guirlande Early Music",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "8cea0ef25de406c6"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-101734895/image.jpg",
+          "sha256": "48b4ec0b1adfdb33b5729be6888a1ca24e7e89b567f17379f0b6a17599eb1dce"
+        },
+        "audio": {
+          "path": "assets/commons-101734895/audio.wav",
+          "sha256": "7892b32eedbacbaecbf2576d47f14a252593835660536c6d3c0885005f2cc0f0"
+        },
+        "video": {
+          "path": "assets/commons-101734895/video.mp4",
+          "sha256": "cd0b3c7565da72b27c247c5d48c9df1b6d0c538c70a8728fa88ebe48aaf0fad7"
+        },
+        "text": {
+          "path": "assets/commons-101734895/description.txt",
+          "sha256": "ac2d0821e613051d995d7b68e371fb316c8670486c8dd8d89e84006732dc071d"
+        }
+      }
+    },
+    {
+      "source_id": "commons-42916980",
+      "dataset": "commons-discovery",
+      "concept": "cello",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "9fad9512c60982c9d91fe1580c20a432e631a9858a5a1b45f64e2c12fbd8c0e8",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:C%C3%A0non_a_4.ogv",
+      "attribution": "Andiport",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "f78d95c80f32fd17"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-42916980/image.jpg",
+          "sha256": "aa9ddc9fabce04539d54163bb7d07fe3b878d6ab2cff5a455db99284ffc8714a"
+        },
+        "audio": {
+          "path": "assets/commons-42916980/audio.wav",
+          "sha256": "ca29b664e02241b2a3051634efe5603c0472bb21e10ba760c1d1912367a59887"
+        },
+        "video": {
+          "path": "assets/commons-42916980/video.mp4",
+          "sha256": "c7af55b5519fc66a0feead1b30530e25f054147b08515b586f6906daa5c0ee03"
+        },
+        "text": {
+          "path": "assets/commons-42916980/description.txt",
+          "sha256": "9364e8d39540d8a903459067928a8481e0a7a091674d2e0bdd71ddec8dd9d7f7"
+        }
+      }
+    },
+    {
+      "source_id": "commons-121725174",
+      "dataset": "commons-discovery",
+      "concept": "piano",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "968a6254a8bf9f7a35a5a4c402d8f7c228dc9f8e7159a3b4ca55085dbc1bc776",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%EC%8B%9C%EB%8C%80%EB%A5%BC_%EC%B4%88%EC%9B%94%ED%95%9C_%EB%A7%88%EC%9D%8C_(%E6%99%82%E4%BB%A3%E3%82%92%E8%B6%8A%E3%81%88%E3%82%8B%E6%83%B3%E3%81%84)_-_%EC%9D%B4%EB%88%84%EC%95%BC%EC%82%AC_(%E7%8A%AC%E5%A4%9C%E5%8F%89)_%ED%94%BC%EC%95%84%EB%85%B8_%EC%BB%A4%EB%B2%84_-piano_cover.webm",
+      "attribution": "이지Leezy",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "787fe6d06fd44cb7"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-121725174/image.jpg",
+          "sha256": "a669cf3da9f80688927662af10913e0cf30f0d8e3b69b4c7dc4dc50fcec8ca2e"
+        },
+        "audio": {
+          "path": "assets/commons-121725174/audio.wav",
+          "sha256": "3625a5e32cd66ec12b7c76c5fdd5835aac4f08e2528744197d0d509f4cd6118c"
+        },
+        "video": {
+          "path": "assets/commons-121725174/video.mp4",
+          "sha256": "d7dc55198dc676fece9e85518a4fdfe81eef97ba7a92a82ecdf8db15c2ade92d"
+        },
+        "text": {
+          "path": "assets/commons-121725174/description.txt",
+          "sha256": "b656c9ced2d189fbde255651bcf9061dbdebc5cc640ab7dbab17d743ecdbbc52"
+        }
+      }
+    },
+    {
+      "source_id": "commons-15067040",
+      "dataset": "commons-discovery",
+      "concept": "piano",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "162d8fbd822f57afa2ca03ddf9db6c0e25c7a8b660471de551e8d1e9fae4f41d",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:20091104_Joshua_Bell,_Awadagin_Pratt,_and_Alisa_Weilerstein_-_Mendelssohn%27s_Piano_Trio_No._1_in_D_minor,_Op._49_-_4._Finale,_Allegro_assai_appassionato.ogv",
+      "attribution": "Felix Mendelssohn",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "c5f3c7a579874aff"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-15067040/image.jpg",
+          "sha256": "a540247e84cf3bf6594938f03c996fe20077f2aba38ab3e8eac2791f9177225e"
+        },
+        "audio": {
+          "path": "assets/commons-15067040/audio.wav",
+          "sha256": "7db9c30d3b84df3db5fd5fe5ec0c2a8631c040e2c54ca42000e9823023def553"
+        },
+        "video": {
+          "path": "assets/commons-15067040/video.mp4",
+          "sha256": "d4557e64cf561f28cdd8846ad403d3d47b68cd0143115a55daed65f54bbeba38"
+        },
+        "text": {
+          "path": "assets/commons-15067040/description.txt",
+          "sha256": "82ebecbc72daa32c45ff4dfec5e01b90a01db123a2b37bbe466e2f89636c8378"
+        }
+      }
+    },
+    {
+      "source_id": "commons-154806896",
+      "dataset": "commons-discovery",
+      "concept": "piano",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "e0b6a032eed9095e711b65fb3edef4c0d33aa4babbad267830af15f71ff29814",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bastringue_automatic_piano._in_museum_of_the_Ferme_des_Orgues_(Steenwerck_(video).webm",
+      "attribution": "Pierre André Leclercq",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "da573a38a7ba85b4"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-154806896/image.jpg",
+          "sha256": "97ff2be9fefb9c2969d1f8d708089f21a642e57750069ca220d51ae90c0ded43"
+        },
+        "audio": {
+          "path": "assets/commons-154806896/audio.wav",
+          "sha256": "ebac2ffb2f518cddafd340cdb99fd36e641fb499145fde5dcee60ed8623ce340"
+        },
+        "video": {
+          "path": "assets/commons-154806896/video.mp4",
+          "sha256": "f4411f5803fa71f2b378a9d5419251ed43ec9c8ae09e9c62732c973e0ece657b"
+        },
+        "text": {
+          "path": "assets/commons-154806896/description.txt",
+          "sha256": "3ab376e282279f292d6663c4b765c8ef74e557f661b1e2e3849686c6b3465e8b"
+        }
+      }
+    },
+    {
+      "source_id": "commons-197431369",
+      "dataset": "commons-discovery",
+      "concept": "piano",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "ce583e5795c9c553d2f954507a8a0f7e142b937f758865e5384ccaa297ba12ae",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Path%C3%A9tique_-_Piano_Sonata_No._8_in_C_minor,_Op._13,_by_Ludwig_van_Beethoven.webm",
+      "attribution": "First Presbyterian Church of El Paso",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "6541690733483eb9"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-197431369/image.jpg",
+          "sha256": "f215175d7e7ef739c85451e7e464aeb0f589710f73fac50ec39f3d6a305d52f8"
+        },
+        "audio": {
+          "path": "assets/commons-197431369/audio.wav",
+          "sha256": "26ead76eee3f1a540cec506304e53d2694c4c44aa0fe7feee69bfe83d860cbfa"
+        },
+        "video": {
+          "path": "assets/commons-197431369/video.mp4",
+          "sha256": "876bb6afc4b7a5c3c78c40afb11fb0e919ac526b9dd66f0ac3cf5f430579f1a0"
+        },
+        "text": {
+          "path": "assets/commons-197431369/description.txt",
+          "sha256": "6a474b0919011f7c8dfde943b30acb57dd130e02fe707447e819fa330be7b072"
+        }
+      }
+    },
+    {
+      "source_id": "commons-108303226",
+      "dataset": "commons-discovery",
+      "concept": "piano",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "d9ff4fda1820d731e0bc05eef78decfe122424845b9b5b515d04c05f5f82edc0",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Brian_Silas_playing_piano_during_a_concert_in_Bhopal_01.webm",
+      "attribution": "Suyash Dwivedi",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "a855812787a76bb4"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-108303226/image.jpg",
+          "sha256": "f26fbaf9afd8711457badf5820a752909d637e6dc952e9a9b328da78eb5f0fe9"
+        },
+        "audio": {
+          "path": "assets/commons-108303226/audio.wav",
+          "sha256": "ef6093d4f5d6bc023e360329722ee49c04a9011baba18493c62fb156ae6138ec"
+        },
+        "video": {
+          "path": "assets/commons-108303226/video.mp4",
+          "sha256": "d4e9c09cc0d450151a1533a25bf025dcda850717a4100cec8b2277884b708e0c"
+        },
+        "text": {
+          "path": "assets/commons-108303226/description.txt",
+          "sha256": "6b87796c31ca676f6f6e748fe211e91e508ef93f635eb326fa8e2ec6c042b1a1"
+        }
+      }
+    },
+    {
+      "source_id": "commons-133834518",
+      "dataset": "commons-discovery",
+      "concept": "piano",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "f8f3c95ed7448aff0ed9bf7c36e5d9efedbcd1cfb1f284abded4a0e4502521df",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:George_Gershwin-_Rhapsody_in_Blue_for_Piano_(Greystone_Mansion,_2023).webm",
+      "attribution": "Asuas",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "0a4f9445df834366"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-133834518/image.jpg",
+          "sha256": "6efb1788545f20b6854eb67f27961167ebf698ae2b326f5ecc373a8d86e556d3"
+        },
+        "audio": {
+          "path": "assets/commons-133834518/audio.wav",
+          "sha256": "a4e26101a8d9d3ac32859a60dcba8c63fc7c25b19d166f3675f0f0a207c4a1d8"
+        },
+        "video": {
+          "path": "assets/commons-133834518/video.mp4",
+          "sha256": "b37a89430b99f4f82908ba991b81b19692d8a3dd5da09a557a8f55e556741a60"
+        },
+        "text": {
+          "path": "assets/commons-133834518/description.txt",
+          "sha256": "0442c9f177d2a8926d128c89cf0b460e5e413c17339fbff696af5493b51d6b16"
+        }
+      }
+    },
+    {
+      "source_id": "commons-157588128",
+      "dataset": "commons-discovery",
+      "concept": "piano",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "6189b3e08443f163107b9cf58a39ec174c76bb897d54dc4676df731de1a75067",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%22Hot_Piano%22,_by_Jean_Paques_(1928).webm",
+      "attribution": "Jean Paques",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "13daa39aaf64b93a"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-157588128/image.jpg",
+          "sha256": "54dd862a9ac6b81e2146f608c9e2b1cf31cca93fc6dfe6c56c76d95939962db0"
+        },
+        "audio": {
+          "path": "assets/commons-157588128/audio.wav",
+          "sha256": "e4b782325eb342e1b710909fc5ec5883ee85e004a2aa85fa12d259e53fb78215"
+        },
+        "video": {
+          "path": "assets/commons-157588128/video.mp4",
+          "sha256": "25d7110e36031a13ddf4c419132e47b89201456ae700d27448523c603bc9257a"
+        },
+        "text": {
+          "path": "assets/commons-157588128/description.txt",
+          "sha256": "6e6206631c8d1cc63a899aaadd7ffd54797d49f85be306cc693b825efe93484b"
+        }
+      }
+    },
+    {
+      "source_id": "commons-35599020",
+      "dataset": "commons-discovery",
+      "concept": "piano",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "b4ff8e6fa75532e69449440b0393657161637ee7168951fda466cdb0b9c0ab57",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Piano-Diabelli_4_mani_op.149_N.26_Allegro.webm",
+      "attribution": "PianoMelodyNotes Gabry",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "65413b3c799ec6ad"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-35599020/image.jpg",
+          "sha256": "1cef9187b32937bdef291f52c49d12a9d04b7055657b68adcb7f41d5fe8ef1cb"
+        },
+        "audio": {
+          "path": "assets/commons-35599020/audio.wav",
+          "sha256": "ef87af91ebe6f099de0c6a769935cfacb63dafa79465cbe49cad1f2490016137"
+        },
+        "video": {
+          "path": "assets/commons-35599020/video.mp4",
+          "sha256": "4614c77718b8599ce14219fff95f15493c03c72e1933eeceb867e6c691ad6c3f"
+        },
+        "text": {
+          "path": "assets/commons-35599020/description.txt",
+          "sha256": "1c4541f2586910e0d459095a6627a44ea7340c53c507993849ed73e21b1518d9"
+        }
+      }
+    },
+    {
+      "source_id": "commons-150954252",
+      "dataset": "commons-discovery",
+      "concept": "trumpet",
+      "group": "instruments",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "6991561936fab64bffdbd92024344f5ea884c2fb2aed766a35dd6403df83bcc3",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Playing_trumpet_near_Reichstag_Building_in_Berlin_VID_20191027_103611.webm",
+      "attribution": "Ranjithsiji",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "94df6a61f5fec0dd"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-150954252/image.jpg",
+          "sha256": "5bf3b9f3e4e7787857d7f1a4444a35a36e6d5ff450a9779f2a3b7e10c38cb76e"
+        },
+        "audio": {
+          "path": "assets/commons-150954252/audio.wav",
+          "sha256": "4f77febb6e5dec922b2b28df92d0e7eb2519c276667aa21729136439aa8a76cd"
+        },
+        "video": {
+          "path": "assets/commons-150954252/video.mp4",
+          "sha256": "ccd5d3d3edc0a62e840a91db8c6cc35aa6dddce22e101d7d2991c32f221ca702"
+        },
+        "text": {
+          "path": "assets/commons-150954252/description.txt",
+          "sha256": "abc51629367717d2440b4e4b624f3b37336219c620b4b46cf384819166db6add"
+        }
+      }
+    },
+    {
+      "source_id": "commons-17326014",
+      "dataset": "commons-discovery",
+      "concept": "trumpet",
+      "group": "instruments",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "060ded732e595df2d8332795a5f586a2149278da4fc5b991d62ac626f0085c44",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hail_to_the_Chief_-_U.S._Army_Herald_Trumpets.ogv",
+      "attribution": "U.S. Army Band",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "7c2280edc410b123"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-17326014/image.jpg",
+          "sha256": "7d1b751791deb8ea62d233d5b9f0b1e920a0a04eb098a90d6472ccace274f9ca"
+        },
+        "audio": {
+          "path": "assets/commons-17326014/audio.wav",
+          "sha256": "4a01176b2b0d8a3b814d7e24a16fdf0606f8e61e8e0a27dc4ebfd20a3cd8d061"
+        },
+        "video": {
+          "path": "assets/commons-17326014/video.mp4",
+          "sha256": "8470a3fbed7171e8d86f8a2fb51668dae5db3f69fcc47f92ba892256a34922e0"
+        },
+        "text": {
+          "path": "assets/commons-17326014/description.txt",
+          "sha256": "6dd3ea7d1e5f7668720bba1b100989dda0c8f0291138cd2c7cacffb213233309"
+        }
+      }
+    },
+    {
+      "source_id": "commons-49409732",
+      "dataset": "commons-discovery",
+      "concept": "trumpet",
+      "group": "instruments",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "70a78b6928e3af1a546529bc92a480a5dcd5e1ba7bbfcf3e60fe2b695cc41b8e",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:C_Major_Scale_Trumpet.ogv",
+      "attribution": "Ludovic VOIREY Obra derivada / Derivative work: 2012 jafem PS3D 2014 schnixx",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "25e6c2d75ab594dd"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-49409732/image.jpg",
+          "sha256": "1fd3db6f899f073b871823ad56a1d5775259a4520b4c7851bcc660017f4e5346"
+        },
+        "audio": {
+          "path": "assets/commons-49409732/audio.wav",
+          "sha256": "46217e07079bf453301fb0ad46d820841744ce7c7b7a912d8f422dfbe7d2cf89"
+        },
+        "video": {
+          "path": "assets/commons-49409732/video.mp4",
+          "sha256": "dd24578d270727f08701d7a9d072c4014b90840d71847e79bb3e3366a6a8ade8"
+        },
+        "text": {
+          "path": "assets/commons-49409732/description.txt",
+          "sha256": "94dd930b6e51f9c3b147321673efc49db103a14fd6f2c57041976e80adcdcbe4"
+        }
+      }
+    },
+    {
+      "source_id": "commons-90153647",
+      "dataset": "commons-discovery",
+      "concept": "trumpet",
+      "group": "instruments",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "6c8af87ecb839c20bc3ed992dc36f991d549ebda2de392edf932da4fc9b1bde8",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Naturtrompete_in_D_-_Kurzdemonstration.webm",
+      "attribution": "DrTrumpet",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "85e2371189386766"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-90153647/image.jpg",
+          "sha256": "e3ad1df77b5ff54975455376ffa5709ef996c64e92a78acfdb51fa922618a62a"
+        },
+        "audio": {
+          "path": "assets/commons-90153647/audio.wav",
+          "sha256": "7b154cfda65e51c1fcdb274287743e64263391300dac7ff97a6e588044bbbc2a"
+        },
+        "video": {
+          "path": "assets/commons-90153647/video.mp4",
+          "sha256": "6fe1ef7a1afa2a1ed288861ad2bf95ad69f864439793ccf23eb839ba48426cda"
+        },
+        "text": {
+          "path": "assets/commons-90153647/description.txt",
+          "sha256": "d525ba701f615261306618a223dca434cf9c4fbead71f21738a49ee58e51148d"
+        }
+      }
+    },
+    {
+      "source_id": "commons-147159630",
+      "dataset": "commons-discovery",
+      "concept": "violin",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "042bfc617c11fb121abf8bc2a2c925d87e91d256f83d93283f0fdbdbcd2f7719",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Wonderful_Collaboration_Of_Violin_%26_Drums_Instrumental_Music_(Lockdown).webm",
+      "attribution": "Yash",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "cc98871d40f74797"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-147159630/image.jpg",
+          "sha256": "2ecd80ba35c1bc554e6d162769de36bc4614b803d761c2646e9b95d96f3777f3"
+        },
+        "audio": {
+          "path": "assets/commons-147159630/audio.wav",
+          "sha256": "a4fc7fdf922c2062b66a0f0e661b1c860366edd18f440646988fcec03b693713"
+        },
+        "video": {
+          "path": "assets/commons-147159630/video.mp4",
+          "sha256": "936f512c72f5d8246429ee2da6887e09828c0bc40d49a7e02f598a359b41c4df"
+        },
+        "text": {
+          "path": "assets/commons-147159630/description.txt",
+          "sha256": "83c6fc2c0bb522ac141b2e2ca562545f60f291556382497a7d6b8d863122a223"
+        }
+      }
+    },
+    {
+      "source_id": "commons-201918224",
+      "dataset": "commons-discovery",
+      "concept": "violin",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "21eacca0bff37992e8c5827d7a57c2370f9d35013755ae30cf8d8091aa511dc1",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2Set_-_Calvin_Harris_x_Avicii_Medley_Violin-Piano_Cover.webm",
+      "attribution": "TwoSetViolin",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "eac6064d643326cd"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-201918224/image.jpg",
+          "sha256": "86c4fce66388ef27ddc413f344cd15ccf936d0a7225c325cef872e1c51febec9"
+        },
+        "audio": {
+          "path": "assets/commons-201918224/audio.wav",
+          "sha256": "60f38d23f78002a91759263a865393d4d960b677a580289e033b44626f6a7495"
+        },
+        "video": {
+          "path": "assets/commons-201918224/video.mp4",
+          "sha256": "ced1b72a01e942e1b2c69d80956866c0c4c5c089bfe62fffe4802e2d8322cc5a"
+        },
+        "text": {
+          "path": "assets/commons-201918224/description.txt",
+          "sha256": "e0f7cf4056a4b8dfe647221a7715bfad20a47bb7e9d1d3c0ac397c4379927262"
+        }
+      }
+    },
+    {
+      "source_id": "commons-35267427",
+      "dataset": "commons-discovery",
+      "concept": "violin",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "1f84eaa217b1115c9913ed96ad68b81a9919978338b3d9680c1ed25ec916760b",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Playing_a_Stroh_violin.ogv",
+      "attribution": "Kosboot",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "3020f44c36e35ffa"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-35267427/image.jpg",
+          "sha256": "ef2bcd5c655aadae823dd89be011376792811fec767b134b6f7c5e91e7625812"
+        },
+        "audio": {
+          "path": "assets/commons-35267427/audio.wav",
+          "sha256": "357bba455d46a7876daf93524e7a2f452d486a450523856b5010e52d48e4d01f"
+        },
+        "video": {
+          "path": "assets/commons-35267427/video.mp4",
+          "sha256": "ab488c516722dc5e6ba4074630ae2540ad016caffc76fad664b7b074bd4422b6"
+        },
+        "text": {
+          "path": "assets/commons-35267427/description.txt",
+          "sha256": "aa1e919ac3e7d57d93f0be3b5a7de0ce8f2bb27a1d61858babda637e6b59460a"
+        }
+      }
+    },
+    {
+      "source_id": "commons-106127379",
+      "dataset": "commons-discovery",
+      "concept": "violin",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "b5ce45720acf8c330b67922c01872ce21adc84979bf707231aa435bc4561565b",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Luthierra_eta_biolina.webm",
+      "attribution": "Andreus III",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "56418df723d7cb17"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-106127379/image.jpg",
+          "sha256": "3f9c8d913e64d786cf5f3425e901ef510f0c06912d85222742b57b779e25bcb1"
+        },
+        "audio": {
+          "path": "assets/commons-106127379/audio.wav",
+          "sha256": "a2cb4326e6bb9044dac94ffefed7d36f5c28c59a9c95d662cf3a5886c1a3a2b8"
+        },
+        "video": {
+          "path": "assets/commons-106127379/video.mp4",
+          "sha256": "40c8c75005bad8422b2da1bd688e4b0875f51c290063a594710701f2c03f6a1a"
+        },
+        "text": {
+          "path": "assets/commons-106127379/description.txt",
+          "sha256": "b038d1e8869b16af7a8925d08ec7df00f666bc0a7946f6d3d8805eaa79a64c67"
+        }
+      }
+    },
+    {
+      "source_id": "commons-146985382",
+      "dataset": "commons-discovery",
+      "concept": "violin",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "b90f21dfacf477934820c87dd54a1f8ae416eacd61ae187569a7b9cf86feaeb5",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:WELSH_SOUND_SYSTEM_TEST_PIANO_%26_VIOLIN_(1930).webm",
+      "attribution": "Jack Welsh",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "12634b0dede3b5eb"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-146985382/image.jpg",
+          "sha256": "5a0dd9092e6e22b994c5f8389dffdd97f40cb80e819b1589981842d353607160"
+        },
+        "audio": {
+          "path": "assets/commons-146985382/audio.wav",
+          "sha256": "97f8aa4cae094c1195dcefb6b1774e29fb62d539d11bcee76b2a3f47407e5d22"
+        },
+        "video": {
+          "path": "assets/commons-146985382/video.mp4",
+          "sha256": "84c68b211cd2b3848856274ac62e93f7239aae94a7ebb3e37d73742a1295bedc"
+        },
+        "text": {
+          "path": "assets/commons-146985382/description.txt",
+          "sha256": "c5fc49aeaf2cc87bcbaa70687cd28fdb03f98aed2ffd815e77d77e4f4bccaec2"
+        }
+      }
+    },
+    {
+      "source_id": "commons-163037833",
+      "dataset": "commons-discovery",
+      "concept": "violin",
+      "group": "instruments",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "541d78cc60df788ea8adb4da7802d05b0f842487f3c5aa6c437bbf44e9ba81f1",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Beethoven_-_Violin_Sonata_No._1_in_D_major,_Op._12_-_I._Allegro_con_brio_(Menuhin,_Baller).webm",
+      "attribution": "Concert Films Corporation/Paul Gordon",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "42e82286156972a0"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-163037833/image.jpg",
+          "sha256": "422b9d6af1e66da87145f10fef6ddb916855493b0017c1cf9d27fd9347b353c3"
+        },
+        "audio": {
+          "path": "assets/commons-163037833/audio.wav",
+          "sha256": "6f49144eb05d9cee2f993126578e2064978c1370459645479c3ce8a4ad932572"
+        },
+        "video": {
+          "path": "assets/commons-163037833/video.mp4",
+          "sha256": "036768af67acfb4f5566c44a1216455df04ef4517750360044aa4409668dc2e9"
+        },
+        "text": {
+          "path": "assets/commons-163037833/description.txt",
+          "sha256": "f17478dc451e96b47dadddb7371bbfb62d04dddd39e4babca685fc0bdd1ac319"
+        }
+      }
+    },
+    {
+      "source_id": "commons-155034373",
+      "dataset": "commons-discovery",
+      "concept": "chainsaw",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "eaed5d93331d72aa6ae00250cdb0bc30c7e4e132be3b812e1263d8db0b36017e",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chainsaw_in_use_to_cut_branches_-_Tokyo_area_-_2018_10_2.webm",
+      "attribution": "Nesnad",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "edc83215d3324847"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-155034373/image.jpg",
+          "sha256": "2db11d51d1388d7b0985e58880debdb48178d75ee35295a9b8606018d613455d"
+        },
+        "audio": {
+          "path": "assets/commons-155034373/audio.wav",
+          "sha256": "03256fca5217313d8f04db7a2a7daa9cfdec839d128c39eace41af8fcd28ed08"
+        },
+        "video": {
+          "path": "assets/commons-155034373/video.mp4",
+          "sha256": "88618922d5760b629304de0db53057c4192b12751e558df52e2133e92afe2fc5"
+        },
+        "text": {
+          "path": "assets/commons-155034373/description.txt",
+          "sha256": "6fe561d67b0c8ad6014bee286a5ad5cc20b872b96a24509832130a5e210b51aa"
+        }
+      }
+    },
+    {
+      "source_id": "commons-85125994",
+      "dataset": "commons-discovery",
+      "concept": "chainsaw",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "7b7b9f9e1707c1346d40d10bf2c56d32cbed22e993c523e514502a4f614ec724",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Chainsaw_robot_carves_the_7Xstool_by_tom_pawlofsky_-_tibor_weissmahr.webm",
+      "attribution": "designboom",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "4c554c8cb32645a9"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-85125994/image.jpg",
+          "sha256": "5071ffbcf16e9956fd731733f8aa920c3a19fe012dd89d8b1355ab765ee7de09"
+        },
+        "audio": {
+          "path": "assets/commons-85125994/audio.wav",
+          "sha256": "3b30e3d0fea64380995001ae189a844902982c718f80e582addc4fe03d06ee81"
+        },
+        "video": {
+          "path": "assets/commons-85125994/video.mp4",
+          "sha256": "a7c6583daaebad823fcd36f51ad3949d66ad6bda19096703bfd4402be8fb6c85"
+        },
+        "text": {
+          "path": "assets/commons-85125994/description.txt",
+          "sha256": "ccee8c2b1c56dd6f11988cb09a5b92d6ad03763d4a7500f49488abb0f26929bc"
+        }
+      }
+    },
+    {
+      "source_id": "commons-135565157",
+      "dataset": "commons-discovery",
+      "concept": "chainsaw",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "02a4a71307daca760f2423a2fd2ffaa4e2f62ea76f928064551c39f655a06855",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Saint-Bonnet-de-Joux_-_Euroforest_2023_-_Sculpture_%C3%A0_la_tron%C3%A7onneuse.ogv",
+      "attribution": "Romainbehar",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "96891a1888120f08"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-135565157/image.jpg",
+          "sha256": "c61965e2877aeab80ad3c4b72692c1daee7df37d35fee758a60b4e11759d3f6d"
+        },
+        "audio": {
+          "path": "assets/commons-135565157/audio.wav",
+          "sha256": "835d3da6a68a05bc8695319ff9e9fa4b00bdac47d3b454eedf37a91b842384a3"
+        },
+        "video": {
+          "path": "assets/commons-135565157/video.mp4",
+          "sha256": "282ec5f3d8176c00c59ce967d22cc9ea0ba44eb3d1c2b16026fc819556d8a313"
+        },
+        "text": {
+          "path": "assets/commons-135565157/description.txt",
+          "sha256": "5bfb3040b6965b970e101a5fc6e06e395ad17fb00c9181d78a679da69a84fd0f"
+        }
+      }
+    },
+    {
+      "source_id": "commons-75051152",
+      "dataset": "commons-discovery",
+      "concept": "chainsaw",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "635699b183602844b2c3a73aadf0789eedb8a3ea8c1e370713f9b92b2bda6c27",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Tree_Felling_IV-_Cutting_the_Trunk.webm",
+      "attribution": "Sound, photo, video: Antti Makkonen",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "145e45dd01139c46"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-75051152/image.jpg",
+          "sha256": "e000968a4e672de841d1959fe709982a5b52a7dbf4abf8015b77dc8fc6853e0a"
+        },
+        "audio": {
+          "path": "assets/commons-75051152/audio.wav",
+          "sha256": "02a5d273ce2b8116ca6991374f23030144ccb20a28483087e29cbecbc6a20698"
+        },
+        "video": {
+          "path": "assets/commons-75051152/video.mp4",
+          "sha256": "2b74b4a54ac992d77680c9d122bf7f13bebf251a95bbe6a42a13057ffb1c49f7"
+        },
+        "text": {
+          "path": "assets/commons-75051152/description.txt",
+          "sha256": "a2348a33928f7334138d75dfda638f19e026fcf487f7506e08992d0be4c0af3a"
+        }
+      }
+    },
+    {
+      "source_id": "commons-130589061",
+      "dataset": "commons-discovery",
+      "concept": "church_bell",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "99a61a706499039964311d4ab37eb0123ded3b96e2ceee6b40da3af9130576bf",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kazansky_Bogoroditsky_Monastery_bell_ringing_(2022-07-05)_01.webm",
+      "attribution": "Vyacheslav Kirillin",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "a0af6f4eb96586bf"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-130589061/image.jpg",
+          "sha256": "5159a489411126aa240c05b69cce0f92c6b75e4bdd558f8052f52873f9bea09c"
+        },
+        "audio": {
+          "path": "assets/commons-130589061/audio.wav",
+          "sha256": "f6eb2f21758d3877598ba16730c9e9e7654549e4e9ab4eaf8c5d01174d79bdac"
+        },
+        "video": {
+          "path": "assets/commons-130589061/video.mp4",
+          "sha256": "1f24a6a8b29e910e17055043e6287f5f3498a68c0598d9b207373ee7c9c7897e"
+        },
+        "text": {
+          "path": "assets/commons-130589061/description.txt",
+          "sha256": "d36b2cadabc3a12322aef35971383203503892ef1574ccc9704ee0aecc80fb2f"
+        }
+      }
+    },
+    {
+      "source_id": "commons-18663314",
+      "dataset": "commons-discovery",
+      "concept": "church_bell",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "2db59056258bfd4ed928a2d30e158e7fd465e7e355e3f3520d6184551ce666ca",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nazareth,_Church_of_the_Annunciation.ogv",
+      "attribution": "Juandev",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "6b8c61ee254a0cdc"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-18663314/image.jpg",
+          "sha256": "5bdb59fa03f485c6552c468d56a15ca5aabe385dd430f3bf56701e7a82dac021"
+        },
+        "audio": {
+          "path": "assets/commons-18663314/audio.wav",
+          "sha256": "6fc7e91cc1443c2d653684d52d044eeccf80b4c217109d4d06beb9a3cd2021d1"
+        },
+        "video": {
+          "path": "assets/commons-18663314/video.mp4",
+          "sha256": "69afc99051b387105c38b59656b8807872715213117c8796cbf7829073bec0e5"
+        },
+        "text": {
+          "path": "assets/commons-18663314/description.txt",
+          "sha256": "bb8584ef9e9b5a97b6a61012ec04987119030bc46c2c7e50a0aca78bc302e03a"
+        }
+      }
+    },
+    {
+      "source_id": "commons-49907286",
+      "dataset": "commons-discovery",
+      "concept": "church_bell",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "ce1423e77bccba941a072397eb2a4fb4c800ae1a2e66ae7abacfd20dcbb646a2",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Berlin_Cathedral_with_bells_ringing.webm",
+      "attribution": "Morn",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "78cd71a1ed0fc3a9"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-49907286/image.jpg",
+          "sha256": "bf90e38dcc09427ca652c22bcf8ce819780855b94d831db3102f32f3f646c696"
+        },
+        "audio": {
+          "path": "assets/commons-49907286/audio.wav",
+          "sha256": "8f2e6cb95d56cd2cc5ae5c657f6068af36ce970913e41c6b73d12f49b2a871fe"
+        },
+        "video": {
+          "path": "assets/commons-49907286/video.mp4",
+          "sha256": "69a820c79c5c362563f73613726da4e4a98b635cb83a13b7cd819ee2fd62a47b"
+        },
+        "text": {
+          "path": "assets/commons-49907286/description.txt",
+          "sha256": "a01f9d18d99a1338c4d648013361100802b7f9e5c9b0ead61a0615229063ac6d"
+        }
+      }
+    },
+    {
+      "source_id": "commons-51001544",
+      "dataset": "commons-discovery",
+      "concept": "church_bell",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "5c9ca41bf4f9736d294f17003f39efb9f2dc32312da4b25241524c1732c99bd2",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Dutch_church_bells_-_Kerkklok_Ens_(Dodenherdenking_4_mei_2015).webm",
+      "attribution": "Dutch Train Channel",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "1803c93e1ad3603d"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-51001544/image.jpg",
+          "sha256": "1a14c39a5078885479abd89c663251118ea4d3f79c399e20864b97c610b639ec"
+        },
+        "audio": {
+          "path": "assets/commons-51001544/audio.wav",
+          "sha256": "16b39c5cd83bc962da6eec8356e4a4cbcfc077f99e808a5ec078e94fd3755f24"
+        },
+        "video": {
+          "path": "assets/commons-51001544/video.mp4",
+          "sha256": "4189b696d51b7bb8d1bf42a4379970ec0f3699258081aff2169f561bf3a53c5e"
+        },
+        "text": {
+          "path": "assets/commons-51001544/description.txt",
+          "sha256": "7ffe7a79f800517e92d9e3a99550fa27699fc8a01a26e7a420d0e0f05d98b469"
+        }
+      }
+    },
+    {
+      "source_id": "commons-132446483",
+      "dataset": "commons-discovery",
+      "concept": "church_bell",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "5fc89cdabbc3ee812ec724c54ec96855d9bef0f0655d3f380dcf16d9b40d5d9c",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sinos_em_S%C3%A3o_Jo%C3%A3o_do_Oeste_SC.webm",
+      "attribution": "daltux",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "76ba19a7d52d4baa"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-132446483/image.jpg",
+          "sha256": "1e4f466f7093e8fcf265cfb10c2900a5b9c7116ca805276007fc4b83f789e79a"
+        },
+        "audio": {
+          "path": "assets/commons-132446483/audio.wav",
+          "sha256": "56463825c3bc114f1eb5b691147cf33d94e77ffc63f9f75c6f0f3d11f2e103a8"
+        },
+        "video": {
+          "path": "assets/commons-132446483/video.mp4",
+          "sha256": "475f3e39257394dad0ef8dce89c9fa995104be9abfa626d0aec10eb22d5d2418"
+        },
+        "text": {
+          "path": "assets/commons-132446483/description.txt",
+          "sha256": "37d8fed913c870c71da67ee74b0cb865950b363f4644107c0de3d7fb9d1297a8"
+        }
+      }
+    },
+    {
+      "source_id": "commons-135678193",
+      "dataset": "commons-discovery",
+      "concept": "church_bell",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "c0e4e52f3dad149e03fc677f595155cae0c06c3f54fb18c0b58ffd2f326e49b7",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2023-01-06_Video_Glockenschlag_St._Michael_(Brunntal).webm",
+      "attribution": "Triplec85",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "52b48d486115e7a2"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-135678193/image.jpg",
+          "sha256": "424cfcb1a56ed4e3dfc36356768b0f164f7a15b6f8edc9271583466afb7053b9"
+        },
+        "audio": {
+          "path": "assets/commons-135678193/audio.wav",
+          "sha256": "320c2333567a7ca6dd1f42ff1d8c5bc7602e728972521ab76e4e433b61789f95"
+        },
+        "video": {
+          "path": "assets/commons-135678193/video.mp4",
+          "sha256": "4d6c8764516e722ae597f5e1ae73f0faa9416987893cd7e845f1aebc1f194250"
+        },
+        "text": {
+          "path": "assets/commons-135678193/description.txt",
+          "sha256": "53105d486a32de974e06cff39bb33cafa28cff078d33c073c6b11d43926be505"
+        }
+      }
+    },
+    {
+      "source_id": "commons-19256894",
+      "dataset": "commons-discovery",
+      "concept": "church_bell",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "02e29b148c109e500cd2a1e65335a0d741ef50a34028605b30eec85fee93f80e",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:St_Nicholas_Church,_Liverpool_with_bells_ringing.ogv",
+      "attribution": "Rept0n1x",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "b22041a713ac5ebe"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-19256894/image.jpg",
+          "sha256": "b828b639c096bf70ee9d3519c275ebb0600d1d47c88153b57464efa5de210683"
+        },
+        "audio": {
+          "path": "assets/commons-19256894/audio.wav",
+          "sha256": "c9be9d0c405d14e321e59817c098c18f39bbe56c0a02a4a9bf733157a509b321"
+        },
+        "video": {
+          "path": "assets/commons-19256894/video.mp4",
+          "sha256": "12d53413704390dbf5538a41e17236d2386d695521fd50b200a7c7f07f76d386"
+        },
+        "text": {
+          "path": "assets/commons-19256894/description.txt",
+          "sha256": "cb12949d67495ac2e7c8efdf325918717efbbcbaf891c70caa95b34b1ea11b0c"
+        }
+      }
+    },
+    {
+      "source_id": "commons-32731614",
+      "dataset": "commons-discovery",
+      "concept": "church_bell",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "e6acf3b99f062005954ac646d0706aff6f0592d3151737d232900b5e034a2d86",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bell_Ringing_in_Tower_of_P%C5%99ibyslav_(video).webm",
+      "attribution": "Vojtech.dostal",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "5099aec24f35ed87"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-32731614/image.jpg",
+          "sha256": "0ee528b557460f8d568f8fa9b1e3a7b3a6f5671aa8dabc2cc200392696423f7e"
+        },
+        "audio": {
+          "path": "assets/commons-32731614/audio.wav",
+          "sha256": "c1cd99387baf04157ae0edb207a15633466f536136a2f99bf1a256ab74d9c9d2"
+        },
+        "video": {
+          "path": "assets/commons-32731614/video.mp4",
+          "sha256": "3fc275b598997b4d3f67c842b663418b93f293e59801146d3e6ea33524e03029"
+        },
+        "text": {
+          "path": "assets/commons-32731614/description.txt",
+          "sha256": "b02f73cdce317ba8e43a000d5ab04dd68eed8aeb6cf69c2b31319d68d264895a"
+        }
+      }
+    },
+    {
+      "source_id": "commons-12826723",
+      "dataset": "commons-discovery",
+      "concept": "fireworks",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "1f7c477e72849bf088f678ef4a098477f3ac1ed61baed6f08f8e6f8dd1dc4963",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fireworks_closer_view.ogv",
+      "attribution": "Orgio89",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "eaab9a3af49bfd14"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-12826723/image.jpg",
+          "sha256": "dacf2242eb6d1a3893d554c0d46420b4ca3a021453960fa5deebf8fc51a78459"
+        },
+        "audio": {
+          "path": "assets/commons-12826723/audio.wav",
+          "sha256": "1bc2829f1b1f45238357781f7e43f4cfe93e8e38fca70e704895a082fb2b7472"
+        },
+        "video": {
+          "path": "assets/commons-12826723/video.mp4",
+          "sha256": "10e1411606dad52b6f5e17cf84fcc407754b72cc5446aa9aefda19d9f9a30fb6"
+        },
+        "text": {
+          "path": "assets/commons-12826723/description.txt",
+          "sha256": "1234ed32dd95cc23bc2bd6e0917e18de778f36021da39ada9c11ad274d10ccb3"
+        }
+      }
+    },
+    {
+      "source_id": "commons-184586968",
+      "dataset": "commons-discovery",
+      "concept": "fireworks",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "57f46bc8decb6f8f03085a4ab7b7dd3527162aeee3b636c3c5b993e3f1a126f5",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Close-up_fireworks_during_Lunar_New_Year_celebration_in_Zhongshan,_China,_2026.webm",
+      "attribution": "JaydenChao",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "62f84b3c68f6629f"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-184586968/image.jpg",
+          "sha256": "ad468aa0c7edea6005d203121c1b50fa26d6d99b1545924ef875b7d18b344d63"
+        },
+        "audio": {
+          "path": "assets/commons-184586968/audio.wav",
+          "sha256": "62a1df1e62c95052db1ce9bf5e4e1e96b32d71feef0a7ae926374636d9cc5667"
+        },
+        "video": {
+          "path": "assets/commons-184586968/video.mp4",
+          "sha256": "34e18243f11ba059ae030ca601a7f1a8d5ffe525f9bc8c3fc0343c3db91e1b50"
+        },
+        "text": {
+          "path": "assets/commons-184586968/description.txt",
+          "sha256": "c1122763352d3b865f339a6e2d435997ddf94c3486d5fca721e3c437a718bf4b"
+        }
+      }
+    },
+    {
+      "source_id": "commons-199883936",
+      "dataset": "commons-discovery",
+      "concept": "fireworks",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "a635d7d4f92cbc936fc84bb8493ff013df1b1161564c6d3bebe3574b651ec57d",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:34th_Macao_International_Fireworks_Display_Contest_on_19-09-2026.webm",
+      "attribution": "LN9267",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "e51e9a950746d3e8"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-199883936/image.jpg",
+          "sha256": "3401947f96a045cc285d6aa5110837644cad0ba4138bf794e05c229363f9fd0c"
+        },
+        "audio": {
+          "path": "assets/commons-199883936/audio.wav",
+          "sha256": "df220aa448ab67ccc49f6eda0e60033be3c50d48c3742311279e039fbd23741a"
+        },
+        "video": {
+          "path": "assets/commons-199883936/video.mp4",
+          "sha256": "5ba3e73c139f3f263502fddfa2a24fa9be708ae975d76e984435254c8bfbd51e"
+        },
+        "text": {
+          "path": "assets/commons-199883936/description.txt",
+          "sha256": "7f02058fedf89e15b29aa036d327edecddd9b83eaf63cca39138a1e3e836cf01"
+        }
+      }
+    },
+    {
+      "source_id": "commons-150955493",
+      "dataset": "commons-discovery",
+      "concept": "fireworks",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "9159b54b25b704a6e34d7365aa74379378afa54c2b481a4e8c0bd0ad073216c2",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kamakura_underwater_fireworks_2.webm",
+      "attribution": "Yoshi Canopus",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "b7b106127c426cc4"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-150955493/image.jpg",
+          "sha256": "245f5e36f1e8fe176956d86520924c01532df5c396a4289092c5da1a4b202e5f"
+        },
+        "audio": {
+          "path": "assets/commons-150955493/audio.wav",
+          "sha256": "f8a5d48e1b686fbcb828898080de2568544ebe62e3f7d8d418bd07148c63439b"
+        },
+        "video": {
+          "path": "assets/commons-150955493/video.mp4",
+          "sha256": "55fc2c7ad257ba5c8d14b18ab03d39d124ff626f24abb6df8b98637555b8baa7"
+        },
+        "text": {
+          "path": "assets/commons-150955493/description.txt",
+          "sha256": "a24b5a2c214ec025874ff4f476d8c571d23104afe85b35ffaaed218e308da33a"
+        }
+      }
+    },
+    {
+      "source_id": "commons-47838940",
+      "dataset": "commons-discovery",
+      "concept": "fireworks",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "7143ca0ab898beda6d89d0ce4e126bd99cfe23bc5d51ce2863b79a847000738d",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fireworks_show.webm",
+      "attribution": "penguin8622",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "65413b3c799ec6ad"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-47838940/image.jpg",
+          "sha256": "75a5a96696581bcaf4d1bcce0b976f5aee2be2a9e530c6e93403745d1220a326"
+        },
+        "audio": {
+          "path": "assets/commons-47838940/audio.wav",
+          "sha256": "eba39538eb3009e1826dd16900871f618dd0b4f1094c00f4db1a6a06bcc3a75c"
+        },
+        "video": {
+          "path": "assets/commons-47838940/video.mp4",
+          "sha256": "50539b9d31c3f3734ea197ce2de0ad8c7153029121c7efd6b66b4659de307659"
+        },
+        "text": {
+          "path": "assets/commons-47838940/description.txt",
+          "sha256": "f63883498a1dab29c8ddc6f14d6dc00c1235834acdb7f13e905eb4bdde1d29e2"
+        }
+      }
+    },
+    {
+      "source_id": "commons-52254931",
+      "dataset": "commons-discovery",
+      "concept": "fireworks",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "b1f9f6367bfa1c21384c9790c6a0a9ee37e02e1002922c53fcbe42b992cb0fde",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Nagaoka_Festival_Fireworks_2012_Extra_Large_Wide_Starmine.webm",
+      "attribution": "113icecream Japanese Fireworks",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "df56a4079cea8d5b"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-52254931/image.jpg",
+          "sha256": "c826b250e8062d2839f037d48f54971fdc051e3896668c1b5c1488414b91c65a"
+        },
+        "audio": {
+          "path": "assets/commons-52254931/audio.wav",
+          "sha256": "16514029e572823820a3c76143b73f8f0b6d7cefe03a27903a2805d564b10dac"
+        },
+        "video": {
+          "path": "assets/commons-52254931/video.mp4",
+          "sha256": "6854e16ea88e9d8468053db3bf1c1299eaa39fc444bfd4cffac15b10404382f7"
+        },
+        "text": {
+          "path": "assets/commons-52254931/description.txt",
+          "sha256": "8bdad00bff83bb2a21d1c1af535d66774c46d058497dca8e391ca0e3f7237a67"
+        }
+      }
+    },
+    {
+      "source_id": "commons-137426330",
+      "dataset": "commons-discovery",
+      "concept": "ocean_waves",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "6e301ad128cf3c8a8181134e780cde859f7052b109cfcf30fafa517c4f856db9",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Hurricane_Jova_2023_waves_in_Pacific_Palisades,_CA.webm",
+      "attribution": "Cyclonebiskit",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "aa2c73341a89103d"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-137426330/image.jpg",
+          "sha256": "d0734509f5e38169cbda9a50cdf87b85e264a03c06337b762d619aab36b90232"
+        },
+        "audio": {
+          "path": "assets/commons-137426330/audio.wav",
+          "sha256": "8800199cf16dac59e5a6705d6ea52afec011f1594581ccc839fb1e941ab855de"
+        },
+        "video": {
+          "path": "assets/commons-137426330/video.mp4",
+          "sha256": "c0d69abe00e3d965495da9b6198d04282bb5bc4589b1ff79dd7fee71e71d6ae7"
+        },
+        "text": {
+          "path": "assets/commons-137426330/description.txt",
+          "sha256": "fb9b9cdf41a686bd5cf5892421bde8891c83f7035fa3210c5133e7342ef40b24"
+        }
+      }
+    },
+    {
+      "source_id": "commons-165921167",
+      "dataset": "commons-discovery",
+      "concept": "ocean_waves",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "aa686385264683ef6f546624090e0aab32810142d2be56e008b257af8376e3da",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Crashing_waves_in_the_San_Juan_Islands_(40007700135).webm",
+      "attribution": "BLM Oregon & Washington",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "59f35a6fd3c69697"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-165921167/image.jpg",
+          "sha256": "84e62ba2406f4d63dc62b7c518ed6dc06c1f77f384512bc7e9e2b298434d4dd8"
+        },
+        "audio": {
+          "path": "assets/commons-165921167/audio.wav",
+          "sha256": "1f207912399db8b6c71b368a96a6394c9f6844c63940f794eeafc30c4e6f6e57"
+        },
+        "video": {
+          "path": "assets/commons-165921167/video.mp4",
+          "sha256": "be1f942942f32b915d198b021f0fda6cb7eb70619c313ad086442b9e2fbb127f"
+        },
+        "text": {
+          "path": "assets/commons-165921167/description.txt",
+          "sha256": "507ec30b7c88e99da539997fab94990132ca7fbe0ae96d9d27360cc899881e03"
+        }
+      }
+    },
+    {
+      "source_id": "commons-180531988",
+      "dataset": "commons-discovery",
+      "concept": "ocean_waves",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "b90b0042695a51b6fdf6592b3fd5d84a879c85094ebd714826fb19b3514bea38",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:USVI_Sequence_01_2_-_Palm_trees_sway_gently_on_a_lush_green_hillside_overlooking_the_ocean_with_waves_crashing_against_rocks_below.webm",
+      "attribution": "Category:Government of the United States Virgin Islands",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "7a3773e8f1d35d34"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-180531988/image.jpg",
+          "sha256": "b4b948ed8ed4e6b11ba886cee62c374c9ede4dbfc8a35947885b45a6764b3ee8"
+        },
+        "audio": {
+          "path": "assets/commons-180531988/audio.wav",
+          "sha256": "9dbcc6c90b120b7b21cb599a3e156180de8adce4ef025df2a80b582417527029"
+        },
+        "video": {
+          "path": "assets/commons-180531988/video.mp4",
+          "sha256": "ede81c824bf8d64b36e466df0bdd6debc62ffa17289766d7c31272972638add1"
+        },
+        "text": {
+          "path": "assets/commons-180531988/description.txt",
+          "sha256": "7764c73b5758a6686036502558b85696b4c6ff5cc7400d796f6d258dabf0721d"
+        }
+      }
+    },
+    {
+      "source_id": "commons-181404305",
+      "dataset": "commons-discovery",
+      "concept": "ocean_waves",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "76f3ec6ab9cccd8a7545102b0ba4613e55ba7fc6e45cf24d4d7b7e5a9fb5605a",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cormorant-1013982,_Dingle_Peninsula,_Co._Kerry,_Ireland.webm",
+      "attribution": "Maoileann",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "4b0a6b5bb34bb45d"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-181404305/image.jpg",
+          "sha256": "a3f94ceba848068163af86c300ac4811765c10ee3726e7a64931d54ebc354e3c"
+        },
+        "audio": {
+          "path": "assets/commons-181404305/audio.wav",
+          "sha256": "30bd89e7c9f63c9fcfd7c78bcdb73bd94f548a817ee7f6f97d091b8d8412f60f"
+        },
+        "video": {
+          "path": "assets/commons-181404305/video.mp4",
+          "sha256": "f524d85be15a1dfa24caf9ac0c44ddced728fb47328d3b67b57bb3e668efa560"
+        },
+        "text": {
+          "path": "assets/commons-181404305/description.txt",
+          "sha256": "013b8156caf49083a794d1ad10552421d47623b0dbb246b07322da016dba8bc2"
+        }
+      }
+    },
+    {
+      "source_id": "commons-119126086",
+      "dataset": "commons-discovery",
+      "concept": "ocean_waves",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "5acd71f4784df433c5ddee9ca2f06ab87ebe7e4becdca0d94d9f23eda69a6a87",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rialto_Beach_Waves_2022.webm",
+      "attribution": "Sea Cow",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "8a7c1d6b7ef41fb6"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-119126086/image.jpg",
+          "sha256": "3f9aa90f282dcbf6656c53ba66e14d658251538be043bb103d4ddc1a04b87704"
+        },
+        "audio": {
+          "path": "assets/commons-119126086/audio.wav",
+          "sha256": "3aaa11d7dcef07e9bf632739c47067440d2abe7c7532c847fdb0ae6260cfe512"
+        },
+        "video": {
+          "path": "assets/commons-119126086/video.mp4",
+          "sha256": "3657a0387991ecb6b91f421fa2d23734e67c1f48e642282dcf7a74988f53df54"
+        },
+        "text": {
+          "path": "assets/commons-119126086/description.txt",
+          "sha256": "77d428492ab870223b9a152de7833564ac2e9787a1ee1f2223d23dff7145ecf6"
+        }
+      }
+    },
+    {
+      "source_id": "commons-174335864",
+      "dataset": "commons-discovery",
+      "concept": "ocean_waves",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "ad31d8e06b6213a4d257e95326157e45392602dcd4eec508f9482942f78bc1a2",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Strong_waves_from_Hurricane_Erin_lead_to_beaches_in_Wellfleet,_MA_closing_on_Aug._22,_2025.webm",
+      "attribution": "https://commons.wikimedia.org/wiki/User:Magpieturtle",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "ff2fb5c35614cf9b"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-174335864/image.jpg",
+          "sha256": "6944148705a6fc8d4b7af5f0898acc7589dc483631778110b89e21b59038afb9"
+        },
+        "audio": {
+          "path": "assets/commons-174335864/audio.wav",
+          "sha256": "e174e4c6ad00fd8c539078b1df5eb46e68dbed39c34b19f978012bfbc657c429"
+        },
+        "video": {
+          "path": "assets/commons-174335864/video.mp4",
+          "sha256": "a2c565d2b5df49d03037df77ba3c5a8314276b4416948c89a0dd4fa6316a1781"
+        },
+        "text": {
+          "path": "assets/commons-174335864/description.txt",
+          "sha256": "11b294316c4c2bcc3c2624c02544a1a08898c4d17508533ba4ba0159fa78f575"
+        }
+      }
+    },
+    {
+      "source_id": "commons-18644859",
+      "dataset": "commons-discovery",
+      "concept": "ocean_waves",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "e15fde869011380a555bb9c8565a6c4ce0cae05d449b88dd1e5bfb14e34cda8a",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Pyramidal_waves,_It%C5%8D,_Shizuoka,_-Jan._2012_a.ogv",
+      "attribution": "apsbin from Japan",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "f50a6e3f9c1c081b"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-18644859/image.jpg",
+          "sha256": "66cc53c061d6ca3a6a95c8952e6a6423db57a956a57cfc2a35b99da9c142193f"
+        },
+        "audio": {
+          "path": "assets/commons-18644859/audio.wav",
+          "sha256": "390668e2bf4bbb10a027bdc2395c56a46fab934c668e0d0f29596609e2eb006d"
+        },
+        "video": {
+          "path": "assets/commons-18644859/video.mp4",
+          "sha256": "50b85fa699c96e2d3cdffb35e1ac8d503bdc3a684b2b8813dee00fb6fb762e6d"
+        },
+        "text": {
+          "path": "assets/commons-18644859/description.txt",
+          "sha256": "125a1dec172e26d213612677c497f4d618ad3cafd7a2f7a36ad637e5a05195c2"
+        }
+      }
+    },
+    {
+      "source_id": "commons-96028815",
+      "dataset": "commons-discovery",
+      "concept": "ocean_waves",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "b3f0ac093a4eb7526acba6cafaefe672637b878bf65ac394fd237ffbb7ec0d6c",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Waves_crashing_on_rocks_off_Beach_4,_Kalaloch_Beach,_Washington_02.webm",
+      "attribution": "Joe Mabel on Vimeo as Joe Mabel",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "a29c10c0e6feb473"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-96028815/image.jpg",
+          "sha256": "2975a3b41b7e91c04c3b240a1b2ea34caa11990f197ca91670729e076933e042"
+        },
+        "audio": {
+          "path": "assets/commons-96028815/audio.wav",
+          "sha256": "b4530c32db4c1368b44d1a61669e1a3ebcf3116221483f02769350eeb1f88d49"
+        },
+        "video": {
+          "path": "assets/commons-96028815/video.mp4",
+          "sha256": "2b7145930097b43d50c251d8679496ab792085687b5db0e97ff05c3673332947"
+        },
+        "text": {
+          "path": "assets/commons-96028815/description.txt",
+          "sha256": "caa2cfdd0dd12a9467ed756081e73316c58bfd8fe3ca2edb122afeacea617e70"
+        }
+      }
+    },
+    {
+      "source_id": "commons-118483168",
+      "dataset": "commons-discovery",
+      "concept": "waterfall",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "c17aa2cab4385ed5a1960094a18cbc062578930a53877de62b6595c569dd5415",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:BeltertuyukWaterfall_SecondCascade_014_3698.mpg",
+      "attribution": "Ludvig14",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "a288fe99e6c73ac9"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-118483168/image.jpg",
+          "sha256": "fde31cb427531859c79bd36d9cfeb998736f77df5d884e18eed855a91259a2d7"
+        },
+        "audio": {
+          "path": "assets/commons-118483168/audio.wav",
+          "sha256": "3cfdd1d711e431d1269ec7d2e1ec722437d8a5f01b5c96a47077cf63fdd37cf2"
+        },
+        "video": {
+          "path": "assets/commons-118483168/video.mp4",
+          "sha256": "acb55903278548f1408e62e96a29a150056cc39e6ae97ed02ce054ed79f2754f"
+        },
+        "text": {
+          "path": "assets/commons-118483168/description.txt",
+          "sha256": "d1823786e40e3978190cb670044c6ee6eb7123b661e19a40d64068a710d94d01"
+        }
+      }
+    },
+    {
+      "source_id": "commons-146595780",
+      "dataset": "commons-discovery",
+      "concept": "waterfall",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "54c1c3a88d3fb8e3a968a0f4070251de13f2418bad2ef322198b47b60fd80aee",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Bathing_beneath_waterfalls_capturing_serenity_below.webm",
+      "attribution": "Dvmsu",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "14a1c4db816c7409"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-146595780/image.jpg",
+          "sha256": "afc7d04ad1b1ded6d8bb10c06c1e3304d399a39f0661fb6715469046024fc2d0"
+        },
+        "audio": {
+          "path": "assets/commons-146595780/audio.wav",
+          "sha256": "42b8651296529dc3393d686fe535d58db8e84b49798f4a37a484fc6f753589c0"
+        },
+        "video": {
+          "path": "assets/commons-146595780/video.mp4",
+          "sha256": "9f88ed5efb9cd19180b58717a56eb811b8c8d9a433a78d12eaa3431384771992"
+        },
+        "text": {
+          "path": "assets/commons-146595780/description.txt",
+          "sha256": "495b80192b7306001a6d636fcfbd5cbd59f4a0558f11830b3733e10ca2c05279"
+        }
+      }
+    },
+    {
+      "source_id": "commons-148575315",
+      "dataset": "commons-discovery",
+      "concept": "waterfall",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "8758f0c1752cf06cf747b198a7124779abef3ab11bde87c07b9c691d9bd64ce5",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Waterfall_at_Asenema.webm",
+      "attribution": "Treysam",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "a1f379b6df1cbcf1"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-148575315/image.jpg",
+          "sha256": "d3d6c596ef88a93324eac050ec9ad3f5bd27a70707bb8f7d8bd2c3ef930df6c6"
+        },
+        "audio": {
+          "path": "assets/commons-148575315/audio.wav",
+          "sha256": "5c536b36f7838e7d1b28ffeb250f4f3d91903161001e4cd9ee083810a9d717e4"
+        },
+        "video": {
+          "path": "assets/commons-148575315/video.mp4",
+          "sha256": "f77ec95c4660d36763067bba764c32c09881f948f4607b02672d11f523e2c2ce"
+        },
+        "text": {
+          "path": "assets/commons-148575315/description.txt",
+          "sha256": "d50d60bdc31c8a45e7fc86903454c0ad4de1849de87385d76a35126d9582b853"
+        }
+      }
+    },
+    {
+      "source_id": "commons-150395615",
+      "dataset": "commons-discovery",
+      "concept": "waterfall",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "22c10194688d2a4c85a3c372ef063a8930f75f35d683c9899201f40394e20345",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rhaeadr_Ewynnol,_Betws-y-coed_-_waterfall_in_Wales.webm",
+      "attribution": "Llywelyn2000",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "d543b63f8350b639"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-150395615/image.jpg",
+          "sha256": "2ebe11d12baf954134df484212e4596add5f86bb9da9d4dcffd866e043517d50"
+        },
+        "audio": {
+          "path": "assets/commons-150395615/audio.wav",
+          "sha256": "38f12df0c2cc4c1c3088acb6d93ce6b18049f6e99fa19fc431a0d1d83c797975"
+        },
+        "video": {
+          "path": "assets/commons-150395615/video.mp4",
+          "sha256": "74e6cea592e371421d29c47ba0826dd1c658f2d74546ec4412e1e2df0eea4f9e"
+        },
+        "text": {
+          "path": "assets/commons-150395615/description.txt",
+          "sha256": "00f7ac7c02f62fa380f141d860340a9fbff0d0f244b59cebe2f481ca7fcdce83"
+        }
+      }
+    },
+    {
+      "source_id": "commons-133655693",
+      "dataset": "commons-discovery",
+      "concept": "waterfall",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "a26292757749809f898257e7fb436c52f3346c7bbfef25c900e4738ad53d2563",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Smoky_Mountains_waterfall_001_june_2023_IMG_3568.webm",
+      "attribution": "Gerald Shields",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "fb678fbae825587e"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-133655693/image.jpg",
+          "sha256": "14d516348acf3bfd94e8c68236ca7408f005229a9b2b85d1e4c18e1218db1616"
+        },
+        "audio": {
+          "path": "assets/commons-133655693/audio.wav",
+          "sha256": "f9e90884c1d4b70b5ccc48684760b8922b841471306cc61f09e8177b0157cf21"
+        },
+        "video": {
+          "path": "assets/commons-133655693/video.mp4",
+          "sha256": "3ed7b7048104bc52179666b27ac1e9637d4246ab7e03605d97d4b0eac5a2dd20"
+        },
+        "text": {
+          "path": "assets/commons-133655693/description.txt",
+          "sha256": "30abfd691a45d45c4e0a6043bcef273eb0f540400b2c3cd0ef0df6a6e99da80c"
+        }
+      }
+    },
+    {
+      "source_id": "commons-150038214",
+      "dataset": "commons-discovery",
+      "concept": "waterfall",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "de98d5dc045c7a54f80da70a459a72c5dc48fb18a7f4a03ee783c191b837ade9",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Cascade_de_Syratu.webm",
+      "attribution": "Arie m den toom",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "c2fcf3ad748dbd9f"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-150038214/image.jpg",
+          "sha256": "c28c36c733af512b9babf01fd6b3d88106f6e37b4cb550d1ff5f114d8dc3108b"
+        },
+        "audio": {
+          "path": "assets/commons-150038214/audio.wav",
+          "sha256": "69fcf24182a5f10dd085507fe66bf697d0a6901c01ab3fda62f18445d0b2afed"
+        },
+        "video": {
+          "path": "assets/commons-150038214/video.mp4",
+          "sha256": "6afa2000d8f849b2d8a37c96d8ac201bcbab1cb47f7c82006d898e0484259b17"
+        },
+        "text": {
+          "path": "assets/commons-150038214/description.txt",
+          "sha256": "bb73ccd3c7d1bb6221e01e6433ca75ffedb0627f5299e12d92907ed1a7a4eda9"
+        }
+      }
+    },
+    {
+      "source_id": "commons-173590596",
+      "dataset": "commons-discovery",
+      "concept": "waterfall",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "8d0217e7bb71484cf6bff15118d0958a7fbad18337eac9fdddd1453a151f32e9",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mt_Nimrod_Scenic_Reserve_-_Waterfall_on_Nimrod_Stream_(video).webm",
+      "attribution": "David Nind",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "e86917e1383e770e"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-173590596/image.jpg",
+          "sha256": "8f1d8704088dc4457785d65bc3057708c9463a0bc0dbbbeb3131b2896d3323f7"
+        },
+        "audio": {
+          "path": "assets/commons-173590596/audio.wav",
+          "sha256": "dcacf17e88b9832c67fa41bd8881be15641c558032f8960ff6410beffd3fd506"
+        },
+        "video": {
+          "path": "assets/commons-173590596/video.mp4",
+          "sha256": "d4a2496009ed91e045c3e1941f43a7e99ad12e89bae7f95a952ee9bb52a9c67c"
+        },
+        "text": {
+          "path": "assets/commons-173590596/description.txt",
+          "sha256": "e6bf6de7b35a985e35ae83cc9d93c260c52bcc5b6098dc9a538b7882ec361462"
+        }
+      }
+    },
+    {
+      "source_id": "commons-88477350",
+      "dataset": "commons-discovery",
+      "concept": "waterfall",
+      "group": "mechanical_or_natural_events",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "382a2a292181b21f55c7bb3d4efebbfdea2122417f9f25c812e061f462cd7535",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Kaneyamanotaki_Waterfall_Movie.webm",
+      "attribution": "Osumi Akari",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "af6b2d365ff011ef"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-88477350/image.jpg",
+          "sha256": "938b291fad540ad2caf07fbe29b3fb269b296f82da12b0760b80e2fade6680ef"
+        },
+        "audio": {
+          "path": "assets/commons-88477350/audio.wav",
+          "sha256": "7bb43a30919dbd5b8a8bcfc3d2e718adb5d15bb9c81c8403719254e7dbc9dff3"
+        },
+        "video": {
+          "path": "assets/commons-88477350/video.mp4",
+          "sha256": "5c302df71b132fe44607d2a74606e608bb8b51e0844eacc9bccbc31fe3c33c2a"
+        },
+        "text": {
+          "path": "assets/commons-88477350/description.txt",
+          "sha256": "98979447f6ed67e99beb76ae962b04141308ea0b932eaaea77ebeadeb4a25a0a"
+        }
+      }
+    },
+    {
+      "source_id": "commons-10395640",
+      "dataset": "commons-discovery",
+      "concept": "diesel_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "70db97cfc309505f2eb65ac0e59156d7cfa76ad98b76d63337191f9885aec1da",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Diesel_Freight_Train_NSW.ogv",
+      "attribution": "Bluedawe",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "084663bb8dde7dfc"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-10395640/image.jpg",
+          "sha256": "2b1f9e390fc4e7bc234f75681782eaee71d9e8f9e6fec547bfdb50e250853730"
+        },
+        "audio": {
+          "path": "assets/commons-10395640/audio.wav",
+          "sha256": "34f36969dc3949e867daa7e3b56fd38c777bd7541855b87c9a87f5dbc8a6d4b6"
+        },
+        "video": {
+          "path": "assets/commons-10395640/video.mp4",
+          "sha256": "cd0bd3f5b92a7744c90c70ceb46771bf7864d636d0c16f8ce5b1821c583b362c"
+        },
+        "text": {
+          "path": "assets/commons-10395640/description.txt",
+          "sha256": "bcb91a381b36146ffae76a66a78ff5d88804c093735468dc1c41bb30d4f360fc"
+        }
+      }
+    },
+    {
+      "source_id": "commons-181509664",
+      "dataset": "commons-discovery",
+      "concept": "diesel_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "f5959d099d2db13575daa2b35bb24ce2e0bae99b2df548044c9161c0d9296d39",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Transnet_diesel_locomotives-and-goods-train_crossing_road_and_entering_station_South_Africa.webm",
+      "attribution": "Wobvpu43y",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "dbba6686adb7499e"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-181509664/image.jpg",
+          "sha256": "8c43c3ef42e06a51b1716994f09781a5e754b315123489b04e184ac9f0b7e0c7"
+        },
+        "audio": {
+          "path": "assets/commons-181509664/audio.wav",
+          "sha256": "8bb11f4aa29eb09587da0f35a67cb9ec9b07696afdb8fda24d800cca3d82a32f"
+        },
+        "video": {
+          "path": "assets/commons-181509664/video.mp4",
+          "sha256": "a0afec4a667f0123e0c383e0a5ad80369e574017ab0e77c83aea291e6a82dee5"
+        },
+        "text": {
+          "path": "assets/commons-181509664/description.txt",
+          "sha256": "c512d24b4f4f3ff4b49cf11bf8683bd66db8b3f9697da985c571b62f52e8b0f6"
+        }
+      }
+    },
+    {
+      "source_id": "commons-43171535",
+      "dataset": "commons-discovery",
+      "concept": "diesel_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "0df721c8f1706cb875994151033bf57bbfc35605cf464c6844eb2e1e3c99a670",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2M62_and_2M62U_diesel_locomotives.webm",
+      "attribution": "Olezka100",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "de36bcf88dda65b1"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-43171535/image.jpg",
+          "sha256": "1964c92c7272943393da03a6065b92e64300f2de5be559e128285f1fdcd34004"
+        },
+        "audio": {
+          "path": "assets/commons-43171535/audio.wav",
+          "sha256": "73c04ae12d70d4ab87a8bc569264766531460978540aa5b9f8d48d54e37af9e7"
+        },
+        "video": {
+          "path": "assets/commons-43171535/video.mp4",
+          "sha256": "682b15269428703f6946599bbcbba84bd1a863e5db82b7f815b4e2740204de91"
+        },
+        "text": {
+          "path": "assets/commons-43171535/description.txt",
+          "sha256": "d78a5727d17c7bb62e217b2e0f6f7d50c0278f0165a532e2d3d69f1194c254fd"
+        }
+      }
+    },
+    {
+      "source_id": "commons-61312066",
+      "dataset": "commons-discovery",
+      "concept": "diesel_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "3f5f836f1d5e0cf3329cdfce095fad14eb2760a4264844cbe6107cc43bc0969e",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Train_Driver%27s_view-_railroad_from_Belgrade_Dunav_to_Belgrade_Donji_grad(Diesel_locomotive_661).webm",
+      "attribution": "European Train Driver",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "540662eb84e60587"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-61312066/image.jpg",
+          "sha256": "c13dcc4ec92d080ae14f371eaca16e1ba8d103d810a608e9ff3cae5b28d7dbef"
+        },
+        "audio": {
+          "path": "assets/commons-61312066/audio.wav",
+          "sha256": "af7bb12ffe5c2841e60b254ebaa975ac075e66ab6a248410920b9181a73164cd"
+        },
+        "video": {
+          "path": "assets/commons-61312066/video.mp4",
+          "sha256": "ae87552e48d17c04f5b2545901fb9706fba0c7d45530a16bf3a31d1941aec4f2"
+        },
+        "text": {
+          "path": "assets/commons-61312066/description.txt",
+          "sha256": "21c407e30ad417ecb29de4c95c319f148dcb2425946fff58de7c3733b9604f21"
+        }
+      }
+    },
+    {
+      "source_id": "commons-201426575",
+      "dataset": "commons-discovery",
+      "concept": "diesel_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "89cdb3ad6b293e880dbf01f40873f7f70ba0178b7dacc0c6d22c720c9c8a4faa",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Miniature_diesel_locomotive_at_Eisenbahnmuseum_Strasshof,_Austria,_2026.webm",
+      "attribution": "Dmitry Novoklimov",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "03b9d4292bf72e8b"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-201426575/image.jpg",
+          "sha256": "ada94668841c3e5234062b4633aed74e8ee5c271ffe9b50a9df07d2c6df0a94a"
+        },
+        "audio": {
+          "path": "assets/commons-201426575/audio.wav",
+          "sha256": "c983d156058c9762c37245b76f1e53f8fac9fc069c6822adab557a96321a0e7c"
+        },
+        "video": {
+          "path": "assets/commons-201426575/video.mp4",
+          "sha256": "8d6e845a04f26a2a42383c096d8944dfefad54121ff7a51c898e3947e6e60930"
+        },
+        "text": {
+          "path": "assets/commons-201426575/description.txt",
+          "sha256": "9241fe3e1609afa6ee5bac4010e1c4507f62498b01480dfbcaaa5d7d8b679790"
+        }
+      }
+    },
+    {
+      "source_id": "commons-29998378",
+      "dataset": "commons-discovery",
+      "concept": "diesel_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "6b38552655279c5aaa47c0fef1375039fef81a5c415f017df17e3c790c61108f",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mk48_diesel_locomotive.ogv",
+      "attribution": "Dudva",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "20577931109a02d7"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-29998378/image.jpg",
+          "sha256": "5c7d685719be1838245718c94155fab1dda712e54b1bb7e0a4e3566960ea19be"
+        },
+        "audio": {
+          "path": "assets/commons-29998378/audio.wav",
+          "sha256": "19feccdaf06f01c36450804f75d997cb5fd89966a0e97803ecb336085684c280"
+        },
+        "video": {
+          "path": "assets/commons-29998378/video.mp4",
+          "sha256": "b9203ee9c732a6db472cccf40e4070c7ac99183f7d463dfd76d770e33e668ca0"
+        },
+        "text": {
+          "path": "assets/commons-29998378/description.txt",
+          "sha256": "5ac2a0255f402092ad02b468160f5244e7bf4af8111631b80aa08221e1dca1c9"
+        }
+      }
+    },
+    {
+      "source_id": "commons-66255942",
+      "dataset": "commons-discovery",
+      "concept": "diesel_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "cf2b072a562b6584c04baed70344e8381d15b3b1f05a1d8b58e0b8ea7c71d066",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Narrow_gauge_railway_line_Gwalior_to_Sheopur,_2.webm",
+      "attribution": "Yann Forget",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "59f5086569bfef30"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-66255942/image.jpg",
+          "sha256": "dfd8d4e2b0c9e9856a8085f7ac9472c6dd19281bce044f63dca8f2bca702b9fb"
+        },
+        "audio": {
+          "path": "assets/commons-66255942/audio.wav",
+          "sha256": "ca2865e7f210e2b1f0ffb32985495fd2e121bb21946332563399751b1192854b"
+        },
+        "video": {
+          "path": "assets/commons-66255942/video.mp4",
+          "sha256": "4d79ce5a5ac2bc6ed3d44abfcad28bb42cfe4b1c42fc3896a09363a125989d92"
+        },
+        "text": {
+          "path": "assets/commons-66255942/description.txt",
+          "sha256": "09c32a6dd36b510f805120b5f987109366e9a07f29b90592391138617959ff73"
+        }
+      }
+    },
+    {
+      "source_id": "commons-77459385",
+      "dataset": "commons-discovery",
+      "concept": "diesel_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "582d0b214d7ff57d176923abaf386f5282183a29be8f3ae9b4d24638ed614664",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:MRS_Trem_de_Minerio_-_Mendes_RJ.webm",
+      "attribution": "Nilton Gallo",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "05409a0455d3ccc7"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-77459385/image.jpg",
+          "sha256": "c40f7194fdb4eb19b995ce274f59b9794ef147fd9fe4df74f128a49515cd9361"
+        },
+        "audio": {
+          "path": "assets/commons-77459385/audio.wav",
+          "sha256": "59d6e7f2f8a475319a441ccb407ebf0f790e69357d308a1047ab4516244f031a"
+        },
+        "video": {
+          "path": "assets/commons-77459385/video.mp4",
+          "sha256": "48d3f70501b0434583a8ff497bdd7b833b79e022ae0b55960ed263d57e102bf8"
+        },
+        "text": {
+          "path": "assets/commons-77459385/description.txt",
+          "sha256": "aa92dbd0759dc5f366e53b892a8f94ae0090ee732f0c7d482dc9a84d909fd44a"
+        }
+      }
+    },
+    {
+      "source_id": "commons-10403198",
+      "dataset": "commons-discovery",
+      "concept": "electric_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "d774b17c072c8a809aa03dda22a3a1204fa5a308ee0d7a765ce33fb338b39ce2",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Electric_Trains_On_Como_Bridge.ogv",
+      "attribution": "Bluedawe",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "084663bb8dde7dfc"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-10403198/image.jpg",
+          "sha256": "31ec174f8d8049d998e609dbfa4f65134d89cc046fcc940bed97ce794deacf66"
+        },
+        "audio": {
+          "path": "assets/commons-10403198/audio.wav",
+          "sha256": "79cd8636747cba0c827cf343907784ce98bd3d7994ebd9a36a161af1c05cf65d"
+        },
+        "video": {
+          "path": "assets/commons-10403198/video.mp4",
+          "sha256": "c23e0b22cbec544e2fd6058c09e34e501e4d247ca06ea5ea53c5609e534992eb"
+        },
+        "text": {
+          "path": "assets/commons-10403198/description.txt",
+          "sha256": "292f260e67d1bf42e8749965aa9494999f3bfd035f80edab771cc1a1f7313710"
+        }
+      }
+    },
+    {
+      "source_id": "commons-115269779",
+      "dataset": "commons-discovery",
+      "concept": "electric_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "cc783800b58afb6f61f66f05a7de19148de283894bf8cfb28779f18d025411b0",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Takamatsu-Kotohira_Electric_Railroad_train_2021_4_1.webm",
+      "attribution": "Nesnad",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "edc83215d3324847"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-115269779/image.jpg",
+          "sha256": "14fee846896b5f56485ed311c92b6672591a2050e720f520f84f01062f03ec86"
+        },
+        "audio": {
+          "path": "assets/commons-115269779/audio.wav",
+          "sha256": "a597d2bc93517795a61ec472a7ec483d9bfdd70e192034bccb166074e499a548"
+        },
+        "video": {
+          "path": "assets/commons-115269779/video.mp4",
+          "sha256": "91f3350f22455d24415453a6ff0a8dec33f9d7d4205e8b17609e5fd275d56893"
+        },
+        "text": {
+          "path": "assets/commons-115269779/description.txt",
+          "sha256": "4e9ba714e0ba59a9d9b9029c9f23d6e4461ff43e074b684c3333fe13489cc026"
+        }
+      }
+    },
+    {
+      "source_id": "commons-2509351",
+      "dataset": "commons-discovery",
+      "concept": "electric_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "fbf05a9c1a591d9cc0ee5a83d9222762a22fb3f441e3845b005d661b0b8e2211",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2007-08-03_Taipei_Metro_train_arriving_at_Zhishan_Station.ogv",
+      "attribution": "Guen De Wang ( zhWP-Shack )",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "f36ecaf6689946be"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-2509351/image.jpg",
+          "sha256": "eafee0addda5d030f905df4dd5722ba35a6f8261d568ea58ca941ecb4eb8e5ad"
+        },
+        "audio": {
+          "path": "assets/commons-2509351/audio.wav",
+          "sha256": "11bf18d1199b13c568aafdaaa4046604a638def8399dc309c31451b47ce57bdc"
+        },
+        "video": {
+          "path": "assets/commons-2509351/video.mp4",
+          "sha256": "100b2075e0d71f06f5cae3ab3ed1ab49c27642cb6a10118f566c1bcb0b1b7f55"
+        },
+        "text": {
+          "path": "assets/commons-2509351/description.txt",
+          "sha256": "95c60347b8c58e6b2b034b0f5fc99221f86ebaa52f0e110b992b13f7b109cb16"
+        }
+      }
+    },
+    {
+      "source_id": "commons-61310028",
+      "dataset": "commons-discovery",
+      "concept": "electric_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "64cdbf9450cdd36fd440c64d0e5a0cfe74a2482187d8fb4d249690e40e170dc6",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:VL8-925.webm",
+      "attribution": "Video CC by Dimitro",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "540662eb84e60587"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-61310028/image.jpg",
+          "sha256": "3ed239c8bcd97181684b6eb06e1c896d357e6b3524b7ffef339c479be61c955d"
+        },
+        "audio": {
+          "path": "assets/commons-61310028/audio.wav",
+          "sha256": "8c08d62b2e2975715f25b99c900f1ed49c6c1bf3101e0aa6734b5b650984f101"
+        },
+        "video": {
+          "path": "assets/commons-61310028/video.mp4",
+          "sha256": "819c32e41e4aa49f396901baff72548c03eb9bf6b843ac61d6b4e991a09e97b2"
+        },
+        "text": {
+          "path": "assets/commons-61310028/description.txt",
+          "sha256": "af280e1fd720c15c9f89adfee8d644945abc434e5ca8aaddca7a9357e094acfd"
+        }
+      }
+    },
+    {
+      "source_id": "commons-153997706",
+      "dataset": "commons-discovery",
+      "concept": "electric_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "383da7a15fa440a663d0afb1a385918c26a9b2637ee15fb89000b7340498c054",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:RZD_EP20-049_2021-08_Sortirovochnaya_1628107415.webm",
+      "attribution": "Artyom Svetlov",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "ecf56fb2e2015302"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-153997706/image.jpg",
+          "sha256": "46799652d7f9fb56849f66ec6cdaadbc1db826d2dc5d30782864043ceb7fb2ba"
+        },
+        "audio": {
+          "path": "assets/commons-153997706/audio.wav",
+          "sha256": "f31c7b1b7af86da646c32e41e506ddfa0511cb8e1712352bcc93bd092c6d2b37"
+        },
+        "video": {
+          "path": "assets/commons-153997706/video.mp4",
+          "sha256": "e816495cda36edb222c209098013b745d002275abdea9a5e9b16f0ca2e9dbf7f"
+        },
+        "text": {
+          "path": "assets/commons-153997706/description.txt",
+          "sha256": "0f213aa7f1f17f015b41815ad3cab685bbd7e5f69234d5e020400f6682468552"
+        }
+      }
+    },
+    {
+      "source_id": "commons-158355756",
+      "dataset": "commons-discovery",
+      "concept": "electric_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "62ffcc110053426e01ae824d13f49f44cd274828fe146e6b7a6f85c79427b9d1",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Ukrainian_electric_locomotive_DE1.webm",
+      "attribution": "Novoklimov",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "03b9d4292bf72e8b"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-158355756/image.jpg",
+          "sha256": "58667ed628a5c4b5f94f45c8ed4be2330e33b38a0b3375c9b36170e18b556b3f"
+        },
+        "audio": {
+          "path": "assets/commons-158355756/audio.wav",
+          "sha256": "bd11a90409978277784d3b52988406e7e64b97eac2adeaabd3b9337174e779c9"
+        },
+        "video": {
+          "path": "assets/commons-158355756/video.mp4",
+          "sha256": "ec7ad09a0108f9fe617e6cd1cda82a0ffc6366eb50b6e4c2ad021884cdd4129c"
+        },
+        "text": {
+          "path": "assets/commons-158355756/description.txt",
+          "sha256": "471853254e842bbf62372034853e377411c5dd4f0d55e840b4e5d559b5860ac7"
+        }
+      }
+    },
+    {
+      "source_id": "commons-176855256",
+      "dataset": "commons-discovery",
+      "concept": "electric_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "2f674af1c7a85c002ccfe5cff27e2f21de262caf212366c744505f6272e7f43f",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:2025-09-19-vdk-3es5k-932-143211.webm",
+      "attribution": "I13Robin",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "7a8d961a7722871d"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-176855256/image.jpg",
+          "sha256": "a364dbe7d79df212abac06343a5149220e4856a32f2776b2b791066af2f70a32"
+        },
+        "audio": {
+          "path": "assets/commons-176855256/audio.wav",
+          "sha256": "3cd8c5333df1ebb1e8c8cefea4dd29ee3c43096ccc60f7c5df4f58f4550a7668"
+        },
+        "video": {
+          "path": "assets/commons-176855256/video.mp4",
+          "sha256": "e34fdcea6a34121d723bd53d21d343e86a54af5c511240b1a911dc33639253a3"
+        },
+        "text": {
+          "path": "assets/commons-176855256/description.txt",
+          "sha256": "3b657b060594f40100e1cfdb1866fee36917d07b52fc8dacf6a6d0e13d27e811"
+        }
+      }
+    },
+    {
+      "source_id": "commons-61566761",
+      "dataset": "commons-discovery",
+      "concept": "electric_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "0042d72d6e0753665413ae3fb839e61c0300b9db8906923dba3f13425b0b3c35",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Landwasserviadukt,_aerial_video.webm",
+      "attribution": "Video: Capricorn4049 Audio: Kevin MacLeod",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "0e22e6620ce3369b"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-61566761/image.jpg",
+          "sha256": "9cad0d2c831b559daba3e9c97b4b6cb47c1e624a120b4af6fc3a44be03581483"
+        },
+        "audio": {
+          "path": "assets/commons-61566761/audio.wav",
+          "sha256": "ca2925e07eea9e6f29e965be126bfb4f53f7287b7a5a0feb9873a81ec7376b82"
+        },
+        "video": {
+          "path": "assets/commons-61566761/video.mp4",
+          "sha256": "298935a20909d36fd01be57484cf37574cb73107d947bbd15ae75551c95666f5"
+        },
+        "text": {
+          "path": "assets/commons-61566761/description.txt",
+          "sha256": "958a525eef8af495c34e9e5534f84df8447eeb78a8a321e85185b0fa1ae30929"
+        }
+      }
+    },
+    {
+      "source_id": "commons-151947904",
+      "dataset": "commons-discovery",
+      "concept": "helicopter",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "d67138928f9821a478df3a62dcde92acf92572bce0f874efe17cf9721808dec7",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Zajem_vode_pri_Lokvici.webm",
+      "attribution": "Bojan Marušič",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "22020dd85f41b6a9"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-151947904/image.jpg",
+          "sha256": "74c4a514841bfd6338aa229d09b4725b7c4405a8723cdb015f90f9f206edd41d"
+        },
+        "audio": {
+          "path": "assets/commons-151947904/audio.wav",
+          "sha256": "379b537ad80237c85fd6edc20cdd04eda8dbf494ef9ad389c036592950de4939"
+        },
+        "video": {
+          "path": "assets/commons-151947904/video.mp4",
+          "sha256": "5a0307e5160b2264a95a481a717cd19ec88a0d1430aef708c4cbfb001b63af19"
+        },
+        "text": {
+          "path": "assets/commons-151947904/description.txt",
+          "sha256": "6e634b1793fe0cbba7f0fd12e18d60ef1e980579502e78cf94ec5c19966fd95d"
+        }
+      }
+    },
+    {
+      "source_id": "commons-157929977",
+      "dataset": "commons-discovery",
+      "concept": "helicopter",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "a34899d3e01654326b355930fb8328d5d652d2271319347da0e89a9b63d5ade9",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Heliponto_improvisado_na_ULBRA,_enchentes_de_2024_no_Rio_Grande_do_Sul.webm",
+      "attribution": "Otávio Astor Vaz Costa",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "f3eac8403b1d453a"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-157929977/image.jpg",
+          "sha256": "57eb177b5b0e3ebf3298baedbbcff7255fa2b18d1b072447fb9ac336cd3690a1"
+        },
+        "audio": {
+          "path": "assets/commons-157929977/audio.wav",
+          "sha256": "46827fcd1d1f083480569eb6089811040b0f545e46465efa178f5bdcca2ec62b"
+        },
+        "video": {
+          "path": "assets/commons-157929977/video.mp4",
+          "sha256": "2db460bfca94d6e110caf330b273ba36f6550c1152594cc20c74fded8024f17e"
+        },
+        "text": {
+          "path": "assets/commons-157929977/description.txt",
+          "sha256": "93f2e0d4d16248925587377786a7c36e8be16113427c4a9b61c5d922aa2faf94"
+        }
+      }
+    },
+    {
+      "source_id": "commons-163775016",
+      "dataset": "commons-discovery",
+      "concept": "helicopter",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "56688275c2b631489c0026b00a3887468b35c14be762da59c8aab931553d6ed1",
+      "license": "CC BY 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:London%27s_Air_Ambulance_(G-LAAB)_Take-Off_Ruskin_Park.webm",
+      "attribution": "Celsoazevedo",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "8b2efd47270284fe"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-163775016/image.jpg",
+          "sha256": "b60b00b438c4a2379a8300cd67c65a7673b41f96638fa22a7d811a7f1b65d611"
+        },
+        "audio": {
+          "path": "assets/commons-163775016/audio.wav",
+          "sha256": "509cf4e2adf9a5e2f362c65af670c5b51f0bc6dfddc990aa24d84a5ad3d5631b"
+        },
+        "video": {
+          "path": "assets/commons-163775016/video.mp4",
+          "sha256": "4877f448c5399f5fa289babc828b3bc4cf58ca99ddcfa9acc6224040b5fe68e0"
+        },
+        "text": {
+          "path": "assets/commons-163775016/description.txt",
+          "sha256": "1346bd8f62dc5bad0f37fbfdf95722ec9a1a49fd85b99cbd26d47a5f57971704"
+        }
+      }
+    },
+    {
+      "source_id": "commons-186366458",
+      "dataset": "commons-discovery",
+      "concept": "helicopter",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "f7b95dd9752b6e01bfc2f6045aa0a8543a361ceb4adfbdb22165ec02d8fab7d7",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:AltiportMegeve-JodelD140RAbeille-AerospatialeAS350Ecureuil-13mars2026-byRundvald.webm",
+      "attribution": "Rundvald",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "105f400746dd7cb9"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-186366458/image.jpg",
+          "sha256": "ca04bc1706a6073e79b2e69125eeba6bf1f7c026e9ba16bf667f72580c8bf5e2"
+        },
+        "audio": {
+          "path": "assets/commons-186366458/audio.wav",
+          "sha256": "2c88b1218a02e52be9108cf6f1c176b7c23a6ac7c65ef41cbc89496af7687371"
+        },
+        "video": {
+          "path": "assets/commons-186366458/video.mp4",
+          "sha256": "bc20088db735e84a4aa140b866b9f0f991ad511bf3cd689567524cec4319ead4"
+        },
+        "text": {
+          "path": "assets/commons-186366458/description.txt",
+          "sha256": "5460f9d41f76c77ecca7f2cce740a03c6e3515937aa8f381d298d0478582d53b"
+        }
+      }
+    },
+    {
+      "source_id": "commons-179819992",
+      "dataset": "commons-discovery",
+      "concept": "helicopter",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "9846029f563598906330efae56f46f572c50fef40277833904c6c7cbf6f271e4",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_view_from_Deccan_Charters_helicopter_at_EXCON_2025_(BIEC)_01.webm",
+      "attribution": "Gpkp",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "f2162be950196a8b"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-179819992/image.jpg",
+          "sha256": "8552c0f7d4d65e2821faa4cdfa7c7ffb815b65319a8c06eb358fc1ce0258aa76"
+        },
+        "audio": {
+          "path": "assets/commons-179819992/audio.wav",
+          "sha256": "d8ffa3a5442f1e5e8664d455a9e064ff756df033bf25a7ee093643ae96b67b18"
+        },
+        "video": {
+          "path": "assets/commons-179819992/video.mp4",
+          "sha256": "5b9eb8ab685d04894bf9e60e3e387dd8601071e0c5d5c6ba95bde8d8d71bd8ff"
+        },
+        "text": {
+          "path": "assets/commons-179819992/description.txt",
+          "sha256": "38c1c0525038e561b07ebbba0810180534d9fede93dc5c5adc41b7c3ce59756a"
+        }
+      }
+    },
+    {
+      "source_id": "commons-86740454",
+      "dataset": "commons-discovery",
+      "concept": "helicopter",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "a0a7a1850f8b0a3cf956116f5495d0937e92114bb5074e97256c2dd7e27064c1",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Helicopter_Wine_Touring.webm",
+      "attribution": "Chris Martin",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "9b93b8b430842979"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-86740454/image.jpg",
+          "sha256": "08e198846e44c435c9a49b1f7a15c632e0a71434a86fb48debdef47b5ee54830"
+        },
+        "audio": {
+          "path": "assets/commons-86740454/audio.wav",
+          "sha256": "df6af43e9f23bf9bcaa34e820ad43c4d68087ecb8515ff9bb1d067c6f85756cf"
+        },
+        "video": {
+          "path": "assets/commons-86740454/video.mp4",
+          "sha256": "6f34a7e5162691434a6e500a5899b3d9e15e243a9cefcd1b5a0698c9e2d25e06"
+        },
+        "text": {
+          "path": "assets/commons-86740454/description.txt",
+          "sha256": "e15bf7ba199de30f1dc7b3fae95ce67bee47efe1ae6ee60bf84b67ada9a29e03"
+        }
+      }
+    },
+    {
+      "source_id": "commons-92158654",
+      "dataset": "commons-discovery",
+      "concept": "helicopter",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "3307851b11d6eb794a4beae433e2749ff6d943ec241b1f9f5824d63f345e6770",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Medical_helicopter_landing_in_Norway.webm",
+      "attribution": "Annikdance",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "6837636136c7c6c0"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-92158654/image.jpg",
+          "sha256": "e7f4e7b84281de5976f8a8129ccbd7c1a9cccafa7feebbf6a4b8b7b28bec3ee4"
+        },
+        "audio": {
+          "path": "assets/commons-92158654/audio.wav",
+          "sha256": "b9937221a0522e6b84a6c244380e6e85dd2989bded119e7fa58330ed345cf3e4"
+        },
+        "video": {
+          "path": "assets/commons-92158654/video.mp4",
+          "sha256": "3685eeca0e1245ec2089c50e01a7721e840703d9783e1f3091c8565bd8200d9f"
+        },
+        "text": {
+          "path": "assets/commons-92158654/description.txt",
+          "sha256": "bca09dfbe96febc897a3dc8f10c74588a7f07f4d69ba50e1b3000a962126c883"
+        }
+      }
+    },
+    {
+      "source_id": "commons-9957125",
+      "dataset": "commons-discovery",
+      "concept": "helicopter",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "c506091bf0edf6bd78cbb5ed3120f7bc4221c344a092805ed145e1d49e27ade9",
+      "license": "CC BY-SA 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Helicopter_landing_mason_bay_nz.ogv",
+      "attribution": "Mosborne01",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "404850bb0606e2ed"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-9957125/image.jpg",
+          "sha256": "ba4fc39c95609499e2f4871e66f736a13931a14e30daf4a97814797862d5554a"
+        },
+        "audio": {
+          "path": "assets/commons-9957125/audio.wav",
+          "sha256": "c3647a88615845281fdebd26a6ca33a32382de5b29253f7d7ae74922c94eff59"
+        },
+        "video": {
+          "path": "assets/commons-9957125/video.mp4",
+          "sha256": "21fc3c7720046bcc315a46ee1d066d62b8f4bd25f7d03c1b108995d826e09138"
+        },
+        "text": {
+          "path": "assets/commons-9957125/description.txt",
+          "sha256": "69bf23af7cd8fa51d1409273b649957a130f18efe33645d5c4f9d6a23d9f84be"
+        }
+      }
+    },
+    {
+      "source_id": "commons-188954460",
+      "dataset": "commons-discovery",
+      "concept": "jet_aircraft",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "714b06f9c0ad866f3e730ab1d324d9f770804935ecef0d25bcb0c620e573cf08",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:First_multi-role_tanker_transport_aircraft_arrives_at_Eindhoven_(SOUNDBITES)_(759249).webm",
+      "attribution": "Petty Officer 1st Class William Dodge",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "59f35a6fd3c69697"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-188954460/image.jpg",
+          "sha256": "ec813c0dcd0e3e2c1b8cac811ff52cdabc80327968ed65e9c3de80b23c7228dd"
+        },
+        "audio": {
+          "path": "assets/commons-188954460/audio.wav",
+          "sha256": "2143c07e30e7906f72d0aa8c4f8ab5105c842db45d99f0c0093c669ecb8cde08"
+        },
+        "video": {
+          "path": "assets/commons-188954460/video.mp4",
+          "sha256": "ee728c73b5cea09f8b5e6bb28be42e3a2a49497db9103f0427c0278527cb4928"
+        },
+        "text": {
+          "path": "assets/commons-188954460/description.txt",
+          "sha256": "3cec703b60352a8ba27ac8675b50be05a9d4d553d1a533e8a1464974260be74a"
+        }
+      }
+    },
+    {
+      "source_id": "commons-189561615",
+      "dataset": "commons-discovery",
+      "concept": "jet_aircraft",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "db134d6090f0c5377480f2b830c5f25802c174fbc08430f38f99cc55c45b0972",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:DAS_17_UAE_Joint_Aviation_Command_Aircraft_Staging.webm",
+      "attribution": "BreeAnn Sachs",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "bac920a236ceacfa"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-189561615/image.jpg",
+          "sha256": "df5889d11f73162fcd28d752895822ee46b41db3d7579354d185fb14d9796b54"
+        },
+        "audio": {
+          "path": "assets/commons-189561615/audio.wav",
+          "sha256": "f57d5321afe780049ba5785e1ea3753b5620c28d250ed0ed350bcc3d64be2b7d"
+        },
+        "video": {
+          "path": "assets/commons-189561615/video.mp4",
+          "sha256": "c1060395a768297bf0c8a0e5efea406178667742808b0325437b0a319c91ee64"
+        },
+        "text": {
+          "path": "assets/commons-189561615/description.txt",
+          "sha256": "09ed6f891243291a2a833c758b22cf269817e36b60a5ceb6e4bd282fdefb3094"
+        }
+      }
+    },
+    {
+      "source_id": "commons-190252100",
+      "dataset": "commons-discovery",
+      "concept": "jet_aircraft",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "b9e37e7167009e3ffd142068c1168bcb4099ab1c96840f55fb02f94e74893094",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:McDonnell_220_Business_Jet_Promo_Film_-_1963.webm",
+      "attribution": "McDonnell Aircraft Corporation (now The Boeing Company)",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "fa9d53848d944308"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-190252100/image.jpg",
+          "sha256": "f42e16a9c849402d22a8880a175ece06e71f9371eab2a2804ee0fd1494e2386b"
+        },
+        "audio": {
+          "path": "assets/commons-190252100/audio.wav",
+          "sha256": "783985caa4860b755560a16a173627dac112f816a6516a9258bd94f3833c6d83"
+        },
+        "video": {
+          "path": "assets/commons-190252100/video.mp4",
+          "sha256": "5ee25c2222faba40b4c8d698a359019100ecfe532d614bd0e3b2272a870c38c1"
+        },
+        "text": {
+          "path": "assets/commons-190252100/description.txt",
+          "sha256": "42ebdaee7feb64dffdf531034d0417e0c1662860b2e15ba2f144dace4b799743"
+        }
+      }
+    },
+    {
+      "source_id": "commons-32726509",
+      "dataset": "commons-discovery",
+      "concept": "jet_aircraft",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "fe8f5e951c5a18a6acb765f60bf41ee868a270ea06b75dd698c5cd3b7b0520ce",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:EasyJet_aborted_landing_at_Madeira_Airport.ogv",
+      "attribution": "José Rui Aguiar",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "cd99177036d9a255"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-32726509/image.jpg",
+          "sha256": "bdc31385c7032c1f2aa6bd74ba23dbc4937b3ee99b047fcd27b542b977e97514"
+        },
+        "audio": {
+          "path": "assets/commons-32726509/audio.wav",
+          "sha256": "4f9fb5f8bc014e2ca5c3f45bc01aba3d34f1757c048069188318696af0d258d7"
+        },
+        "video": {
+          "path": "assets/commons-32726509/video.mp4",
+          "sha256": "90fa30004ead118b3b677d7a177c425b9c0d34fd8b0553c585c253046c276761"
+        },
+        "text": {
+          "path": "assets/commons-32726509/description.txt",
+          "sha256": "400ae0f26656750c8d1fa939f4d4b996a80eb0f16754ced264c4b0c4ebc327ea"
+        }
+      }
+    },
+    {
+      "source_id": "commons-59883600",
+      "dataset": "commons-discovery",
+      "concept": "jet_aircraft",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "4bc7beeed93c3c963518ebda1d2ddf9a22b9966bb74c7c59b3e542ce85485fcc",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Russian_Navy_Su-27_Flanker_fighter_jet_intercept_USAF_B1_bomber_over_Baltic_sea.webm",
+      "attribution": "USAF",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "187b5348ab77d1e9"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-59883600/image.jpg",
+          "sha256": "25f8a5c3b56fa5d5ca212361570e21dba09f48633ae6a1840481e73db9a7c83b"
+        },
+        "audio": {
+          "path": "assets/commons-59883600/audio.wav",
+          "sha256": "c0bca196d0c7fd40560f1d98248769dbebee8ca2a1f197311da7d78fcc7455d0"
+        },
+        "video": {
+          "path": "assets/commons-59883600/video.mp4",
+          "sha256": "d9452d3f07c9683b7300eb76e5630fa3ba27325c010728d83ba36ab21776b28d"
+        },
+        "text": {
+          "path": "assets/commons-59883600/description.txt",
+          "sha256": "6881ad3c7405a443addcb1f32c73e5dbe80ecabd1f155d9d9b1c3da1eec51089"
+        }
+      }
+    },
+    {
+      "source_id": "commons-72392430",
+      "dataset": "commons-discovery",
+      "concept": "jet_aircraft",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "f5315e6ede6863dca3a4253417b4dbacb613e743ecba777cb761f8f5d2c753f1",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sequence-_UPS_A300,_Capital_757_and_Southwest_737_Portland_Airport_(PDX).ogv",
+      "attribution": "PDX Aviation - HD(ish) Plane Spotting",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "90f3e784d3e72951"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-72392430/image.jpg",
+          "sha256": "9397e09fb08b0905451a0ce5d4512f5c00b4eb614cc3e0f8b19e5ccce5a1a36b"
+        },
+        "audio": {
+          "path": "assets/commons-72392430/audio.wav",
+          "sha256": "1aab99946eebc1b98508d118595fe4befe000b4f8f962d55536e104ba820e220"
+        },
+        "video": {
+          "path": "assets/commons-72392430/video.mp4",
+          "sha256": "8ae48bbcebc4b137eec9b5bc1b9486f94534d84874fb956fcfb83c391c86f7a2"
+        },
+        "text": {
+          "path": "assets/commons-72392430/description.txt",
+          "sha256": "876ddc5c513e1f15471f6d67b9c637a076fdda962a60262289f52fa0cb6adb53"
+        }
+      }
+    },
+    {
+      "source_id": "commons-187627132",
+      "dataset": "commons-discovery",
+      "concept": "propeller_aircraft",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "2cd71c811af4eff685f277d289ebc2d1f765cabd4a65b03948e290dcfac66cfe",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:NASA_Uses_Wind_Tunnel_to_Test_Advanced_Air_Mobility_Aircraft_Wing_(LRC_2025_B714_V_RVLT_Project_14x22_Wind_Tunnel_Tiltwing_Test_Video_for_Public_Affairs_V0002068).webm",
+      "attribution": "NASA Langley Research Center",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "59f35a6fd3c69697"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-187627132/image.jpg",
+          "sha256": "0b77dde11a115cbb33f5e83b1eb306222f8b4f9ae44d14a40861dfd5a8c93261"
+        },
+        "audio": {
+          "path": "assets/commons-187627132/audio.wav",
+          "sha256": "29b56ebcdd6e9f92f55740aad530ffe8afdcebd114ec7b6270e0b686ceea3073"
+        },
+        "video": {
+          "path": "assets/commons-187627132/video.mp4",
+          "sha256": "10a29b976fe73c43160361361b7c245f12687b56bb658657ac8a52c3611f7a65"
+        },
+        "text": {
+          "path": "assets/commons-187627132/description.txt",
+          "sha256": "8bdd13c0858e613a624313b068b5fc2a1b64d9c815af64523078cb4c6417ee11"
+        }
+      }
+    },
+    {
+      "source_id": "commons-49455895",
+      "dataset": "commons-discovery",
+      "concept": "propeller_aircraft",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "a512c4307267b0ce9fea098832210befa71eef3bcf55d8d464711f5be45b5aae",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B5%D1%80%D1%88%D0%B8%D0%B9_%D0%B7%D0%BB%D1%96%D1%82_%D0%90%D0%BD-22_%D0%B2_%D0%BD%D0%BE%D0%B2%D1%96%D0%B9_%D0%BB%D1%96%D0%B2%D1%80%D0%B5%D1%97.ogv",
+      "attribution": "Antonov Company",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "33dc4312acb698db"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-49455895/image.jpg",
+          "sha256": "9ace32d7ae9ce35dba6b3e8119581fa09f66cc9b85e50e5e1be9b5edfe6eb1d8"
+        },
+        "audio": {
+          "path": "assets/commons-49455895/audio.wav",
+          "sha256": "dc607bccc7f7a9a9e0ca556907621429e088d80256b92fa7262a39201488a2cf"
+        },
+        "video": {
+          "path": "assets/commons-49455895/video.mp4",
+          "sha256": "b77065bb35c37c6d7ffb90531dd783482dae81efd33b169b3229182c3c6ec41a"
+        },
+        "text": {
+          "path": "assets/commons-49455895/description.txt",
+          "sha256": "42b039d1572b0ac96b15c5033a8d3be9e48584dd3db64f7c99464df46936a168"
+        }
+      }
+    },
+    {
+      "source_id": "commons-88243151",
+      "dataset": "commons-discovery",
+      "concept": "propeller_aircraft",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "A",
+      "recording_sha256": "0bd62ca54675c931df35caa147f969c2a08f3fb9f91c7410c33123af6a1c0824",
+      "license": "Public domain",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Studentenvliegtuig_de_prinses_Juliana_gaat_de_lucht_in.webm",
+      "attribution": "Polygoon Hollands Nieuws (producent) / Nederlands Instituut voor Beeld en Geluid (beheerder)",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "4043db4cd50f7436"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-88243151/image.jpg",
+          "sha256": "b14f6ef20252d3da24b83a304d07d7dd50d67d27075746ff2bcc8eb5c2d8471a"
+        },
+        "audio": {
+          "path": "assets/commons-88243151/audio.wav",
+          "sha256": "d93a14fd0e9a06bf7db2027edd739b840d38bc47db00fa3c4ddbc338b51496c5"
+        },
+        "video": {
+          "path": "assets/commons-88243151/video.mp4",
+          "sha256": "ebb33d8a7a3c034780ad29bde1964edefe6118258f5a1acbb4f7809c6a49c97c"
+        },
+        "text": {
+          "path": "assets/commons-88243151/description.txt",
+          "sha256": "979e2054f98d228ed40806e1982ced7d69d2de497ec4f423859878b5ce09a96c"
+        }
+      }
+    },
+    {
+      "source_id": "commons-14992096",
+      "dataset": "commons-discovery",
+      "concept": "propeller_aircraft",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "a60d02e5cd8b84ecf85fe850ac9e2c11c0484b744893e6af064bcbe0b8c0f6c3",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Propeller_strobe.ogv",
+      "attribution": "Silverchemist",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "641ba78f823a2c98"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-14992096/image.jpg",
+          "sha256": "3fc0624e4f01b1cc98add5623196b2d77a7eb97dfde0d31a7acdc4bbeeee059e"
+        },
+        "audio": {
+          "path": "assets/commons-14992096/audio.wav",
+          "sha256": "d577e104d222b1adefd931301f80cae05f66ca7ddc1470a27c025787a76f6446"
+        },
+        "video": {
+          "path": "assets/commons-14992096/video.mp4",
+          "sha256": "fa652e602edc50f6db013527041832a31b1530e64f96b0e1c348a3838edf4c5d"
+        },
+        "text": {
+          "path": "assets/commons-14992096/description.txt",
+          "sha256": "e7a86def6c199286acc2e16d618a50e213b3a1db9f977e3ddd1d1196aa91bb5e"
+        }
+      }
+    },
+    {
+      "source_id": "commons-192001124",
+      "dataset": "commons-discovery",
+      "concept": "propeller_aircraft",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "46b21e20578a494f8a509d8666d4ed3a4cd49c24a61888c39c5728b0f9780aad",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Fly-In-Walld%C3%BCrn_2026_VID_01.webm",
+      "attribution": "Granpar",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "5de909cb15ee0f68"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-192001124/image.jpg",
+          "sha256": "43b4763300461c448a86563dec0a95ae59004d5dd8bc7be0dad530a92d71ac7e"
+        },
+        "audio": {
+          "path": "assets/commons-192001124/audio.wav",
+          "sha256": "030b8e70866389ed76c87f13af69a2e9b354a401416089f0b6d5e199cd961954"
+        },
+        "video": {
+          "path": "assets/commons-192001124/video.mp4",
+          "sha256": "f31085362fcc3a4ac7f5238965547dab0daab8d2fc088d7a03afb3ce3056f464"
+        },
+        "text": {
+          "path": "assets/commons-192001124/description.txt",
+          "sha256": "86788c28d9d2395ccf7ced905b721442bc742da618319223732ed45ca9cf8306"
+        }
+      }
+    },
+    {
+      "source_id": "commons-20219635",
+      "dataset": "commons-discovery",
+      "concept": "propeller_aircraft",
+      "group": "powered_transport",
+      "concept_split": "development",
+      "fold": "B",
+      "recording_sha256": "8fea67fafa650353564c09ee861f653334b0dde8890db4272352da60f8bbbd7a",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Messerschmitt_BF_109_E-3_(Emil)_and_Focke_Wulf_190_A-5_make_a_fly-by_at_Paine_Field_USA_Aug_2011_with_sound.ogv",
+      "attribution": "John Veit",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "8e150158611998d4"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-20219635/image.jpg",
+          "sha256": "8f6f48e0de6b10c45b55fd82491e425ce5c8dde2d41acf65ac1f49cdebf286b1"
+        },
+        "audio": {
+          "path": "assets/commons-20219635/audio.wav",
+          "sha256": "50957ba14e74dfcd037a503821eb324557792de72208a052963681c25a1aaa5c"
+        },
+        "video": {
+          "path": "assets/commons-20219635/video.mp4",
+          "sha256": "3f5f82dd4bff2bddfcc9b7750bb67b9ad89a5a76abc345a82f73d4da74485a7f"
+        },
+        "text": {
+          "path": "assets/commons-20219635/description.txt",
+          "sha256": "782149676c03a85072722ece9139f2931e57fe5f6c662c1d1f58902c7ac33b3c"
+        }
+      }
+    },
+    {
+      "source_id": "commons-151581713",
+      "dataset": "commons-discovery",
+      "concept": "steam_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "1fc8e005593703ab31b0084b40000a7fd6dcf77acff170315a063cd813be67c0",
+      "license": "CC0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Mala_Morava_Steam_locomotive_2024-07-27.webm",
+      "attribution": "Nostrifikator",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "98716e2584b15c57"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-151581713/image.jpg",
+          "sha256": "599bc13d7f2091872be0721bff4f23d692a1fded4dbec499bd8aae990a046171"
+        },
+        "audio": {
+          "path": "assets/commons-151581713/audio.wav",
+          "sha256": "79689cd17a7556964a65c5e059e9a2e2e467eb75fa35c960ff9e5c6572db512b"
+        },
+        "video": {
+          "path": "assets/commons-151581713/video.mp4",
+          "sha256": "de222f08a43f9eccd841a0c8acf878eb6cf3165da24184128015cd7dda9b1371"
+        },
+        "text": {
+          "path": "assets/commons-151581713/description.txt",
+          "sha256": "6bf2b4e55c398a1305d0b5475888f593673ed867b208fd116f2b1f141b040433"
+        }
+      }
+    },
+    {
+      "source_id": "commons-195785884",
+      "dataset": "commons-discovery",
+      "concept": "steam_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "e48dc46543b7c71e567ccd779680506ebe26f51af22cb79302420aec7eed6fc2",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Loessnitzgrundbahn_Abfahrt_V.webm",
+      "attribution": "TeWeBs",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "896c64ce8bdc9fe8"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-195785884/image.jpg",
+          "sha256": "b20533330fd83cf39870333ecc233881b138747b6536250721959b632f464bc6"
+        },
+        "audio": {
+          "path": "assets/commons-195785884/audio.wav",
+          "sha256": "84b7df31d91a5facfaeec5c252ea5ef29ef0715fc0917854a229ae7feb57d843"
+        },
+        "video": {
+          "path": "assets/commons-195785884/video.mp4",
+          "sha256": "bd80e33d0295c4613c45c5b8e11cdeedd01c77a9d3f6778b338693ae90c646da"
+        },
+        "text": {
+          "path": "assets/commons-195785884/description.txt",
+          "sha256": "d5354c4b9de5fda6f4d1e76c1e3f0a7d6aca45f7aad588a459ea103e0502bd5c"
+        }
+      }
+    },
+    {
+      "source_id": "commons-37191625",
+      "dataset": "commons-discovery",
+      "concept": "steam_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "c061a731e239ddfe3d0b0aebcae73623070e2f2d1979a28eda789bc391fe98b6",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Steam_locomotive_SJ_S1_1921.webm",
+      "attribution": "Pacarazzi",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "5b17ceabc76791ae"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-37191625/image.jpg",
+          "sha256": "3e9e5656e0459686198eae375db145b79b308b1fee87a3064d44b7ad5c0d2eb7"
+        },
+        "audio": {
+          "path": "assets/commons-37191625/audio.wav",
+          "sha256": "41304da94eee436b403a4b542bc3a819ce50438a9b2d39915ae13235f31342b7"
+        },
+        "video": {
+          "path": "assets/commons-37191625/video.mp4",
+          "sha256": "3e22ca2f79ff26b26c45ff40bbbf7423a4f6db12108a79c594e0f364bb4a6e38"
+        },
+        "text": {
+          "path": "assets/commons-37191625/description.txt",
+          "sha256": "193e2a6394a1de3d8b3c484a0840e66bb300c13ed0f018b190d017a4b0bb2d8d"
+        }
+      }
+    },
+    {
+      "source_id": "commons-61310009",
+      "dataset": "commons-discovery",
+      "concept": "steam_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "A",
+      "recording_sha256": "edf509b9109491e1487c217c33bb25504303babd2770ae38704dc103a01dcecf",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Steam_locomotive_Train_Dorset_Cost_Express_No.4492.webm",
+      "attribution": "ilovesuni",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "540662eb84e60587"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-61310009/image.jpg",
+          "sha256": "21a05e2e1ffd630d5d5ef725ee9c91771aa6bf60f55f7b4c31688f1e15cab1e6"
+        },
+        "audio": {
+          "path": "assets/commons-61310009/audio.wav",
+          "sha256": "9dca6d74fe20b4b6d265080d46996a0cfe5374c44de167f5f56335db839cf4a4"
+        },
+        "video": {
+          "path": "assets/commons-61310009/video.mp4",
+          "sha256": "3f17806ec3b05feb4f482c68d5c36a02988b5b2dc5bea3e8fd848bc02921979e"
+        },
+        "text": {
+          "path": "assets/commons-61310009/description.txt",
+          "sha256": "826bd68b18ce1ff7ac0c4ae7030da072ac09b7bdb8c208ee50ec2ad2385949c9"
+        }
+      }
+    },
+    {
+      "source_id": "commons-147071769",
+      "dataset": "commons-discovery",
+      "concept": "steam_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "98c2e4c035fc041cb636d99de746899d03b256059e21fc24516e8f401e3d76af",
+      "license": "CC BY 2.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Steam_Locomotive_Leaving_Depot_10-01-2022.webm",
+      "attribution": "Grand Canyon National Park",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "911698d031ed7c3d"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-147071769/image.jpg",
+          "sha256": "5b28a2f43cc2d850c7f82f7369b32b20e4a6867035906b98309f66329cb967aa"
+        },
+        "audio": {
+          "path": "assets/commons-147071769/audio.wav",
+          "sha256": "197be93ae9874de02a293364c37739ced51a12c09413a52f1b07bf97766c231d"
+        },
+        "video": {
+          "path": "assets/commons-147071769/video.mp4",
+          "sha256": "4a36a2f27107a023487023467302b8107142e0f69927d1e35bd734246bae2ce2"
+        },
+        "text": {
+          "path": "assets/commons-147071769/description.txt",
+          "sha256": "ccef39685a3af6307667789e941b8b100ff7a04dd0e6823eb5f5feec6dad7611"
+        }
+      }
+    },
+    {
+      "source_id": "commons-201015198",
+      "dataset": "commons-discovery",
+      "concept": "steam_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "2c8a7f8e16742f887569f31208e655f4c3204a61ecc6df5c9cf93c772173327c",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Steam_Locomotive_97.208_at_Strasshof_Railway_Museum,_September_2026.webm",
+      "attribution": "Dmitry Novoklimov",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "03b9d4292bf72e8b"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-201015198/image.jpg",
+          "sha256": "e6f8970ec9ef746e8b62d81135275184d2a2a61ac420008b1be78a43afa35fe8"
+        },
+        "audio": {
+          "path": "assets/commons-201015198/audio.wav",
+          "sha256": "851bdd71cf8280af0024f98d2ebce7b50a4ec10c4cee68221dd750dfc865f3e8"
+        },
+        "video": {
+          "path": "assets/commons-201015198/video.mp4",
+          "sha256": "eaa6c3c77b5d741f3683524f54ae5b0bbec88d3b31ea95c8d19cc1b2336c75ca"
+        },
+        "text": {
+          "path": "assets/commons-201015198/description.txt",
+          "sha256": "3c9a55b27f2c2bd62645daa229f2320a9d0b05595dc551c18e8a4fcd3cc041b3"
+        }
+      }
+    },
+    {
+      "source_id": "commons-45826774",
+      "dataset": "commons-discovery",
+      "concept": "steam_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "ce757115d00476b85fd113ea3d28d69a6e6b7cb0a75731f5be12d670caa2a93f",
+      "license": "CC BY-SA 4.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Steam_locomotive_at_the_station_Fryazevo.ogv",
+      "attribution": "ElsyChester",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "e28360dd6b1dd84a"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-45826774/image.jpg",
+          "sha256": "8800486e410f34d2d0d3f460dc23a97599253e4e6aa7b16514be6ef05c4432b6"
+        },
+        "audio": {
+          "path": "assets/commons-45826774/audio.wav",
+          "sha256": "9d58a2069a9f45601649cbccb14594eb5bf3e31bde03853e5bd04ca0fb77416a"
+        },
+        "video": {
+          "path": "assets/commons-45826774/video.mp4",
+          "sha256": "274e9d4706ea7ea7512cd1a393c196c78cd9645adbe7471c015fb99486e5723c"
+        },
+        "text": {
+          "path": "assets/commons-45826774/description.txt",
+          "sha256": "a7ac314acb49d4f3f2f3b4abee0d01fd309a3437a5b0290dbbdff985297bda14"
+        }
+      }
+    },
+    {
+      "source_id": "commons-79588675",
+      "dataset": "commons-discovery",
+      "concept": "steam_train",
+      "group": "powered_transport",
+      "concept_split": "heldout",
+      "fold": "B",
+      "recording_sha256": "39591f9572c80c005d5f40ad0751e8c6be7c8f6cdde2818348516c50d485068b",
+      "license": "CC BY 3.0",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Steam_Locomotive_NKP_Berkshire_765_near_Toledo_07-28-12.webm",
+      "attribution": "Gary Hoover",
+      "text_authorship": "Existing Commons contributor description, already used in contextual pilot.",
+      "dependency_ids": [
+        "92e4b4a4c4ed1c51"
+      ],
+      "assets": {
+        "image": {
+          "path": "assets/commons-79588675/image.jpg",
+          "sha256": "952ff45b41814d8855ab72824709add0346d7635066af458e1c4dc7db4eceaac"
+        },
+        "audio": {
+          "path": "assets/commons-79588675/audio.wav",
+          "sha256": "db5eee7f1f3e31575f0eb8fd1078f2b54f32c9adebd398788aac94a7b58f6976"
+        },
+        "video": {
+          "path": "assets/commons-79588675/video.mp4",
+          "sha256": "ae7d904e0e14d04e353cf23b9924c2cd69578989428b8f60fddebf6653826e95"
+        },
+        "text": {
+          "path": "assets/commons-79588675/description.txt",
+          "sha256": "4dc74c0a8a414a8de32bb41b4aaf1db7b3a3e47d8308a03cbda235511b3fbe4a"
+        }
+      }
+    }
+  ]
+}

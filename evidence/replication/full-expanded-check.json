@@ -1,0 +1,103 @@
+{
+  "combined_manifest_sha256": "f6a56cde02c9d05b22940b4c2adfdcd5a19f802637589aa94c3e3d4427cf02c0",
+  "datasets": [
+    "commons-discovery",
+    "epic-sounds"
+  ],
+  "design_panels": {
+    "commons-discovery/development": {
+      "concepts": 14,
+      "sources": 86
+    },
+    "commons-discovery/heldout": {
+      "concepts": 14,
+      "sources": 84
+    },
+    "epic-sounds/development": {
+      "concepts": 14,
+      "sources": 56
+    },
+    "epic-sounds/heldout": {
+      "concepts": 14,
+      "sources": 56
+    }
+  },
+  "raw_assets_verified": 1128,
+  "unique_epic_participants": 34,
+  "unique_epic_original_recordings": 112,
+  "unique_epic_narrations": 104,
+  "exact_audio_class_name_in_human_narration": 4,
+  "audio_100ms_near_frame_dbfs": {
+    "minimum": -62.858284956860004,
+    "median": -39.02449652116818,
+    "below_minus_60": 2
+  },
+  "narration_selection_sensitivity": {
+    "tested": 112,
+    "different_narration_id": 4,
+    "different_narration_text": 4
+  },
+  "paired_training_capacity_discovery_development_A": 43,
+  "taxonomy_test_resolution": {
+    "planned_family_tests": 384,
+    "first_holm_threshold": 0.00013020833333333333,
+    "panels": {
+      "commons-discovery/development": {
+        "taxonomy_group_sizes": {
+          "powered_transport": 4,
+          "instruments": 4,
+          "animal_vocalizations": 2,
+          "mechanical_or_natural_events": 4
+        },
+        "exact_taxonomy_label_permutations": 27648,
+        "minimum_exact_p": 3.616898148148148e-05,
+        "reaches_first_holm_threshold": true,
+        "groups_with_at_least_three_concepts": 3
+      },
+      "commons-discovery/heldout": {
+        "taxonomy_group_sizes": {
+          "instruments": 4,
+          "powered_transport": 4,
+          "mechanical_or_natural_events": 4,
+          "animal_vocalizations": 2
+        },
+        "exact_taxonomy_label_permutations": 27648,
+        "minimum_exact_p": 3.616898148148148e-05,
+        "reaches_first_holm_threshold": true,
+        "groups_with_at_least_three_concepts": 3
+      },
+      "epic-sounds/development": {
+        "taxonomy_group_sizes": {
+          "nonmetal impacts": 5,
+          "object manipulation": 3,
+          "food and liquids": 2,
+          "metal impacts": 4
+        },
+        "exact_taxonomy_label_permutations": 34560,
+        "minimum_exact_p": 2.8935185185185186e-05,
+        "reaches_first_holm_threshold": true,
+        "groups_with_at_least_three_concepts": 3
+      },
+      "epic-sounds/heldout": {
+        "taxonomy_group_sizes": {
+          "metal impacts": 4,
+          "object manipulation": 3,
+          "nonmetal impacts": 5,
+          "food and liquids": 2
+        },
+        "exact_taxonomy_label_permutations": 34560,
+        "minimum_exact_p": 2.8935185185185186e-05,
+        "reaches_first_holm_threshold": true,
+        "groups_with_at_least_three_concepts": 3
+      }
+    },
+    "interpretation": "The support of the exact randomization, including identity, sets a resolution ceiling. Additional Monte Carlo draws do not create independent assignments."
+  },
+  "status": "local_inputs_verified_awaiting_native_routes_and_scientific_review",
+  "limitations": [
+    "Temporal and verb compatibility do not independently certify visibility of the named event or material in a still frame.",
+    "EPIC-SOUNDS material labels were checked visually by the original dataset authors.",
+    "Both EPIC annotations cover the same source video, intentionally for the paired condition.",
+    "The normalized window digest is an observed local digest. The complete original was not downloaded or checked against its published MD5."
+  ]
+}

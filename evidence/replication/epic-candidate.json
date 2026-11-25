@@ -1,0 +1,4429 @@
+{
+  "version": 1,
+  "datasets": {
+    "epic-sounds": {
+      "role": "replication",
+      "origin": "https://epic-kitchens.github.io/epic-sounds/site",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "training_overlap_assessment": "Potential overlap with encoder training sets is unknown. No provider weights, pretraining corpus, or exact compound overlap were audited."
+    }
+  },
+  "sources": [
+    {
+      "source_id": "epic-P01_01_7",
+      "dataset": "epic-sounds",
+      "concept": "epic-plastic-only collision",
+      "group": "nonmetal impacts",
+      "concept_split": "development",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P01/P01_01.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "489b2d960e5aa0c181710bcfae0a10152fd09dc3d0aa67f5540ffd3156348f58",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P01",
+        "epic-recording:P01_01",
+        "epic-original-index-md5:f7de046e4f7719e373eb85c62e73f15b"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P01_01_7/native.txt",
+          "sha256": "057002bfe5d375202a7bd3d99fb2468a9b3f12e5481f0a6dd8bc42260c6fd5fa"
+        },
+        "image": {
+          "path": "assets/epic-P01_01_7/native.jpg",
+          "sha256": "6865905b0a694de9e619477822bb3d23de1994b2a7c9c2f2370730a8972dfe23"
+        },
+        "audio": {
+          "path": "assets/epic-P01_01_7/native.wav",
+          "sha256": "abb503d34d345ffa6144edfcf1de73e98e4011988243803313634dc757c59109"
+        },
+        "video": {
+          "path": "assets/epic-P01_01_7/native.mp4",
+          "sha256": "92e3ee6bdc65ebbddb95a8ed9082c2d55bbb12655df8608a6ecb46bb22d5363a"
+        }
+      },
+      "selection": {
+        "cls": 6,
+        "label": "plastic-only collision",
+        "participant": "P01",
+        "source": "P01_01",
+        "annotation_id": "P01_01_7",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 24.836,
+        "audio_end": 27.002,
+        "visual_action": {
+          "narration": "take carrots and",
+          "verb": "take",
+          "noun": "carrot",
+          "narration_id": "P01_01_9",
+          "participant": "P01",
+          "partition": "train",
+          "start": 24.48,
+          "end": 27.94
+        },
+        "overlap": 2.166,
+        "start": 24.419,
+        "image_time": 1.5,
+        "score": 2.0098023029509933,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P01/P01_01.MP4",
+        "index_md5": "f7de046e4f7719e373eb85c62e73f15b",
+        "publication": "55",
+        "split": "development",
+        "group": "nonmetal impacts",
+        "fold": "B"
+      },
+      "rms": 0.0311687139094893
+    },
+    {
+      "source_id": "epic-P01_04_20",
+      "dataset": "epic-sounds",
+      "concept": "epic-scrub / scrape / scour / wipe",
+      "group": "object manipulation",
+      "concept_split": "development",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P01/P01_04.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "65c77d75b92e6a6d60d9f8ab82cfa5e3d3cd44acae5a7e1a25bea62bdbdbefbb",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P01",
+        "epic-recording:P01_04",
+        "epic-original-index-md5:d67206c502bfedbaa962c3a8975f316e"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P01_04_20/native.txt",
+          "sha256": "7421d3c1fe5f4e46f853d85c63cffa10ed037b9e10816b9430696fdade7603ab"
+        },
+        "image": {
+          "path": "assets/epic-P01_04_20/native.jpg",
+          "sha256": "ef09e4ef111acfd93faec2fb65e8ef366662fa64acf6383379e749058f80ef8d"
+        },
+        "audio": {
+          "path": "assets/epic-P01_04_20/native.wav",
+          "sha256": "f62c97d3ff73427b9f950b96ba96655fefd1e219d2bf6b1aa249437d31f90ea1"
+        },
+        "video": {
+          "path": "assets/epic-P01_04_20/native.mp4",
+          "sha256": "0e172a3c81171e33b6e32da7105f7531b76e02028a5f4be4cc794a88f55de76d"
+        }
+      },
+      "selection": {
+        "cls": 1,
+        "label": "scrub / scrape / scour / wipe",
+        "participant": "P01",
+        "source": "P01_04",
+        "annotation_id": "P01_04_20",
+        "audio_partition": "train",
+        "audio_description": "scrub / scrape / scour / wipe",
+        "audio_start": 76.09100000000001,
+        "audio_end": 77.945,
+        "visual_action": {
+          "narration": "dry hands",
+          "verb": "dry",
+          "noun": "hand",
+          "narration_id": "P01_04_23",
+          "participant": "P01",
+          "partition": "train",
+          "start": 74.35,
+          "end": 79.44
+        },
+        "overlap": 1.854,
+        "start": 75.518,
+        "image_time": 1.5,
+        "score": 2.009998342746403,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P01/P01_04.MP4",
+        "index_md5": "d67206c502bfedbaa962c3a8975f316e",
+        "publication": "55",
+        "split": "development",
+        "group": "object manipulation",
+        "fold": "B"
+      },
+      "rms": 0.003934362879633256
+    },
+    {
+      "source_id": "epic-P01_09_724",
+      "dataset": "epic-sounds",
+      "concept": "epic-rustle",
+      "group": "object manipulation",
+      "concept_split": "development",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P01/P01_09.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "5d4ff2681a73eecf2d1097060871344663f9c252759b0890ede9bf3574e219d1",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P01",
+        "epic-recording:P01_09",
+        "epic-original-index-md5:31d11490919950677bbd51be4ef458de"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P01_09_724/native.txt",
+          "sha256": "41a6eed957f3e1b20be264de4472cef81d6d2e5092ea0ed838d11f61092d78f7"
+        },
+        "image": {
+          "path": "assets/epic-P01_09_724/native.jpg",
+          "sha256": "508f9734a67685c994b1baf8a2f4ae87ca76d7d47436267ae207248dedf8a6a4"
+        },
+        "audio": {
+          "path": "assets/epic-P01_09_724/native.wav",
+          "sha256": "199a9aa43c79e80a196fbdc3de9b4ce0fb150c172fdc9b2c286084749984bc2d"
+        },
+        "video": {
+          "path": "assets/epic-P01_09_724/native.mp4",
+          "sha256": "b186cd01c7c5d0ec58818e14dfdcd49fd4b94dc5daef564c418432e7718eb7ff"
+        }
+      },
+      "selection": {
+        "cls": 4,
+        "label": "rustle",
+        "participant": "P01",
+        "source": "P01_09",
+        "annotation_id": "P01_09_724",
+        "audio_partition": "train",
+        "audio_description": "paper rustle",
+        "audio_start": 3378.816,
+        "audio_end": 3381.066,
+        "visual_action": {
+          "narration": "take pizza",
+          "verb": "take",
+          "noun": "pizza",
+          "narration_id": "P01_09_848",
+          "participant": "P01",
+          "partition": "train",
+          "start": 3377.75,
+          "end": 3381.79
+        },
+        "overlap": 2.25,
+        "start": 3378.441,
+        "image_time": 1.5,
+        "score": 2.0099615792022085,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P01/P01_09.MP4",
+        "index_md5": "31d11490919950677bbd51be4ef458de",
+        "publication": "55",
+        "split": "development",
+        "group": "object manipulation",
+        "fold": "B"
+      },
+      "rms": 0.008788617938551612
+    },
+    {
+      "source_id": "epic-P01_105_263",
+      "dataset": "epic-sounds",
+      "concept": "epic-water",
+      "group": "food and liquids",
+      "concept_split": "development",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P01/videos/P01_105.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "5ba51ce3f8a89f9a902a9f5b95e1a3fc78818451d95b0221aaf1c251723fabc6",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P01",
+        "epic-recording:P01_105",
+        "epic-original-index-md5:18bb88335fbd82d185ab3438377b11c1"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P01_105_263/native.txt",
+          "sha256": "da45fcf68b775a4bf244a827f42999a9ca68636c080b2111687e6f1f6327bc85"
+        },
+        "image": {
+          "path": "assets/epic-P01_105_263/native.jpg",
+          "sha256": "40061b950a4fa1265a584b173f1bbfb30e06531b6d5cadcc73f732fc628046a8"
+        },
+        "audio": {
+          "path": "assets/epic-P01_105_263/native.wav",
+          "sha256": "a9e0ee29a1d85bbebf2a4e1c072d78facf3513e5914463527e3985c0156509a7"
+        },
+        "video": {
+          "path": "assets/epic-P01_105_263/native.mp4",
+          "sha256": "35653644ad1a6b39543a86913054085423587aff02b663fee799fada7cbc7ac6"
+        }
+      },
+      "selection": {
+        "cls": 5,
+        "label": "water",
+        "participant": "P01",
+        "source": "P01_105",
+        "annotation_id": "P01_105_263",
+        "audio_partition": "train",
+        "audio_description": "water splash",
+        "audio_start": 749.235,
+        "audio_end": 751.297,
+        "visual_action": {
+          "narration": "wash pak choi leaf",
+          "verb": "wash",
+          "noun": "leaf:pak:choi",
+          "narration_id": "P01_105_321",
+          "participant": "P01",
+          "partition": "train",
+          "start": 749.14,
+          "end": 751.39
+        },
+        "overlap": 2.062,
+        "start": 748.766,
+        "image_time": 1.5,
+        "score": 2.009965348627884,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P01/videos/P01_105.MP4",
+        "index_md5": "18bb88335fbd82d185ab3438377b11c1",
+        "publication": "100",
+        "split": "development",
+        "group": "food and liquids",
+        "fold": "B"
+      },
+      "rms": 0.012257146311027815
+    },
+    {
+      "source_id": "epic-P01_109_195",
+      "dataset": "epic-sounds",
+      "concept": "epic-glass-only collision",
+      "group": "nonmetal impacts",
+      "concept_split": "development",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P01/videos/P01_109.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "fdc0b3f685fe488cfb612c9ef111ca0605c1e6ffc3655e2b4a725a2008f4e7cc",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P01",
+        "epic-recording:P01_109",
+        "epic-original-index-md5:31556064e3bf5298b3933f644480b30a"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P01_109_195/native.txt",
+          "sha256": "6f8b9ee8da24aba792a9749cb1c385f05991c65d00ba3eff1addaa9079e10c7c"
+        },
+        "image": {
+          "path": "assets/epic-P01_109_195/native.jpg",
+          "sha256": "fe5e4e8347cb475dcb67d8d594475f4b83b0d6ef350a6c4c821d529a8a8bc74c"
+        },
+        "audio": {
+          "path": "assets/epic-P01_109_195/native.wav",
+          "sha256": "b3f4855e45b75524f4777f8f07782974539fdd8c5d0ee6fa564ea2e0f99bd40c"
+        },
+        "video": {
+          "path": "assets/epic-P01_109_195/native.mp4",
+          "sha256": "d098044af84e8bbc2e7c7303658b1ddd6cdff885512680207486154b9bc4e5a5"
+        }
+      },
+      "selection": {
+        "cls": 20,
+        "label": "glass-only collision",
+        "participant": "P01",
+        "source": "P01_109",
+        "annotation_id": "P01_109_195",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 1408.955,
+        "audio_end": 1410.33,
+        "visual_action": {
+          "narration": "close jar",
+          "verb": "close",
+          "noun": "jar",
+          "narration_id": "P01_109_406",
+          "participant": "P01",
+          "partition": "train",
+          "start": 1408.64,
+          "end": 1410.82
+        },
+        "overlap": 1.375,
+        "start": 1408.1425,
+        "image_time": 1.5,
+        "score": 1.9237279898921646,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P01/videos/P01_109.MP4",
+        "index_md5": "31556064e3bf5298b3933f644480b30a",
+        "publication": "100",
+        "split": "development",
+        "group": "nonmetal impacts",
+        "fold": "B"
+      },
+      "rms": 0.018530939459925195
+    },
+    {
+      "source_id": "epic-P02_03_102",
+      "dataset": "epic-sounds",
+      "concept": "epic-open / close",
+      "group": "object manipulation",
+      "concept_split": "heldout",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P02/P02_03.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "d0c0ff32389c53ae540c152ad8b4420867189fe4a3ed34677584f74c05feda69",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P02",
+        "epic-recording:P02_03",
+        "epic-original-index-md5:a9e2b439f8af0b0dc6a9c427599a970d"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P02_03_102/native.txt",
+          "sha256": "36c41873cc72b546cffab81cc4d7d7bdf329a1839369255f05ccf00ab816b651"
+        },
+        "image": {
+          "path": "assets/epic-P02_03_102/native.jpg",
+          "sha256": "ea06c50bbb95bb6e54ede9ff02687edfdf98a8af0565cec6bc2ec3ba27af46ea"
+        },
+        "audio": {
+          "path": "assets/epic-P02_03_102/native.wav",
+          "sha256": "cb644c214b5bf0596a4cdfe581d388457fff5c1f9e788857a418490d0dc8fa6a"
+        },
+        "video": {
+          "path": "assets/epic-P02_03_102/native.mp4",
+          "sha256": "24bf104aea8295f89b888520aaf69143974571fa8327af7a8172290c0adf11c7"
+        }
+      },
+      "selection": {
+        "cls": 3,
+        "label": "open / close",
+        "participant": "P02",
+        "source": "P02_03",
+        "annotation_id": "P02_03_102",
+        "audio_partition": "train",
+        "audio_description": "open / close drawer",
+        "audio_start": 347.328,
+        "audio_end": 349.901,
+        "visual_action": {
+          "narration": "close cupboard",
+          "verb": "close",
+          "noun": "cupboard",
+          "narration_id": "P02_03_122",
+          "participant": "P02",
+          "partition": "train",
+          "start": 347.32,
+          "end": 350.5
+        },
+        "overlap": 2.573,
+        "start": 347.1145,
+        "image_time": 1.5,
+        "score": 2.0084505295567214,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P02/P02_03.MP4",
+        "index_md5": "a9e2b439f8af0b0dc6a9c427599a970d",
+        "publication": "55",
+        "split": "heldout",
+        "group": "object manipulation",
+        "fold": "B"
+      },
+      "rms": 0.02968341796975812
+    },
+    {
+      "source_id": "epic-P02_102_34",
+      "dataset": "epic-sounds",
+      "concept": "epic-metal / glass collision",
+      "group": "metal impacts",
+      "concept_split": "heldout",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P02/videos/P02_102.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "7df5dcea8fcb74b6798a866ff31716d740eefab89b52d69d3e53d08313815179",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P02",
+        "epic-recording:P02_102",
+        "epic-original-index-md5:4f4ce476638d39e1f470e06d92eb6c3f"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P02_102_34/native.txt",
+          "sha256": "bd5d222ecb113701596d2995b9d06f98769def25f2efb809a2c483dc2a68f183"
+        },
+        "image": {
+          "path": "assets/epic-P02_102_34/native.jpg",
+          "sha256": "572b1dfb8442dd5c8dea224462cefaf0d601f07bc879080a2b4e9431b7af26a5"
+        },
+        "audio": {
+          "path": "assets/epic-P02_102_34/native.wav",
+          "sha256": "17de513403ac0e93ea455fe102977c25c16a2370c275c453c9090f574660f505"
+        },
+        "video": {
+          "path": "assets/epic-P02_102_34/native.mp4",
+          "sha256": "19fdd3b9822e69d9fe2374a9fb470104be8515d244fa2562e12804948f22cadd"
+        }
+      },
+      "selection": {
+        "cls": 17,
+        "label": "metal / glass collision",
+        "participant": "P02",
+        "source": "P02_102",
+        "annotation_id": "P02_102_34",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 116.561,
+        "audio_end": 118.255,
+        "visual_action": {
+          "narration": "close oil bottle",
+          "verb": "close",
+          "noun": "bottle:oil",
+          "narration_id": "P02_102_67",
+          "participant": "P02",
+          "partition": "train",
+          "start": 116.59,
+          "end": 118.78
+        },
+        "overlap": 1.665,
+        "start": 115.9225,
+        "image_time": 1.5,
+        "score": 1.986483022788134,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P02/videos/P02_102.MP4",
+        "index_md5": "4f4ce476638d39e1f470e06d92eb6c3f",
+        "publication": "100",
+        "split": "heldout",
+        "group": "metal impacts",
+        "fold": "B"
+      },
+      "rms": 0.006111464507553759
+    },
+    {
+      "source_id": "epic-P03_04_250",
+      "dataset": "epic-sounds",
+      "concept": "epic-pour",
+      "group": "food and liquids",
+      "concept_split": "heldout",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P03/P03_04.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "a809d69cb8e75da6f496bae33af0e0a273f495e883b3bad4de6890bd5c1f86f6",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P03",
+        "epic-recording:P03_04",
+        "epic-original-index-md5:d1a5af87c32efa512f69d1d0d214422d"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P03_04_250/native.txt",
+          "sha256": "8b786449ddb5d62a9efbc42bafca3fa3f068951b743cc57c89cc63bdaaa9d876"
+        },
+        "image": {
+          "path": "assets/epic-P03_04_250/native.jpg",
+          "sha256": "74abaed6c9c8bccee8ce0f9bb21ee83cbadbdac5ad0bd219fa8e685e6d8be9b1"
+        },
+        "audio": {
+          "path": "assets/epic-P03_04_250/native.wav",
+          "sha256": "5a92e88871774d1f8f31a9caf649bc87b7481503128d86f76ca76972554af3c4"
+        },
+        "video": {
+          "path": "assets/epic-P03_04_250/native.mp4",
+          "sha256": "d01cf37351c7bd2f791f1dbe0a661b2777bcc0218a05357af60a43f3c0a9f33d"
+        }
+      },
+      "selection": {
+        "cls": 19,
+        "label": "pour",
+        "participant": "P03",
+        "source": "P03_04",
+        "annotation_id": "P03_04_250",
+        "audio_partition": "train",
+        "audio_description": "pour liquid",
+        "audio_start": 1178.052,
+        "audio_end": 1180.149,
+        "visual_action": {
+          "narration": "pour squash",
+          "verb": "pour",
+          "noun": "squash",
+          "narration_id": "P03_04_283",
+          "participant": "P03",
+          "partition": "train",
+          "start": 1176.88,
+          "end": 1180.38
+        },
+        "overlap": 2.097,
+        "start": 1177.6005,
+        "image_time": 1.5,
+        "score": 2.0062354353489353,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P03/P03_04.MP4",
+        "index_md5": "d1a5af87c32efa512f69d1d0d214422d",
+        "publication": "55",
+        "split": "heldout",
+        "group": "food and liquids",
+        "fold": "B"
+      },
+      "rms": 0.007528826327366631
+    },
+    {
+      "source_id": "epic-P03_09_99",
+      "dataset": "epic-sounds",
+      "concept": "epic-ceramic-only collision",
+      "group": "nonmetal impacts",
+      "concept_split": "heldout",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P03/P03_09.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "4c1b7728cf01465a59eccaf60aaaf3c205dc5ed2eead6e6f8aae6741746aab6c",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P03",
+        "epic-recording:P03_09",
+        "epic-original-index-md5:9aa888d5723b91f8f90f7aa104ba3d2f"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P03_09_99/native.txt",
+          "sha256": "faacbb58c82ac9252546b5d21efc7e3d168c5ad5081677a8c0488e492b836e6d"
+        },
+        "image": {
+          "path": "assets/epic-P03_09_99/native.jpg",
+          "sha256": "8dbfe76696c997363def10ea7596ef6eacfaef49056137c202e9a9f983918e23"
+        },
+        "audio": {
+          "path": "assets/epic-P03_09_99/native.wav",
+          "sha256": "d519d9a09f635382d0ef037ee61537f2560353dcf4e2c54b5d62e576e0baa558"
+        },
+        "video": {
+          "path": "assets/epic-P03_09_99/native.mp4",
+          "sha256": "cbf7206b99ca91cc54211b8ec916d88b90d0310593dadebb188e87782ff7ef4e"
+        }
+      },
+      "selection": {
+        "cls": 14,
+        "label": "ceramic-only collision",
+        "participant": "P03",
+        "source": "P03_09",
+        "annotation_id": "P03_09_99",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 454.523,
+        "audio_end": 457.343,
+        "visual_action": {
+          "narration": "put saucepan",
+          "verb": "put",
+          "noun": "saucepan",
+          "narration_id": "P03_09_136",
+          "participant": "P03",
+          "partition": "train",
+          "start": 452.84000000000003,
+          "end": 457.37
+        },
+        "overlap": 2.82,
+        "start": 454.433,
+        "image_time": 1.5,
+        "score": 2.003411366168875,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P03/P03_09.MP4",
+        "index_md5": "9aa888d5723b91f8f90f7aa104ba3d2f",
+        "publication": "55",
+        "split": "heldout",
+        "group": "nonmetal impacts",
+        "fold": "B"
+      },
+      "rms": 0.044801647158136504
+    },
+    {
+      "source_id": "epic-P04_01_83",
+      "dataset": "epic-sounds",
+      "concept": "epic-open / close",
+      "group": "object manipulation",
+      "concept_split": "heldout",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P04/P04_01.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "991f544c7726f7ba84789bcc80c2a24dadfa5c896986ade30b3ffe3dadf2ce1e",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P04",
+        "epic-recording:P04_01",
+        "epic-original-index-md5:b2d35b957da99abd9f37a14cc39184a8"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P04_01_83/native.txt",
+          "sha256": "a5d86a69e6e862d55e76d59e284b71cfe71443957d9b9da9ff405f8367a257ff"
+        },
+        "image": {
+          "path": "assets/epic-P04_01_83/native.jpg",
+          "sha256": "25ec290f4a43ea7bf71e058df8dff343259ec7070ed6298ee6465b0bf7f5619a"
+        },
+        "audio": {
+          "path": "assets/epic-P04_01_83/native.wav",
+          "sha256": "4677d9818d7af20912e587096bf97cbb9a7f6bc0b31f2c91663c92f851685f4a"
+        },
+        "video": {
+          "path": "assets/epic-P04_01_83/native.mp4",
+          "sha256": "99cdd4158cb85e3f09129df4a13d47e4bb83e4f7ae33166f89a7756976440e72"
+        }
+      },
+      "selection": {
+        "cls": 3,
+        "label": "open / close",
+        "participant": "P04",
+        "source": "P04_01",
+        "annotation_id": "P04_01_83",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 357.961,
+        "audio_end": 359.865,
+        "visual_action": {
+          "narration": "close dishwasher",
+          "verb": "close",
+          "noun": "dishwasher",
+          "narration_id": "P04_01_71",
+          "participant": "P04",
+          "partition": "train",
+          "start": 357.62,
+          "end": 361.32
+        },
+        "overlap": 1.904,
+        "start": 357.413,
+        "image_time": 1.5,
+        "score": 2.009964854286518,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P04/P04_01.MP4",
+        "index_md5": "b2d35b957da99abd9f37a14cc39184a8",
+        "publication": "55",
+        "split": "heldout",
+        "group": "object manipulation",
+        "fold": "A"
+      },
+      "rms": 0.024940938659469867
+    },
+    {
+      "source_id": "epic-P04_05_33",
+      "dataset": "epic-sounds",
+      "concept": "epic-wood-only collision",
+      "group": "nonmetal impacts",
+      "concept_split": "heldout",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P04/P04_05.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "e1254d23111e93a69a5427f76458af5ab9c36bbbabbb37391db8db4ee1c4e395",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P04",
+        "epic-recording:P04_05",
+        "epic-original-index-md5:cde57b9ddecaca9e607537d5d2639a10"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P04_05_33/native.txt",
+          "sha256": "0070043614e1e27cab3bc5776160f826509369885cfab42d33d7e115298071d7"
+        },
+        "image": {
+          "path": "assets/epic-P04_05_33/native.jpg",
+          "sha256": "d2ff30d71703a24ac57ddb25f1e53dfb5a5673bb1f63696ac9d8f96040f51548"
+        },
+        "audio": {
+          "path": "assets/epic-P04_05_33/native.wav",
+          "sha256": "98811bd9135f8b62624a93fc5eafebe0da55617f442fa1d5805d7bfd823a9968"
+        },
+        "video": {
+          "path": "assets/epic-P04_05_33/native.mp4",
+          "sha256": "ff3486d8ad26cdcf2630d2c7deb4bdbfa87bbc45c945e0580b5dc6a240d38335"
+        }
+      },
+      "selection": {
+        "cls": 21,
+        "label": "wood-only collision",
+        "participant": "P04",
+        "source": "P04_05",
+        "annotation_id": "P04_05_33",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 303.082,
+        "audio_end": 303.361,
+        "visual_action": {
+          "narration": "open cupboard",
+          "verb": "open",
+          "noun": "cupboard",
+          "narration_id": "P04_05_37",
+          "participant": "P04",
+          "partition": "train",
+          "start": 303.08,
+          "end": 304.25
+        },
+        "overlap": 0.279,
+        "start": 301.7215,
+        "image_time": 1.5,
+        "score": 1.1870669050947737,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P04/P04_05.MP4",
+        "index_md5": "cde57b9ddecaca9e607537d5d2639a10",
+        "publication": "55",
+        "split": "heldout",
+        "group": "nonmetal impacts",
+        "fold": "A"
+      },
+      "rms": 0.02923098882143862
+    },
+    {
+      "source_id": "epic-P04_121_33",
+      "dataset": "epic-sounds",
+      "concept": "epic-slide object",
+      "group": "object manipulation",
+      "concept_split": "heldout",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P04/videos/P04_121.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "f46976240830bb9d82d77c1c4b5ed970d636e1660530b55c65bfada2c91b9c85",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P04",
+        "epic-recording:P04_121",
+        "epic-original-index-md5:19daec1efb68530f73e97c080f904e0b"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P04_121_33/native.txt",
+          "sha256": "808b468593671c082d61a0453c6885fa2af3757220482d2abb54f45266cd9925"
+        },
+        "image": {
+          "path": "assets/epic-P04_121_33/native.jpg",
+          "sha256": "e89be7f338fe5cbdffc9f41f935da652ab27320bb4947059f581540fe6cc2885"
+        },
+        "audio": {
+          "path": "assets/epic-P04_121_33/native.wav",
+          "sha256": "ce558c351f9066c1297cd25609a4de2a79459805c18a01cc9127ab41e52b2f6b"
+        },
+        "video": {
+          "path": "assets/epic-P04_121_33/native.mp4",
+          "sha256": "26d71e2b80f28017a940b78410aad39bec8b7fac4ff5ad74b7abb550064debf8"
+        }
+      },
+      "selection": {
+        "cls": 9,
+        "label": "slide object",
+        "participant": "P04",
+        "source": "P04_121",
+        "annotation_id": "P04_121_33",
+        "audio_partition": "train",
+        "audio_description": "drag / move / pull object",
+        "audio_start": 192.153,
+        "audio_end": 194.606,
+        "visual_action": {
+          "narration": "move wok",
+          "verb": "move",
+          "noun": "wok",
+          "narration_id": "P04_121_36",
+          "participant": "P04",
+          "partition": "train",
+          "start": 191.19,
+          "end": 194.81
+        },
+        "overlap": 2.453,
+        "start": 191.8795,
+        "image_time": 1.5,
+        "score": 2.0079283870244398,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P04/videos/P04_121.MP4",
+        "index_md5": "19daec1efb68530f73e97c080f904e0b",
+        "publication": "100",
+        "split": "heldout",
+        "group": "object manipulation",
+        "fold": "A"
+      },
+      "rms": 0.01332571922768326
+    },
+    {
+      "source_id": "epic-P04_31_123",
+      "dataset": "epic-sounds",
+      "concept": "epic-stir / mix / whisk",
+      "group": "food and liquids",
+      "concept_split": "heldout",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P04/P04_31.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "43008b7e829827a7b90d39d07fb6066b7fca29e5b758ef961afb7dc896ff3974",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P04",
+        "epic-recording:P04_31",
+        "epic-original-index-md5:a67445439a2ae4a91215f0d76f2377df"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P04_31_123/native.txt",
+          "sha256": "7c678c810e3ef6a76a6308bf1af2914ad73666d5c3380fb4e173bf64e73545e4"
+        },
+        "image": {
+          "path": "assets/epic-P04_31_123/native.jpg",
+          "sha256": "bd546f1fc61df36f2f90aba0793dbbe25fb11e8f8b0ededd2983e7d4d19d5d44"
+        },
+        "audio": {
+          "path": "assets/epic-P04_31_123/native.wav",
+          "sha256": "a4c84480165d682cc827f3f1f57b01e786616eff9fc95bcd2a3e04f16cfd62a1"
+        },
+        "video": {
+          "path": "assets/epic-P04_31_123/native.mp4",
+          "sha256": "c77d9643939dc476587ac916a23436ce621edbbc8b28cc54ba8de3b856d9869d"
+        }
+      },
+      "selection": {
+        "cls": 8,
+        "label": "stir / mix / whisk",
+        "participant": "P04",
+        "source": "P04_31",
+        "annotation_id": "P04_31_123",
+        "audio_partition": "validation",
+        "audio_description": "paper rustle",
+        "audio_start": 736.35,
+        "audio_end": 738.148,
+        "visual_action": {
+          "narration": "stir slow cooker",
+          "verb": "stir",
+          "noun": "cooker:slow",
+          "narration_id": "P04_31_97",
+          "participant": "P04",
+          "partition": "validation",
+          "start": 732.85,
+          "end": 739.23
+        },
+        "overlap": 1.798,
+        "start": 735.749,
+        "image_time": 1.5,
+        "score": 2.0098884532228114,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P04/P04_31.MP4",
+        "index_md5": "a67445439a2ae4a91215f0d76f2377df",
+        "publication": "55",
+        "split": "heldout",
+        "group": "food and liquids",
+        "fold": "A"
+      },
+      "rms": 0.014775715429450031
+    },
+    {
+      "source_id": "epic-P07_116_23",
+      "dataset": "epic-sounds",
+      "concept": "epic-slide object",
+      "group": "object manipulation",
+      "concept_split": "heldout",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P07/videos/P07_116.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "855658c3a6ad62113b87ef75b3ccd51ab0556eab7eac25475df8e7ba90499f19",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P07",
+        "epic-recording:P07_116",
+        "epic-original-index-md5:5721d1d518e17896b7be6eafc7f4fb0e"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P07_116_23/native.txt",
+          "sha256": "26357cca569d43d7d3b410eeda15d8345c7c1ac986356a6cce24cfba9b5eb9f8"
+        },
+        "image": {
+          "path": "assets/epic-P07_116_23/native.jpg",
+          "sha256": "d538e57f98da763eaef14b10a3c77a9e2b3f8064bed11630847c045befc1e4b0"
+        },
+        "audio": {
+          "path": "assets/epic-P07_116_23/native.wav",
+          "sha256": "4ca2d3094b0ae02c95e6e356d005ccefc3bd1a56f60006bbdb074f4927df4908"
+        },
+        "video": {
+          "path": "assets/epic-P07_116_23/native.mp4",
+          "sha256": "fb465e06a06c62984fcbc40dd986abc5b3f14852c3850e44e1ed75bd1f6f174e"
+        }
+      },
+      "selection": {
+        "cls": 9,
+        "label": "slide object",
+        "participant": "P07",
+        "source": "P07_116",
+        "annotation_id": "P07_116_23",
+        "audio_partition": "train",
+        "audio_description": "drag / move / pull object",
+        "audio_start": 57.3,
+        "audio_end": 58.95,
+        "visual_action": {
+          "narration": "push broccoli",
+          "verb": "push",
+          "noun": "broccoli",
+          "narration_id": "P07_116_22",
+          "participant": "P07",
+          "partition": "train",
+          "start": 56.86,
+          "end": 59.02
+        },
+        "overlap": 1.65,
+        "start": 56.625,
+        "image_time": 1.5,
+        "score": 2.0018132834741844,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P07/videos/P07_116.MP4",
+        "index_md5": "5721d1d518e17896b7be6eafc7f4fb0e",
+        "publication": "100",
+        "split": "heldout",
+        "group": "object manipulation",
+        "fold": "B"
+      },
+      "rms": 0.014588399660129524
+    },
+    {
+      "source_id": "epic-P07_11_17",
+      "dataset": "epic-sounds",
+      "concept": "epic-ceramic-only collision",
+      "group": "nonmetal impacts",
+      "concept_split": "heldout",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P07/P07_11.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "dc54b2ed6e930157e0e53be1b577e329337c2cea3ebc01b863d6ad4541961b62",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P07",
+        "epic-recording:P07_11",
+        "epic-original-index-md5:17c214ac381dddbb8cf15713572e1901"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P07_11_17/native.txt",
+          "sha256": "629d506cc0890e729230eee7ce395f4a22b64c076dc75ea3cf100346c2219f42"
+        },
+        "image": {
+          "path": "assets/epic-P07_11_17/native.jpg",
+          "sha256": "2173845391042c8a6e16e82f4f8e5eb67199ef14959783ad5003679e06e5ca0a"
+        },
+        "audio": {
+          "path": "assets/epic-P07_11_17/native.wav",
+          "sha256": "0f1139a82e3509950d29e277dcbe816c6e6db3a0bf25492e31f3cd205fce5cbb"
+        },
+        "video": {
+          "path": "assets/epic-P07_11_17/native.mp4",
+          "sha256": "eabbde2c2c9576552d7e016571089a3bde12e9b46c18409392c284239b5290b3"
+        }
+      },
+      "selection": {
+        "cls": 14,
+        "label": "ceramic-only collision",
+        "participant": "P07",
+        "source": "P07_11",
+        "annotation_id": "P07_11_17",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 56.65,
+        "audio_end": 58.554,
+        "visual_action": {
+          "narration": "take plate",
+          "verb": "take",
+          "noun": "plate",
+          "narration_id": "P07_11_9",
+          "participant": "P07",
+          "partition": "train",
+          "start": 56.1,
+          "end": 58.76
+        },
+        "overlap": 1.904,
+        "start": 56.102,
+        "image_time": 1.5,
+        "score": 2.004363049494568,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P07/P07_11.MP4",
+        "index_md5": "17c214ac381dddbb8cf15713572e1901",
+        "publication": "55",
+        "split": "heldout",
+        "group": "nonmetal impacts",
+        "fold": "B"
+      },
+      "rms": 0.044425210457105124
+    },
+    {
+      "source_id": "epic-P08_05_104",
+      "dataset": "epic-sounds",
+      "concept": "epic-glass-only collision",
+      "group": "nonmetal impacts",
+      "concept_split": "development",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P08/P08_05.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "5b3a291e7ceb148f4210ca476ea07146f7bfefb1956606afbe2cf82daec638a9",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P08",
+        "epic-recording:P08_05",
+        "epic-original-index-md5:1ed86726d89e517d7ac2e79f922e6008"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P08_05_104/native.txt",
+          "sha256": "b4569a959f819bf40d2f28913639e6d12033608fa8749adde2dc565d5ff2c27d"
+        },
+        "image": {
+          "path": "assets/epic-P08_05_104/native.jpg",
+          "sha256": "00d88e7694234d23cb93cc5bdd947c23b8ab29f74f4bdc8792bce51c5da603a7"
+        },
+        "audio": {
+          "path": "assets/epic-P08_05_104/native.wav",
+          "sha256": "22e7f205e807f2e75195aa18d0756f7c48ba928ec8d053bb3fa262ebe359a21c"
+        },
+        "video": {
+          "path": "assets/epic-P08_05_104/native.mp4",
+          "sha256": "dedd38a90976b69cd5ddd7634a2c832eeb3aa2212f1b2181bf594e7f4b0878e8"
+        }
+      },
+      "selection": {
+        "cls": 20,
+        "label": "glass-only collision",
+        "participant": "P08",
+        "source": "P08_05",
+        "annotation_id": "P08_05_104",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 573.789,
+        "audio_end": 574.998,
+        "visual_action": {
+          "narration": "place bowl back",
+          "verb": "place",
+          "noun": "bowl",
+          "narration_id": "P08_05_136",
+          "participant": "P08",
+          "partition": "train",
+          "start": 570.75,
+          "end": 575.23
+        },
+        "overlap": 1.209,
+        "start": 572.8935,
+        "image_time": 1.5,
+        "score": 1.8136775735035007,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P08/P08_05.MP4",
+        "index_md5": "1ed86726d89e517d7ac2e79f922e6008",
+        "publication": "55",
+        "split": "development",
+        "group": "nonmetal impacts",
+        "fold": "B"
+      },
+      "rms": 0.02916311325157964
+    },
+    {
+      "source_id": "epic-P08_09_90",
+      "dataset": "epic-sounds",
+      "concept": "epic-rustle",
+      "group": "object manipulation",
+      "concept_split": "development",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P08/P08_09.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "d4131fee2bbc753b48058ecb731c50502bea7d80c58e832d497789987a5fbdcc",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P08",
+        "epic-recording:P08_09",
+        "epic-original-index-md5:7c88b591e63dae438377f3b5fdcd44b0"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P08_09_90/native.txt",
+          "sha256": "29e9b97050c0a0fc855e61d8e96dd3dc344235879d08ef43915bf799d440b80c"
+        },
+        "image": {
+          "path": "assets/epic-P08_09_90/native.jpg",
+          "sha256": "3746efdf9426529a8e7c33612d8902ef0f2a8a9cc93da277534e0a9d03700bd8"
+        },
+        "audio": {
+          "path": "assets/epic-P08_09_90/native.wav",
+          "sha256": "2b542fa303a6782be0bff439a22f910b59e102fe394d44c3e6a18da54e6b23bd"
+        },
+        "video": {
+          "path": "assets/epic-P08_09_90/native.mp4",
+          "sha256": "f8e9335a406beaea5e572038c5193eb4e6c7bb122cda9392a46bc1822c31b354"
+        }
+      },
+      "selection": {
+        "cls": 4,
+        "label": "rustle",
+        "participant": "P08",
+        "source": "P08_09",
+        "annotation_id": "P08_09_90",
+        "audio_partition": "validation",
+        "audio_description": "paper rustle",
+        "audio_start": 319.091,
+        "audio_end": 322.228,
+        "visual_action": {
+          "narration": "open cheese",
+          "verb": "open",
+          "noun": "cheese",
+          "narration_id": "P08_09_80",
+          "participant": "P08",
+          "partition": "validation",
+          "start": 317.24,
+          "end": 325.63
+        },
+        "overlap": 3.137,
+        "start": 319.1595,
+        "image_time": 1.5,
+        "score": 2.0095883422438057,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P08/P08_09.MP4",
+        "index_md5": "7c88b591e63dae438377f3b5fdcd44b0",
+        "publication": "55",
+        "split": "development",
+        "group": "object manipulation",
+        "fold": "B"
+      },
+      "rms": 0.01120057030507462
+    },
+    {
+      "source_id": "epic-P09_04_4",
+      "dataset": "epic-sounds",
+      "concept": "epic-metal / ceramic collision",
+      "group": "metal impacts",
+      "concept_split": "development",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P09/P09_04.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "6c2864162136a9cdf95c9554039dd19f57724ae7d8558a3c8b531aae92ef2ed8",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P09",
+        "epic-recording:P09_04",
+        "epic-original-index-md5:6990675082977007f0d7bd33f2dcd0e6"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P09_04_4/native.txt",
+          "sha256": "02e910b32216628ba8853bf7cc30edff25b5e1346be31d532db75a88c49f4b74"
+        },
+        "image": {
+          "path": "assets/epic-P09_04_4/native.jpg",
+          "sha256": "ff7d31a67e938e49017acd49549a8d268d4a53e74272e086c55a50a9cbee2735"
+        },
+        "audio": {
+          "path": "assets/epic-P09_04_4/native.wav",
+          "sha256": "851e2d1b236f2690f7f97507983a2096648ced2a3a24f6694e5951d6a3a2387a"
+        },
+        "video": {
+          "path": "assets/epic-P09_04_4/native.mp4",
+          "sha256": "6a721638d08e952958042056af0b837bee18cf63695c9b3ef76c13b4740dfc64"
+        }
+      },
+      "selection": {
+        "cls": 12,
+        "label": "metal / ceramic collision",
+        "participant": "P09",
+        "source": "P09_04",
+        "annotation_id": "P09_04_4",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 11.737,
+        "audio_end": 14.466,
+        "visual_action": {
+          "narration": "take pan",
+          "verb": "take",
+          "noun": "pan",
+          "narration_id": "P09_04_2",
+          "participant": "P09",
+          "partition": "train",
+          "start": 11.29,
+          "end": 15.27
+        },
+        "overlap": 2.729,
+        "start": 11.6015,
+        "image_time": 1.5,
+        "score": 2.006683949928265,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P09/P09_04.MP4",
+        "index_md5": "6990675082977007f0d7bd33f2dcd0e6",
+        "publication": "55",
+        "split": "development",
+        "group": "metal impacts",
+        "fold": "A"
+      },
+      "rms": 0.02431492004455132
+    },
+    {
+      "source_id": "epic-P09_104_136",
+      "dataset": "epic-sounds",
+      "concept": "epic-scrub / scrape / scour / wipe",
+      "group": "object manipulation",
+      "concept_split": "development",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P09/videos/P09_104.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "653cba19fe3de241857f7b72b9e8fcab68f882c6861807a835f2c2aa26ee964f",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P09",
+        "epic-recording:P09_104",
+        "epic-original-index-md5:438b6567dff2140d3b8a86c2582920d4"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P09_104_136/native.txt",
+          "sha256": "ba60fdfe6f3b785260aeab976113779ddfba1c303f2cfd2c4c84aa2e179778ed"
+        },
+        "image": {
+          "path": "assets/epic-P09_104_136/native.jpg",
+          "sha256": "089ddb7f07b278248d0d6ea1ec2fa959a1e477f57557863b3f1752ec53f2e8eb"
+        },
+        "audio": {
+          "path": "assets/epic-P09_104_136/native.wav",
+          "sha256": "0cf5561dfa99e08be9936cdb33de9f3e8388a9de0ee2277f0de2bcdfaf9c7cfb"
+        },
+        "video": {
+          "path": "assets/epic-P09_104_136/native.mp4",
+          "sha256": "4da8a251764dec73010a43e695de7cfbb4066152b8b3713274922ba962ff82c0"
+        }
+      },
+      "selection": {
+        "cls": 1,
+        "label": "scrub / scrape / scour / wipe",
+        "participant": "P09",
+        "source": "P09_104",
+        "annotation_id": "P09_104_136",
+        "audio_partition": "train",
+        "audio_description": "scrub / scrape / scour / wipe",
+        "audio_start": 417.407,
+        "audio_end": 418.949,
+        "visual_action": {
+          "narration": "clean plates",
+          "verb": "clean",
+          "noun": "plate",
+          "narration_id": "P09_104_69",
+          "participant": "P09",
+          "partition": "train",
+          "start": 411.88,
+          "end": 443.8
+        },
+        "overlap": 1.542,
+        "start": 416.678,
+        "image_time": 1.5,
+        "score": 2.0097440488426948,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P09/videos/P09_104.MP4",
+        "index_md5": "438b6567dff2140d3b8a86c2582920d4",
+        "publication": "100",
+        "split": "development",
+        "group": "object manipulation",
+        "fold": "A"
+      },
+      "rms": 0.013514342708462815
+    },
+    {
+      "source_id": "epic-P10_03_382",
+      "dataset": "epic-sounds",
+      "concept": "epic-metal / wood collision",
+      "group": "metal impacts",
+      "concept_split": "heldout",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P10/P10_03.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "1a3099f17727c9cce7b99740fb4b2b0f82ea9294fe5e9eb7c0ef18b5f4779749",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P10",
+        "epic-recording:P10_03",
+        "epic-original-index-md5:f1d588b34bd0bea0d2bb6b42ff5e045a"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P10_03_382/native.txt",
+          "sha256": "54f163e765a32d96d3f537f5e8d61b48c5154c25d50d2c0a6899b8c0dfe65dad"
+        },
+        "image": {
+          "path": "assets/epic-P10_03_382/native.jpg",
+          "sha256": "7aa23cf72a8d9b76887bd7f3f0b48424c227020556f2d01a10da69ac4cdc48ba"
+        },
+        "audio": {
+          "path": "assets/epic-P10_03_382/native.wav",
+          "sha256": "a65942845f25ef578df20a7c76ae4358ad6184ad59417579f0e2cbc467c414f2"
+        },
+        "video": {
+          "path": "assets/epic-P10_03_382/native.mp4",
+          "sha256": "60c7dfdf44c75d989be5aab599820f54b7fb53e7e91e7847469a0b9cfbc2f9cd"
+        }
+      },
+      "selection": {
+        "cls": 10,
+        "label": "metal / wood collision",
+        "participant": "P10",
+        "source": "P10_03",
+        "annotation_id": "P10_03_382",
+        "audio_partition": "validation",
+        "audio_description": "clang / clatter",
+        "audio_start": 1688.992,
+        "audio_end": 1691.179,
+        "visual_action": {
+          "narration": "put the pot back into the sink",
+          "verb": "put",
+          "noun": "pot",
+          "narration_id": "P10_03_210",
+          "participant": "P10",
+          "partition": "validation",
+          "start": 1688.55,
+          "end": 1691.3
+        },
+        "overlap": 2.187,
+        "start": 1688.5855,
+        "image_time": 1.5,
+        "score": 2.0028239354584367,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P10/P10_03.MP4",
+        "index_md5": "f1d588b34bd0bea0d2bb6b42ff5e045a",
+        "publication": "55",
+        "split": "heldout",
+        "group": "metal impacts",
+        "fold": "B"
+      },
+      "rms": 0.04565340305688429
+    },
+    {
+      "source_id": "epic-P11_05_317",
+      "dataset": "epic-sounds",
+      "concept": "epic-water",
+      "group": "food and liquids",
+      "concept_split": "development",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P11/P11_05.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "524bde4f68c0aa5a30a507196811e58f8905011eb6ef36f02067329a779e467b",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P11",
+        "epic-recording:P11_05",
+        "epic-original-index-md5:7650167b1b7f361ad12079562f803b38"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P11_05_317/native.txt",
+          "sha256": "08161c407f92cdace9f184661a58c9104394de23a10e6f417dc7541644854a47"
+        },
+        "image": {
+          "path": "assets/epic-P11_05_317/native.jpg",
+          "sha256": "ce742de19ad59277233a1d6ac9d6d4590bf3e8717a1b192d6a949a73ccd75e67"
+        },
+        "audio": {
+          "path": "assets/epic-P11_05_317/native.wav",
+          "sha256": "8d4a1e6f224a0cffd4de2a9df7edb13363ffd4096a05763277cf3bdd53b72ac2"
+        },
+        "video": {
+          "path": "assets/epic-P11_05_317/native.mp4",
+          "sha256": "b98d16c25b22f57e8fc2328f50f3e2c5f6f9306b8e5c839ec07b547991e16cd6"
+        }
+      },
+      "selection": {
+        "cls": 5,
+        "label": "water",
+        "participant": "P11",
+        "source": "P11_05",
+        "annotation_id": "P11_05_317",
+        "audio_partition": "train",
+        "audio_description": "tap running",
+        "audio_start": 1486.721,
+        "audio_end": 1489.535,
+        "visual_action": {
+          "narration": "rinse pan",
+          "verb": "rinse",
+          "noun": "pan",
+          "narration_id": "P11_05_344",
+          "participant": "P11",
+          "partition": "train",
+          "start": 1486.03,
+          "end": 1490.06
+        },
+        "overlap": 2.814,
+        "start": 1486.628,
+        "image_time": 1.5,
+        "score": 2.009057901520282,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P11/P11_05.MP4",
+        "index_md5": "7650167b1b7f361ad12079562f803b38",
+        "publication": "55",
+        "split": "development",
+        "group": "food and liquids",
+        "fold": "A"
+      },
+      "rms": 0.0343024128532312
+    },
+    {
+      "source_id": "epic-P11_15_156",
+      "dataset": "epic-sounds",
+      "concept": "epic-metal-only collision",
+      "group": "metal impacts",
+      "concept_split": "development",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P11/P11_15.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "48838cca1ef9da85d14cb176a13e143968b920215aa263c4e358c135a3cd2d57",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P11",
+        "epic-recording:P11_15",
+        "epic-original-index-md5:ce00621862c3069506b770196e634961"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P11_15_156/native.txt",
+          "sha256": "2845fc3d92c1c2cabaf496a97a83dd0f30ea0e941950d72ed5d12d91d65cf078"
+        },
+        "image": {
+          "path": "assets/epic-P11_15_156/native.jpg",
+          "sha256": "3b19ed7bad4ecaf49c0e86e498e465496c95d738fb3ebebc3ed452b095103469"
+        },
+        "audio": {
+          "path": "assets/epic-P11_15_156/native.wav",
+          "sha256": "f13db4f464621c8990325d9af724291dc329a83e051c40e346477fae1d3dd737"
+        },
+        "video": {
+          "path": "assets/epic-P11_15_156/native.mp4",
+          "sha256": "6c9aee4f4181363a582a1b3d10507c2efba734733d90cf61aabb36703186b02f"
+        }
+      },
+      "selection": {
+        "cls": 0,
+        "label": "metal-only collision",
+        "participant": "P11",
+        "source": "P11_15",
+        "annotation_id": "P11_15_156",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 384.812,
+        "audio_end": 386.891,
+        "visual_action": {
+          "narration": "adjust salmon",
+          "verb": "adjust",
+          "noun": "salmon",
+          "narration_id": "P11_15_88",
+          "participant": "P11",
+          "partition": "train",
+          "start": 381.93,
+          "end": 391.95
+        },
+        "overlap": 2.079,
+        "start": 384.3515,
+        "image_time": 1.5,
+        "score": 2.0086951442365533,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P11/P11_15.MP4",
+        "index_md5": "ce00621862c3069506b770196e634961",
+        "publication": "55",
+        "split": "development",
+        "group": "metal impacts",
+        "fold": "A"
+      },
+      "rms": 0.022156535833056958
+    },
+    {
+      "source_id": "epic-P11_24_5",
+      "dataset": "epic-sounds",
+      "concept": "epic-plastic-only collision",
+      "group": "nonmetal impacts",
+      "concept_split": "development",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P11/P11_24.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "466fecc317659903c888defcddb71918a241a412984ed5edf005b5b26be65bed",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P11",
+        "epic-recording:P11_24",
+        "epic-original-index-md5:9750227dd45133938255722a9585296a"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P11_24_5/native.txt",
+          "sha256": "bdb2ca6e34ce4058d808203508aa66bd230471267c904ee6ccf47d38ee80c518"
+        },
+        "image": {
+          "path": "assets/epic-P11_24_5/native.jpg",
+          "sha256": "a0fc33cf8e83af5ab70ed5288890ea8af426de6b846ac04fad9b35a32e1423c5"
+        },
+        "audio": {
+          "path": "assets/epic-P11_24_5/native.wav",
+          "sha256": "10ab89ee5b2e28edc1431d27556185fbb48a0846f7494257e37d4311343ca5e9"
+        },
+        "video": {
+          "path": "assets/epic-P11_24_5/native.mp4",
+          "sha256": "858a3694d25f49b7f277b46877dd21d7ccfe5fbf7069198827715b16bc8f3217"
+        }
+      },
+      "selection": {
+        "cls": 6,
+        "label": "plastic-only collision",
+        "participant": "P11",
+        "source": "P11_24",
+        "annotation_id": "P11_24_5",
+        "audio_partition": "validation",
+        "audio_description": "clang / clatter",
+        "audio_start": 16.949,
+        "audio_end": 21.101,
+        "visual_action": {
+          "narration": "put away chopping block",
+          "verb": "put",
+          "noun": "block:chopping",
+          "narration_id": "P11_24_11",
+          "participant": "P11",
+          "partition": "validation",
+          "start": 16.22,
+          "end": 21.43
+        },
+        "overlap": 4.152,
+        "start": 17.525,
+        "image_time": 1.5,
+        "score": 2.0094385457551107,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P11/P11_24.MP4",
+        "index_md5": "9750227dd45133938255722a9585296a",
+        "publication": "55",
+        "split": "development",
+        "group": "nonmetal impacts",
+        "fold": "A"
+      },
+      "rms": 0.022101926716244523
+    },
+    {
+      "source_id": "epic-P12_01_3",
+      "dataset": "epic-sounds",
+      "concept": "epic-ceramic-only collision",
+      "group": "nonmetal impacts",
+      "concept_split": "heldout",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P12/P12_01.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "8e36f59449da338e0f80dbe062298df0b683cf18db54cdba16646494976cb862",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P12",
+        "epic-recording:P12_01",
+        "epic-original-index-md5:de019c9a26e56b93c7e572df17bcf1d8"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P12_01_3/native.txt",
+          "sha256": "51b6b791146634f13a029e0d6a7f50e210645a32dcabc73a085058866843bd4a"
+        },
+        "image": {
+          "path": "assets/epic-P12_01_3/native.jpg",
+          "sha256": "f09159ca7f4a9504b7c82bc27322891d78c4e4b7e536324b45b17f4d36d6989f"
+        },
+        "audio": {
+          "path": "assets/epic-P12_01_3/native.wav",
+          "sha256": "66730b30f934e055ddecb53f26a3a89df72a9d45333dbbe6e89ca5641d9f921d"
+        },
+        "video": {
+          "path": "assets/epic-P12_01_3/native.mp4",
+          "sha256": "2475d924e8fb8716608394e45569801a89033f60abe84ae3dc027b02317e85cc"
+        }
+      },
+      "selection": {
+        "cls": 14,
+        "label": "ceramic-only collision",
+        "participant": "P12",
+        "source": "P12_01",
+        "annotation_id": "P12_01_3",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 11.174,
+        "audio_end": 12.82,
+        "visual_action": {
+          "narration": "take plates",
+          "verb": "take",
+          "noun": "plate",
+          "narration_id": "P12_01_3",
+          "participant": "P12",
+          "partition": "train",
+          "start": 11.1,
+          "end": 12.6
+        },
+        "overlap": 1.426,
+        "start": 10.387,
+        "image_time": 1.5,
+        "score": 1.8243746062561175,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P12/P12_01.MP4",
+        "index_md5": "de019c9a26e56b93c7e572df17bcf1d8",
+        "publication": "55",
+        "split": "heldout",
+        "group": "nonmetal impacts",
+        "fold": "A"
+      },
+      "rms": 0.04749995896394896
+    },
+    {
+      "source_id": "epic-P12_08_4",
+      "dataset": "epic-sounds",
+      "concept": "epic-metal / glass collision",
+      "group": "metal impacts",
+      "concept_split": "heldout",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P12/P12_08.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "8f5766241c8f0cf5cc539a454df07d65e906c7cda9ee2bde464c1ebaa27868b6",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P12",
+        "epic-recording:P12_08",
+        "epic-original-index-md5:5f639e410cbead9e82b46e5326215bb6"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P12_08_4/native.txt",
+          "sha256": "65780d2c81fd26784507d2e5cd0dedd4ae184d3724fc4557a008386f7d818a68"
+        },
+        "image": {
+          "path": "assets/epic-P12_08_4/native.jpg",
+          "sha256": "89ff1eb3e431d3e76eeb62806ab0c7bbac411dc237424874afdd78801c1195d3"
+        },
+        "audio": {
+          "path": "assets/epic-P12_08_4/native.wav",
+          "sha256": "387ed3bb84ac1351113c876aea2b44f7c941da8ec30497743da01a4ec5e2ac90"
+        },
+        "video": {
+          "path": "assets/epic-P12_08_4/native.mp4",
+          "sha256": "e4322e30df3994bacd4bdbc577faff3c96a861a1c77f568e3683a089f04686f0"
+        }
+      },
+      "selection": {
+        "cls": 17,
+        "label": "metal / glass collision",
+        "participant": "P12",
+        "source": "P12_08",
+        "annotation_id": "P12_08_4",
+        "audio_partition": "validation",
+        "audio_description": "clang / clatter",
+        "audio_start": 16.529,
+        "audio_end": 18.347,
+        "visual_action": {
+          "narration": "take another glass.",
+          "verb": "take",
+          "noun": "glass",
+          "narration_id": "P12_08_4",
+          "participant": "P12",
+          "partition": "validation",
+          "start": 15.89,
+          "end": 18.5
+        },
+        "overlap": 1.818,
+        "start": 15.938,
+        "image_time": 1.5,
+        "score": 2.00127409219509,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P12/P12_08.MP4",
+        "index_md5": "5f639e410cbead9e82b46e5326215bb6",
+        "publication": "55",
+        "split": "heldout",
+        "group": "metal impacts",
+        "fold": "A"
+      },
+      "rms": 0.02127741005122417
+    },
+    {
+      "source_id": "epic-P13_07_7",
+      "dataset": "epic-sounds",
+      "concept": "epic-open / close",
+      "group": "object manipulation",
+      "concept_split": "heldout",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P13/P13_07.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "7088611ffd6b39fe76a44d0eca326638797def45416c973cc4f67d6749c2f6f7",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P13",
+        "epic-recording:P13_07",
+        "epic-original-index-md5:80127b789ff3eb638f025d7b312f4c05"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P13_07_7/native.txt",
+          "sha256": "5582c9d21ab91cb6a72414cc74f7a029ab32bb995a5d1e38cbd02f0f365dc9d6"
+        },
+        "image": {
+          "path": "assets/epic-P13_07_7/native.jpg",
+          "sha256": "f6eee22162074f7e0842ee54c99c2432988fb2bc88e97955dc586e5efe9add80"
+        },
+        "audio": {
+          "path": "assets/epic-P13_07_7/native.wav",
+          "sha256": "c5f5e58fb2cb0c47dde45393fbddc23f9a80488821da0d9a6928d5939e0ad201"
+        },
+        "video": {
+          "path": "assets/epic-P13_07_7/native.mp4",
+          "sha256": "72cd43c18dab5bc1d8c534f53ce02ae7edf140a1fb8bc2a3e332e7ced0f759f0"
+        }
+      },
+      "selection": {
+        "cls": 3,
+        "label": "open / close",
+        "participant": "P13",
+        "source": "P13_07",
+        "annotation_id": "P13_07_7",
+        "audio_partition": "train",
+        "audio_description": "open / close drawer",
+        "audio_start": 44.362,
+        "audio_end": 46.029,
+        "visual_action": {
+          "narration": "close oven",
+          "verb": "close",
+          "noun": "oven",
+          "narration_id": "P13_07_6",
+          "participant": "P13",
+          "partition": "train",
+          "start": 43.94,
+          "end": 46.44
+        },
+        "overlap": 1.667,
+        "start": 43.6955,
+        "image_time": 1.5,
+        "score": 2.0079286549566313,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P13/P13_07.MP4",
+        "index_md5": "80127b789ff3eb638f025d7b312f4c05",
+        "publication": "55",
+        "split": "heldout",
+        "group": "object manipulation",
+        "fold": "A"
+      },
+      "rms": 0.022091325673780665
+    },
+    {
+      "source_id": "epic-P14_05_9",
+      "dataset": "epic-sounds",
+      "concept": "epic-rustle",
+      "group": "object manipulation",
+      "concept_split": "development",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P14/P14_05.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "367f821a24645d4e5d2dad64c371e97554d233aaa145096cc66a9c43f814a193",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P14",
+        "epic-recording:P14_05",
+        "epic-original-index-md5:fac5e73047ae23a01bcd2e508c150d71"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P14_05_9/native.txt",
+          "sha256": "c4d8c377c100522b028bea767f022936ae263a77e062691f5995a32f0740597d"
+        },
+        "image": {
+          "path": "assets/epic-P14_05_9/native.jpg",
+          "sha256": "c16518456f1f009797fbd777e3a86d8a3dd7f18b19ddfae1890d637d36e52615"
+        },
+        "audio": {
+          "path": "assets/epic-P14_05_9/native.wav",
+          "sha256": "49b53a52aa6b7f7aaf73a29ac190bdebee7e64b700e30e6527a0980c478a4987"
+        },
+        "video": {
+          "path": "assets/epic-P14_05_9/native.mp4",
+          "sha256": "c2ac208de2edc264c504cc0e355a64196a93c5528f262d6eea3b2e34c53a37d1"
+        }
+      },
+      "selection": {
+        "cls": 4,
+        "label": "rustle",
+        "participant": "P14",
+        "source": "P14_05",
+        "annotation_id": "P14_05_9",
+        "audio_partition": "train",
+        "audio_description": "paper rustle",
+        "audio_start": 28.474,
+        "audio_end": 31.184,
+        "visual_action": {
+          "narration": "open milk",
+          "verb": "open",
+          "noun": "milk",
+          "narration_id": "P14_05_6",
+          "participant": "P14",
+          "partition": "train",
+          "start": 28.28,
+          "end": 31.97
+        },
+        "overlap": 2.71,
+        "start": 28.329,
+        "image_time": 1.5,
+        "score": 2.009162767927628,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P14/P14_05.MP4",
+        "index_md5": "fac5e73047ae23a01bcd2e508c150d71",
+        "publication": "55",
+        "split": "development",
+        "group": "object manipulation",
+        "fold": "A"
+      },
+      "rms": 0.004218076037011591
+    },
+    {
+      "source_id": "epic-P15_02_164",
+      "dataset": "epic-sounds",
+      "concept": "epic-pour",
+      "group": "food and liquids",
+      "concept_split": "heldout",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P15/P15_02.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "5a2086c0b3404083d07b65e96d3bec9e05c80a49f530f94d0a1422d0c7a7298c",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P15",
+        "epic-recording:P15_02",
+        "epic-original-index-md5:9f91e19ac3b9a282a2de635466520f00"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P15_02_164/native.txt",
+          "sha256": "3c98b1d4c0f672fd0cf0d10cac15e25ef8f2d787d972b056b6ac1ccb9530df7a"
+        },
+        "image": {
+          "path": "assets/epic-P15_02_164/native.jpg",
+          "sha256": "2ea8996f41aeced2c79cab8abf12f307ee438abf80b6ecddc9b1e70f25f8e1ac"
+        },
+        "audio": {
+          "path": "assets/epic-P15_02_164/native.wav",
+          "sha256": "18f9c5ab83c30bb06dee88d22c4c1dbcdc444786987c396ada194b64ef85084c"
+        },
+        "video": {
+          "path": "assets/epic-P15_02_164/native.mp4",
+          "sha256": "43d195f96c4454cf59a5cf3d809dc36181faeed6067489c9dfe6b7fa698bec81"
+        }
+      },
+      "selection": {
+        "cls": 19,
+        "label": "pour",
+        "participant": "P15",
+        "source": "P15_02",
+        "annotation_id": "P15_02_164",
+        "audio_partition": "train",
+        "audio_description": "pour liquid",
+        "audio_start": 498.673,
+        "audio_end": 499.573,
+        "visual_action": {
+          "narration": "pour water",
+          "verb": "pour",
+          "noun": "water",
+          "narration_id": "P15_02_47",
+          "participant": "P15",
+          "partition": "train",
+          "start": 495.06,
+          "end": 500.24
+        },
+        "overlap": 0.9,
+        "start": 497.623,
+        "image_time": 1.5,
+        "score": 1.6027916757576017,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P15/P15_02.MP4",
+        "index_md5": "9f91e19ac3b9a282a2de635466520f00",
+        "publication": "55",
+        "split": "heldout",
+        "group": "food and liquids",
+        "fold": "A"
+      },
+      "rms": 0.015085917273577748
+    },
+    {
+      "source_id": "epic-P15_04_74",
+      "dataset": "epic-sounds",
+      "concept": "epic-metal / wood collision",
+      "group": "metal impacts",
+      "concept_split": "heldout",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P15/P15_04.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "51afba398e70c152babb6fe9ab3c41755d36c459623bb86900ed8fe995a1eeb6",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P15",
+        "epic-recording:P15_04",
+        "epic-original-index-md5:5a3741f2c4a79f186a978a1fec725bda"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P15_04_74/native.txt",
+          "sha256": "5a7d6e0a49b1c049e9ea83c55570613bd9cbbd25120cd2a177e4da7669e22735"
+        },
+        "image": {
+          "path": "assets/epic-P15_04_74/native.jpg",
+          "sha256": "00d284e22ab1421bb217a6c9c76e7c23c30df32e5ce1913d3955bd1f398094a4"
+        },
+        "audio": {
+          "path": "assets/epic-P15_04_74/native.wav",
+          "sha256": "d2af891bbe5d3af0e3ace20aaaaad1aacec7fc119d82ad0eb0bbe993623a5ef2"
+        },
+        "video": {
+          "path": "assets/epic-P15_04_74/native.mp4",
+          "sha256": "96c27e67dd604825cc6c22f1f90b672e342d77a8a6d87f9686c70a2d1961ca50"
+        }
+      },
+      "selection": {
+        "cls": 10,
+        "label": "metal / wood collision",
+        "participant": "P15",
+        "source": "P15_04",
+        "annotation_id": "P15_04_74",
+        "audio_partition": "validation",
+        "audio_description": "scrub / scrape / scour / wipe",
+        "audio_start": 195.651,
+        "audio_end": 196.351,
+        "visual_action": {
+          "narration": "cut potatoes",
+          "verb": "cut",
+          "noun": "potato",
+          "narration_id": "P15_04_12",
+          "participant": "P15",
+          "partition": "validation",
+          "start": 189.68,
+          "end": 217.89
+        },
+        "overlap": 0.7,
+        "start": 194.501,
+        "image_time": 1.5,
+        "score": 1.4754557259442829,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P15/P15_04.MP4",
+        "index_md5": "5a3741f2c4a79f186a978a1fec725bda",
+        "publication": "55",
+        "split": "heldout",
+        "group": "metal impacts",
+        "fold": "A"
+      },
+      "rms": 0.005215579913626869
+    },
+    {
+      "source_id": "epic-P16_03_23",
+      "dataset": "epic-sounds",
+      "concept": "epic-scrub / scrape / scour / wipe",
+      "group": "object manipulation",
+      "concept_split": "development",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P16/P16_03.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "4d8a3e2d885ebdd5de001c8b825b259f1f8ce71f735feabdeb8bdc54ade5ac26",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P16",
+        "epic-recording:P16_03",
+        "epic-original-index-md5:c1f4d5a49934ab74da95d7c5f78fa05e"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P16_03_23/native.txt",
+          "sha256": "125074843e4168b739551c0d25f490c908d2baa9669c1e6884d4ae3587c75d48"
+        },
+        "image": {
+          "path": "assets/epic-P16_03_23/native.jpg",
+          "sha256": "6b47ee468950a94256d296cf8dff442c71947d0cc1becf0c50595eb0a4761f9b"
+        },
+        "audio": {
+          "path": "assets/epic-P16_03_23/native.wav",
+          "sha256": "661793f4fe50b205d50df393f8f6794672feed9c10ced61ffe338c928fa89418"
+        },
+        "video": {
+          "path": "assets/epic-P16_03_23/native.mp4",
+          "sha256": "5c3da98303e8f32fc0c2d5c1e0814869edb417f3266c00a8532176e90c4b8b1b"
+        }
+      },
+      "selection": {
+        "cls": 1,
+        "label": "scrub / scrape / scour / wipe",
+        "participant": "P16",
+        "source": "P16_03",
+        "annotation_id": "P16_03_23",
+        "audio_partition": "train",
+        "audio_description": "scrub / scrape / scour / wipe",
+        "audio_start": 110.044,
+        "audio_end": 116.023,
+        "visual_action": {
+          "narration": "wash the chopsticks",
+          "verb": "wash",
+          "noun": "chopstick",
+          "narration_id": "P16_03_9",
+          "participant": "P16",
+          "partition": "train",
+          "start": 106.22,
+          "end": 116.85
+        },
+        "overlap": 5.979,
+        "start": 111.5335,
+        "image_time": 1.5,
+        "score": 2.009782465228345,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P16/P16_03.MP4",
+        "index_md5": "c1f4d5a49934ab74da95d7c5f78fa05e",
+        "publication": "55",
+        "split": "development",
+        "group": "object manipulation",
+        "fold": "A"
+      },
+      "rms": 0.018830645476169923
+    },
+    {
+      "source_id": "epic-P18_03_5",
+      "dataset": "epic-sounds",
+      "concept": "epic-metal / wood collision",
+      "group": "metal impacts",
+      "concept_split": "heldout",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P18/P18_03.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "0b7ddf7c254be4e026b1699ae60fcbf994130a948665ab406a5f0d735c3d2ba2",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P18",
+        "epic-recording:P18_03",
+        "epic-original-index-md5:002ffc88a08efc96637135a41fa448eb"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P18_03_5/native.txt",
+          "sha256": "f0254772aae77953f0ae8c1e69f2202b905756b36e7b9ef28d4a5418e48cfd2c"
+        },
+        "image": {
+          "path": "assets/epic-P18_03_5/native.jpg",
+          "sha256": "3c5cd4771a8a5bcd0a174752f1c9893004d86c5ca4cb04be46f09dca2768c25f"
+        },
+        "audio": {
+          "path": "assets/epic-P18_03_5/native.wav",
+          "sha256": "840d7fed6aa4341705c99a97e4f9b7bda54170fa82dde5da036d38c488634934"
+        },
+        "video": {
+          "path": "assets/epic-P18_03_5/native.mp4",
+          "sha256": "07f3665680c08b14fbb21127e427ec4400bcf002e277721722da629d11b2bc38"
+        }
+      },
+      "selection": {
+        "cls": 10,
+        "label": "metal / wood collision",
+        "participant": "P18",
+        "source": "P18_03",
+        "annotation_id": "P18_03_5",
+        "audio_partition": "validation",
+        "audio_description": "clang / clatter",
+        "audio_start": 35.656,
+        "audio_end": 39.049,
+        "visual_action": {
+          "narration": "take knife and fork out of drawer",
+          "verb": "take",
+          "noun": "knife",
+          "narration_id": "P18_03_18",
+          "participant": "P18",
+          "partition": "validation",
+          "start": 36.14,
+          "end": 39.15
+        },
+        "overlap": 2.909,
+        "start": 36.0945,
+        "image_time": 1.5,
+        "score": 1.8653451875037752,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P18/P18_03.MP4",
+        "index_md5": "002ffc88a08efc96637135a41fa448eb",
+        "publication": "55",
+        "split": "heldout",
+        "group": "metal impacts",
+        "fold": "B"
+      },
+      "rms": 0.024673579921687918
+    },
+    {
+      "source_id": "epic-P21_01_69",
+      "dataset": "epic-sounds",
+      "concept": "epic-metal / glass collision",
+      "group": "metal impacts",
+      "concept_split": "heldout",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P21/P21_01.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "66c6fcd85776c082c3e419fe4d190078f5fdab490acb27c00709151dc178f6f9",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P21",
+        "epic-recording:P21_01",
+        "epic-original-index-md5:0b580f8f602bf8807bcd26b740e502a3"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P21_01_69/native.txt",
+          "sha256": "3ffdfac37ad5264ce1042430bf1f2bb9f0c60a32da0deb8ab6cfd59072769141"
+        },
+        "image": {
+          "path": "assets/epic-P21_01_69/native.jpg",
+          "sha256": "23d884ff63a0b7a9affada05f8e8c4eebba81f640d3947ab02f0a97d7ce43ab2"
+        },
+        "audio": {
+          "path": "assets/epic-P21_01_69/native.wav",
+          "sha256": "1e7932e5931addb0ae21d6ef6e85b7cecce04cabbfdec32b9d4ef5a41f571c6c"
+        },
+        "video": {
+          "path": "assets/epic-P21_01_69/native.mp4",
+          "sha256": "20f5f7cd896f17632395710c010c337890653559f3c42556aa1675ffb732e065"
+        }
+      },
+      "selection": {
+        "cls": 17,
+        "label": "metal / glass collision",
+        "participant": "P21",
+        "source": "P21_01",
+        "annotation_id": "P21_01_69",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 285.63,
+        "audio_end": 289.609,
+        "visual_action": {
+          "narration": "closing the olive oil",
+          "verb": "close",
+          "noun": "oil:olive",
+          "narration_id": "P21_01_34",
+          "participant": "P21",
+          "partition": "train",
+          "start": 285.46,
+          "end": 290.73
+        },
+        "overlap": 3.979,
+        "start": 286.1195,
+        "image_time": 1.5,
+        "score": 2.006603151850868,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P21/P21_01.MP4",
+        "index_md5": "0b580f8f602bf8807bcd26b740e502a3",
+        "publication": "55",
+        "split": "heldout",
+        "group": "metal impacts",
+        "fold": "A"
+      },
+      "rms": 0.015300107283794724
+    },
+    {
+      "source_id": "epic-P22_01_137",
+      "dataset": "epic-sounds",
+      "concept": "epic-plastic-only collision",
+      "group": "nonmetal impacts",
+      "concept_split": "development",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P22/P22_01.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "d6a88f50275e4d86610212b0bc1d87076f2a1a7dfe730d6416bc572a95764d2c",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P22",
+        "epic-recording:P22_01",
+        "epic-original-index-md5:96bb2de426fdd2eb18c712b5bd8301cd"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P22_01_137/native.txt",
+          "sha256": "1f61ea89869cd6d1e534269316d97acfec2829500589796cd72827604682dbc6"
+        },
+        "image": {
+          "path": "assets/epic-P22_01_137/native.jpg",
+          "sha256": "9be7240333d9f44e8d347662c0c57efbcbdc48b74031e2bb9b934edfba394198"
+        },
+        "audio": {
+          "path": "assets/epic-P22_01_137/native.wav",
+          "sha256": "6b3495f6c434dccb11f513927e13bf8723ba5cb071d1decbe063a38d0919a9ef"
+        },
+        "video": {
+          "path": "assets/epic-P22_01_137/native.mp4",
+          "sha256": "f69c1d33def952b2d83493e09a71bfb892ae65ca5239939a2c70b71a9cd4dbfe"
+        }
+      },
+      "selection": {
+        "cls": 6,
+        "label": "plastic-only collision",
+        "participant": "P22",
+        "source": "P22_01",
+        "annotation_id": "P22_01_137",
+        "audio_partition": "validation",
+        "audio_description": "paper rustle",
+        "audio_start": 727.713,
+        "audio_end": 729.654,
+        "visual_action": {
+          "narration": "open coffee maker",
+          "verb": "open",
+          "noun": "maker:coffee",
+          "narration_id": "P22_01_235",
+          "participant": "P22",
+          "partition": "validation",
+          "start": 727.62,
+          "end": 731.64
+        },
+        "overlap": 1.941,
+        "start": 727.1835,
+        "image_time": 1.5,
+        "score": 2.0098519555595704,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P22/P22_01.MP4",
+        "index_md5": "96bb2de426fdd2eb18c712b5bd8301cd",
+        "publication": "55",
+        "split": "development",
+        "group": "nonmetal impacts",
+        "fold": "A"
+      },
+      "rms": 0.013483027619123157
+    },
+    {
+      "source_id": "epic-P22_08_204",
+      "dataset": "epic-sounds",
+      "concept": "epic-metal-only collision",
+      "group": "metal impacts",
+      "concept_split": "development",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P22/P22_08.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "c13a3717da99fdb3fa51b64c402b91e1bb47c76f01a0876801e0896355606b95",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P22",
+        "epic-recording:P22_08",
+        "epic-original-index-md5:8584a28cbf427f10e7df1d450d42db1d"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P22_08_204/native.txt",
+          "sha256": "ecf8975fac1d3263e2697c7131e209e06a0292463e114a154a9fc49d46535785"
+        },
+        "image": {
+          "path": "assets/epic-P22_08_204/native.jpg",
+          "sha256": "844307ea09bda6f6bb920595a9302754a0651bdfd021014e9c13ca0fe8b95fde"
+        },
+        "audio": {
+          "path": "assets/epic-P22_08_204/native.wav",
+          "sha256": "7fabb7845229219513ac4dbcc94afd087c48ef373cfbac5c6f58495d2b026a28"
+        },
+        "video": {
+          "path": "assets/epic-P22_08_204/native.mp4",
+          "sha256": "4a1e7d96cac46e6bf44be526404c2227af3f668f24f42eb8f6c3f66016bf0c75"
+        }
+      },
+      "selection": {
+        "cls": 0,
+        "label": "metal-only collision",
+        "participant": "P22",
+        "source": "P22_08",
+        "annotation_id": "P22_08_204",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 819.248,
+        "audio_end": 822.026,
+        "visual_action": {
+          "narration": "take food residue",
+          "verb": "take",
+          "noun": "residue:food",
+          "narration_id": "P22_08_341",
+          "participant": "P22",
+          "partition": "train",
+          "start": 818.37,
+          "end": 822.62
+        },
+        "overlap": 2.778,
+        "start": 819.137,
+        "image_time": 1.5,
+        "score": 2.009071139912121,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P22/P22_08.MP4",
+        "index_md5": "8584a28cbf427f10e7df1d450d42db1d",
+        "publication": "55",
+        "split": "development",
+        "group": "metal impacts",
+        "fold": "A"
+      },
+      "rms": 0.009607816050351124
+    },
+    {
+      "source_id": "epic-P22_113_186",
+      "dataset": "epic-sounds",
+      "concept": "epic-rustle",
+      "group": "object manipulation",
+      "concept_split": "development",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P22/videos/P22_113.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "98bf2bc7835bc257422db6ab31bb629b75d9d849df08d55415d407ab0bde4937",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P22",
+        "epic-recording:P22_113",
+        "epic-original-index-md5:f438ad3fea3a93894e5e8ed6157f9f7a"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P22_113_186/native.txt",
+          "sha256": "664443ed0679b6fcdbeb4a95b547a9b660d023ee0c62b89594345a048dcce045"
+        },
+        "image": {
+          "path": "assets/epic-P22_113_186/native.jpg",
+          "sha256": "2124ff98287ad73bfcdcb086143206778a9db8cce1fc7e7121aae11055cbbee6"
+        },
+        "audio": {
+          "path": "assets/epic-P22_113_186/native.wav",
+          "sha256": "96d33d5ff03f1e84012f98dc410ef59fe1272ef622927544a1b62612648350c9"
+        },
+        "video": {
+          "path": "assets/epic-P22_113_186/native.mp4",
+          "sha256": "e1567f4e7b7b2f333b7d44f11adf5a233393b059121437d60206e4c5bd8c8b83"
+        }
+      },
+      "selection": {
+        "cls": 4,
+        "label": "rustle",
+        "participant": "P22",
+        "source": "P22_113",
+        "annotation_id": "P22_113_186",
+        "audio_partition": "train",
+        "audio_description": "paper rustle",
+        "audio_start": 542.355,
+        "audio_end": 544.401,
+        "visual_action": {
+          "narration": "open coffee pod",
+          "verb": "open",
+          "noun": "pod:coffee",
+          "narration_id": "P22_113_258",
+          "participant": "P22",
+          "partition": "train",
+          "start": 542.35,
+          "end": 546.6
+        },
+        "overlap": 2.046,
+        "start": 541.878,
+        "image_time": 1.5,
+        "score": 2.0092315772757865,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P22/videos/P22_113.MP4",
+        "index_md5": "f438ad3fea3a93894e5e8ed6157f9f7a",
+        "publication": "100",
+        "split": "development",
+        "group": "object manipulation",
+        "fold": "A"
+      },
+      "rms": 0.006734102047040771
+    },
+    {
+      "source_id": "epic-P22_117_129",
+      "dataset": "epic-sounds",
+      "concept": "epic-cut / chop",
+      "group": "food and liquids",
+      "concept_split": "development",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P22/videos/P22_117.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "75d0fc18d358c274dd8aaa56771edddb65c16048d9dcecca6c60ac72074b5824",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P22",
+        "epic-recording:P22_117",
+        "epic-original-index-md5:34e9fd4fdcff18158bbc2e2bfa98c901"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P22_117_129/native.txt",
+          "sha256": "4005038535ca895904f30f52f71f26ae4d44289b21164e870dd7ec8a1158ae23"
+        },
+        "image": {
+          "path": "assets/epic-P22_117_129/native.jpg",
+          "sha256": "8cfeee2f18d8c59d7d6fab8bd10e298fe3510125bb26f021600a00297e7631f1"
+        },
+        "audio": {
+          "path": "assets/epic-P22_117_129/native.wav",
+          "sha256": "1707f677ae5ff098074942658ad817f90f29c26e6b1e65d749ade4bba081f30e"
+        },
+        "video": {
+          "path": "assets/epic-P22_117_129/native.mp4",
+          "sha256": "95bd719925896a1440d0e371486ee656a940372a3f481aa46846ebf92cc1a012"
+        }
+      },
+      "selection": {
+        "cls": 2,
+        "label": "cut / chop",
+        "participant": "P22",
+        "source": "P22_117",
+        "annotation_id": "P22_117_129",
+        "audio_partition": "train",
+        "audio_description": "cut / chop",
+        "audio_start": 412.087,
+        "audio_end": 415.69,
+        "visual_action": {
+          "narration": "cut courgette",
+          "verb": "cut",
+          "noun": "courgette",
+          "narration_id": "P22_117_165",
+          "participant": "P22",
+          "partition": "train",
+          "start": 385.59,
+          "end": 422.87
+        },
+        "overlap": 3.603,
+        "start": 412.3885,
+        "image_time": 1.5,
+        "score": 2.0098451622482387,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P22/videos/P22_117.MP4",
+        "index_md5": "34e9fd4fdcff18158bbc2e2bfa98c901",
+        "publication": "100",
+        "split": "development",
+        "group": "food and liquids",
+        "fold": "A"
+      },
+      "rms": 0.0023767019995697943
+    },
+    {
+      "source_id": "epic-P22_11_37",
+      "dataset": "epic-sounds",
+      "concept": "epic-glass-only collision",
+      "group": "nonmetal impacts",
+      "concept_split": "development",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P22/P22_11.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "ac951c14980ba29a38b37a31780ee1d98e07b4ffb13cef11f528bc743552df02",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P22",
+        "epic-recording:P22_11",
+        "epic-original-index-md5:72cc81c08349e2c8e1ba9a8dfb253b77"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P22_11_37/native.txt",
+          "sha256": "eba5a26458cce9e8d1381533f5bc484ed26d12bcb5898bd699d0b7c63f13b486"
+        },
+        "image": {
+          "path": "assets/epic-P22_11_37/native.jpg",
+          "sha256": "aacb08b937439a9417350cfdcdfbc52e0b5861a037215e7869f9b4aac260abc8"
+        },
+        "audio": {
+          "path": "assets/epic-P22_11_37/native.wav",
+          "sha256": "926621d30b50954cf811858f79034db033074863a5efa0b614b0878f1c62d3b5"
+        },
+        "video": {
+          "path": "assets/epic-P22_11_37/native.mp4",
+          "sha256": "32402eac7868e75a764f7dca1572889b395cc30d8577931b04b914c19dd503da"
+        }
+      },
+      "selection": {
+        "cls": 20,
+        "label": "glass-only collision",
+        "participant": "P22",
+        "source": "P22_11",
+        "annotation_id": "P22_11_37",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 101.561,
+        "audio_end": 102.561,
+        "visual_action": {
+          "narration": "move saucer",
+          "verb": "move",
+          "noun": "saucer",
+          "narration_id": "P22_11_43",
+          "participant": "P22",
+          "partition": "train",
+          "start": 97.53999999999999,
+          "end": 103.71000000000001
+        },
+        "overlap": 1.0,
+        "start": 100.561,
+        "image_time": 1.5,
+        "score": 1.6727373355596014,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P22/P22_11.MP4",
+        "index_md5": "72cc81c08349e2c8e1ba9a8dfb253b77",
+        "publication": "55",
+        "split": "development",
+        "group": "nonmetal impacts",
+        "fold": "A"
+      },
+      "rms": 0.027116455356539386
+    },
+    {
+      "source_id": "epic-P23_02_258",
+      "dataset": "epic-sounds",
+      "concept": "epic-open / close",
+      "group": "object manipulation",
+      "concept_split": "heldout",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P23/P23_02.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "8b06ebdbc966aa9665f35f7cc2bd7765e5c8454aff42d0db97d8846a5e2bf4bb",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P23",
+        "epic-recording:P23_02",
+        "epic-original-index-md5:513dc2a14422aac1b902125b71ba1f75"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P23_02_258/native.txt",
+          "sha256": "333daa02f4ed648c493813ebf233a33e5d18c6eda968862c37485e5adf615e71"
+        },
+        "image": {
+          "path": "assets/epic-P23_02_258/native.jpg",
+          "sha256": "b1d3eb8eda1d21c169ebbd82637933be320bc3fcec9558308899cd5844f31353"
+        },
+        "audio": {
+          "path": "assets/epic-P23_02_258/native.wav",
+          "sha256": "76ed673ff116a8be7654eaa7210068e9a83d136358ec13543d5649d5b9965746"
+        },
+        "video": {
+          "path": "assets/epic-P23_02_258/native.mp4",
+          "sha256": "65bddd9f5cf98000809ab0be49500612b6da8a15f4891245034f115e57c7a4ef"
+        }
+      },
+      "selection": {
+        "cls": 3,
+        "label": "open / close",
+        "participant": "P23",
+        "source": "P23_02",
+        "annotation_id": "P23_02_258",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 861.84,
+        "audio_end": 863.92,
+        "visual_action": {
+          "narration": "open the door",
+          "verb": "open",
+          "noun": "door",
+          "narration_id": "P23_02_105",
+          "participant": "P23",
+          "partition": "train",
+          "start": 861.51,
+          "end": 865.25
+        },
+        "overlap": 2.08,
+        "start": 861.38,
+        "image_time": 1.5,
+        "score": 2.0088139691576363,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P23/P23_02.MP4",
+        "index_md5": "513dc2a14422aac1b902125b71ba1f75",
+        "publication": "55",
+        "split": "heldout",
+        "group": "object manipulation",
+        "fold": "B"
+      },
+      "rms": 0.04054922587503485
+    },
+    {
+      "source_id": "epic-P23_04_527",
+      "dataset": "epic-sounds",
+      "concept": "epic-stir / mix / whisk",
+      "group": "food and liquids",
+      "concept_split": "heldout",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P23/P23_04.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "753c44a97cbe236a779426ada9a7f5e8b9749bd56962e21ab144f91d55b74542",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P23",
+        "epic-recording:P23_04",
+        "epic-original-index-md5:9a1cd933733cba86290350b9af62426d"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P23_04_527/native.txt",
+          "sha256": "70ed8e746ee295a35d324b1c497a3c915de02ab28ab81a3899bb86b515f293b8"
+        },
+        "image": {
+          "path": "assets/epic-P23_04_527/native.jpg",
+          "sha256": "443870e42b3478c5dc4cafcd27510d2230de354d72ca4bc8dd0642aa2854066c"
+        },
+        "audio": {
+          "path": "assets/epic-P23_04_527/native.wav",
+          "sha256": "16e85a34ab721b38cf6f08f660e4de205780364249139018b488d79b897b8c7d"
+        },
+        "video": {
+          "path": "assets/epic-P23_04_527/native.mp4",
+          "sha256": "04bec88a86f66ea44cc0a8a8f86f428b48be1fb93720d3a0b62ec880f2c10503"
+        }
+      },
+      "selection": {
+        "cls": 8,
+        "label": "stir / mix / whisk",
+        "participant": "P23",
+        "source": "P23_04",
+        "annotation_id": "P23_04_527",
+        "audio_partition": "train",
+        "audio_description": "stir / mix / whisk food",
+        "audio_start": 1211.935,
+        "audio_end": 1214.74,
+        "visual_action": {
+          "narration": "mixing the curry",
+          "verb": "mix",
+          "noun": "curry",
+          "narration_id": "P23_04_83",
+          "participant": "P23",
+          "partition": "train",
+          "start": 1190.53,
+          "end": 1218.96
+        },
+        "overlap": 2.805,
+        "start": 1211.8375,
+        "image_time": 1.5,
+        "score": 2.009865174284205,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P23/P23_04.MP4",
+        "index_md5": "9a1cd933733cba86290350b9af62426d",
+        "publication": "55",
+        "split": "heldout",
+        "group": "food and liquids",
+        "fold": "B"
+      },
+      "rms": 0.0320684146251171
+    },
+    {
+      "source_id": "epic-P23_101_372",
+      "dataset": "epic-sounds",
+      "concept": "epic-slide object",
+      "group": "object manipulation",
+      "concept_split": "heldout",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P23/videos/P23_101.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "e6dc77c5a07d3209bdada27e3dbc354c2ccc69103a55bf3645c8bc2eadb57f5d",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P23",
+        "epic-recording:P23_101",
+        "epic-original-index-md5:86109e81bfe02a894b29410bb0f3eac8"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P23_101_372/native.txt",
+          "sha256": "22f772265f187421d535d22ef1c7d8c6ffa61b141350368ea54edadfccf5b589"
+        },
+        "image": {
+          "path": "assets/epic-P23_101_372/native.jpg",
+          "sha256": "d3490a07cc9a1bb74948a2acf7d3e54e021548b779cece496173abb6a8b00932"
+        },
+        "audio": {
+          "path": "assets/epic-P23_101_372/native.wav",
+          "sha256": "19040072136ab18db03177f91401099aa6b0e89a35bf1e2fa944e0bb8451c2f0"
+        },
+        "video": {
+          "path": "assets/epic-P23_101_372/native.mp4",
+          "sha256": "a315bf3593aef14b3793f43aeeba1a1493b3153d27e004dbc44fbf69517c934b"
+        }
+      },
+      "selection": {
+        "cls": 9,
+        "label": "slide object",
+        "participant": "P23",
+        "source": "P23_101",
+        "annotation_id": "P23_101_372",
+        "audio_partition": "train",
+        "audio_description": "drag / move / pull object",
+        "audio_start": 1310.744,
+        "audio_end": 1312.285,
+        "visual_action": {
+          "narration": "moving pan",
+          "verb": "move",
+          "noun": "pan",
+          "narration_id": "P23_101_230",
+          "participant": "P23",
+          "partition": "train",
+          "start": 1307.71,
+          "end": 1313.73
+        },
+        "overlap": 1.541,
+        "start": 1310.0145,
+        "image_time": 1.5,
+        "score": 2.0088019684818574,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P23/videos/P23_101.MP4",
+        "index_md5": "86109e81bfe02a894b29410bb0f3eac8",
+        "publication": "100",
+        "split": "heldout",
+        "group": "object manipulation",
+        "fold": "B"
+      },
+      "rms": 0.00720349429777686
+    },
+    {
+      "source_id": "epic-P23_102_561",
+      "dataset": "epic-sounds",
+      "concept": "epic-wood-only collision",
+      "group": "nonmetal impacts",
+      "concept_split": "heldout",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P23/videos/P23_102.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "f9ba88190030f04f5f6b6919e3d9c95c51d06a7eed647dfe48f508ae1ee3d06c",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P23",
+        "epic-recording:P23_102",
+        "epic-original-index-md5:4698fcbf13782f6396029761eb3bd5f2"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P23_102_561/native.txt",
+          "sha256": "5d6b5086874476be6681230bd60ea323396f8273e1b395b398e5a2fc3c4e32e3"
+        },
+        "image": {
+          "path": "assets/epic-P23_102_561/native.jpg",
+          "sha256": "1deb865c2cbed9617c22347083e00371bdda8778662fccf4c0d70ab1a928cd76"
+        },
+        "audio": {
+          "path": "assets/epic-P23_102_561/native.wav",
+          "sha256": "22db444bf6329e20c01ee14c4f20d8feb83101036926269c01c9a08d76e5578a"
+        },
+        "video": {
+          "path": "assets/epic-P23_102_561/native.mp4",
+          "sha256": "44430e72a16c9bfc5fa6fa1caeaaa873bf8319c9f675c694ee997e5d6d7cd488"
+        }
+      },
+      "selection": {
+        "cls": 21,
+        "label": "wood-only collision",
+        "participant": "P23",
+        "source": "P23_102",
+        "annotation_id": "P23_102_561",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 1875.038,
+        "audio_end": 1875.955,
+        "visual_action": {
+          "narration": "put plate",
+          "verb": "put",
+          "noun": "plate",
+          "narration_id": "P23_102_302",
+          "participant": "P23",
+          "partition": "train",
+          "start": 1874.18,
+          "end": 1875.83
+        },
+        "overlap": 0.792,
+        "start": 1873.934,
+        "image_time": 1.5,
+        "score": 1.3923446951178808,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P23/videos/P23_102.MP4",
+        "index_md5": "4698fcbf13782f6396029761eb3bd5f2",
+        "publication": "100",
+        "split": "heldout",
+        "group": "nonmetal impacts",
+        "fold": "B"
+      },
+      "rms": 0.019231682372727796
+    },
+    {
+      "source_id": "epic-P24_05_14",
+      "dataset": "epic-sounds",
+      "concept": "epic-water",
+      "group": "food and liquids",
+      "concept_split": "development",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P24/P24_05.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "b86ed556e2b57ae4b7342cab0268c6fa974112a793e8551368bbdeee74cdcd3d",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P24",
+        "epic-recording:P24_05",
+        "epic-original-index-md5:e732014796c27fda6e969306028b9da7"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P24_05_14/native.txt",
+          "sha256": "59d3d02b46a15114ce4f373ec16e3ade452cffaee7b536b3525cc67e77b878c3"
+        },
+        "image": {
+          "path": "assets/epic-P24_05_14/native.jpg",
+          "sha256": "928339767b930fb041dc840c9aceee05179683522e925c647416012fd1b8f1dc"
+        },
+        "audio": {
+          "path": "assets/epic-P24_05_14/native.wav",
+          "sha256": "f7d82bcc2e0da9f2290ba98f71f0ef41c08dce74514240581c9573ee691e7be4"
+        },
+        "video": {
+          "path": "assets/epic-P24_05_14/native.mp4",
+          "sha256": "ea3ae6b668a1e4251217246dc45ae4b09f1cae1facdc920e959d66ab1a43dbf7"
+        }
+      },
+      "selection": {
+        "cls": 5,
+        "label": "water",
+        "participant": "P24",
+        "source": "P24_05",
+        "annotation_id": "P24_05_14",
+        "audio_partition": "train",
+        "audio_description": "tap running",
+        "audio_start": 65.966,
+        "audio_end": 69.987,
+        "visual_action": {
+          "narration": "turn on stove",
+          "verb": "turn-on",
+          "noun": "stove",
+          "narration_id": "P24_05_13",
+          "participant": "P24",
+          "partition": "train",
+          "start": 65.54,
+          "end": 74.28999999999999
+        },
+        "overlap": 4.021,
+        "start": 66.4765,
+        "image_time": 1.5,
+        "score": 2.0099783476488664,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P24/P24_05.MP4",
+        "index_md5": "e732014796c27fda6e969306028b9da7",
+        "publication": "55",
+        "split": "development",
+        "group": "food and liquids",
+        "fold": "A"
+      },
+      "rms": 0.0059706569778671
+    },
+    {
+      "source_id": "epic-P24_07_142",
+      "dataset": "epic-sounds",
+      "concept": "epic-cut / chop",
+      "group": "food and liquids",
+      "concept_split": "development",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P24/P24_07.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "e5040b6f24fc8beefb9a414a3c8b763342b2e1c3e37d3f5ccf330db3be525009",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P24",
+        "epic-recording:P24_07",
+        "epic-original-index-md5:7d54a905f0130033ff919c65c815fe56"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P24_07_142/native.txt",
+          "sha256": "7d58c956d125841f9c8ed13095967d4ac980dd8fb7d23b7af4828d405c8ddd8f"
+        },
+        "image": {
+          "path": "assets/epic-P24_07_142/native.jpg",
+          "sha256": "b4ac276927d66bc45e46b039bfa5330f53ad67b12ee232c5ecf7d04a7740ac9a"
+        },
+        "audio": {
+          "path": "assets/epic-P24_07_142/native.wav",
+          "sha256": "ca7bc967847fbb882beaab34eabe6bf62195047d0494e701e0c127c5facc2ad0"
+        },
+        "video": {
+          "path": "assets/epic-P24_07_142/native.mp4",
+          "sha256": "ab7f9d6371aa5fbbb711361ad760cd9b2f61d39a2f2c7c40fcb5de80c648253f"
+        }
+      },
+      "selection": {
+        "cls": 2,
+        "label": "cut / chop",
+        "participant": "P24",
+        "source": "P24_07",
+        "annotation_id": "P24_07_142",
+        "audio_partition": "train",
+        "audio_description": "cut / chop",
+        "audio_start": 647.197,
+        "audio_end": 649.363,
+        "visual_action": {
+          "narration": "cut carrot",
+          "verb": "cut",
+          "noun": "carrot",
+          "narration_id": "P24_07_134",
+          "participant": "P24",
+          "partition": "train",
+          "start": 621.16,
+          "end": 665.48
+        },
+        "overlap": 2.166,
+        "start": 646.78,
+        "image_time": 1.5,
+        "score": 2.0097601004480383,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P24/P24_07.MP4",
+        "index_md5": "7d54a905f0130033ff919c65c815fe56",
+        "publication": "55",
+        "split": "development",
+        "group": "food and liquids",
+        "fold": "A"
+      },
+      "rms": 0.016780164341573877
+    },
+    {
+      "source_id": "epic-P24_08_371",
+      "dataset": "epic-sounds",
+      "concept": "epic-glass-only collision",
+      "group": "nonmetal impacts",
+      "concept_split": "development",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P24/P24_08.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "50d242ce1b26970c93663f3f5e187674500e50caa6a849b9a99d2a14a2d8d91b",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P24",
+        "epic-recording:P24_08",
+        "epic-original-index-md5:8be5c667c29da8072394ae16b3c74e33"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P24_08_371/native.txt",
+          "sha256": "bfa1597848ba65958372c7e312e020f50bf8a9e32d7e7fc30bb6764612162e67"
+        },
+        "image": {
+          "path": "assets/epic-P24_08_371/native.jpg",
+          "sha256": "90c37107fb622566b52bce898d6fa3390d776d1f655e4ddf1f028d44ab956e29"
+        },
+        "audio": {
+          "path": "assets/epic-P24_08_371/native.wav",
+          "sha256": "c1498e98cc6203f032a4172b9861f1434a707a90a6bc4a90f52906513c87e2b4"
+        },
+        "video": {
+          "path": "assets/epic-P24_08_371/native.mp4",
+          "sha256": "2cedabf410ae3c31741dfebff6410564737c7178c5cfb0ca78494c237bb83870"
+        }
+      },
+      "selection": {
+        "cls": 20,
+        "label": "glass-only collision",
+        "participant": "P24",
+        "source": "P24_08",
+        "annotation_id": "P24_08_371",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 1350.096,
+        "audio_end": 1350.413,
+        "visual_action": {
+          "narration": "take glass",
+          "verb": "take",
+          "noun": "glass",
+          "narration_id": "P24_08_319",
+          "participant": "P24",
+          "partition": "train",
+          "start": 1349.46,
+          "end": 1350.99
+        },
+        "overlap": 0.317,
+        "start": 1348.7545,
+        "image_time": 1.5,
+        "score": 1.2160933619181986,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P24/P24_08.MP4",
+        "index_md5": "8be5c667c29da8072394ae16b3c74e33",
+        "publication": "55",
+        "split": "development",
+        "group": "nonmetal impacts",
+        "fold": "A"
+      },
+      "rms": 0.022611495612885762
+    },
+    {
+      "source_id": "epic-P24_09_220",
+      "dataset": "epic-sounds",
+      "concept": "epic-metal / ceramic collision",
+      "group": "metal impacts",
+      "concept_split": "development",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P24/P24_09.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "1bbc6eb20715d65cc104ec5ebcd36e47754984210f52eec98e1d51deeaa66636",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P24",
+        "epic-recording:P24_09",
+        "epic-original-index-md5:8d7385f315a909a64c555bca266dc2db"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P24_09_220/native.txt",
+          "sha256": "b205b7a150fddbc09beca76059550793b57e9682af3626f00006497125e91a67"
+        },
+        "image": {
+          "path": "assets/epic-P24_09_220/native.jpg",
+          "sha256": "cb06e3bd57cc674c8f3ed4f92702e955f23d71cfa2ce6c5804b13dad057bdcfc"
+        },
+        "audio": {
+          "path": "assets/epic-P24_09_220/native.wav",
+          "sha256": "7d554f0afde13912a83550ad47970e5b27e2a034a97804a430df446e96f848b8"
+        },
+        "video": {
+          "path": "assets/epic-P24_09_220/native.mp4",
+          "sha256": "48aa6f429bce70f9d34ba7737acdae52e1e51f7e1f55f97a446d92385bcf4253"
+        }
+      },
+      "selection": {
+        "cls": 12,
+        "label": "metal / ceramic collision",
+        "participant": "P24",
+        "source": "P24_09",
+        "annotation_id": "P24_09_220",
+        "audio_partition": "validation",
+        "audio_description": "clang / clatter",
+        "audio_start": 1390.862,
+        "audio_end": 1393.481,
+        "visual_action": {
+          "narration": "move frittata around",
+          "verb": "move",
+          "noun": "frittata",
+          "narration_id": "P24_09_213",
+          "participant": "P24",
+          "partition": "validation",
+          "start": 1387.36,
+          "end": 1405.21
+        },
+        "overlap": 2.619,
+        "start": 1390.6715,
+        "image_time": 1.5,
+        "score": 2.0098072048276663,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P24/P24_09.MP4",
+        "index_md5": "8d7385f315a909a64c555bca266dc2db",
+        "publication": "55",
+        "split": "development",
+        "group": "metal impacts",
+        "fold": "A"
+      },
+      "rms": 0.012469178182986127
+    },
+    {
+      "source_id": "epic-P26_119_119",
+      "dataset": "epic-sounds",
+      "concept": "epic-cut / chop",
+      "group": "food and liquids",
+      "concept_split": "development",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P26/videos/P26_119.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "d45f2e3b07b5d22ad19c99d64eb53cde0c4c04a20d718b66bc28d5cedb27ae17",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P26",
+        "epic-recording:P26_119",
+        "epic-original-index-md5:ad92d989137a78c1205354fed8e6df01"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P26_119_119/native.txt",
+          "sha256": "7f79c9f0eabec03415d1b8feb1665eb4f44a6b29d9cf3b620324098db5875095"
+        },
+        "image": {
+          "path": "assets/epic-P26_119_119/native.jpg",
+          "sha256": "7179e79b23aaccb3725ae8389605047be789ca46b1601d0251dc6c147a9575cb"
+        },
+        "audio": {
+          "path": "assets/epic-P26_119_119/native.wav",
+          "sha256": "26919c663606600acb58e91a13e3451419c750c3fe46425322bc9d4fea175d30"
+        },
+        "video": {
+          "path": "assets/epic-P26_119_119/native.mp4",
+          "sha256": "31ce1c5dc7d56f7cb34d795bf38fd52557f4bb9b2f28a9c46564afb4976f965b"
+        }
+      },
+      "selection": {
+        "cls": 2,
+        "label": "cut / chop",
+        "participant": "P26",
+        "source": "P26_119",
+        "annotation_id": "P26_119_119",
+        "audio_partition": "train",
+        "audio_description": "cut / chop",
+        "audio_start": 418.317,
+        "audio_end": 422.125,
+        "visual_action": {
+          "narration": "cut onion",
+          "verb": "cut",
+          "noun": "onion",
+          "narration_id": "P26_119_83",
+          "participant": "P26",
+          "partition": "train",
+          "start": 387.91,
+          "end": 427.78
+        },
+        "overlap": 3.808,
+        "start": 418.721,
+        "image_time": 1.5,
+        "score": 2.009572284447495,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P26/videos/P26_119.MP4",
+        "index_md5": "ad92d989137a78c1205354fed8e6df01",
+        "publication": "100",
+        "split": "development",
+        "group": "food and liquids",
+        "fold": "B"
+      },
+      "rms": 0.009855265783298157
+    },
+    {
+      "source_id": "epic-P26_19_22",
+      "dataset": "epic-sounds",
+      "concept": "epic-scrub / scrape / scour / wipe",
+      "group": "object manipulation",
+      "concept_split": "development",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P26/P26_19.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "40d7eefb4442c4540a3b12f23640c93662a5abcf507904d9ba8c776cd8a74db1",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P26",
+        "epic-recording:P26_19",
+        "epic-original-index-md5:e63cdbfc53280ea9d062b5242cb897bd"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P26_19_22/native.txt",
+          "sha256": "05991a17efef553c5c8e5c99d4a508037e89739a4ba2a2dbb1e2e44af2124119"
+        },
+        "image": {
+          "path": "assets/epic-P26_19_22/native.jpg",
+          "sha256": "107f4697d3d04f6b106ebb8eb2184624649274d10e78fba362ec7a6b6c9b72e0"
+        },
+        "audio": {
+          "path": "assets/epic-P26_19_22/native.wav",
+          "sha256": "5720ceacd0759ae3364a33e5107cf2f499f2dc9efa682cfca53f4f9da237af36"
+        },
+        "video": {
+          "path": "assets/epic-P26_19_22/native.mp4",
+          "sha256": "6393ade6ffaea74a18a252b9f974ba0aa9417ebeeec18d97d380d2e751fab1c1"
+        }
+      },
+      "selection": {
+        "cls": 1,
+        "label": "scrub / scrape / scour / wipe",
+        "participant": "P26",
+        "source": "P26_19",
+        "annotation_id": "P26_19_22",
+        "audio_partition": "train",
+        "audio_description": "scrub / scrape / scour / wipe",
+        "audio_start": 118.194,
+        "audio_end": 123.935,
+        "visual_action": {
+          "narration": "wash glass",
+          "verb": "wash",
+          "noun": "glass",
+          "narration_id": "P26_19_32",
+          "participant": "P26",
+          "partition": "train",
+          "start": 117.56,
+          "end": 129.12
+        },
+        "overlap": 5.741,
+        "start": 119.5645,
+        "image_time": 1.5,
+        "score": 2.0099209514888936,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P26/P26_19.MP4",
+        "index_md5": "e63cdbfc53280ea9d062b5242cb897bd",
+        "publication": "55",
+        "split": "development",
+        "group": "object manipulation",
+        "fold": "B"
+      },
+      "rms": 0.021170554582694266
+    },
+    {
+      "source_id": "epic-P26_35_1",
+      "dataset": "epic-sounds",
+      "concept": "epic-metal-only collision",
+      "group": "metal impacts",
+      "concept_split": "development",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P26/P26_35.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "17a409af6c0e07bac77673fd82667dc68a7f2baf74760f773ff446f7fb5d7ca1",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P26",
+        "epic-recording:P26_35",
+        "epic-original-index-md5:506e6fb92cdf00b4c318e9608df8498a"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P26_35_1/native.txt",
+          "sha256": "ffc3bf0c727058eaac2c4db6b8d8b5254c6159dea8578ea379d07b42331e3b2e"
+        },
+        "image": {
+          "path": "assets/epic-P26_35_1/native.jpg",
+          "sha256": "d5206a34327a68ec3d0aa867b9f08202b603861a5c32b4c2248297fdf72321d4"
+        },
+        "audio": {
+          "path": "assets/epic-P26_35_1/native.wav",
+          "sha256": "bd685cc8c4e09bd2cd87e61c5488377088a122386eeba0af537c82e1c7d37f07"
+        },
+        "video": {
+          "path": "assets/epic-P26_35_1/native.mp4",
+          "sha256": "fdc31879b0aba8ffffc79a8d52e496f2d63c69ad1d74fd3a0fcdf9afc4e977f4"
+        }
+      },
+      "selection": {
+        "cls": 0,
+        "label": "metal-only collision",
+        "participant": "P26",
+        "source": "P26_35",
+        "annotation_id": "P26_35_1",
+        "audio_partition": "validation",
+        "audio_description": "clang / clatter",
+        "audio_start": 5.769,
+        "audio_end": 7.888,
+        "visual_action": {
+          "narration": "take saucepan",
+          "verb": "take",
+          "noun": "saucepan",
+          "narration_id": "P26_35_1",
+          "participant": "P26",
+          "partition": "validation",
+          "start": 3.43,
+          "end": 10.1
+        },
+        "overlap": 2.119,
+        "start": 5.3285,
+        "image_time": 1.5,
+        "score": 2.0097005820972846,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P26/P26_35.MP4",
+        "index_md5": "506e6fb92cdf00b4c318e9608df8498a",
+        "publication": "55",
+        "split": "development",
+        "group": "metal impacts",
+        "fold": "B"
+      },
+      "rms": 0.008900798335463983
+    },
+    {
+      "source_id": "epic-P27_05_31",
+      "dataset": "epic-sounds",
+      "concept": "epic-metal / ceramic collision",
+      "group": "metal impacts",
+      "concept_split": "development",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P27/P27_05.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "75853d883b10ec0acf6b4c2bd4d86333ef8e05e6f9e5d6fb6399cd69376e6bbd",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P27",
+        "epic-recording:P27_05",
+        "epic-original-index-md5:a9974532d6faca332ab44975a49cb740"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P27_05_31/native.txt",
+          "sha256": "1368397608667cd25c369c7d305cde4556a7001110d4dbe48de159bb8b8b08fb"
+        },
+        "image": {
+          "path": "assets/epic-P27_05_31/native.jpg",
+          "sha256": "6ca0361ebbbbbb3a22582c54786266eb8981210e8baa7e7207ac063d35649d0e"
+        },
+        "audio": {
+          "path": "assets/epic-P27_05_31/native.wav",
+          "sha256": "b43f8562185c0c4f3c5f07faf10fc873ca04514a62c71113623de419624de0de"
+        },
+        "video": {
+          "path": "assets/epic-P27_05_31/native.mp4",
+          "sha256": "5b08cd96ae7a502bfebc6bef7cf59463a0ba8df3a2e8633c5e766f2cd36db8d1"
+        }
+      },
+      "selection": {
+        "cls": 12,
+        "label": "metal / ceramic collision",
+        "participant": "P27",
+        "source": "P27_05",
+        "annotation_id": "P27_05_31",
+        "audio_partition": "validation",
+        "audio_description": "clang / clatter",
+        "audio_start": 259.285,
+        "audio_end": 262.66,
+        "visual_action": {
+          "narration": "take and wash forks",
+          "verb": "take",
+          "noun": "fork:wash",
+          "narration_id": "P27_05_23",
+          "participant": "P27",
+          "partition": "validation",
+          "start": 258.35,
+          "end": 293.63
+        },
+        "overlap": 3.375,
+        "start": 259.4725,
+        "image_time": 1.5,
+        "score": 2.007046013895888,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P27/P27_05.MP4",
+        "index_md5": "a9974532d6faca332ab44975a49cb740",
+        "publication": "55",
+        "split": "development",
+        "group": "metal impacts",
+        "fold": "B"
+      },
+      "rms": 0.07417122387059802
+    },
+    {
+      "source_id": "epic-P27_06_109",
+      "dataset": "epic-sounds",
+      "concept": "epic-plastic-only collision",
+      "group": "nonmetal impacts",
+      "concept_split": "development",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P27/P27_06.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "2424d8f79f8e3dd1792b341e34aa2489766c622ad7a23c1c1ac1d20ed05d85f5",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P27",
+        "epic-recording:P27_06",
+        "epic-original-index-md5:1395c7a138569ed566ffdbc6db6590a4"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P27_06_109/native.txt",
+          "sha256": "0070043614e1e27cab3bc5776160f826509369885cfab42d33d7e115298071d7"
+        },
+        "image": {
+          "path": "assets/epic-P27_06_109/native.jpg",
+          "sha256": "00d4d76f269dc9cee3ea5ecebe40b9fcc7be62d48b52bf5b0c184e66a38b7d60"
+        },
+        "audio": {
+          "path": "assets/epic-P27_06_109/native.wav",
+          "sha256": "d17c8030e9dcf4fb15b6e172f7574395835c6d03ee6145a4b6a977dfbcf047ce"
+        },
+        "video": {
+          "path": "assets/epic-P27_06_109/native.mp4",
+          "sha256": "64258fd295f3eb138dce097d5038041918432f14b2835f3d45ecf4d990b22d38"
+        }
+      },
+      "selection": {
+        "cls": 6,
+        "label": "plastic-only collision",
+        "participant": "P27",
+        "source": "P27_06",
+        "annotation_id": "P27_06_109",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 564.744,
+        "audio_end": 566.64,
+        "visual_action": {
+          "narration": "open cupboard",
+          "verb": "open",
+          "noun": "cupboard",
+          "narration_id": "P27_06_52",
+          "participant": "P27",
+          "partition": "train",
+          "start": 558.6,
+          "end": 567.69
+        },
+        "overlap": 1.896,
+        "start": 564.192,
+        "image_time": 1.5,
+        "score": 2.0085413119220177,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P27/P27_06.MP4",
+        "index_md5": "1395c7a138569ed566ffdbc6db6590a4",
+        "publication": "55",
+        "split": "development",
+        "group": "nonmetal impacts",
+        "fold": "B"
+      },
+      "rms": 0.015420335599419632
+    },
+    {
+      "source_id": "epic-P28_101_37",
+      "dataset": "epic-sounds",
+      "concept": "epic-metal-only collision",
+      "group": "metal impacts",
+      "concept_split": "development",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P28/videos/P28_101.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "5b7a6c267f47fefa251eb5142c351b433ee5fb180df3be6c2d76c0edf8e6521e",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P28",
+        "epic-recording:P28_101",
+        "epic-original-index-md5:7b8c8462b72790c643b42f3bc6be45f8"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P28_101_37/native.txt",
+          "sha256": "2c938d8e2b8ac3c255ee2d6a91f2de6257cc942929e22102627762153d21fe81"
+        },
+        "image": {
+          "path": "assets/epic-P28_101_37/native.jpg",
+          "sha256": "a81f86110cfd2ca481ccb20a90116a7342a30e40c5ec9af5151809e81cb7a119"
+        },
+        "audio": {
+          "path": "assets/epic-P28_101_37/native.wav",
+          "sha256": "604a05768565495a58ddc64169736b4edb2fef06b1e4b38abcec39a7c30f5d94"
+        },
+        "video": {
+          "path": "assets/epic-P28_101_37/native.mp4",
+          "sha256": "a0f410981e1f2dce2347d836dc77997277650ef46145d932a3d1ca92f46203c2"
+        }
+      },
+      "selection": {
+        "cls": 0,
+        "label": "metal-only collision",
+        "participant": "P28",
+        "source": "P28_101",
+        "annotation_id": "P28_101_37",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 95.299,
+        "audio_end": 96.987,
+        "visual_action": {
+          "narration": "close drawer",
+          "verb": "close",
+          "noun": "drawer",
+          "narration_id": "P28_101_29",
+          "participant": "P28",
+          "partition": "train",
+          "start": 93.99000000000001,
+          "end": 98.63
+        },
+        "overlap": 1.688,
+        "start": 94.643,
+        "image_time": 1.5,
+        "score": 2.009981836788356,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P28/videos/P28_101.MP4",
+        "index_md5": "7b8c8462b72790c643b42f3bc6be45f8",
+        "publication": "100",
+        "split": "development",
+        "group": "metal impacts",
+        "fold": "B"
+      },
+      "rms": 0.01759695941986759
+    },
+    {
+      "source_id": "epic-P28_111_107",
+      "dataset": "epic-sounds",
+      "concept": "epic-cut / chop",
+      "group": "food and liquids",
+      "concept_split": "development",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P28/videos/P28_111.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "554a142af3cd898b0923aee41f4c80d17d92ce38f5c4ed7040ec61d9c6b5eec4",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P28",
+        "epic-recording:P28_111",
+        "epic-original-index-md5:ca56925e245bf565792c455619bdec11"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P28_111_107/native.txt",
+          "sha256": "b8ade045e691ceeb1ab67c44d4049d7d8770713a64fabd6b958c221765508cd2"
+        },
+        "image": {
+          "path": "assets/epic-P28_111_107/native.jpg",
+          "sha256": "69efdb50c0012bb96155d2e8cb29d02c8a097faec7d27b36cce40958998aed37"
+        },
+        "audio": {
+          "path": "assets/epic-P28_111_107/native.wav",
+          "sha256": "d0b57576a10d0c7486b5ca365b101d891891871d620509f60c43f54c94ebd76e"
+        },
+        "video": {
+          "path": "assets/epic-P28_111_107/native.mp4",
+          "sha256": "eb0604995f0683ff680b6f15c8ef08ef17aed5f6b6926941461d6445857b64c8"
+        }
+      },
+      "selection": {
+        "cls": 2,
+        "label": "cut / chop",
+        "participant": "P28",
+        "source": "P28_111",
+        "annotation_id": "P28_111_107",
+        "audio_partition": "train",
+        "audio_description": "cut / chop",
+        "audio_start": 549.768,
+        "audio_end": 554.607,
+        "visual_action": {
+          "narration": "cut banana",
+          "verb": "cut",
+          "noun": "banana",
+          "narration_id": "P28_111_176",
+          "participant": "P28",
+          "partition": "train",
+          "start": 549.18,
+          "end": 561.07
+        },
+        "overlap": 4.839,
+        "start": 550.6875,
+        "image_time": 1.5,
+        "score": 2.009802197464742,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P28/videos/P28_111.MP4",
+        "index_md5": "ca56925e245bf565792c455619bdec11",
+        "publication": "100",
+        "split": "development",
+        "group": "food and liquids",
+        "fold": "B"
+      },
+      "rms": 0.0018954986147941555
+    },
+    {
+      "source_id": "epic-P28_14_92",
+      "dataset": "epic-sounds",
+      "concept": "epic-metal / ceramic collision",
+      "group": "metal impacts",
+      "concept_split": "development",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P28/P28_14.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "08740ac19394b871c3fe48513034de90268a2fcae2c4b49482789da596cad559",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P28",
+        "epic-recording:P28_14",
+        "epic-original-index-md5:601761de294884058b1a22062c0cec10"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P28_14_92/native.txt",
+          "sha256": "ab476ecb1913d3e026be8929927110b46b25082a1af0900fccfabb5f8d7b61d4"
+        },
+        "image": {
+          "path": "assets/epic-P28_14_92/native.jpg",
+          "sha256": "18f1912a0a6d3242fa02a3795e978a08c0d02d6fb5158aa7c26cf925f894a4a9"
+        },
+        "audio": {
+          "path": "assets/epic-P28_14_92/native.wav",
+          "sha256": "8a79dd1e5e8df17ecb72b923fc6b88e38d801d0fac2b3e6e756a91ba2420e2ac"
+        },
+        "video": {
+          "path": "assets/epic-P28_14_92/native.mp4",
+          "sha256": "95a8e1643f5667488746adc1671c255891bda9020abbe076fc85a23ff2791975"
+        }
+      },
+      "selection": {
+        "cls": 12,
+        "label": "metal / ceramic collision",
+        "participant": "P28",
+        "source": "P28_14",
+        "annotation_id": "P28_14_92",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 274.077,
+        "audio_end": 276.745,
+        "visual_action": {
+          "narration": "move fork",
+          "verb": "move",
+          "noun": "fork",
+          "narration_id": "P28_14_84",
+          "participant": "P28",
+          "partition": "train",
+          "start": 274.05,
+          "end": 276.79
+        },
+        "overlap": 2.668,
+        "start": 273.911,
+        "image_time": 1.5,
+        "score": 2.0091073773312385,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P28/P28_14.MP4",
+        "index_md5": "601761de294884058b1a22062c0cec10",
+        "publication": "55",
+        "split": "development",
+        "group": "metal impacts",
+        "fold": "B"
+      },
+      "rms": 0.018773453592403847
+    },
+    {
+      "source_id": "epic-P29_03_334",
+      "dataset": "epic-sounds",
+      "concept": "epic-slide object",
+      "group": "object manipulation",
+      "concept_split": "heldout",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P29/P29_03.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "dcf323f19587c396cbd96a4d23cbf974efb49f2f6c310a3294247bb47f8a82c9",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P29",
+        "epic-recording:P29_03",
+        "epic-original-index-md5:f03451b585fc36655ecd62b746b22ad0"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P29_03_334/native.txt",
+          "sha256": "cbff4e8b6a7ff1e5824fcbc3e099e2b0209aea36735632f0cfe3d43fbf9f2a74"
+        },
+        "image": {
+          "path": "assets/epic-P29_03_334/native.jpg",
+          "sha256": "59f07a8c4cbe9edf7e3a6025383f32b6dba0862e5dc86ba03033195f8c4e6852"
+        },
+        "audio": {
+          "path": "assets/epic-P29_03_334/native.wav",
+          "sha256": "2bbc07774526d2bc1c833c511e3a4fab07a212be5bec719ecbc7be9c4a7ee670"
+        },
+        "video": {
+          "path": "assets/epic-P29_03_334/native.mp4",
+          "sha256": "0ead026931602656a3ad24d6ffb862176072efa53a4ed9b9d49787e804a4aa82"
+        }
+      },
+      "selection": {
+        "cls": 9,
+        "label": "slide object",
+        "participant": "P29",
+        "source": "P29_03",
+        "annotation_id": "P29_03_334",
+        "audio_partition": "train",
+        "audio_description": "drag / move / pull object",
+        "audio_start": 1622.027,
+        "audio_end": 1624.048,
+        "visual_action": {
+          "narration": "move wire",
+          "verb": "move",
+          "noun": "wire",
+          "narration_id": "P29_03_419",
+          "participant": "P29",
+          "partition": "train",
+          "start": 1619.61,
+          "end": 1631.44
+        },
+        "overlap": 2.021,
+        "start": 1621.5375,
+        "image_time": 1.5,
+        "score": 2.0075976922526024,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P29/P29_03.MP4",
+        "index_md5": "f03451b585fc36655ecd62b746b22ad0",
+        "publication": "55",
+        "split": "heldout",
+        "group": "object manipulation",
+        "fold": "A"
+      },
+      "rms": 0.005659015646694481
+    },
+    {
+      "source_id": "epic-P30_05_331",
+      "dataset": "epic-sounds",
+      "concept": "epic-metal / wood collision",
+      "group": "metal impacts",
+      "concept_split": "heldout",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P30/P30_05.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "fc8e38ddd30aef7040ecae8b1ee0467ebf3a61d25af0c0b7413ad4415d79856d",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P30",
+        "epic-recording:P30_05",
+        "epic-original-index-md5:948e852ce534c9b3d10829e411a54325"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P30_05_331/native.txt",
+          "sha256": "109bb96f6d0d1e301cfbe319f20b8a497881ef47e01723ab0a37077e8324fd02"
+        },
+        "image": {
+          "path": "assets/epic-P30_05_331/native.jpg",
+          "sha256": "b90ae03d3a39de217bac4dba64a6c5801173032005b9a05e16d3470d24442e9f"
+        },
+        "audio": {
+          "path": "assets/epic-P30_05_331/native.wav",
+          "sha256": "139adf91448de02dae38f53920eee70c2bb216323c9e96e1528fca877f2139f1"
+        },
+        "video": {
+          "path": "assets/epic-P30_05_331/native.mp4",
+          "sha256": "a909643487d22d5b1dac8280e53eb88fdc638320613bb252600a747704d549d9"
+        }
+      },
+      "selection": {
+        "cls": 10,
+        "label": "metal / wood collision",
+        "participant": "P30",
+        "source": "P30_05",
+        "annotation_id": "P30_05_331",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 1949.561,
+        "audio_end": 1950.467,
+        "visual_action": {
+          "narration": "put spoon",
+          "verb": "put",
+          "noun": "spoon",
+          "narration_id": "P30_05_410",
+          "participant": "P30",
+          "partition": "train",
+          "start": 1946.24,
+          "end": 1950.72
+        },
+        "overlap": 0.906,
+        "start": 1948.514,
+        "image_time": 1.5,
+        "score": 1.6105638963669784,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P30/P30_05.MP4",
+        "index_md5": "948e852ce534c9b3d10829e411a54325",
+        "publication": "55",
+        "split": "heldout",
+        "group": "metal impacts",
+        "fold": "A"
+      },
+      "rms": 0.07234510850462796
+    },
+    {
+      "source_id": "epic-P30_07_16",
+      "dataset": "epic-sounds",
+      "concept": "epic-pour",
+      "group": "food and liquids",
+      "concept_split": "heldout",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P30/P30_07.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "10804b5a379fde7d410d85ebaf15ad852936186a1d01c89dd3ce9418d9bb25ea",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P30",
+        "epic-recording:P30_07",
+        "epic-original-index-md5:4abef13f1df08280d76ef42e1df17406"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P30_07_16/native.txt",
+          "sha256": "a8fe3d1a1c168cb801c8122125fd8b48191fcc3106a70aaa1ef18f62e549657d"
+        },
+        "image": {
+          "path": "assets/epic-P30_07_16/native.jpg",
+          "sha256": "dcf641df1264d8f7b27000c88e65ea804efec9fc8f055cc0920eb5e21d450e0e"
+        },
+        "audio": {
+          "path": "assets/epic-P30_07_16/native.wav",
+          "sha256": "10dd3b38669317bd20265396f5f9321cd8990e9dea17313670d913895c30f205"
+        },
+        "video": {
+          "path": "assets/epic-P30_07_16/native.mp4",
+          "sha256": "63b24b825063cb24035a0ec594f111a3a19cc55fb0d2522344666a09b7fe789c"
+        }
+      },
+      "selection": {
+        "cls": 19,
+        "label": "pour",
+        "participant": "P30",
+        "source": "P30_07",
+        "annotation_id": "P30_07_16",
+        "audio_partition": "validation",
+        "audio_description": "paper rustle",
+        "audio_start": 198.288,
+        "audio_end": 199.684,
+        "visual_action": {
+          "narration": "pour soy milk",
+          "verb": "pour",
+          "noun": "milk:soy",
+          "narration_id": "P30_07_80",
+          "participant": "P30",
+          "partition": "validation",
+          "start": 195.86,
+          "end": 201.4
+        },
+        "overlap": 1.396,
+        "start": 197.486,
+        "image_time": 1.5,
+        "score": 1.935390528198478,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P30/P30_07.MP4",
+        "index_md5": "4abef13f1df08280d76ef42e1df17406",
+        "publication": "55",
+        "split": "heldout",
+        "group": "food and liquids",
+        "fold": "A"
+      },
+      "rms": 0.013320239437352464
+    },
+    {
+      "source_id": "epic-P30_107_53",
+      "dataset": "epic-sounds",
+      "concept": "epic-wood-only collision",
+      "group": "nonmetal impacts",
+      "concept_split": "heldout",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P30/videos/P30_107.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "9a02e8d9bb2dc08159c9ff3d61cd81c8f1db360c09843e5f83219bea2de92d32",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P30",
+        "epic-recording:P30_107",
+        "epic-original-index-md5:d6fde05f347eb1398a5a12b3b8a31677"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P30_107_53/native.txt",
+          "sha256": "0070043614e1e27cab3bc5776160f826509369885cfab42d33d7e115298071d7"
+        },
+        "image": {
+          "path": "assets/epic-P30_107_53/native.jpg",
+          "sha256": "e1aff270a7f021e525d31d16dbce96da84251f8463170386908aa86c4e7d244e"
+        },
+        "audio": {
+          "path": "assets/epic-P30_107_53/native.wav",
+          "sha256": "5eee8dabb5c5fb63e84a62b6257e8d5cf5ac07494fbb50609371577eb3dbf921"
+        },
+        "video": {
+          "path": "assets/epic-P30_107_53/native.mp4",
+          "sha256": "fa7ffb0d7be3c53f31a60284d85209347572576c628d82f10bc92bacd4afbfc7"
+        }
+      },
+      "selection": {
+        "cls": 21,
+        "label": "wood-only collision",
+        "participant": "P30",
+        "source": "P30_107",
+        "annotation_id": "P30_107_53",
+        "audio_partition": "train",
+        "audio_description": "put object on surface",
+        "audio_start": 253.024,
+        "audio_end": 254.024,
+        "visual_action": {
+          "narration": "open cupboard",
+          "verb": "open",
+          "noun": "cupboard",
+          "narration_id": "P30_107_88",
+          "participant": "P30",
+          "partition": "train",
+          "start": 252.07,
+          "end": 253.73
+        },
+        "overlap": 0.706,
+        "start": 251.877,
+        "image_time": 1.5,
+        "score": 1.1770295068916368,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P30/videos/P30_107.MP4",
+        "index_md5": "d6fde05f347eb1398a5a12b3b8a31677",
+        "publication": "100",
+        "split": "heldout",
+        "group": "nonmetal impacts",
+        "fold": "A"
+      },
+      "rms": 0.03921566948341902
+    },
+    {
+      "source_id": "epic-P30_10_5",
+      "dataset": "epic-sounds",
+      "concept": "epic-ceramic-only collision",
+      "group": "nonmetal impacts",
+      "concept_split": "heldout",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P30/P30_10.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "99d062896d511bb814a366051480efca22217b170084fd6e3e823c5d94b9ef8f",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P30",
+        "epic-recording:P30_10",
+        "epic-original-index-md5:c5d4cc2b56a8160476de1f40228e44a9"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P30_10_5/native.txt",
+          "sha256": "f6e52250befcc6725c4302ed8432118e0318c5bc0aca878c9b22fec126a8c30a"
+        },
+        "image": {
+          "path": "assets/epic-P30_10_5/native.jpg",
+          "sha256": "fd4cd8ea9bc6438caf478f85b0baa4a255563892529512976fbab5fa46d0846b"
+        },
+        "audio": {
+          "path": "assets/epic-P30_10_5/native.wav",
+          "sha256": "f3ab7bc35a5119618c08c3e2ea59836e9168b24088c2e906c58b5074b40cfe75"
+        },
+        "video": {
+          "path": "assets/epic-P30_10_5/native.mp4",
+          "sha256": "0edb13cd0b2106b6227eaf1a5a94064fa00a788a0ee6237f03a5cd42d8fbbc9d"
+        }
+      },
+      "selection": {
+        "cls": 14,
+        "label": "ceramic-only collision",
+        "participant": "P30",
+        "source": "P30_10",
+        "annotation_id": "P30_10_5",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 9.734,
+        "audio_end": 11.084,
+        "visual_action": {
+          "narration": "put mug",
+          "verb": "put",
+          "noun": "mug",
+          "narration_id": "P30_10_3",
+          "participant": "P30",
+          "partition": "train",
+          "start": 9.16,
+          "end": 12.15
+        },
+        "overlap": 1.35,
+        "start": 8.909,
+        "image_time": 1.5,
+        "score": 1.9059361869259737,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/train/P30/P30_10.MP4",
+        "index_md5": "c5d4cc2b56a8160476de1f40228e44a9",
+        "publication": "55",
+        "split": "heldout",
+        "group": "nonmetal impacts",
+        "fold": "A"
+      },
+      "rms": 0.07479104468988029
+    },
+    {
+      "source_id": "epic-P30_111_153",
+      "dataset": "epic-sounds",
+      "concept": "epic-stir / mix / whisk",
+      "group": "food and liquids",
+      "concept_split": "heldout",
+      "fold": "A",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P30/videos/P30_111.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "689ac582ca2653963f7e0f141d1fdd6fdbbc4ec0b032f91783b3008c89bab4c3",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P30",
+        "epic-recording:P30_111",
+        "epic-original-index-md5:36ba7f1de0d4d533013e299e90eafa6a"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P30_111_153/native.txt",
+          "sha256": "2fecd8449b6a27ee9edc912cb47d4434e4763744a6894191a8d5ecbff4677c94"
+        },
+        "image": {
+          "path": "assets/epic-P30_111_153/native.jpg",
+          "sha256": "3697abb2f95e55d41f4d6a1cce5be8134238d13fef5843b40fb880de40274ff8"
+        },
+        "audio": {
+          "path": "assets/epic-P30_111_153/native.wav",
+          "sha256": "a0579b561d870f3458ee5f3e28416e4060fde23fad7248f798f2cc6a6278c995"
+        },
+        "video": {
+          "path": "assets/epic-P30_111_153/native.mp4",
+          "sha256": "d517f7ccd152a11317c0ad89d4270079e6abae5b9ee019563153906b31dfece9"
+        }
+      },
+      "selection": {
+        "cls": 8,
+        "label": "stir / mix / whisk",
+        "participant": "P30",
+        "source": "P30_111",
+        "annotation_id": "P30_111_153",
+        "audio_partition": "train",
+        "audio_description": "scrub / scrape / scour / wipe",
+        "audio_start": 512.588,
+        "audio_end": 518.296,
+        "visual_action": {
+          "narration": "stir passata mixture",
+          "verb": "stir",
+          "noun": "mixture:passata",
+          "narration_id": "P30_111_213",
+          "participant": "P30",
+          "partition": "train",
+          "start": 512.39,
+          "end": 519.11
+        },
+        "overlap": 5.708,
+        "start": 513.942,
+        "image_time": 1.5,
+        "score": 2.0098657995532268,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P30/videos/P30_111.MP4",
+        "index_md5": "36ba7f1de0d4d533013e299e90eafa6a",
+        "publication": "100",
+        "split": "heldout",
+        "group": "food and liquids",
+        "fold": "A"
+      },
+      "rms": 0.011889771366854674
+    },
+    {
+      "source_id": "epic-P32_01_66",
+      "dataset": "epic-sounds",
+      "concept": "epic-water",
+      "group": "food and liquids",
+      "concept_split": "development",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P32/P32_01.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "8eda7012d186dc94447b9f22b0198ac44c00531311c4d2e10fd7eecde676ab44",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P32",
+        "epic-recording:P32_01",
+        "epic-original-index-md5:82d5465796f3e2af9a43abe07c81fb63"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P32_01_66/native.txt",
+          "sha256": "52263f8965a1f7192c2d108590dcc4207a5326f7911bba1645e9c9a39e5c8282"
+        },
+        "image": {
+          "path": "assets/epic-P32_01_66/native.jpg",
+          "sha256": "19baa88e58258a13af850ec248b2f4fdd3ab5a83afebbf200af06765e9138577"
+        },
+        "audio": {
+          "path": "assets/epic-P32_01_66/native.wav",
+          "sha256": "ba651f9d059311fb2a9aeca3bd3824c6b846a17200908ae733fdc0bc2ec95c5e"
+        },
+        "video": {
+          "path": "assets/epic-P32_01_66/native.mp4",
+          "sha256": "7f4318265298127d35b5cbedfdbf504be7f0b8b41a0b737f05bcd1f4a62ea482"
+        }
+      },
+      "selection": {
+        "cls": 5,
+        "label": "water",
+        "participant": "P32",
+        "source": "P32_01",
+        "annotation_id": "P32_01_66",
+        "audio_partition": "validation",
+        "audio_description": "pour liquid",
+        "audio_start": 398.979,
+        "audio_end": 400.874,
+        "visual_action": {
+          "narration": "wash teaspoon",
+          "verb": "wash",
+          "noun": "teaspoon",
+          "narration_id": "P32_01_48",
+          "participant": "P32",
+          "partition": "validation",
+          "start": 393.95,
+          "end": 400.92
+        },
+        "overlap": 1.895,
+        "start": 398.4265,
+        "image_time": 1.5,
+        "score": 2.0098717101151125,
+        "url": "https://data.bris.ac.uk/datasets/3h91syskeag572hl6tvuovwv4d/videos/test/P32/P32_01.MP4",
+        "index_md5": "82d5465796f3e2af9a43abe07c81fb63",
+        "publication": "55",
+        "split": "development",
+        "group": "food and liquids",
+        "fold": "B"
+      },
+      "rms": 0.009208023612624837
+    },
+    {
+      "source_id": "epic-P35_103_37",
+      "dataset": "epic-sounds",
+      "concept": "epic-stir / mix / whisk",
+      "group": "food and liquids",
+      "concept_split": "heldout",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P35/videos/P35_103.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "036fef1f0634728234e34d90ccd3c001a1ba1b537f53ad415e178c034920c5c7",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P35",
+        "epic-recording:P35_103",
+        "epic-original-index-md5:7b223637eb2a3df2552ad97b8a3ee35a"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P35_103_37/native.txt",
+          "sha256": "1875ad74bfd1a1f555bc357d72c2427bd9c60fe5beefb28cb43702eb56d6fd31"
+        },
+        "image": {
+          "path": "assets/epic-P35_103_37/native.jpg",
+          "sha256": "89652aefc82d8614f393e7aad2c2452db067ed5f8bba2b0a4a78477aeb2409b9"
+        },
+        "audio": {
+          "path": "assets/epic-P35_103_37/native.wav",
+          "sha256": "285731d8bdebbe148504cac48b68849373068dacea7f2bf60c3d2e5111eafc70"
+        },
+        "video": {
+          "path": "assets/epic-P35_103_37/native.mp4",
+          "sha256": "dcddb96618c3d6a1ee3f027be07759545625479834ed60d1263a80b6ce197144"
+        }
+      },
+      "selection": {
+        "cls": 8,
+        "label": "stir / mix / whisk",
+        "participant": "P35",
+        "source": "P35_103",
+        "annotation_id": "P35_103_37",
+        "audio_partition": "train",
+        "audio_description": "stir / mix / whisk food",
+        "audio_start": 182.178,
+        "audio_end": 184.67,
+        "visual_action": {
+          "narration": "stir pasta",
+          "verb": "stir",
+          "noun": "pasta",
+          "narration_id": "P35_103_18",
+          "participant": "P35",
+          "partition": "train",
+          "start": 176.61,
+          "end": 237.91
+        },
+        "overlap": 2.492,
+        "start": 181.924,
+        "image_time": 1.5,
+        "score": 2.0098568944609725,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P35/videos/P35_103.MP4",
+        "index_md5": "7b223637eb2a3df2552ad97b8a3ee35a",
+        "publication": "100",
+        "split": "heldout",
+        "group": "food and liquids",
+        "fold": "B"
+      },
+      "rms": 0.007189921975177011
+    },
+    {
+      "source_id": "epic-P35_104_473",
+      "dataset": "epic-sounds",
+      "concept": "epic-metal / glass collision",
+      "group": "metal impacts",
+      "concept_split": "heldout",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P35/videos/P35_104.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "2b2de1d89637542b124e4b74d9d5da18f201add231e3e20c336ad9b3fb9dca53",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P35",
+        "epic-recording:P35_104",
+        "epic-original-index-md5:dd1bad329bfa0101f13328cd09ff754d"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P35_104_473/native.txt",
+          "sha256": "6ce02861cd23cec120ed3b5624f9edc0e359a919e090f1b72f596b59e990992a"
+        },
+        "image": {
+          "path": "assets/epic-P35_104_473/native.jpg",
+          "sha256": "d6493939ea40223224376e846a38cd53ccff7721bfed5b606a8b4878e2127af6"
+        },
+        "audio": {
+          "path": "assets/epic-P35_104_473/native.wav",
+          "sha256": "1e44c989985663ee81166a9caecbebe73b423b0cb5f34cc23039bb87c0539541"
+        },
+        "video": {
+          "path": "assets/epic-P35_104_473/native.mp4",
+          "sha256": "320d1afa6bb590b6483530a407c5c3d5c0bb953bdbd970c303b97c5c7225dd26"
+        }
+      },
+      "selection": {
+        "cls": 17,
+        "label": "metal / glass collision",
+        "participant": "P35",
+        "source": "P35_104",
+        "annotation_id": "P35_104_473",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 2074.293,
+        "audio_end": 2075.979,
+        "visual_action": {
+          "narration": "open jar",
+          "verb": "open",
+          "noun": "jar",
+          "narration_id": "P35_104_499",
+          "participant": "P35",
+          "partition": "train",
+          "start": 2071.83,
+          "end": 2076.15
+        },
+        "overlap": 1.686,
+        "start": 2073.636,
+        "image_time": 1.5,
+        "score": 2.0089861499564723,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P35/videos/P35_104.MP4",
+        "index_md5": "dd1bad329bfa0101f13328cd09ff754d",
+        "publication": "100",
+        "split": "heldout",
+        "group": "metal impacts",
+        "fold": "B"
+      },
+      "rms": 0.01710666200253822
+    },
+    {
+      "source_id": "epic-P35_107_356",
+      "dataset": "epic-sounds",
+      "concept": "epic-wood-only collision",
+      "group": "nonmetal impacts",
+      "concept_split": "heldout",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P35/videos/P35_107.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "53e0a606dab6c381fa1fd6c7ec4f235a6d68ddfe93d97621dfef8e3bc3ed7d5a",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P35",
+        "epic-recording:P35_107",
+        "epic-original-index-md5:b344143115f7535b5afc23e2e49967e3"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P35_107_356/native.txt",
+          "sha256": "f2205e0e82b8612e23f85a51fa3dc12c3e2906846a4a4cfa16f1de34a72e6f26"
+        },
+        "image": {
+          "path": "assets/epic-P35_107_356/native.jpg",
+          "sha256": "049538d8e982dac122ca1ebcbefc03cd6eeccdbf11b491206499904f43f26b24"
+        },
+        "audio": {
+          "path": "assets/epic-P35_107_356/native.wav",
+          "sha256": "1e44bf2b65fc4eeab5a66905024328a0b409f96ef66190066e2a6cbf7d66eed0"
+        },
+        "video": {
+          "path": "assets/epic-P35_107_356/native.mp4",
+          "sha256": "a4940a84553dcb101b62b45803ced185540c75a097e97855ff4831a2423c2450"
+        }
+      },
+      "selection": {
+        "cls": 21,
+        "label": "wood-only collision",
+        "participant": "P35",
+        "source": "P35_107",
+        "annotation_id": "P35_107_356",
+        "audio_partition": "train",
+        "audio_description": "clang / clatter",
+        "audio_start": 1631.476,
+        "audio_end": 1633.33,
+        "visual_action": {
+          "narration": "move chair",
+          "verb": "move",
+          "noun": "chair",
+          "narration_id": "P35_107_343",
+          "participant": "P35",
+          "partition": "train",
+          "start": 1624.18,
+          "end": 1634.45
+        },
+        "overlap": 1.854,
+        "start": 1630.903,
+        "image_time": 1.5,
+        "score": 2.0056450991029853,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P35/videos/P35_107.MP4",
+        "index_md5": "b344143115f7535b5afc23e2e49967e3",
+        "publication": "100",
+        "split": "heldout",
+        "group": "nonmetal impacts",
+        "fold": "B"
+      },
+      "rms": 0.018983059952937507
+    },
+    {
+      "source_id": "epic-P35_109_103",
+      "dataset": "epic-sounds",
+      "concept": "epic-pour",
+      "group": "food and liquids",
+      "concept_split": "heldout",
+      "fold": "B",
+      "license": "Bristol Non-Commercial Government Licence (footage) and CC BY-NC 4.0 (visual narrations)",
+      "source_url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P35/videos/P35_109.MP4",
+      "text_authorship": "Original human EPIC-KITCHENS visual-first narration from the overlapping action",
+      "recording_sha256": "5bd4bd766831952a05b8b8cf630ce3cdbde08e00ec1760e0cb04e120e209b418",
+      "recording_sha256_scope": "Ordered concatenation of normalized video and audio SHA-256, rehashed as ASCII",
+      "dependency_ids": [
+        "epic-participant:P35",
+        "epic-recording:P35_109",
+        "epic-original-index-md5:98109c914cf341fb8ace16aeb70a0786"
+      ],
+      "license_note": "Research windows sampled and re-encoded from Bristol footage. No footage redistributed.",
+      "assets": {
+        "text": {
+          "path": "assets/epic-P35_109_103/native.txt",
+          "sha256": "a3d2aca709d0a18be7dbdb8d85babd7d20759ea0bbfd66564fc2986500edb92c"
+        },
+        "image": {
+          "path": "assets/epic-P35_109_103/native.jpg",
+          "sha256": "aad2c8f450a173edc5ac70a73574b202f533188b4f08bf7043e58f3bd1da9c67"
+        },
+        "audio": {
+          "path": "assets/epic-P35_109_103/native.wav",
+          "sha256": "3a09724837c6b834794f608839172374b459e966cb40ba82bcd3bfa6e469ee09"
+        },
+        "video": {
+          "path": "assets/epic-P35_109_103/native.mp4",
+          "sha256": "d51b6896a7305ba6a85b15ec231167c0cdfb44b96b0aa36e12c87dba44a8d13b"
+        }
+      },
+      "selection": {
+        "cls": 19,
+        "label": "pour",
+        "participant": "P35",
+        "source": "P35_109",
+        "annotation_id": "P35_109_103",
+        "audio_partition": "train",
+        "audio_description": "pour liquid",
+        "audio_start": 305.726,
+        "audio_end": 307.991,
+        "visual_action": {
+          "narration": "pour milk",
+          "verb": "pour",
+          "noun": "milk",
+          "narration_id": "P35_109_100",
+          "participant": "P35",
+          "partition": "train",
+          "start": 305.03,
+          "end": 312.2
+        },
+        "overlap": 2.265,
+        "start": 305.3585,
+        "image_time": 1.5,
+        "score": 2.0088492293306626,
+        "url": "https://data.bris.ac.uk/datasets/2g1n6qdydwa9u22shpxqzp0t8m/P35/videos/P35_109.MP4",
+        "index_md5": "98109c914cf341fb8ace16aeb70a0786",
+        "publication": "100",
+        "split": "heldout",
+        "group": "food and liquids",
+        "fold": "B"
+      },
+      "rms": 0.004228752598902253
+    }
+  ]
+}

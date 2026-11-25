@@ -1,0 +1,13 @@
+{
+  "eligible_concepts_by_group": {
+    "powered_transport": 9,
+    "instruments": 10,
+    "mechanical_or_natural_events": 8,
+    "animal_vocalizations": 2
+  },
+  "attempted_designs": [],
+  "available_creator_components": 177,
+  "status": "no_feasible_creator_blocked_layout_at_registered_resolution",
+  "screened_manifest_sha256": "6f2fa441d363a5b585c5da2ecf52ca619c35cbd4834d818f5570d7176f64ff06",
+  "assigned_sources": 0
+}

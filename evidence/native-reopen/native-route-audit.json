@@ -1,0 +1,185 @@
+{
+  "captured_utc": "2026-11-25T18:02:20.868384+00:00",
+  "protocol_sha256": "648cd621f42e6439fb3c55e830886239dd55dd9d00d0085a25524558bdcad964",
+  "service": "https://routerai.ru/api/v1/",
+  "catalog": {
+    "status": 200,
+    "sha256": "a5fb6790b7270de4f530d08e2313a7ba2d1e2afd73531ba5d3d209d182206c01"
+  },
+  "model_count": 611,
+  "advertised_av": [
+    "google/gemini-embedding-2",
+    "google/gemini-embedding-2-preview"
+  ],
+  "native_acquisition_ready": false,
+  "eligible": {
+    "text": [
+      "qwen3_8b"
+    ],
+    "image": [],
+    "audio": [],
+    "video": []
+  },
+  "candidate_routes": [
+    {
+      "id": "bge_m3",
+      "model": "baai/bge-m3",
+      "modality": "text",
+      "family_split": "development",
+      "catalog_architecture": {
+        "modality": "text->embeddings",
+        "tokenizer": "Other",
+        "instruct_type": null,
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "embeddings"
+        ]
+      },
+      "endpoint_lookup": {
+        "status": 200,
+        "sha256": "d0bd9622392c1a3ed1069ebf40fe396120716ca61f764d2b5479cdd44cd4392a"
+      },
+      "endpoint_names": [
+        "DeepInfra | baai/bge-m3",
+        "Parasail | baai/bge-m3"
+      ],
+      "status": "response_alias_changed",
+      "probe": {
+        "transport": "response_alias_changed",
+        "aliases": [
+          "BAAI/bge-m3",
+          "parasail-bge-m3",
+          "BAAI/bge-m3",
+          "BAAI/bge-m3"
+        ]
+      }
+    },
+    {
+      "id": "qwen3_8b",
+      "model": "qwen/qwen3-embedding-8b",
+      "modality": "text",
+      "family_split": "heldout",
+      "catalog_architecture": {
+        "modality": "text->embeddings",
+        "tokenizer": "Other",
+        "instruct_type": null,
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "embeddings"
+        ]
+      },
+      "endpoint_lookup": {
+        "status": 200,
+        "sha256": "0dcad920029b51b67ffe0507cd7ffba499638ee7b3ef92c8e9e0e0139f76aa16"
+      },
+      "endpoint_names": [
+        "DeepInfra | qwen/qwen3-embedding-8b",
+        "Nebius | qwen/qwen3-embedding-8b",
+        "SiliconFlow | qwen/qwen3-embedding-8b"
+      ],
+      "status": "eligible",
+      "probe": {
+        "transport": "input_sensitive",
+        "aliases": [
+          "Qwen/Qwen3-Embedding-8B",
+          "Qwen/Qwen3-Embedding-8B",
+          "Qwen/Qwen3-Embedding-8B",
+          "Qwen/Qwen3-Embedding-8B"
+        ],
+        "response_model": "Qwen/Qwen3-Embedding-8B",
+        "dimension": 4096,
+        "control_gap": 1.1432463006355218,
+        "max_repeat_drift": 0.06775192305990617,
+        "vector_sha256": [
+          "78d417b2c9683da39a8596db16eafb651cfee354fb503b17d6094683787f34c5",
+          "dd5ed439974b2b8877250e572ac65008397239e9ef8c0d55296a09da03dbf9cb",
+          "ce2aed4ffb0f4b15fd88f76c8bec09439bc920698f7dd771712fb60db5449219",
+          "7da24e3eb068f864ff8e06ef5bb828078873056e9ba460154ed194513c741ce5"
+        ]
+      }
+    },
+    {
+      "id": "dinov2",
+      "model": "facebook/dinov2-base",
+      "modality": "image",
+      "family_split": "development",
+      "catalog_architecture": null,
+      "endpoint_lookup": {
+        "status": 404,
+        "sha256": "3f32030f224fd49e0a7d1f895941a677c634df5bdf44c089e80520e998514aa3"
+      },
+      "endpoint_names": [],
+      "status": "model_not_found"
+    },
+    {
+      "id": "mae",
+      "model": "facebook/vit-mae-base",
+      "modality": "image",
+      "family_split": "heldout",
+      "catalog_architecture": null,
+      "endpoint_lookup": {
+        "status": 404,
+        "sha256": "3f32030f224fd49e0a7d1f895941a677c634df5bdf44c089e80520e998514aa3"
+      },
+      "endpoint_names": [],
+      "status": "model_not_found"
+    },
+    {
+      "id": "beats",
+      "model": "microsoft/beats",
+      "modality": "audio",
+      "family_split": "development",
+      "catalog_architecture": null,
+      "endpoint_lookup": {
+        "status": 404,
+        "sha256": "3f32030f224fd49e0a7d1f895941a677c634df5bdf44c089e80520e998514aa3"
+      },
+      "endpoint_names": [],
+      "status": "model_not_found"
+    },
+    {
+      "id": "audiomae",
+      "model": "facebook/audiomae",
+      "modality": "audio",
+      "family_split": "heldout",
+      "catalog_architecture": null,
+      "endpoint_lookup": {
+        "status": 404,
+        "sha256": "3f32030f224fd49e0a7d1f895941a677c634df5bdf44c089e80520e998514aa3"
+      },
+      "endpoint_names": [],
+      "status": "model_not_found"
+    },
+    {
+      "id": "videomae",
+      "model": "MCG-NJU/videomae-base",
+      "modality": "video",
+      "family_split": "development",
+      "catalog_architecture": null,
+      "endpoint_lookup": {
+        "status": 404,
+        "sha256": "3f32030f224fd49e0a7d1f895941a677c634df5bdf44c089e80520e998514aa3"
+      },
+      "endpoint_names": [],
+      "status": "model_not_found"
+    },
+    {
+      "id": "vjepa2",
+      "model": "facebook/vjepa2-vitl-fpc64-256",
+      "modality": "video",
+      "family_split": "heldout",
+      "catalog_architecture": null,
+      "endpoint_lookup": {
+        "status": 404,
+        "sha256": "3f32030f224fd49e0a7d1f895941a677c634df5bdf44c089e80520e998514aa3"
+      },
+      "endpoint_names": [],
+      "status": "model_not_found"
+    }
+  ],
+  "alignment_empirics": "requires_native_replication"
+}

@@ -1,0 +1,3831 @@
+{
+  "protocols": "Ordinal Spearman in creator-disjoint folds, 4999 concept-label null draws with 126 Holm slots, plus separate descriptives.",
+  "measurements": [
+    {
+      "pair": "text_bge__text_qwen",
+      "interpretation": "reliability_context",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.6766469868241052,
+      "cross_source": 0.4872921016631865,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.0804,
+      "within_group": {
+        "estimate": 0.5333333333333333,
+        "null_median": -0.001569264069264072,
+        "null_q95": 0.2778210678210677,
+        "p": 0.0008,
+        "p_holm": 0.060000000000000005
+      },
+      "reliability": {
+        "left": 0.5613603091175268,
+        "right": 0.5065135478916167
+      },
+      "source_sensitivity": [
+        0.1738528691770465,
+        0.5190485876112991
+      ],
+      "paired_excess_sensitivity": [
+        0.10653562771497835,
+        0.5085576115391074
+      ],
+      "neighbors_k3": 0.49122807017543857,
+      "cka": 0.9417106919768922,
+      "metric_error": 0.16058977683096728,
+      "constant_error": 0.14634223336480923
+    },
+    {
+      "pair": "image_titan__image_voyage",
+      "interpretation": "co_aligned_image_families",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.807143542851657,
+      "cross_source": 0.5402128782969735,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.0804,
+      "within_group": {
+        "estimate": 0.519390331890332,
+        "null_median": -0.004924242424242456,
+        "null_q95": 0.2597997835497834,
+        "p": 0.0014,
+        "p_holm": 0.091
+      },
+      "reliability": {
+        "left": 0.5763457892336862,
+        "right": 0.576861785105719
+      },
+      "source_sensitivity": [
+        0.2903202174382605,
+        0.5466039671682626
+      ],
+      "paired_excess_sensitivity": [
+        0.1551378188974488,
+        0.4433429332565338
+      ],
+      "neighbors_k3": 0.5175438596491229,
+      "cka": 0.9169001060829257,
+      "metric_error": 0.15469274192300794,
+      "constant_error": 0.17271642954102664
+    },
+    {
+      "pair": "text_bge__image_titan",
+      "interpretation": "native_inputs_separate_models_image_coaligned",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.5221362229102167,
+      "cross_source": 0.5920584635322919,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.0252,
+      "within_group": {
+        "estimate": 0.6154761904761905,
+        "null_median": -0.00766594516594515,
+        "null_q95": 0.28750000000000003,
+        "p": 0.0002,
+        "p_holm": 0.0252
+      },
+      "reliability": {
+        "left": 0.5613603091175268,
+        "right": 0.5763457892336862
+      },
+      "source_sensitivity": [
+        0.248656370749034,
+        0.5393046655626755
+      ],
+      "paired_excess_sensitivity": [
+        -0.01832343341253278,
+        0.29024521803825587
+      ],
+      "neighbors_k3": 0.5,
+      "cka": 0.9323387026909419,
+      "metric_error": 0.13542438732422984,
+      "constant_error": 0.21583700775829442
+    },
+    {
+      "pair": "text_qwen__image_voyage",
+      "interpretation": "native_inputs_separate_models_image_coaligned",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.49612403100775193,
+      "cross_source": 0.503454772361821,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.0252,
+      "within_group": {
+        "estimate": 0.603896103896104,
+        "null_median": -0.015151515151515138,
+        "null_q95": 0.25125541125541084,
+        "p": 0.0002,
+        "p_holm": 0.0252
+      },
+      "reliability": {
+        "left": 0.5065135478916167,
+        "right": 0.576861785105719
+      },
+      "source_sensitivity": [
+        0.2601379388964888,
+        0.4781607747138022
+      ],
+      "paired_excess_sensitivity": [
+        -0.06353301173590614,
+        0.1918554251565987
+      ],
+      "neighbors_k3": 0.5438596491228069,
+      "cka": 0.9345271099691781,
+      "metric_error": 0.13798301696440815,
+      "constant_error": 0.17271642954102664
+    },
+    {
+      "pair": "text_bge__image_voyage",
+      "interpretation": "native_inputs_separate_models_image_coaligned",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.4803621571027432,
+      "cross_source": 0.5138670890632874,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.0252,
+      "within_group": {
+        "estimate": 0.5721500721500722,
+        "null_median": -0.008405483405483397,
+        "null_q95": 0.2622330447330446,
+        "p": 0.0004,
+        "p_holm": 0.033600000000000005
+      },
+      "reliability": {
+        "left": 0.5613603091175268,
+        "right": 0.576861785105719
+      },
+      "source_sensitivity": [
+        0.25437774497804017,
+        0.48965542275661794
+      ],
+      "paired_excess_sensitivity": [
+        -0.058605911152710764,
+        0.1954493964048288
+      ],
+      "neighbors_k3": 0.5350877192982456,
+      "cka": 0.9243325249678973,
+      "metric_error": 0.11659425556490813,
+      "constant_error": 0.17271642954102664
+    },
+    {
+      "pair": "text_qwen__image_titan",
+      "interpretation": "native_inputs_separate_models_image_coaligned",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.4175330597355222,
+      "cross_source": 0.4434552523579812,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.060000000000000005,
+      "within_group": {
+        "estimate": 0.49006132756132753,
+        "null_median": -0.0028679653679653688,
+        "null_q95": 0.26652417027417,
+        "p": 0.003,
+        "p_holm": 0.17400000000000002
+      },
+      "reliability": {
+        "left": 0.5065135478916167,
+        "right": 0.5763457892336862
+      },
+      "source_sensitivity": [
+        0.1715988672090623,
+        0.429172966616267
+      ],
+      "paired_excess_sensitivity": [
+        -0.062129142966856225,
+        0.2780517555859553
+      ],
+      "neighbors_k3": 0.49122807017543857,
+      "cka": 0.9293017146365696,
+      "metric_error": 0.1790221368773861,
+      "constant_error": 0.21583700775829442
+    },
+    {
+      "pair": "text_gemini__image_gemini",
+      "interpretation": "shared_coaligned_model",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.5009467924256605,
+      "cross_source": 0.4303729570163438,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.046799999999999994,
+      "within_group": {
+        "estimate": 0.4162157287157287,
+        "null_median": -0.007738095238095238,
+        "null_q95": 0.25285714285714234,
+        "p": 0.008,
+        "p_holm": 0.40800000000000003
+      },
+      "reliability": {
+        "left": 0.4188158494732041,
+        "right": 0.6039767681858543
+      },
+      "source_sensitivity": [
+        0.08153766769865838,
+        0.4793436052511578
+      ],
+      "paired_excess_sensitivity": [
+        0.014110087119303125,
+        0.42232252141982873
+      ],
+      "neighbors_k3": 0.48245614035087714,
+      "cka": 0.9282664254326651,
+      "metric_error": 0.2309109308447645,
+      "constant_error": 0.1950635330408076
+    },
+    {
+      "pair": "text_bge__audio_caption_bge",
+      "interpretation": "text_mediated_shared_text_head",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.32144982840137276,
+      "cross_source": 0.3190894472844217,
+      "p_global_holm": 0.033600000000000005,
+      "p_blocked_holm": 1.0,
+      "within_group": {
+        "estimate": 0.4066378066378067,
+        "null_median": 0.00023448773448776772,
+        "null_q95": 0.2713798701298701,
+        "p": 0.0064,
+        "p_holm": 0.33280000000000004
+      },
+      "reliability": {
+        "left": 0.5613603091175268,
+        "right": 0.6546859625122998
+      },
+      "source_sensitivity": [
+        0.03351195190438475,
+        0.36432236542107677
+      ],
+      "paired_excess_sensitivity": [
+        -0.025149878800969656,
+        0.30757937936496504
+      ],
+      "neighbors_k3": 0.45614035087719296,
+      "cka": 0.7589721617214138,
+      "metric_error": 0.40688083209651954,
+      "constant_error": 0.45616772000366823
+    },
+    {
+      "pair": "text_bge__video_caption_bge",
+      "interpretation": "text_mediated_shared_text_head",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.5125602995176037,
+      "cross_source": 0.5777833777329779,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.060000000000000005,
+      "within_group": {
+        "estimate": 0.5890512265512265,
+        "null_median": -0.003246753246753257,
+        "null_q95": 0.30421897546897486,
+        "p": 0.0004,
+        "p_holm": 0.033600000000000005
+      },
+      "reliability": {
+        "left": 0.5613603091175268,
+        "right": 0.7140662874697001
+      },
+      "source_sensitivity": [
+        0.3055240358077136,
+        0.5582649338805288
+      ],
+      "paired_excess_sensitivity": [
+        -0.04225580195358432,
+        0.20407126742986062
+      ],
+      "neighbors_k3": 0.5614035087719298,
+      "cka": 0.9106262694318612,
+      "metric_error": 0.1543825804476586,
+      "constant_error": 0.22273998800507094
+    },
+    {
+      "pair": "image_titan__audio_caption_bge",
+      "interpretation": "text_mediated_audio",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.2901744786041711,
+      "cross_source": 0.40644394844841225,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 1.0,
+      "within_group": {
+        "estimate": 0.3788059163059163,
+        "null_median": 0.004220779220779204,
+        "null_q95": 0.24320707070707048,
+        "p": 0.004,
+        "p_holm": 0.22
+      },
+      "reliability": {
+        "left": 0.5763457892336862,
+        "right": 0.6546859625122998
+      },
+      "source_sensitivity": [
+        0.19234904120767032,
+        0.4962051503587971
+      ],
+      "paired_excess_sensitivity": [
+        -0.12938494492044053,
+        0.1445090839273286
+      ],
+      "neighbors_k3": 0.4298245614035088,
+      "cka": 0.7450599610855309,
+      "metric_error": 0.36276511098102404,
+      "constant_error": 0.45616772000366823
+    },
+    {
+      "pair": "image_titan__video_caption_bge",
+      "interpretation": "text_mediated_video",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.7309405524755798,
+      "cross_source": 0.5807509539923678,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.2128,
+      "within_group": {
+        "estimate": 0.5650613275613275,
+        "null_median": -0.0031746031746031265,
+        "null_q95": 0.2838961038961038,
+        "p": 0.0006,
+        "p_holm": 0.046799999999999994
+      },
+      "reliability": {
+        "left": 0.5763457892336862,
+        "right": 0.7140662874697001
+      },
+      "source_sensitivity": [
+        0.30743556051551585,
+        0.6102008783929727
+      ],
+      "paired_excess_sensitivity": [
+        0.10022523819809437,
+        0.3823108215134278
+      ],
+      "neighbors_k3": 0.5175438596491228,
+      "cka": 0.9103224655888307,
+      "metric_error": 0.1998119586242746,
+      "constant_error": 0.22273998800507094
+    },
+    {
+      "pair": "audio_caption_bge__video_caption_bge",
+      "interpretation": "text_mediated_shared_captioner_and_text_head",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.20327237382100935,
+      "cross_source": 0.32046703626370987,
+      "p_global_holm": 0.1008,
+      "p_blocked_holm": 1.0,
+      "within_group": {
+        "estimate": 0.2179292929292929,
+        "null_median": 0.0014249639249639217,
+        "null_q95": 0.25923701298701285,
+        "p": 0.0882,
+        "p_holm": 1.0
+      },
+      "reliability": {
+        "left": 0.6546859625122998,
+        "right": 0.7140662874697001
+      },
+      "source_sensitivity": [
+        0.13195670434636522,
+        0.4209035927712578
+      ],
+      "paired_excess_sensitivity": [
+        -0.15273633810929504,
+        0.09220354237166095
+      ],
+      "neighbors_k3": 0.3771929824561403,
+      "cka": 0.7315831711407159,
+      "metric_error": 0.45488935978398154,
+      "constant_error": 0.22273998800507094
+    },
+    {
+      "pair": "audio_caption_qwen__video_caption_qwen",
+      "interpretation": "text_mediated_shared_captioner_and_text_head",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.19706122351021188,
+      "cross_source": 0.2512227902176783,
+      "p_global_holm": 0.48960000000000004,
+      "p_blocked_holm": 1.0,
+      "within_group": {
+        "estimate": 0.061309523809523814,
+        "null_median": -0.0012085137085137143,
+        "null_q95": 0.25630952380952376,
+        "p": 0.3438,
+        "p_holm": 1.0
+      },
+      "reliability": {
+        "left": 0.553046775625795,
+        "right": 0.6893824849401204
+      },
+      "source_sensitivity": [
+        0.0764030887752898,
+        0.40809513523891805
+      ],
+      "paired_excess_sensitivity": [
+        -0.15782783737730097,
+        0.13855869153046776
+      ],
+      "neighbors_k3": 0.3070175438596491,
+      "cka": 0.7303560197737298,
+      "metric_error": 0.38992364203467256,
+      "constant_error": 0.219631996541874
+    },
+    {
+      "pair": "image_caption_bge__audio_caption_bge",
+      "interpretation": "text_mediated_shared_captioner_and_text_head",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.17777257781937744,
+      "cross_source": 0.23785849713202287,
+      "p_global_holm": 1.0,
+      "p_blocked_holm": 1.0,
+      "within_group": {
+        "estimate": 0.2590367965367965,
+        "null_median": -0.002380952380952437,
+        "null_q95": 0.26148088023087973,
+        "p": 0.0534,
+        "p_holm": 1.0
+      },
+      "reliability": {
+        "left": 0.7378260973912206,
+        "right": 0.6546859625122998
+      },
+      "source_sensitivity": [
+        0.054457004343965235,
+        0.3555046559627522
+      ],
+      "paired_excess_sensitivity": [
+        -0.09856313149494801,
+        0.15051653586771305
+      ],
+      "neighbors_k3": 0.43859649122807015,
+      "cka": 0.7222495993897889,
+      "metric_error": 0.41963867881033234,
+      "constant_error": 0.45616772000366823
+    },
+    {
+      "pair": "image_caption_bge__video_caption_bge",
+      "interpretation": "text_mediated_shared_captioner_and_text_head",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.8772685818513447,
+      "cross_source": 0.6992092063263491,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.0252,
+      "within_group": {
+        "estimate": 0.6052128427128428,
+        "null_median": -0.006890331890331873,
+        "null_q95": 0.29674062049062017,
+        "p": 0.0004,
+        "p_holm": 0.033600000000000005
+      },
+      "reliability": {
+        "left": 0.7378260973912206,
+        "right": 0.7140662874697001
+      },
+      "source_sensitivity": [
+        0.4617099263205893,
+        0.6964453884368923
+      ],
+      "paired_excess_sensitivity": [
+        0.1521710826313389,
+        0.3953882568939448
+      ],
+      "neighbors_k3": 0.5877192982456141,
+      "cka": 0.920042309151977,
+      "metric_error": 0.1500226614390751,
+      "constant_error": 0.22273998800507094
+    },
+    {
+      "pair": "text_qwen__audio_caption_qwen",
+      "interpretation": "text_mediated_shared_text_head",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.1514363885088919,
+      "cross_source": 0.20762833897328822,
+      "p_global_holm": 0.6642,
+      "p_blocked_holm": 1.0,
+      "within_group": {
+        "estimate": 0.25232683982683984,
+        "null_median": 0.0013528138528138417,
+        "null_q95": 0.24171717171717155,
+        "p": 0.0438,
+        "p_holm": 1.0
+      },
+      "reliability": {
+        "left": 0.5065135478916167,
+        "right": 0.553046775625795
+      },
+      "source_sensitivity": [
+        -0.017461000311997515,
+        0.28664080687354515
+      ],
+      "paired_excess_sensitivity": [
+        -0.09786983704130366,
+        0.24005357957136347
+      ],
+      "neighbors_k3": 0.3421052631578947,
+      "cka": 0.7544392514671838,
+      "metric_error": 0.4096637463698436,
+      "constant_error": 0.42500553801638463
+    },
+    {
+      "pair": "text_qwen__video_caption_qwen",
+      "interpretation": "text_mediated_shared_text_head",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.48212614299085604,
+      "cross_source": 0.49729162166702656,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.2052,
+      "within_group": {
+        "estimate": 0.49920634920634915,
+        "null_median": 0.003391053391053398,
+        "null_q95": 0.308829365079365,
+        "p": 0.0044,
+        "p_holm": 0.2376
+      },
+      "reliability": {
+        "left": 0.5065135478916167,
+        "right": 0.6893824849401204
+      },
+      "source_sensitivity": [
+        0.2535253917968656,
+        0.5044126046991624
+      ],
+      "paired_excess_sensitivity": [
+        -0.07163696690426484,
+        0.20645276837785292
+      ],
+      "neighbors_k3": 0.5701754385964912,
+      "cka": 0.9331210859615822,
+      "metric_error": 0.17606459085566736,
+      "constant_error": 0.219631996541874
+    },
+    {
+      "pair": "text_bge__audio_signal",
+      "interpretation": "fixed_signal_control",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.14675642594859242,
+      "cross_source": 0.16713466292269658,
+      "p_global_holm": 1.0,
+      "p_blocked_holm": 1.0,
+      "within_group": {
+        "estimate": 0.16158008658008657,
+        "null_median": -0.004202741702741708,
+        "null_q95": 0.2254148629148629,
+        "p": 0.1236,
+        "p_holm": 1.0
+      },
+      "reliability": {
+        "left": 0.5613603091175268,
+        "right": 0.21751265989872076
+      },
+      "source_sensitivity": [
+        -0.03849029207766336,
+        0.24286587707298338
+      ],
+      "paired_excess_sensitivity": [
+        -0.15255441956464347,
+        0.2164023087815298
+      ],
+      "neighbors_k3": 0.23684210526315788,
+      "cka": 0.42288718376619977,
+      "metric_error": 0.6971871284882754,
+      "constant_error": 0.7034396832547302
+    },
+    {
+      "pair": "image_titan__video_static",
+      "interpretation": "fixed_signal_control",
+      "status": "measured",
+      "source_count": 118,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.25863993088055304,
+      "cross_source": 0.2561919504643963,
+      "p_global_holm": 0.48960000000000004,
+      "p_blocked_holm": 1.0,
+      "within_group": {
+        "estimate": 0.05833333333333335,
+        "null_median": -0.006727994227994222,
+        "null_q95": 0.24731421356421326,
+        "p": 0.3454,
+        "p_holm": 1.0
+      },
+      "reliability": {
+        "left": 0.5672930616555067,
+        "right": 0.38050015599875203
+      },
+      "source_sensitivity": [
+        -0.03318147454820358,
+        0.27508267933856523
+      ],
+      "paired_excess_sensitivity": [
+        -0.10349353205174358,
+        0.23800789593683247
+      ],
+      "neighbors_k3": 0.21052631578947367,
+      "cka": 0.4975544032631353,
+      "metric_error": 0.661070240699306,
+      "constant_error": 0.6931339824967913
+    },
+    {
+      "pair": "image_titan__video_motion",
+      "interpretation": "fixed_signal_control",
+      "status": "measured",
+      "source_count": 118,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.40662034703722355,
+      "cross_source": 0.34094247246022025,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.2862,
+      "within_group": {
+        "estimate": 0.4151515151515152,
+        "null_median": -0.002471139971139976,
+        "null_q95": 0.20913419913419912,
+        "p": 0.0006,
+        "p_holm": 0.046799999999999994
+      },
+      "reliability": {
+        "left": 0.5672930616555067,
+        "right": 0.3207358341133271
+      },
+      "source_sensitivity": [
+        0.06955444356445148,
+        0.4387581299349605
+      ],
+      "paired_excess_sensitivity": [
+        -0.034474164206686385,
+        0.34686040511675903
+      ],
+      "neighbors_k3": 0.3070175438596491,
+      "cka": 0.6606608449947279,
+      "metric_error": 0.43939420434890575,
+      "constant_error": 0.49648803509572265
+    },
+    {
+      "pair": "audio_signal__video_motion",
+      "interpretation": "fixed_signal_control",
+      "status": "measured",
+      "source_count": 118,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.2853109175126598,
+      "cross_source": 0.043995248038015675,
+      "p_global_holm": 1.0,
+      "p_blocked_holm": 1.0,
+      "within_group": {
+        "estimate": 0.15212842712842714,
+        "null_median": 0.0009559884559884949,
+        "null_q95": 0.23760642135642127,
+        "p": 0.1468,
+        "p_holm": 1.0
+      },
+      "reliability": {
+        "left": 0.21088391292869657,
+        "right": 0.3207358341133271
+      },
+      "source_sensitivity": [
+        -0.15001805985552114,
+        0.19677928576571388
+      ],
+      "paired_excess_sensitivity": [
+        -0.01794693642450859,
+        0.42163228694170446
+      ],
+      "neighbors_k3": 0.20175438596491227,
+      "cka": 0.3076875927484118,
+      "metric_error": 0.9566790047817857,
+      "constant_error": 0.49648803509572265
+    }
+  ],
+  "roster_sources": 120,
+  "concept_source_counts": {
+    "dog_bark": 4,
+    "rooster_crow": 4,
+    "accordion": 8,
+    "acoustic_guitar": 4,
+    "cello": 4,
+    "piano": 8,
+    "trumpet": 4,
+    "violin": 6,
+    "chainsaw": 4,
+    "church_bell": 8,
+    "fireworks": 6,
+    "ocean_waves": 8,
+    "waterfall": 8,
+    "diesel_train": 8,
+    "electric_train": 8,
+    "helicopter": 8,
+    "jet_aircraft": 6,
+    "propeller_aircraft": 6,
+    "steam_train": 8
+  },
+  "media_origin": {
+    "commons_description": 120
+  },
+  "feature_coverage": {
+    "audio_caption_bge": 120,
+    "audio_caption_qwen": 120,
+    "audio_signal": 120,
+    "image_caption_bge": 120,
+    "image_caption_qwen": 120,
+    "image_gemini": 120,
+    "image_titan": 120,
+    "image_voyage": 120,
+    "text_bge": 120,
+    "text_gemini": 120,
+    "text_qwen": 120,
+    "video_caption_bge": 120,
+    "video_caption_qwen": 120,
+    "video_motion": 119,
+    "video_static": 119
+  },
+  "observed_models": {
+    "image_titan": {
+      "amazon.titan-embed-image-v1": 120
+    },
+    "image_voyage": {
+      "voyage-multimodal-3.5": 120
+    },
+    "image_gemini": {
+      "google/gemini-embedding-2": 120
+    },
+    "text_bge": {
+      "BAAI/bge-m3": 24,
+      "parasail-bge-m3": 96
+    },
+    "text_qwen": {
+      "Qwen/Qwen3-Embedding-8B": 120
+    },
+    "text_gemini": {
+      "google/gemini-embedding-2": 120
+    },
+    "audio_caption_bge": {
+      "BAAI/bge-m3": 12,
+      "parasail-bge-m3": 108
+    },
+    "audio_caption_qwen": {
+      "Qwen/Qwen3-Embedding-8B": 120
+    },
+    "image_caption_bge": {
+      "BAAI/bge-m3": 48,
+      "parasail-bge-m3": 72
+    },
+    "image_caption_qwen": {
+      "Qwen/Qwen3-Embedding-8B": 120
+    },
+    "video_caption_bge": {
+      "BAAI/bge-m3": 60,
+      "parasail-bge-m3": 60
+    },
+    "video_caption_qwen": {
+      "Qwen/Qwen3-Embedding-8B": 120
+    }
+  },
+  "reanalysis": 5.551115123125783e-16,
+  "clotho": [
+    {
+      "left": "human_bge",
+      "right": "machine_bge",
+      "status": "measured",
+      "sources": 64,
+      "estimate": 0.10303655780409822,
+      "null_median": -0.0013622115246213528,
+      "null_q95": 0.11112076198466858,
+      "p": 0.0655,
+      "source_subsample_percentile": [
+        0.04687613950813023,
+        0.16291010554209628
+      ],
+      "p_holm": 0.0655
+    },
+    {
+      "left": "human_bge",
+      "right": "machine_qwen",
+      "status": "measured",
+      "sources": 64,
+      "estimate": 0.18289135869860998,
+      "null_median": -0.00045331918442742926,
+      "null_q95": 0.1095260463596943,
+      "p": 0.0025,
+      "source_subsample_percentile": [
+        0.11900663954996032,
+        0.2603956061324941
+      ],
+      "p_holm": 0.0075
+    },
+    {
+      "left": "human_bge",
+      "right": "audio_signal",
+      "status": "measured",
+      "sources": 64,
+      "estimate": 0.14135218567263913,
+      "null_median": -0.0010289415778244513,
+      "null_q95": 0.1107390700257783,
+      "p": 0.0185,
+      "source_subsample_percentile": [
+        0.0630777637314873,
+        0.22344147883411863
+      ],
+      "p_holm": 0.037
+    },
+    {
+      "left": "human_bge_early",
+      "right": "human_bge_late",
+      "status": "measured",
+      "sources": 64,
+      "estimate": 0.49261250568326015,
+      "null_median": 0.0017945698007911105,
+      "null_q95": 0.1021199340053597,
+      "p": 0.0005,
+      "source_subsample_percentile": [
+        0.42674030953109476,
+        0.5579819985867509
+      ],
+      "p_holm": 0.002
+    }
+  ],
+  "native_constraints": "BGE and Qwen independently trained text checkpoints available. No eligible independent image, audio, or video checkpoints through the allowed provider. Raw image calls went to co-aligned image models. Audio and video geometric embedding inputs were caption proxies or fixed signals.",
+  "container_audit": {
+    "samples": 120,
+    "videos_with_auxiliary_streams": 2,
+    "video_nonstructural_tag_keys": [
+      "album_artist",
+      "description",
+      "location",
+      "location-eng",
+      "title"
+    ],
+    "audio_nonstructural_tag_keys": [
+      "timecode",
+      "title"
+    ]
+  },
+  "observability": {
+    "recognition": {
+      "audio": {
+        "n": 38,
+        "correct": 19,
+        "unclear": 9,
+        "factor_counts": {
+          "object": 24,
+          "action": 24,
+          "material": 0,
+          "color": 0,
+          "motion": 0,
+          "temporal_order": 13,
+          "sound_source": 32
+        }
+      },
+      "image": {
+        "n": 37,
+        "correct": 17,
+        "unclear": 20,
+        "factor_counts": {
+          "object": 33,
+          "action": 15,
+          "material": 26,
+          "color": 31,
+          "motion": 0,
+          "temporal_order": 0,
+          "sound_source": 1
+        }
+      },
+      "video": {
+        "n": 38,
+        "correct": 24,
+        "unclear": 14,
+        "factor_counts": {
+          "object": 35,
+          "action": 30,
+          "material": 7,
+          "color": 22,
+          "motion": 33,
+          "temporal_order": 6,
+          "sound_source": 0
+        }
+      }
+    },
+    "phase_scrambling": {
+      "n": 38,
+      "initial_correct": 20,
+      "altered_correct": 6,
+      "lost": 16,
+      "gained": 2,
+      "creator_components": 36,
+      "cluster_sign_p_unadjusted": 0.00125
+    },
+    "frame_permutation": {
+      "n": 38,
+      "initial_correct": 21,
+      "altered_correct": 21,
+      "lost": 1,
+      "gained": 1,
+      "creator_components": 36,
+      "cluster_sign_p_unadjusted": 1.0
+    },
+    "frame_permutation_temporal_order": {
+      "n": 38,
+      "initial_correct": 5,
+      "altered_correct": 4,
+      "lost": 1,
+      "gained": 0,
+      "creator_components": 36,
+      "cluster_sign_p_unadjusted": 1.0
+    },
+    "conditioning": [
+      {
+        "pair": [
+          "audio_caption_bge",
+          "video_caption_bge"
+        ],
+        "channels": [
+          "audio",
+          "video"
+        ],
+        "descriptively_correlated": 0.2769275973628382,
+        "observations": [
+          {
+            "concept": "dog_bark",
+            "group": "animal_vocalizations",
+            "measured": 2,
+            "jointly_recognized": 1,
+            "fraction": 0.5,
+            "anchor_rsa": 0.18369453044375647
+          },
+          {
+            "concept": "rooster_crow",
+            "group": "animal_vocalizations",
+            "measured": 2,
+            "jointly_recognized": 0,
+            "fraction": 0.0,
+            "anchor_rsa": 0.0
+          },
+          {
+            "concept": "accordion",
+            "group": "instruments",
+            "measured": 2,
+            "jointly_recognized": 1,
+            "fraction": 0.5,
+            "anchor_rsa": 0.11867905056759546
+          },
+          {
+            "concept": "acoustic_guitar",
+            "group": "instruments",
+            "measured": 2,
+            "jointly_recognized": 1,
+            "fraction": 0.5,
+            "anchor_rsa": 0.3931888544891641
+          },
+          {
+            "concept": "cello",
+            "group": "instruments",
+            "measured": 2,
+            "jointly_recognized": 1,
+            "fraction": 0.5,
+            "anchor_rsa": 0.3168214654282766
+          },
+          {
+            "concept": "piano",
+            "group": "instruments",
+            "measured": 2,
+            "jointly_recognized": 1,
+            "fraction": 0.5,
+            "anchor_rsa": 0.46852425180598556
+          },
+          {
+            "concept": "trumpet",
+            "group": "instruments",
+            "measured": 2,
+            "jointly_recognized": 0,
+            "fraction": 0.0,
+            "anchor_rsa": 0.27554179566563464
+          },
+          {
+            "concept": "violin",
+            "group": "instruments",
+            "measured": 2,
+            "jointly_recognized": 2,
+            "fraction": 1.0,
+            "anchor_rsa": 0.2714138286893705
+          },
+          {
+            "concept": "chainsaw",
+            "group": "mechanical_or_natural_events",
+            "measured": 2,
+            "jointly_recognized": 1,
+            "fraction": 0.5,
+            "anchor_rsa": 0.15170278637770898
+          },
+          {
+            "concept": "church_bell",
+            "group": "mechanical_or_natural_events",
+            "measured": 2,
+            "jointly_recognized": 0,
+            "fraction": 0.0,
+            "anchor_rsa": 0.034055727554179585
+          },
+          {
+            "concept": "fireworks",
+            "group": "mechanical_or_natural_events",
+            "measured": 2,
+            "jointly_recognized": 2,
+            "fraction": 1.0,
+            "anchor_rsa": 0.5356037151702786
+          },
+          {
+            "concept": "ocean_waves",
+            "group": "mechanical_or_natural_events",
+            "measured": 2,
+            "jointly_recognized": 1,
+            "fraction": 0.5,
+            "anchor_rsa": 0.2146542827657379
+          },
+          {
+            "concept": "waterfall",
+            "group": "mechanical_or_natural_events",
+            "measured": 2,
+            "jointly_recognized": 0,
+            "fraction": 0.0,
+            "anchor_rsa": 0.21362229102167182
+          },
+          {
+            "concept": "diesel_train",
+            "group": "powered_transport",
+            "measured": 2,
+            "jointly_recognized": 1,
+            "fraction": 0.5,
+            "anchor_rsa": 0.4375644994840041
+          },
+          {
+            "concept": "electric_train",
+            "group": "powered_transport",
+            "measured": 2,
+            "jointly_recognized": 0,
+            "fraction": 0.0,
+            "anchor_rsa": 0.48090815273477816
+          },
+          {
+            "concept": "helicopter",
+            "group": "powered_transport",
+            "measured": 2,
+            "jointly_recognized": 1,
+            "fraction": 0.5,
+            "anchor_rsa": 0.3942208462332301
+          },
+          {
+            "concept": "jet_aircraft",
+            "group": "powered_transport",
+            "measured": 2,
+            "jointly_recognized": 1,
+            "fraction": 0.5,
+            "anchor_rsa": 0.47058823529411764
+          },
+          {
+            "concept": "propeller_aircraft",
+            "group": "powered_transport",
+            "measured": 2,
+            "jointly_recognized": 0,
+            "fraction": 0.0,
+            "anchor_rsa": 0.4396284829721362
+          },
+          {
+            "concept": "steam_train",
+            "group": "powered_transport",
+            "measured": 2,
+            "jointly_recognized": 1,
+            "fraction": 0.5,
+            "anchor_rsa": 0.5036119711042312
+          }
+        ]
+      },
+      {
+        "pair": [
+          "image_titan",
+          "video_caption_bge"
+        ],
+        "channels": [
+          "image",
+          "video"
+        ],
+        "descriptively_correlated": 0.22958471934960317,
+        "observations": [
+          {
+            "concept": "dog_bark",
+            "group": "animal_vocalizations",
+            "measured": 2,
+            "jointly_recognized": 0,
+            "fraction": 0.0,
+            "anchor_rsa": 0.435500515995872
+          },
+          {
+            "concept": "rooster_crow",
+            "group": "animal_vocalizations",
+            "measured": 2,
+            "jointly_recognized": 0,
+            "fraction": 0.0,
+            "anchor_rsa": 0.541795665634675
+          },
+          {
+            "concept": "accordion",
+            "group": "instruments",
+            "measured": 2,
+            "jointly_recognized": 0,
+            "fraction": 0.0,
+            "anchor_rsa": 0.5056759545923633
+          },
+          {
+            "concept": "acoustic_guitar",
+            "group": "instruments",
+            "measured": 2,
+            "jointly_recognized": 1,
+            "fraction": 0.5,
+            "anchor_rsa": 0.5221878224974201
+          },
+          {
+            "concept": "cello",
+            "group": "instruments",
+            "measured": 1,
+            "jointly_recognized": 0,
+            "fraction": 0.0,
+            "anchor_rsa": 0.5046439628482973
+          },
+          {
+            "concept": "piano",
+            "group": "instruments",
+            "measured": 2,
+            "jointly_recognized": 1,
+            "fraction": 0.5,
+            "anchor_rsa": 0.5902992776057792
+          },
+          {
+            "concept": "trumpet",
+            "group": "instruments",
+            "measured": 2,
+            "jointly_recognized": 0,
+            "fraction": 0.0,
+            "anchor_rsa": 0.6367389060887513
+          },
+          {
+            "concept": "violin",
+            "group": "instruments",
+            "measured": 2,
+            "jointly_recognized": 2,
+            "fraction": 1.0,
+            "anchor_rsa": 0.7564499484004128
+          },
+          {
+            "concept": "chainsaw",
+            "group": "mechanical_or_natural_events",
+            "measured": 2,
+            "jointly_recognized": 1,
+            "fraction": 0.5,
+            "anchor_rsa": 0.5902992776057792
+          },
+          {
+            "concept": "church_bell",
+            "group": "mechanical_or_natural_events",
+            "measured": 2,
+            "jointly_recognized": 0,
+            "fraction": 0.0,
+            "anchor_rsa": 0.29205366357069146
+          },
+          {
+            "concept": "fireworks",
+            "group": "mechanical_or_natural_events",
+            "measured": 2,
+            "jointly_recognized": 2,
+            "fraction": 1.0,
+            "anchor_rsa": 0.5005159958720331
+          },
+          {
+            "concept": "ocean_waves",
+            "group": "mechanical_or_natural_events",
+            "measured": 2,
+            "jointly_recognized": 1,
+            "fraction": 0.5,
+            "anchor_rsa": 0.5356037151702786
+          },
+          {
+            "concept": "waterfall",
+            "group": "mechanical_or_natural_events",
+            "measured": 2,
+            "jointly_recognized": 2,
+            "fraction": 1.0,
+            "anchor_rsa": 0.5944272445820433
+          },
+          {
+            "concept": "diesel_train",
+            "group": "powered_transport",
+            "measured": 2,
+            "jointly_recognized": 1,
+            "fraction": 0.5,
+            "anchor_rsa": 0.6181630546955624
+          },
+          {
+            "concept": "electric_train",
+            "group": "powered_transport",
+            "measured": 2,
+            "jointly_recognized": 1,
+            "fraction": 0.5,
+            "anchor_rsa": 0.7048503611971104
+          },
+          {
+            "concept": "helicopter",
+            "group": "powered_transport",
+            "measured": 2,
+            "jointly_recognized": 0,
+            "fraction": 0.0,
+            "anchor_rsa": 0.7843137254901961
+          },
+          {
+            "concept": "jet_aircraft",
+            "group": "powered_transport",
+            "measured": 2,
+            "jointly_recognized": 1,
+            "fraction": 0.5,
+            "anchor_rsa": 0.6852425180598555
+          },
+          {
+            "concept": "propeller_aircraft",
+            "group": "powered_transport",
+            "measured": 2,
+            "jointly_recognized": 2,
+            "fraction": 1.0,
+            "anchor_rsa": 0.5304437564499483
+          },
+          {
+            "concept": "steam_train",
+            "group": "powered_transport",
+            "measured": 2,
+            "jointly_recognized": 2,
+            "fraction": 1.0,
+            "anchor_rsa": 0.6109391124871001
+          }
+        ]
+      }
+    ]
+  },
+  "robustness": {
+    "features_sha256": "db65c5900ba0ec2099b620dc1b29825285b87912ad323343957a94dff3b5573b",
+    "scope": "same-cohort sensitivity, unadjusted descriptive p-values",
+    "filter_counts": {
+      "all": 120,
+      "strong_metadata": 88,
+      "description_text": 120,
+      "caption_observer_no_speech": 111
+    },
+    "filtered": [
+      {
+        "left": "text_bge",
+        "right": "image_titan",
+        "restriction": "all",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 120,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.5920584635322919,
+            "null_median": 1.679986560111993e-05,
+            "null_q95": 0.14598459212326295,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.5920584635322919,
+            "null_median": 0.293893248854009,
+            "null_q95": 0.43123815009479927,
+            "p": 0.0002
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.5410942834566539,
+          0.45771026695474387
+        ]
+      },
+      {
+        "left": "text_bge",
+        "right": "image_titan",
+        "restriction": "strong_metadata",
+        "concepts": [
+          "accordion",
+          "trumpet",
+          "violin",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 60,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.44976516021292134,
+            "null_median": -0.0010854816824965828,
+            "null_q95": 0.19780398705771823,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.44976516021292134,
+            "null_median": 0.23024736457572278,
+            "null_q95": 0.3942198100407053,
+            "p": 0.0114
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.4163122209692711,
+          0.49535884520394285
+        ]
+      },
+      {
+        "left": "text_bge",
+        "right": "image_titan",
+        "restriction": "description_text",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 120,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.5920584635322919,
+            "null_median": -0.002810377516979855,
+            "null_q95": 0.14277041783665725,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.5920584635322919,
+            "null_median": 0.2933964528283773,
+            "null_q95": 0.42945604435164497,
+            "p": 0.0002
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.5410942834566539,
+          0.45771026695474387
+        ]
+      },
+      {
+        "left": "text_bge",
+        "right": "image_titan",
+        "restriction": "caption_observer_no_speech",
+        "concepts": [
+          "rooster_crow",
+          "accordion",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 98,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.6693659281894577,
+            "null_median": -0.0007292173067573911,
+            "null_q95": 0.15845128133898173,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.6693659281894577,
+            "null_median": 0.4025071185498993,
+            "null_q95": 0.5334599624973957,
+            "p": 0.0002
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.5663652554640815,
+          0.5350379196451075
+        ]
+      },
+      {
+        "left": "text_qwen",
+        "right": "image_voyage",
+        "restriction": "all",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 120,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.503454772361821,
+            "null_median": -0.001954784361725098,
+            "null_q95": 0.1166948664410684,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.503454772361821,
+            "null_median": 0.32734898120815026,
+            "null_q95": 0.40870857033143737,
+            "p": 0.0002
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.455490392971332,
+          0.48698485511098855
+        ]
+      },
+      {
+        "left": "text_qwen",
+        "right": "image_voyage",
+        "restriction": "strong_metadata",
+        "concepts": [
+          "accordion",
+          "trumpet",
+          "violin",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 60,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.47794593466235263,
+            "null_median": -0.0065755140382006,
+            "null_q95": 0.19244546498277829,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.47794593466235263,
+            "null_median": 0.1859096127752844,
+            "null_q95": 0.33978081619872663,
+            "p": 0.0004
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.3609795840050009,
+          0.44353939153899136
+        ]
+      },
+      {
+        "left": "text_qwen",
+        "right": "image_voyage",
+        "restriction": "description_text",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 120,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.503454772361821,
+            "null_median": -0.0030443756449948303,
+            "null_q95": 0.11718686250509985,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.503454772361821,
+            "null_median": 0.3262461900304795,
+            "null_q95": 0.4074531403748768,
+            "p": 0.0004
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.455490392971332,
+          0.48698485511098855
+        ]
+      },
+      {
+        "left": "text_qwen",
+        "right": "image_voyage",
+        "restriction": "caption_observer_no_speech",
+        "concepts": [
+          "rooster_crow",
+          "accordion",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 98,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.5786860198624906,
+            "null_median": -0.007014375998333218,
+            "null_q95": 0.1387453989860407,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.5786860198624906,
+            "null_median": 0.391065351760539,
+            "null_q95": 0.4764948954788527,
+            "p": 0.0002
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.5114050171851797,
+          0.5441063589611262
+        ]
+      },
+      {
+        "left": "text_bge",
+        "right": "audio_caption_bge",
+        "restriction": "all",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 120,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.3190894472844217,
+            "null_median": -0.0010115919072647625,
+            "null_q95": 0.16108335133318924,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.3190894472844217,
+            "null_median": 0.24991480068159452,
+            "null_q95": 0.35218722250221973,
+            "p": 0.141
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.5410942834566539,
+          0.3439417253048834
+        ]
+      },
+      {
+        "left": "text_bge",
+        "right": "audio_caption_bge",
+        "restriction": "strong_metadata",
+        "concepts": [
+          "accordion",
+          "trumpet",
+          "violin",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 60,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.2247155829245381,
+            "null_median": -0.002129214069512546,
+            "null_q95": 0.22839787078593043,
+            "p": 0.0528
+          },
+          "blocked": {
+            "estimate": 0.2247155829245381,
+            "null_median": 0.07274814737501305,
+            "null_q95": 0.2883143721949693,
+            "p": 0.153
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.4163122209692711,
+          0.2239654353315699
+        ]
+      },
+      {
+        "left": "text_bge",
+        "right": "audio_caption_bge",
+        "restriction": "description_text",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 120,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.3190894472844217,
+            "null_median": 0.0019859841121270885,
+            "null_q95": 0.16839717282261724,
+            "p": 0.0004
+          },
+          "blocked": {
+            "estimate": 0.3190894472844217,
+            "null_median": 0.2521119831041351,
+            "null_q95": 0.35476540187678485,
+            "p": 0.1464
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.5410942834566539,
+          0.3439417253048834
+        ]
+      },
+      {
+        "left": "text_bge",
+        "right": "audio_caption_bge",
+        "restriction": "caption_observer_no_speech",
+        "concepts": [
+          "rooster_crow",
+          "accordion",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 98,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.3012952288353359,
+            "null_median": -0.002170289603444703,
+            "null_q95": 0.17471942496006662,
+            "p": 0.0016
+          },
+          "blocked": {
+            "estimate": 0.3012952288353359,
+            "null_median": 0.3052052225849018,
+            "null_q95": 0.38683068268629756,
+            "p": 0.5296
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.5663652554640815,
+          0.3954389144166973
+        ]
+      },
+      {
+        "left": "text_bge",
+        "right": "video_caption_bge",
+        "restriction": "all",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 120,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.5777833777329779,
+            "null_median": -3.959968320251667e-05,
+            "null_q95": 0.14532363741090068,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.5777833777329779,
+            "null_median": 0.32448700410396697,
+            "null_q95": 0.4544483644130844,
+            "p": 0.0002
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.5410942834566539,
+          0.5107097583087034
+        ]
+      },
+      {
+        "left": "text_bge",
+        "right": "video_caption_bge",
+        "restriction": "strong_metadata",
+        "concepts": [
+          "accordion",
+          "trumpet",
+          "violin",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 60,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.4857739275649723,
+            "null_median": -0.001753470410186822,
+            "null_q95": 0.21315102807640118,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.4857739275649723,
+            "null_median": 0.23440141947604642,
+            "null_q95": 0.41909821521761803,
+            "p": 0.0078
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.4163122209692711,
+          0.5129247617005365
+        ]
+      },
+      {
+        "left": "text_bge",
+        "right": "video_caption_bge",
+        "restriction": "description_text",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 120,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.5777833777329779,
+            "null_median": -0.0022595819233445866,
+            "null_q95": 0.1376236590107278,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.5777833777329779,
+            "null_median": 0.3231490148078814,
+            "null_q95": 0.45306849545203637,
+            "p": 0.0002
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.5410942834566539,
+          0.5107097583087034
+        ]
+      },
+      {
+        "left": "text_bge",
+        "right": "video_caption_bge",
+        "restriction": "caption_observer_no_speech",
+        "concepts": [
+          "rooster_crow",
+          "accordion",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 98,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.6008368636710884,
+            "null_median": -0.0021043127994999633,
+            "null_q95": 0.1510993819015209,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.6008368636710884,
+            "null_median": 0.40179526355996953,
+            "null_q95": 0.5141280644489201,
+            "p": 0.0006
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.5663652554640815,
+          0.5748840923973113
+        ]
+      },
+      {
+        "left": "image_titan",
+        "right": "video_caption_bge",
+        "restriction": "all",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 120,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.5807509539923678,
+            "null_median": -0.003959968320253433,
+            "null_q95": 0.15708690330477346,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.5807509539923678,
+            "null_median": 0.3688950488396092,
+            "null_q95": 0.5087298101615184,
+            "p": 0.0036
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.45771026695474387,
+          0.5107097583087034
+        ]
+      },
+      {
+        "left": "image_titan",
+        "right": "video_caption_bge",
+        "restriction": "strong_metadata",
+        "concepts": [
+          "accordion",
+          "trumpet",
+          "violin",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 60,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.594509967644296,
+            "null_median": -0.002797202797202792,
+            "null_q95": 0.22588456319799594,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.594509967644296,
+            "null_median": 0.32560275545350176,
+            "null_q95": 0.49586055735309464,
+            "p": 0.002
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.49535884520394285,
+          0.5129247617005365
+        ]
+      },
+      {
+        "left": "image_titan",
+        "right": "video_caption_bge",
+        "restriction": "description_text",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 120,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.5807509539923678,
+            "null_median": -0.003775169798641613,
+            "null_q95": 0.15765221878224972,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.5807509539923678,
+            "null_median": 0.3704466364269085,
+            "null_q95": 0.512531619747042,
+            "p": 0.0044
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.45771026695474387,
+          0.5107097583087034
+        ]
+      },
+      {
+        "left": "image_titan",
+        "right": "video_caption_bge",
+        "restriction": "caption_observer_no_speech",
+        "concepts": [
+          "rooster_crow",
+          "accordion",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 98,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.6323112716160846,
+            "null_median": -0.004267657476213624,
+            "null_q95": 0.17254635738592936,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.6323112716160846,
+            "null_median": 0.4810507674144037,
+            "null_q95": 0.5958097784568372,
+            "p": 0.0132
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.5350379196451075,
+          0.5748840923973113
+        ]
+      },
+      {
+        "left": "audio_caption_bge",
+        "right": "video_caption_bge",
+        "restriction": "all",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 120,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.32046703626370987,
+            "null_median": -0.0009551923584611363,
+            "null_q95": 0.18781625746994024,
+            "p": 0.0018
+          },
+          "blocked": {
+            "estimate": 0.32046703626370987,
+            "null_median": 0.28186814505483937,
+            "null_q95": 0.4217257061943503,
+            "p": 0.329
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.3439417253048834,
+          0.5107097583087034
+        ]
+      },
+      {
+        "left": "audio_caption_bge",
+        "right": "video_caption_bge",
+        "restriction": "strong_metadata",
+        "concepts": [
+          "accordion",
+          "trumpet",
+          "violin",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 60,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.28761089656612043,
+            "null_median": -0.0018160943534077933,
+            "null_q95": 0.2759043941133492,
+            "p": 0.0416
+          },
+          "blocked": {
+            "estimate": 0.28761089656612043,
+            "null_median": 0.18000208746477403,
+            "null_q95": 0.4871307796680928,
+            "p": 0.2926
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.2239654353315699,
+          0.5129247617005365
+        ]
+      },
+      {
+        "left": "audio_caption_bge",
+        "right": "video_caption_bge",
+        "restriction": "description_text",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 120,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.32046703626370987,
+            "null_median": 0.0025271797825617316,
+            "null_q95": 0.19029111767105852,
+            "p": 0.001
+          },
+          "blocked": {
+            "estimate": 0.32046703626370987,
+            "null_median": 0.27981736146110836,
+            "null_q95": 0.42647526819785425,
+            "p": 0.3324
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.3439417253048834,
+          0.5107097583087034
+        ]
+      },
+      {
+        "left": "audio_caption_bge",
+        "right": "video_caption_bge",
+        "restriction": "caption_observer_no_speech",
+        "concepts": [
+          "rooster_crow",
+          "accordion",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 98,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.24993749565942086,
+            "null_median": -0.0034898256823390657,
+            "null_q95": 0.1873105771234111,
+            "p": 0.015
+          },
+          "blocked": {
+            "estimate": 0.24993749565942086,
+            "null_median": 0.2912771720258352,
+            "null_q95": 0.41623237724842,
+            "p": 0.6524
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.3954389144166973,
+          0.5748840923973113
+        ]
+      },
+      {
+        "left": "image_caption_bge",
+        "right": "video_caption_bge",
+        "restriction": "all",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 120,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.6992092063263491,
+            "null_median": -0.003842369261045907,
+            "null_q95": 0.16730338157294736,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.6992092063263491,
+            "null_median": 0.3509659922720616,
+            "null_q95": 0.5309116327069382,
+            "p": 0.0002
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.45646158783907465,
+          0.5107097583087034
+        ]
+      },
+      {
+        "left": "image_caption_bge",
+        "right": "video_caption_bge",
+        "restriction": "strong_metadata",
+        "concepts": [
+          "accordion",
+          "trumpet",
+          "violin",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 60,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.7288383258532511,
+            "null_median": 4.174929548060591e-05,
+            "null_q95": 0.2528232961068777,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.7288383258532511,
+            "null_median": 0.30869429078384303,
+            "null_q95": 0.5700741049994781,
+            "p": 0.001
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.5278557907226413,
+          0.5129247617005365
+        ]
+      },
+      {
+        "left": "image_caption_bge",
+        "right": "video_caption_bge",
+        "restriction": "description_text",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 120,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.6992092063263491,
+            "null_median": -0.0012983896128830677,
+            "null_q95": 0.1675079799361604,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.6992092063263491,
+            "null_median": 0.3509347925216597,
+            "null_q95": 0.5299196006431945,
+            "p": 0.0002
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.45646158783907465,
+          0.5107097583087034
+        ]
+      },
+      {
+        "left": "image_caption_bge",
+        "right": "video_caption_bge",
+        "restriction": "caption_observer_no_speech",
+        "concepts": [
+          "rooster_crow",
+          "accordion",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 98,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.7372005000347248,
+            "null_median": -0.0017640113896798416,
+            "null_q95": 0.17358705465657326,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.7372005000347248,
+            "null_median": 0.49278422112646725,
+            "null_q95": 0.6491471629974305,
+            "p": 0.001
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.5281678898602448,
+          0.5748840923973113
+        ]
+      },
+      {
+        "left": "audio_signal",
+        "right": "video_motion",
+        "restriction": "all",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 118,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.043995248038015675,
+            "null_median": -0.003422372621018993,
+            "null_q95": 0.21560491516067817,
+            "p": 0.3544
+          },
+          "blocked": {
+            "estimate": 0.043995248038015675,
+            "null_median": -0.03915928672570618,
+            "null_q95": 0.15355161158710726,
+            "p": 0.2488
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.10599898270791887,
+          0.026222261429053234
+        ]
+      },
+      {
+        "left": "audio_signal",
+        "right": "video_motion",
+        "restriction": "strong_metadata",
+        "concepts": [
+          "accordion",
+          "trumpet",
+          "violin",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 60,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": -0.08804926416866717,
+            "null_median": -0.009351842187663089,
+            "null_q95": 0.2750944577810244,
+            "p": 0.6936
+          },
+          "blocked": {
+            "estimate": -0.08804926416866717,
+            "null_median": -0.04216678843544518,
+            "null_q95": 0.20027137042062412,
+            "p": 0.628
+          }
+        },
+        "broad_taxonomy_rsa": [
+          -0.037766720467676484,
+          0.021957395620742153
+        ]
+      },
+      {
+        "left": "audio_signal",
+        "right": "video_motion",
+        "restriction": "description_text",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 118,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.043995248038015675,
+            "null_median": -0.007694338445292423,
+            "null_q95": 0.20385640914872682,
+            "p": 0.3408
+          },
+          "blocked": {
+            "estimate": 0.043995248038015675,
+            "null_median": -0.034719322245422124,
+            "null_q95": 0.15974164206686334,
+            "p": 0.2606
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.10599898270791887,
+          0.026222261429053234
+        ]
+      },
+      {
+        "left": "audio_signal",
+        "right": "video_motion",
+        "restriction": "caption_observer_no_speech",
+        "concepts": [
+          "rooster_crow",
+          "accordion",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 96,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": -0.12895687200500028,
+            "null_median": -0.007847767206055987,
+            "null_q95": 0.22567678310993802,
+            "p": 0.8364
+          },
+          "blocked": {
+            "estimate": -0.12895687200500028,
+            "null_median": 0.016067087992221663,
+            "null_q95": 0.2158875616362247,
+            "p": 0.9122
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.13080536710378587,
+          0.07666953239906778
+        ]
+      }
+    ],
+    "lexical": [
+      {
+        "left": "text",
+        "right": "audio",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 112,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.1609581122313814,
+            "null_median": -0.0019525240580749274,
+            "null_q95": 0.15431288058735063,
+            "p": 0.0458
+          },
+          "blocked": {
+            "estimate": 0.1609581122313814,
+            "null_median": 0.15047051951404108,
+            "null_q95": 0.27080298901946837,
+            "p": 0.4432
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.28384780553860256,
+          0.23058941002691252
+        ]
+      },
+      {
+        "left": "text",
+        "right": "video",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 112,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.21887288577075775,
+            "null_median": 0.00038685820376345437,
+            "null_q95": 0.1129637884128675,
+            "p": 0.0004
+          },
+          "blocked": {
+            "estimate": 0.21887288577075775,
+            "null_median": 0.14645409378187282,
+            "null_q95": 0.2364844714311825,
+            "p": 0.0938
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.28384780553860256,
+          0.3878204023831514
+        ]
+      },
+      {
+        "left": "audio",
+        "right": "video",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 120,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.24522860088072815,
+            "null_median": -0.0026922820745285403,
+            "null_q95": 0.16351694922780496,
+            "p": 0.0054
+          },
+          "blocked": {
+            "estimate": 0.24522860088072815,
+            "null_median": 0.20044191817560056,
+            "null_q95": 0.34405570616262354,
+            "p": 0.303
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.24585104366286942,
+          0.39238566057668073
+        ]
+      },
+      {
+        "left": "image",
+        "right": "video",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "source_count": 120,
+        "status": "measured",
+        "cross_source": {
+          "global": {
+            "estimate": 0.4639893445218126,
+            "null_median": -0.0024271367350938693,
+            "null_q95": 0.13063488378451016,
+            "p": 0.0002
+          },
+          "blocked": {
+            "estimate": 0.4639893445218126,
+            "null_median": 0.2016984967249454,
+            "null_q95": 0.3602812268532417,
+            "p": 0.002
+          }
+        },
+        "broad_taxonomy_rsa": [
+          0.31203112819599943,
+          0.39238566057668073
+        ]
+      }
+    ],
+    "adaptive_taxonomy": {
+      "rule": "If cross-source blocked RSA survives Holm, test the same pairs with a nested taxonomy. Otherwise use the broad-taxonomy RDM correlations already recorded for the fixed sensitivity comparisons.",
+      "selected": "nested_blocking",
+      "nested_results": [
+        {
+          "pair": "text_bge__image_titan",
+          "concepts": [
+            "dog_bark",
+            "rooster_crow",
+            "accordion",
+            "acoustic_guitar",
+            "cello",
+            "piano",
+            "trumpet",
+            "violin",
+            "chainsaw",
+            "church_bell",
+            "fireworks",
+            "ocean_waves",
+            "waterfall",
+            "diesel_train",
+            "electric_train",
+            "helicopter",
+            "jet_aircraft",
+            "propeller_aircraft",
+            "steam_train"
+          ],
+          "source_count": 120,
+          "status": "measured",
+          "cross_source": {
+            "global": {
+              "estimate": 0.5920584635322919,
+              "null_median": -0.0019979840161278746,
+              "null_q95": 0.14685170518635843,
+              "p": 0.0002
+            },
+            "blocked": {
+              "estimate": 0.5920584635322919,
+              "null_median": 0.46070151438788487,
+              "null_q95": 0.5569491444068445,
+              "p": 0.01
+            }
+          },
+          "broad_taxonomy_rsa": [
+            0.5410942834566539,
+            0.45771026695474387
+          ]
+        },
+        {
+          "pair": "text_qwen__image_voyage",
+          "concepts": [
+            "dog_bark",
+            "rooster_crow",
+            "accordion",
+            "acoustic_guitar",
+            "cello",
+            "piano",
+            "trumpet",
+            "violin",
+            "chainsaw",
+            "church_bell",
+            "fireworks",
+            "ocean_waves",
+            "waterfall",
+            "diesel_train",
+            "electric_train",
+            "helicopter",
+            "jet_aircraft",
+            "propeller_aircraft",
+            "steam_train"
+          ],
+          "source_count": 120,
+          "status": "measured",
+          "cross_source": {
+            "global": {
+              "estimate": 0.503454772361821,
+              "null_median": -0.002609979120167043,
+              "null_q95": 0.12120503035975692,
+              "p": 0.0002
+            },
+            "blocked": {
+              "estimate": 0.503454772361821,
+              "null_median": 0.4326085391316869,
+              "null_q95": 0.49944440444476446,
+              "p": 0.0356
+            }
+          },
+          "broad_taxonomy_rsa": [
+            0.455490392971332,
+            0.48698485511098855
+          ]
+        },
+        {
+          "pair": "text_bge__image_voyage",
+          "concepts": [
+            "dog_bark",
+            "rooster_crow",
+            "accordion",
+            "acoustic_guitar",
+            "cello",
+            "piano",
+            "trumpet",
+            "violin",
+            "chainsaw",
+            "church_bell",
+            "fireworks",
+            "ocean_waves",
+            "waterfall",
+            "diesel_train",
+            "electric_train",
+            "helicopter",
+            "jet_aircraft",
+            "propeller_aircraft",
+            "steam_train"
+          ],
+          "source_count": 120,
+          "status": "measured",
+          "cross_source": {
+            "global": {
+              "estimate": 0.5138670890632874,
+              "null_median": -0.0018743850049199734,
+              "null_q95": 0.12134914920680628,
+              "p": 0.0002
+            },
+            "blocked": {
+              "estimate": 0.5138670890632874,
+              "null_median": 0.44315165478676166,
+              "null_q95": 0.523673410612715,
+              "p": 0.0794
+            }
+          },
+          "broad_taxonomy_rsa": [
+            0.5410942834566539,
+            0.48698485511098855
+          ]
+        },
+        {
+          "pair": "text_gemini__image_gemini",
+          "concepts": [
+            "dog_bark",
+            "rooster_crow",
+            "accordion",
+            "acoustic_guitar",
+            "cello",
+            "piano",
+            "trumpet",
+            "violin",
+            "chainsaw",
+            "church_bell",
+            "fireworks",
+            "ocean_waves",
+            "waterfall",
+            "diesel_train",
+            "electric_train",
+            "helicopter",
+            "jet_aircraft",
+            "propeller_aircraft",
+            "steam_train"
+          ],
+          "source_count": 120,
+          "status": "measured",
+          "cross_source": {
+            "global": {
+              "estimate": 0.4303729570163438,
+              "null_median": 0.0017123863009096164,
+              "null_q95": 0.18813533491732065,
+              "p": 0.0004
+            },
+            "blocked": {
+              "estimate": 0.4303729570163438,
+              "null_median": 0.30541555667554654,
+              "null_q95": 0.41864065087479285,
+              "p": 0.03
+            }
+          },
+          "broad_taxonomy_rsa": [
+            0.4363439798644043,
+            0.35795467982517104
+          ]
+        },
+        {
+          "pair": "image_caption_bge__video_caption_bge",
+          "concepts": [
+            "dog_bark",
+            "rooster_crow",
+            "accordion",
+            "acoustic_guitar",
+            "cello",
+            "piano",
+            "trumpet",
+            "violin",
+            "chainsaw",
+            "church_bell",
+            "fireworks",
+            "ocean_waves",
+            "waterfall",
+            "diesel_train",
+            "electric_train",
+            "helicopter",
+            "jet_aircraft",
+            "propeller_aircraft",
+            "steam_train"
+          ],
+          "source_count": 120,
+          "status": "measured",
+          "cross_source": {
+            "global": {
+              "estimate": 0.6992092063263491,
+              "null_median": -0.0012659898720810518,
+              "null_q95": 0.17314313485492114,
+              "p": 0.0002
+            },
+            "blocked": {
+              "estimate": 0.6992092063263491,
+              "null_median": 0.5378764969880241,
+              "null_q95": 0.6841817265461874,
+              "p": 0.0076
+            }
+          },
+          "broad_taxonomy_rsa": [
+            0.45646158783907465,
+            0.5107097583087034
+          ]
+        }
+      ]
+    }
+  },
+  "metadata_control": {
+    "scope": "same decoded inputs, repeated RouterAI captions; service variability remains possible",
+    "checked_sources": 120,
+    "repeated": [
+      {
+        "source_id": "commons-154806896",
+        "channel": "video",
+        "tag_names_removed": [
+          "location",
+          "location-eng"
+        ],
+        "prior_streams": [
+          "video"
+        ],
+        "cleaned_sha256": "f4411f5803fa71f2b378a9d5419251ed43ec9c8ae09e9c62732c973e0ece657b",
+        "identical_decoded_signal": true,
+        "new_caption": "A man in a striped shirt and cap stands next to an open wooden musical instrument with cymbals and banjos. Another man's head is in the foreground.",
+        "provider": {
+          "id": "rai-1795628646-tvFuWBhSni4gGd3jZ61c",
+          "model": "google/gemini-2.5-flash",
+          "usage": {
+            "total_tokens": 1297,
+            "prompt_tokens": 1245,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 128,
+              "video_tokens": 1052
+            },
+            "completion_tokens": 52,
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "image_tokens": 0,
+              "accepted_prediction_tokens": null,
+              "rejected_prediction_tokens": null
+            },
+            "cost": 0.06335275939200001
+          }
+        },
+        "old_caption": "A man in a striped shirt and cap stands next to an open wooden musical instrument with cymbals and banjos. Another man's head is in the foreground.",
+        "caption_changed": false
+      },
+      {
+        "source_id": "commons-163037833",
+        "channel": "audio",
+        "tag_names_removed": [
+          "timecode"
+        ],
+        "prior_streams": [
+          "audio"
+        ],
+        "cleaned_sha256": "6f49144eb05d9cee2f993126578e2064978c1370459645479c3ce8a4ad932572",
+        "identical_decoded_signal": true,
+        "new_caption": "The main environmental sound is a gentle, melodic piano playing a tune. No other distinct sounds are audible.",
+        "provider": {
+          "id": "rai-1795628646-qQg8Qrwo4Nci0Sh6hmpq",
+          "model": "google/gemini-2.5-flash",
+          "usage": {
+            "total_tokens": 240,
+            "prompt_tokens": 201,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 128,
+              "video_tokens": 0
+            },
+            "completion_tokens": 39,
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "image_tokens": 0,
+              "accepted_prediction_tokens": null,
+              "rejected_prediction_tokens": null
+            },
+            "cost": 0.026426357568
+          }
+        },
+        "old_caption": "The main environmental sound is a gentle, melodic piano playing a tune. No other sounds are audible.",
+        "caption_changed": true
+      },
+      {
+        "source_id": "commons-163037833",
+        "channel": "video",
+        "tag_names_removed": [],
+        "prior_streams": [
+          "video",
+          "data"
+        ],
+        "cleaned_sha256": "036768af67acfb4f5566c44a1216455df04ef4517750360044aa4409668dc2e9",
+        "identical_decoded_signal": true,
+        "new_caption": "A man in a suit plays the violin, moving the bow across the strings. A piano is visible in the background.",
+        "provider": {
+          "id": "rai-1795628646-cL5RIJpjlg7r82nobqaD",
+          "model": "google/gemini-2.5-flash",
+          "usage": {
+            "total_tokens": 1278,
+            "prompt_tokens": 1245,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 128,
+              "video_tokens": 1052
+            },
+            "completion_tokens": 33,
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "image_tokens": 0,
+              "accepted_prediction_tokens": null,
+              "rejected_prediction_tokens": null
+            },
+            "cost": 0.05827898419200001
+          }
+        },
+        "old_caption": "A man in a suit plays the violin, moving the bow across the strings. A piano is visible in the background.",
+        "caption_changed": false
+      },
+      {
+        "source_id": "commons-173590596",
+        "channel": "video",
+        "tag_names_removed": [
+          "location",
+          "location-eng"
+        ],
+        "prior_streams": [
+          "video"
+        ],
+        "cleaned_sha256": "d4a2496009ed91e045c3e1941f43a7e99ad12e89bae7f95a952ee9bb52a9c67c",
+        "identical_decoded_signal": true,
+        "new_caption": "A waterfall cascades into a pool, surrounded by rocky cliffs and lush green foliage. The camera slowly pans right, revealing more of the stream and rocks.",
+        "provider": {
+          "id": "rai-1795628647-Zt0VbUqwjNsjE4y2Tair",
+          "model": "google/gemini-2.5-flash",
+          "usage": {
+            "total_tokens": 1294,
+            "prompt_tokens": 1245,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 128,
+              "video_tokens": 1052
+            },
+            "completion_tokens": 49,
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "image_tokens": 0,
+              "accepted_prediction_tokens": null,
+              "rejected_prediction_tokens": null
+            },
+            "cost": 0.062551636992
+          }
+        },
+        "old_caption": "A waterfall cascades into a pool, surrounded by rocky cliffs and lush green foliage. The camera slowly pans right, revealing more of the stream and rocks.",
+        "caption_changed": false
+      },
+      {
+        "source_id": "commons-153997706",
+        "channel": "video",
+        "tag_names_removed": [
+          "location",
+          "location-eng"
+        ],
+        "prior_streams": [
+          "video"
+        ],
+        "cleaned_sha256": "e816495cda36edb222c209098013b745d002275abdea9a5e9b16f0ca2e9dbf7f",
+        "identical_decoded_signal": true,
+        "new_caption": "A red and gray train locomotive moves from left to right across the frame, revealing more of its side as it passes.",
+        "provider": {
+          "id": "rai-1795628647-Gpmc8HDbbSEaIVq7xIyN",
+          "model": "google/gemini-2.5-flash",
+          "usage": {
+            "total_tokens": 1287,
+            "prompt_tokens": 1245,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 128,
+              "video_tokens": 1052
+            },
+            "completion_tokens": 42,
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "image_tokens": 0,
+              "accepted_prediction_tokens": null,
+              "rejected_prediction_tokens": null
+            },
+            "cost": 0.060682351392
+          }
+        },
+        "old_caption": "A red and gray train locomotive moves from left to right across the frame, revealing more of its side as it passes.",
+        "caption_changed": false
+      },
+      {
+        "source_id": "commons-179819992",
+        "channel": "video",
+        "tag_names_removed": [
+          "location",
+          "location-eng"
+        ],
+        "prior_streams": [
+          "video"
+        ],
+        "cleaned_sha256": "5b9eb8ab685d04894bf9e60e3e387dd8601071e0c5d5c6ba95bde8d8d71bd8ff",
+        "identical_decoded_signal": true,
+        "new_caption": "An aerial view shows a landscape with buildings, trees, and open fields. The camera pans right, revealing more of the sprawling area.",
+        "provider": {
+          "id": "rai-1795628647-DTSsu60T6KFZ6x1Xbm2G",
+          "model": "google/gemini-2.5-flash",
+          "usage": {
+            "total_tokens": 1281,
+            "prompt_tokens": 1245,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 128,
+              "video_tokens": 1052
+            },
+            "completion_tokens": 36,
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "image_tokens": 0,
+              "accepted_prediction_tokens": null,
+              "rejected_prediction_tokens": null
+            },
+            "cost": 0.059080106592
+          }
+        },
+        "old_caption": "An aerial view shows a landscape with buildings, trees, and open fields. The camera pans right, revealing more of the sprawling area.",
+        "caption_changed": false
+      },
+      {
+        "source_id": "commons-189561615",
+        "channel": "audio",
+        "tag_names_removed": [
+          "title"
+        ],
+        "prior_streams": [
+          "audio"
+        ],
+        "cleaned_sha256": "f57d5321afe780049ba5785e1ea3753b5620c28d250ed0ed350bcc3d64be2b7d",
+        "identical_decoded_signal": true,
+        "new_caption": "The main environmental sound is a distant aircraft, which is also the audible event.",
+        "provider": {
+          "id": "rai-1795628647-6xgK5M8Zi8wRyGtOntDW",
+          "model": "google/gemini-2.5-flash",
+          "usage": {
+            "total_tokens": 237,
+            "prompt_tokens": 201,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 128,
+              "video_tokens": 0
+            },
+            "completion_tokens": 36,
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "image_tokens": 0,
+              "accepted_prediction_tokens": null,
+              "rejected_prediction_tokens": null
+            },
+            "cost": 0.025625235168
+          }
+        },
+        "old_caption": "The main environmental sound is a distant aircraft, which is also the audible event.",
+        "caption_changed": false
+      },
+      {
+        "source_id": "commons-189561615",
+        "channel": "video",
+        "tag_names_removed": [
+          "album_artist",
+          "description",
+          "title"
+        ],
+        "prior_streams": [
+          "video",
+          "data"
+        ],
+        "cleaned_sha256": "c1060395a768297bf0c8a0e5efea406178667742808b0325437b0a319c91ee64",
+        "identical_decoded_signal": true,
+        "new_caption": "A large gray aircraft with a radar dish on top is parked on an airfield. It is replaced by a gray tiltrotor aircraft with spinning propellers.",
+        "provider": {
+          "id": "rai-1795628648-AJKuzSvwBZngnIdGuvXs",
+          "model": "google/gemini-2.5-flash",
+          "usage": {
+            "total_tokens": 1292,
+            "prompt_tokens": 1245,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 128,
+              "video_tokens": 1052
+            },
+            "completion_tokens": 47,
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "image_tokens": 0,
+              "accepted_prediction_tokens": null,
+              "rejected_prediction_tokens": null
+            },
+            "cost": 0.062017555392
+          }
+        },
+        "old_caption": "A large gray military aircraft with a radar dish on top is parked on an airfield. It is replaced by a gray tiltrotor aircraft with spinning propellers.",
+        "caption_changed": true
+      },
+      {
+        "source_id": "commons-192001124",
+        "channel": "video",
+        "tag_names_removed": [
+          "location",
+          "location-eng"
+        ],
+        "prior_streams": [
+          "video"
+        ],
+        "cleaned_sha256": "f31085362fcc3a4ac7f5238965547dab0daab8d2fc088d7a03afb3ce3056f464",
+        "identical_decoded_signal": true,
+        "new_caption": "A person films a vintage airplane with a striped nose cone on a grassy field next to a runway under a cloudy sky.",
+        "provider": {
+          "id": "rai-1795628650-3aKKkOBiPpBvLmgkJkmf",
+          "model": "google/gemini-2.5-flash",
+          "usage": {
+            "total_tokens": 1287,
+            "prompt_tokens": 1245,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 128,
+              "video_tokens": 1052
+            },
+            "completion_tokens": 42,
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "image_tokens": 0,
+              "accepted_prediction_tokens": null,
+              "rejected_prediction_tokens": null
+            },
+            "cost": 0.060682351392
+          }
+        },
+        "old_caption": "A person films a vintage airplane with a striped nose cone on a grassy field next to a runway under a cloudy sky.",
+        "caption_changed": false
+      },
+      {
+        "source_id": "commons-195785884",
+        "channel": "video",
+        "tag_names_removed": [
+          "location",
+          "location-eng"
+        ],
+        "prior_streams": [
+          "video"
+        ],
+        "cleaned_sha256": "bd80e33d0295c4613c45c5b8e11cdeedd01c77a9d3f6778b338693ae90c646da",
+        "identical_decoded_signal": true,
+        "new_caption": "A black steam locomotive, numbered \"99 747\", moves forward on tracks through a green, grassy landscape with trees.",
+        "provider": {
+          "id": "rai-1795628654-qJtHn1Azf3OWTFdzPuKO",
+          "model": "google/gemini-2.5-flash",
+          "usage": {
+            "total_tokens": 1290,
+            "prompt_tokens": 1245,
+            "prompt_tokens_details": {
+              "cached_tokens": 0,
+              "cache_write_tokens": 0,
+              "audio_tokens": 128,
+              "video_tokens": 1052
+            },
+            "completion_tokens": 45,
+            "completion_tokens_details": {
+              "reasoning_tokens": 0,
+              "audio_tokens": 0,
+              "image_tokens": 0,
+              "accepted_prediction_tokens": null,
+              "rejected_prediction_tokens": null
+            },
+            "cost": 0.061483473792
+          }
+        },
+        "old_caption": "A black steam locomotive, numbered \"99 747\", moves forward on tracks through a green, grassy landscape with trees.",
+        "caption_changed": false
+      }
+    ],
+    "failures": [],
+    "cross_source": [
+      {
+        "pair": "text_bge__audio_caption_bge",
+        "original": 0.3190894472844217,
+        "remux": 0.3184966520267837,
+        "difference": -0.0005927952576380013
+      },
+      {
+        "pair": "text_bge__video_caption_bge",
+        "original": 0.5777833777329779,
+        "remux": 0.5761537907696739,
+        "difference": -0.0016295869633040638
+      },
+      {
+        "pair": "image_titan__audio_caption_bge",
+        "original": 0.40644394844841225,
+        "remux": 0.4054815561475507,
+        "difference": -0.0009623923008615365
+      },
+      {
+        "pair": "image_titan__video_caption_bge",
+        "original": 0.5807509539923678,
+        "remux": 0.5815297477620178,
+        "difference": 0.0007787937696500657
+      },
+      {
+        "pair": "audio_caption_bge__video_caption_bge",
+        "original": 0.32046703626370987,
+        "remux": 0.3204166366669066,
+        "difference": -5.0399596803252233e-05
+      },
+      {
+        "pair": "audio_caption_qwen__video_caption_qwen",
+        "original": 0.2512227902176783,
+        "remux": 0.25131398948808403,
+        "difference": 9.119927040573961e-05
+      },
+      {
+        "pair": "image_caption_bge__audio_caption_bge",
+        "original": 0.23785849713202287,
+        "remux": 0.23670650634794918,
+        "difference": -0.0011519907840736865
+      },
+      {
+        "pair": "image_caption_bge__video_caption_bge",
+        "original": 0.6992092063263491,
+        "remux": 0.6993124055007558,
+        "difference": 0.00010319917440670956
+      },
+      {
+        "pair": "text_qwen__audio_caption_qwen",
+        "original": 0.20762833897328822,
+        "remux": 0.2069275445796433,
+        "difference": -0.0007007943936449268
+      },
+      {
+        "pair": "text_qwen__video_caption_qwen",
+        "original": 0.49729162166702656,
+        "remux": 0.4972124223006215,
+        "difference": -7.919936640504721e-05
+      }
+    ]
+  },
+  "caption_conditioning": {
+    "features_sha256": "db65c5900ba0ec2099b620dc1b29825285b87912ad323343957a94dff3b5573b",
+    "roster_sha256": "c970b09336c81dc2e47c40c8e7d157bcb0feab2d4cc69c007be6adc460c98d6c",
+    "scope": "adaptive descriptive sensitivity; no causal mediation, no additional inferential family",
+    "label_null": "blocked on broad taxonomy, permuting image and image-caption axes together",
+    "outcomes": [
+      {
+        "left": "text_bge",
+        "right": "image_titan",
+        "nuisance_caption": "image_caption_bge",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "status": "measured",
+        "sources": 120,
+        "cross_source": {
+          "unconditioned": {
+            "estimate": 0.5920584635322917,
+            "null_median": 0.2929296565627475,
+            "null_q95": 0.42717666258669906,
+            "p": 0.0002
+          },
+          "taxonomy_only": {
+            "estimate": 0.49841479486403667,
+            "null_median": 0.00011060396584771206,
+            "null_q95": 0.22150952440678798,
+            "p": 0.0002
+          },
+          "caption_only": {
+            "estimate": 0.37476977630261704,
+            "null_median": 0.1671925475390959,
+            "null_q95": 0.2929330278518539,
+            "p": 0.0012
+          },
+          "taxonomy_and_caption": {
+            "estimate": 0.32330643221178057,
+            "null_median": 0.0030570084275548803,
+            "null_q95": 0.1839539194803801,
+            "p": 0.0008
+          }
+        }
+      },
+      {
+        "left": "text_qwen",
+        "right": "image_voyage",
+        "nuisance_caption": "image_caption_qwen",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "status": "measured",
+        "sources": 120,
+        "cross_source": {
+          "unconditioned": {
+            "estimate": 0.5034547723618211,
+            "null_median": 0.32492380060959514,
+            "null_q95": 0.4066726666186671,
+            "p": 0.0006
+          },
+          "taxonomy_only": {
+            "estimate": 0.3188824186689459,
+            "null_median": -0.0033878179417419635,
+            "null_q95": 0.14527462199629865,
+            "p": 0.0006
+          },
+          "caption_only": {
+            "estimate": 0.22197660441471417,
+            "null_median": 0.16459216720847591,
+            "null_q95": 0.2646829473500372,
+            "p": 0.1808
+          },
+          "taxonomy_and_caption": {
+            "estimate": 0.14021006768514627,
+            "null_median": 0.0011047525179783552,
+            "null_q95": 0.12970486529950437,
+            "p": 0.0382
+          }
+        }
+      },
+      {
+        "left": "text_gemini",
+        "right": "image_gemini",
+        "nuisance_caption": "image_caption_bge",
+        "concepts": [
+          "dog_bark",
+          "rooster_crow",
+          "accordion",
+          "acoustic_guitar",
+          "cello",
+          "piano",
+          "trumpet",
+          "violin",
+          "chainsaw",
+          "church_bell",
+          "fireworks",
+          "ocean_waves",
+          "waterfall",
+          "diesel_train",
+          "electric_train",
+          "helicopter",
+          "jet_aircraft",
+          "propeller_aircraft",
+          "steam_train"
+        ],
+        "status": "measured",
+        "sources": 120,
+        "cross_source": {
+          "unconditioned": {
+            "estimate": 0.43037295701634387,
+            "null_median": 0.16605347157222744,
+            "null_q95": 0.31454472364221076,
+            "p": 0.0006
+          },
+          "taxonomy_only": {
+            "estimate": 0.42413666120652804,
+            "null_median": 0.00016355969641097118,
+            "null_q95": 0.2337046328344374,
+            "p": 0.0006
+          },
+          "caption_only": {
+            "estimate": 0.0968258296729396,
+            "null_median": 0.031203531410396407,
+            "null_q95": 0.1648538831028226,
+            "p": 0.2132
+          },
+          "taxonomy_and_caption": {
+            "estimate": 0.13135331329537622,
+            "null_median": -0.003218365696854242,
+            "null_q95": 0.184051821912628,
+            "p": 0.1202
+          }
+        }
+      }
+    ]
+  }
+}

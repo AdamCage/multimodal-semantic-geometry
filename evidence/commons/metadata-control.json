@@ -1,0 +1,457 @@
+{
+  "scope": "same decoded inputs, repeated RouterAI captions; service variability remains possible",
+  "checked_sources": 120,
+  "repeated": [
+    {
+      "source_id": "commons-154806896",
+      "channel": "video",
+      "tag_names_removed": [
+        "location",
+        "location-eng"
+      ],
+      "prior_streams": [
+        "video"
+      ],
+      "cleaned_sha256": "f4411f5803fa71f2b378a9d5419251ed43ec9c8ae09e9c62732c973e0ece657b",
+      "identical_decoded_signal": true,
+      "new_caption": "A man in a striped shirt and cap stands next to an open wooden musical instrument with cymbals and banjos. Another man's head is in the foreground.",
+      "provider": {
+        "id": "rai-1795628646-tvFuWBhSni4gGd3jZ61c",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 1297,
+          "prompt_tokens": 1245,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 128,
+            "video_tokens": 1052
+          },
+          "completion_tokens": 52,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.06335275939200001
+        }
+      },
+      "old_caption": "A man in a striped shirt and cap stands next to an open wooden musical instrument with cymbals and banjos. Another man's head is in the foreground.",
+      "caption_changed": false
+    },
+    {
+      "source_id": "commons-163037833",
+      "channel": "audio",
+      "tag_names_removed": [
+        "timecode"
+      ],
+      "prior_streams": [
+        "audio"
+      ],
+      "cleaned_sha256": "6f49144eb05d9cee2f993126578e2064978c1370459645479c3ce8a4ad932572",
+      "identical_decoded_signal": true,
+      "new_caption": "The main environmental sound is a gentle, melodic piano playing a tune. No other distinct sounds are audible.",
+      "provider": {
+        "id": "rai-1795628646-qQg8Qrwo4Nci0Sh6hmpq",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 240,
+          "prompt_tokens": 201,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 128,
+            "video_tokens": 0
+          },
+          "completion_tokens": 39,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.026426357568
+        }
+      },
+      "old_caption": "The main environmental sound is a gentle, melodic piano playing a tune. No other sounds are audible.",
+      "caption_changed": true
+    },
+    {
+      "source_id": "commons-163037833",
+      "channel": "video",
+      "tag_names_removed": [],
+      "prior_streams": [
+        "video",
+        "data"
+      ],
+      "cleaned_sha256": "036768af67acfb4f5566c44a1216455df04ef4517750360044aa4409668dc2e9",
+      "identical_decoded_signal": true,
+      "new_caption": "A man in a suit plays the violin, moving the bow across the strings. A piano is visible in the background.",
+      "provider": {
+        "id": "rai-1795628646-cL5RIJpjlg7r82nobqaD",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 1278,
+          "prompt_tokens": 1245,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 128,
+            "video_tokens": 1052
+          },
+          "completion_tokens": 33,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.05827898419200001
+        }
+      },
+      "old_caption": "A man in a suit plays the violin, moving the bow across the strings. A piano is visible in the background.",
+      "caption_changed": false
+    },
+    {
+      "source_id": "commons-173590596",
+      "channel": "video",
+      "tag_names_removed": [
+        "location",
+        "location-eng"
+      ],
+      "prior_streams": [
+        "video"
+      ],
+      "cleaned_sha256": "d4a2496009ed91e045c3e1941f43a7e99ad12e89bae7f95a952ee9bb52a9c67c",
+      "identical_decoded_signal": true,
+      "new_caption": "A waterfall cascades into a pool, surrounded by rocky cliffs and lush green foliage. The camera slowly pans right, revealing more of the stream and rocks.",
+      "provider": {
+        "id": "rai-1795628647-Zt0VbUqwjNsjE4y2Tair",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 1294,
+          "prompt_tokens": 1245,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 128,
+            "video_tokens": 1052
+          },
+          "completion_tokens": 49,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.062551636992
+        }
+      },
+      "old_caption": "A waterfall cascades into a pool, surrounded by rocky cliffs and lush green foliage. The camera slowly pans right, revealing more of the stream and rocks.",
+      "caption_changed": false
+    },
+    {
+      "source_id": "commons-153997706",
+      "channel": "video",
+      "tag_names_removed": [
+        "location",
+        "location-eng"
+      ],
+      "prior_streams": [
+        "video"
+      ],
+      "cleaned_sha256": "e816495cda36edb222c209098013b745d002275abdea9a5e9b16f0ca2e9dbf7f",
+      "identical_decoded_signal": true,
+      "new_caption": "A red and gray train locomotive moves from left to right across the frame, revealing more of its side as it passes.",
+      "provider": {
+        "id": "rai-1795628647-Gpmc8HDbbSEaIVq7xIyN",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 1287,
+          "prompt_tokens": 1245,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 128,
+            "video_tokens": 1052
+          },
+          "completion_tokens": 42,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.060682351392
+        }
+      },
+      "old_caption": "A red and gray train locomotive moves from left to right across the frame, revealing more of its side as it passes.",
+      "caption_changed": false
+    },
+    {
+      "source_id": "commons-179819992",
+      "channel": "video",
+      "tag_names_removed": [
+        "location",
+        "location-eng"
+      ],
+      "prior_streams": [
+        "video"
+      ],
+      "cleaned_sha256": "5b9eb8ab685d04894bf9e60e3e387dd8601071e0c5d5c6ba95bde8d8d71bd8ff",
+      "identical_decoded_signal": true,
+      "new_caption": "An aerial view shows a landscape with buildings, trees, and open fields. The camera pans right, revealing more of the sprawling area.",
+      "provider": {
+        "id": "rai-1795628647-DTSsu60T6KFZ6x1Xbm2G",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 1281,
+          "prompt_tokens": 1245,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 128,
+            "video_tokens": 1052
+          },
+          "completion_tokens": 36,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.059080106592
+        }
+      },
+      "old_caption": "An aerial view shows a landscape with buildings, trees, and open fields. The camera pans right, revealing more of the sprawling area.",
+      "caption_changed": false
+    },
+    {
+      "source_id": "commons-189561615",
+      "channel": "audio",
+      "tag_names_removed": [
+        "title"
+      ],
+      "prior_streams": [
+        "audio"
+      ],
+      "cleaned_sha256": "f57d5321afe780049ba5785e1ea3753b5620c28d250ed0ed350bcc3d64be2b7d",
+      "identical_decoded_signal": true,
+      "new_caption": "The main environmental sound is a distant aircraft, which is also the audible event.",
+      "provider": {
+        "id": "rai-1795628647-6xgK5M8Zi8wRyGtOntDW",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 237,
+          "prompt_tokens": 201,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 128,
+            "video_tokens": 0
+          },
+          "completion_tokens": 36,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.025625235168
+        }
+      },
+      "old_caption": "The main environmental sound is a distant aircraft, which is also the audible event.",
+      "caption_changed": false
+    },
+    {
+      "source_id": "commons-189561615",
+      "channel": "video",
+      "tag_names_removed": [
+        "album_artist",
+        "description",
+        "title"
+      ],
+      "prior_streams": [
+        "video",
+        "data"
+      ],
+      "cleaned_sha256": "c1060395a768297bf0c8a0e5efea406178667742808b0325437b0a319c91ee64",
+      "identical_decoded_signal": true,
+      "new_caption": "A large gray aircraft with a radar dish on top is parked on an airfield. It is replaced by a gray tiltrotor aircraft with spinning propellers.",
+      "provider": {
+        "id": "rai-1795628648-AJKuzSvwBZngnIdGuvXs",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 1292,
+          "prompt_tokens": 1245,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 128,
+            "video_tokens": 1052
+          },
+          "completion_tokens": 47,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.062017555392
+        }
+      },
+      "old_caption": "A large gray military aircraft with a radar dish on top is parked on an airfield. It is replaced by a gray tiltrotor aircraft with spinning propellers.",
+      "caption_changed": true
+    },
+    {
+      "source_id": "commons-192001124",
+      "channel": "video",
+      "tag_names_removed": [
+        "location",
+        "location-eng"
+      ],
+      "prior_streams": [
+        "video"
+      ],
+      "cleaned_sha256": "f31085362fcc3a4ac7f5238965547dab0daab8d2fc088d7a03afb3ce3056f464",
+      "identical_decoded_signal": true,
+      "new_caption": "A person films a vintage airplane with a striped nose cone on a grassy field next to a runway under a cloudy sky.",
+      "provider": {
+        "id": "rai-1795628650-3aKKkOBiPpBvLmgkJkmf",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 1287,
+          "prompt_tokens": 1245,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 128,
+            "video_tokens": 1052
+          },
+          "completion_tokens": 42,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.060682351392
+        }
+      },
+      "old_caption": "A person films a vintage airplane with a striped nose cone on a grassy field next to a runway under a cloudy sky.",
+      "caption_changed": false
+    },
+    {
+      "source_id": "commons-195785884",
+      "channel": "video",
+      "tag_names_removed": [
+        "location",
+        "location-eng"
+      ],
+      "prior_streams": [
+        "video"
+      ],
+      "cleaned_sha256": "bd80e33d0295c4613c45c5b8e11cdeedd01c77a9d3f6778b338693ae90c646da",
+      "identical_decoded_signal": true,
+      "new_caption": "A black steam locomotive, numbered \"99 747\", moves forward on tracks through a green, grassy landscape with trees.",
+      "provider": {
+        "id": "rai-1795628654-qJtHn1Azf3OWTFdzPuKO",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 1290,
+          "prompt_tokens": 1245,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 128,
+            "video_tokens": 1052
+          },
+          "completion_tokens": 45,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.061483473792
+        }
+      },
+      "old_caption": "A black steam locomotive, numbered \"99 747\", moves forward on tracks through a green, grassy landscape with trees.",
+      "caption_changed": false
+    }
+  ],
+  "failures": [],
+  "cross_source": [
+    {
+      "pair": "text_bge__audio_caption_bge",
+      "original": 0.3190894472844217,
+      "remux": 0.3184966520267837,
+      "difference": -0.0005927952576380013
+    },
+    {
+      "pair": "text_bge__video_caption_bge",
+      "original": 0.5777833777329779,
+      "remux": 0.5761537907696739,
+      "difference": -0.0016295869633040638
+    },
+    {
+      "pair": "image_titan__audio_caption_bge",
+      "original": 0.40644394844841225,
+      "remux": 0.4054815561475507,
+      "difference": -0.0009623923008615365
+    },
+    {
+      "pair": "image_titan__video_caption_bge",
+      "original": 0.5807509539923678,
+      "remux": 0.5815297477620178,
+      "difference": 0.0007787937696500657
+    },
+    {
+      "pair": "audio_caption_bge__video_caption_bge",
+      "original": 0.32046703626370987,
+      "remux": 0.3204166366669066,
+      "difference": -5.0399596803252233e-05
+    },
+    {
+      "pair": "audio_caption_qwen__video_caption_qwen",
+      "original": 0.2512227902176783,
+      "remux": 0.25131398948808403,
+      "difference": 9.119927040573961e-05
+    },
+    {
+      "pair": "image_caption_bge__audio_caption_bge",
+      "original": 0.23785849713202287,
+      "remux": 0.23670650634794918,
+      "difference": -0.0011519907840736865
+    },
+    {
+      "pair": "image_caption_bge__video_caption_bge",
+      "original": 0.6992092063263491,
+      "remux": 0.6993124055007558,
+      "difference": 0.00010319917440670956
+    },
+    {
+      "pair": "text_qwen__audio_caption_qwen",
+      "original": 0.20762833897328822,
+      "remux": 0.2069275445796433,
+      "difference": -0.0007007943936449268
+    },
+    {
+      "pair": "text_qwen__video_caption_qwen",
+      "original": 0.49729162166702656,
+      "remux": 0.4972124223006215,
+      "difference": -7.919936640504721e-05
+    }
+  ]
+}

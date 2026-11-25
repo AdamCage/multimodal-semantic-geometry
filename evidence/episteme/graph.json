@@ -1,0 +1,3292 @@
+{
+  "direction": "dependency_to_referrer",
+  "edges": [
+    {
+      "derivation": "recorded_reference",
+      "field": "question",
+      "reference_event": "explanation_set-0618b49c6b9b45ca",
+      "relation": "explanation_question",
+      "scientific_validity": "not_assessed",
+      "source": "research_question-48690754353c4b39",
+      "target": "explanation_set-0618b49c6b9b45ca"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[0]",
+      "reference_event": "explanation_set-0618b49c6b9b45ca",
+      "relation": "explanation_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-630b2607fa074493",
+      "target": "explanation_set-0618b49c6b9b45ca"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[1]",
+      "reference_event": "explanation_set-0618b49c6b9b45ca",
+      "relation": "explanation_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-f145740282534644",
+      "target": "explanation_set-0618b49c6b9b45ca"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[2]",
+      "reference_event": "explanation_set-0618b49c6b9b45ca",
+      "relation": "explanation_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-6398e136702b4acc",
+      "target": "explanation_set-0618b49c6b9b45ca"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "data",
+      "reference_event": "data_exposure-a0d13c570b944278",
+      "relation": "exposed_data",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:26c49f59fe44ecc6d69385a57f969ff29c80e5c47421884eddb5461d373f9141",
+      "target": "data_exposure-a0d13c570b944278"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "data",
+      "reference_event": "data_exposure-8a5a936fcf374334",
+      "relation": "exposed_data",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:d407ca99415becf5c366b6a96de836d5261fbcf360caf88c4a8788df929c6a6e",
+      "target": "data_exposure-8a5a936fcf374334"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[0]",
+      "reference_event": "protocol-687a139367d04aa5",
+      "relation": "registered_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-630b2607fa074493",
+      "target": "protocol-687a139367d04aa5"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[1]",
+      "reference_event": "protocol-687a139367d04aa5",
+      "relation": "registered_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-f145740282534644",
+      "target": "protocol-687a139367d04aa5"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[2]",
+      "reference_event": "protocol-687a139367d04aa5",
+      "relation": "registered_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-6398e136702b4acc",
+      "target": "protocol-687a139367d04aa5"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "planning.question",
+      "reference_event": "protocol-687a139367d04aa5",
+      "relation": "protocol_question",
+      "scientific_validity": "not_assessed",
+      "source": "research_question-48690754353c4b39",
+      "target": "protocol-687a139367d04aa5"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "planning.explanation_set",
+      "reference_event": "protocol-687a139367d04aa5",
+      "relation": "protocol_explanation_set",
+      "scientific_validity": "not_assessed",
+      "source": "explanation_set-0618b49c6b9b45ca",
+      "target": "protocol-687a139367d04aa5"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "implementation",
+      "reference_event": "protocol-687a139367d04aa5",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:0ef830eac16f09be639046ba65c9578d3acd06da88d2d06be2ac95bd3e7c1cc5",
+      "target": "protocol-687a139367d04aa5"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "environment",
+      "reference_event": "protocol-687a139367d04aa5",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+      "target": "protocol-687a139367d04aa5"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "data",
+      "reference_event": "protocol-687a139367d04aa5",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:9923a21a8fa533f6810e838b3249f5e351f72ed52f8bc5986a8f32bb85f8f393",
+      "target": "protocol-687a139367d04aa5"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "tree",
+      "reference_event": "experiment_node-f9d191f33b744046",
+      "relation": "tree_node",
+      "scientific_validity": "not_assessed",
+      "source": "search_tree-b21655dc574d4846",
+      "target": "experiment_node-f9d191f33b744046"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "protocol",
+      "reference_event": "experiment_node-f9d191f33b744046",
+      "relation": "node_protocol",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-687a139367d04aa5",
+      "target": "experiment_node-f9d191f33b744046"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "tree",
+      "reference_event": "search_selection-f83d4137edd1490d",
+      "relation": "selection_tree",
+      "scientific_validity": "not_assessed",
+      "source": "search_tree-b21655dc574d4846",
+      "target": "search_selection-f83d4137edd1490d"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "node",
+      "reference_event": "search_selection-f83d4137edd1490d",
+      "relation": "selection_node",
+      "scientific_validity": "not_assessed",
+      "source": "experiment_node-f9d191f33b744046",
+      "target": "search_selection-f83d4137edd1490d"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "protocol",
+      "reference_event": "search_selection-f83d4137edd1490d",
+      "relation": "selection_protocol",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-687a139367d04aa5",
+      "target": "search_selection-f83d4137edd1490d"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "frontier[0].node",
+      "reference_event": "search_selection-f83d4137edd1490d",
+      "relation": "selection_frontier",
+      "scientific_validity": "not_assessed",
+      "source": "experiment_node-f9d191f33b744046",
+      "target": "search_selection-f83d4137edd1490d"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "protocol",
+      "reference_event": "run-a544d5ce79174a65",
+      "relation": "run_protocol",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-687a139367d04aa5",
+      "target": "run-a544d5ce79174a65"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "implementation",
+      "reference_event": "run-a544d5ce79174a65",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:0ef830eac16f09be639046ba65c9578d3acd06da88d2d06be2ac95bd3e7c1cc5",
+      "target": "run-a544d5ce79174a65"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "environment",
+      "reference_event": "run-a544d5ce79174a65",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+      "target": "run-a544d5ce79174a65"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "run",
+      "reference_event": "result-fece93799338415d",
+      "relation": "run_result",
+      "scientific_validity": "not_assessed",
+      "source": "run-a544d5ce79174a65",
+      "target": "result-fece93799338415d"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.log",
+      "reference_event": "result-fece93799338415d",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:03d65f557154d080f171fbfa0e74d3ecd8e224f59a48136947eea8f1ea654b7e",
+      "target": "result-fece93799338415d"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.metrics",
+      "reference_event": "result-fece93799338415d",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:dcb4306f62b5b516c836d69159ab581e022fab7dff8e7a8a977dbad69bea28b4",
+      "target": "result-fece93799338415d"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.raw_data",
+      "reference_event": "result-fece93799338415d",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:9923a21a8fa533f6810e838b3249f5e351f72ed52f8bc5986a8f32bb85f8f393",
+      "target": "result-fece93799338415d"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "tree",
+      "reference_event": "search_terminal-91c77d93d9ae438f",
+      "relation": "terminal_tree",
+      "scientific_validity": "not_assessed",
+      "source": "search_tree-b21655dc574d4846",
+      "target": "search_terminal-91c77d93d9ae438f"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "selection",
+      "reference_event": "search_terminal-91c77d93d9ae438f",
+      "relation": "terminal_selection",
+      "scientific_validity": "not_assessed",
+      "source": "search_selection-f83d4137edd1490d",
+      "target": "search_terminal-91c77d93d9ae438f"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "node",
+      "reference_event": "search_terminal-91c77d93d9ae438f",
+      "relation": "terminal_node",
+      "scientific_validity": "not_assessed",
+      "source": "experiment_node-f9d191f33b744046",
+      "target": "search_terminal-91c77d93d9ae438f"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "run",
+      "reference_event": "search_terminal-91c77d93d9ae438f",
+      "relation": "terminal_run",
+      "scientific_validity": "not_assessed",
+      "source": "run-a544d5ce79174a65",
+      "target": "search_terminal-91c77d93d9ae438f"
+    },
+    {
+      "derivation": "resolved_terminal_selection_run",
+      "field": "run",
+      "reference_event": "search_terminal-91c77d93d9ae438f",
+      "relation": "selection_run_reference",
+      "scientific_validity": "not_assessed",
+      "source": "search_selection-f83d4137edd1490d",
+      "target": "run-a544d5ce79174a65"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "data",
+      "reference_event": "data_exposure-19f5c72e28934410",
+      "relation": "exposed_data",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:acd7592a8cbeb5c51d639f92d063bf4943ec86ec8357fe3b3b3670092d1a7ea2",
+      "target": "data_exposure-19f5c72e28934410"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "data",
+      "reference_event": "data_exposure-b07243cbe19f4fd5",
+      "relation": "exposed_data",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:c970b09336c81dc2e47c40c8e7d157bcb0feab2d4cc69c007be6adc460c98d6c",
+      "target": "data_exposure-b07243cbe19f4fd5"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[0]",
+      "reference_event": "protocol-709740e381854619",
+      "relation": "registered_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-630b2607fa074493",
+      "target": "protocol-709740e381854619"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[1]",
+      "reference_event": "protocol-709740e381854619",
+      "relation": "registered_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-f145740282534644",
+      "target": "protocol-709740e381854619"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[2]",
+      "reference_event": "protocol-709740e381854619",
+      "relation": "registered_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-6398e136702b4acc",
+      "target": "protocol-709740e381854619"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "planning.question",
+      "reference_event": "protocol-709740e381854619",
+      "relation": "protocol_question",
+      "scientific_validity": "not_assessed",
+      "source": "research_question-48690754353c4b39",
+      "target": "protocol-709740e381854619"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "planning.explanation_set",
+      "reference_event": "protocol-709740e381854619",
+      "relation": "protocol_explanation_set",
+      "scientific_validity": "not_assessed",
+      "source": "explanation_set-0618b49c6b9b45ca",
+      "target": "protocol-709740e381854619"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "implementation",
+      "reference_event": "protocol-709740e381854619",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:f3b7e08d6546ad8a0e909cb74e18c4eda1eb4cc638c1c9300c39d3c172559ad7",
+      "target": "protocol-709740e381854619"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "environment",
+      "reference_event": "protocol-709740e381854619",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+      "target": "protocol-709740e381854619"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "data",
+      "reference_event": "protocol-709740e381854619",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:1a9325a58a7d82782eb2714011ff0919106a4a146f2e8c57659c76fd1e9b40d1",
+      "target": "protocol-709740e381854619"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "tree",
+      "reference_event": "experiment_node-16f0e984676b4009",
+      "relation": "tree_node",
+      "scientific_validity": "not_assessed",
+      "source": "search_tree-b21655dc574d4846",
+      "target": "experiment_node-16f0e984676b4009"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "protocol",
+      "reference_event": "experiment_node-16f0e984676b4009",
+      "relation": "node_protocol",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-709740e381854619",
+      "target": "experiment_node-16f0e984676b4009"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "parent",
+      "reference_event": "experiment_node-16f0e984676b4009",
+      "relation": "node_parent",
+      "scientific_validity": "not_assessed",
+      "source": "experiment_node-f9d191f33b744046",
+      "target": "experiment_node-16f0e984676b4009"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "tree",
+      "reference_event": "search_selection-8d55cfd34d524321",
+      "relation": "selection_tree",
+      "scientific_validity": "not_assessed",
+      "source": "search_tree-b21655dc574d4846",
+      "target": "search_selection-8d55cfd34d524321"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "node",
+      "reference_event": "search_selection-8d55cfd34d524321",
+      "relation": "selection_node",
+      "scientific_validity": "not_assessed",
+      "source": "experiment_node-16f0e984676b4009",
+      "target": "search_selection-8d55cfd34d524321"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "protocol",
+      "reference_event": "search_selection-8d55cfd34d524321",
+      "relation": "selection_protocol",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-709740e381854619",
+      "target": "search_selection-8d55cfd34d524321"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "frontier[0].node",
+      "reference_event": "search_selection-8d55cfd34d524321",
+      "relation": "selection_frontier",
+      "scientific_validity": "not_assessed",
+      "source": "experiment_node-16f0e984676b4009",
+      "target": "search_selection-8d55cfd34d524321"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "protocol",
+      "reference_event": "run-176a90dee85f4220",
+      "relation": "run_protocol",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-709740e381854619",
+      "target": "run-176a90dee85f4220"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "implementation",
+      "reference_event": "run-176a90dee85f4220",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:f3b7e08d6546ad8a0e909cb74e18c4eda1eb4cc638c1c9300c39d3c172559ad7",
+      "target": "run-176a90dee85f4220"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "environment",
+      "reference_event": "run-176a90dee85f4220",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+      "target": "run-176a90dee85f4220"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "run",
+      "reference_event": "result-4b901011b63140f8",
+      "relation": "run_result",
+      "scientific_validity": "not_assessed",
+      "source": "run-176a90dee85f4220",
+      "target": "result-4b901011b63140f8"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.descriptions",
+      "reference_event": "result-4b901011b63140f8",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:003773cc792f67c35be82df41fdb152c590f59d5fc0e73b034d245add0152c8d",
+      "target": "result-4b901011b63140f8"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.geometry",
+      "reference_event": "result-4b901011b63140f8",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:9bde5a978f7b3edf9a603199066d2612bae457e68e25e15e6426ec0e4161ab0b",
+      "target": "result-4b901011b63140f8"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.log",
+      "reference_event": "result-4b901011b63140f8",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:4c47eb1b7846505ebbe9660011b6235ef72460d9c907c2fe018f6ba65fff1442",
+      "target": "result-4b901011b63140f8"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.metrics",
+      "reference_event": "result-4b901011b63140f8",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:24d98072904dc4ee16181f1d7e9e09609c14ba51191734cb7bef4ef204b3dd84",
+      "target": "result-4b901011b63140f8"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.raw_data",
+      "reference_event": "result-4b901011b63140f8",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:db65c5900ba0ec2099b620dc1b29825285b87912ad323343957a94dff3b5573b",
+      "target": "result-4b901011b63140f8"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.source_features_receipt",
+      "reference_event": "result-4b901011b63140f8",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:51b668879b60c3e5ce90cb1696569ff257daae7c24861e70e2e222a48dda01de",
+      "target": "result-4b901011b63140f8"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "protocol",
+      "reference_event": "run-4c935c1cf912408a",
+      "relation": "run_protocol",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-709740e381854619",
+      "target": "run-4c935c1cf912408a"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "replicate_of",
+      "reference_event": "run-4c935c1cf912408a",
+      "relation": "declared_reanalysis_of",
+      "scientific_validity": "not_assessed",
+      "source": "run-176a90dee85f4220",
+      "target": "run-4c935c1cf912408a"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "implementation",
+      "reference_event": "run-4c935c1cf912408a",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:800a6f3f0a514a1976d17b4890397783316b5f97bab3929c6ee07da99a7df72b",
+      "target": "run-4c935c1cf912408a"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "environment",
+      "reference_event": "run-4c935c1cf912408a",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+      "target": "run-4c935c1cf912408a"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "run",
+      "reference_event": "result-d7d3ba732dbc44be",
+      "relation": "run_result",
+      "scientific_validity": "not_assessed",
+      "source": "run-4c935c1cf912408a",
+      "target": "result-d7d3ba732dbc44be"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.log",
+      "reference_event": "result-d7d3ba732dbc44be",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:d7134bd247f9c6881174c39730e3dca9fe00468bd4400f5ca0d37a189213c410",
+      "target": "result-d7d3ba732dbc44be"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.metrics",
+      "reference_event": "result-d7d3ba732dbc44be",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:24d98072904dc4ee16181f1d7e9e09609c14ba51191734cb7bef4ef204b3dd84",
+      "target": "result-d7d3ba732dbc44be"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.raw_data",
+      "reference_event": "result-d7d3ba732dbc44be",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:db65c5900ba0ec2099b620dc1b29825285b87912ad323343957a94dff3b5573b",
+      "target": "result-d7d3ba732dbc44be"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.reanalysis",
+      "reference_event": "result-d7d3ba732dbc44be",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:f9c929f02f6446322881ed9db0562b05bea6571ffd2468699a38d672ea592761",
+      "target": "result-d7d3ba732dbc44be"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "protocol",
+      "reference_event": "claim-6c0452217f3b4710",
+      "relation": "claim_protocol",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-709740e381854619",
+      "target": "claim-6c0452217f3b4710"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "evidence[0]",
+      "reference_event": "claim-6c0452217f3b4710",
+      "relation": "evidence_run_reference",
+      "scientific_validity": "not_assessed",
+      "source": "run-176a90dee85f4220",
+      "target": "claim-6c0452217f3b4710"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "evidence[1]",
+      "reference_event": "claim-6c0452217f3b4710",
+      "relation": "evidence_run_reference",
+      "scientific_validity": "not_assessed",
+      "source": "run-4c935c1cf912408a",
+      "target": "claim-6c0452217f3b4710"
+    },
+    {
+      "derivation": "resolved_run_result",
+      "field": "evidence[0]",
+      "reference_event": "claim-6c0452217f3b4710",
+      "relation": "evidence_result_reference",
+      "scientific_validity": "not_assessed",
+      "source": "result-4b901011b63140f8",
+      "target": "claim-6c0452217f3b4710"
+    },
+    {
+      "derivation": "resolved_run_result_output",
+      "field": "evidence[0].outputs.descriptions",
+      "reference_event": "claim-6c0452217f3b4710",
+      "relation": "evidence_artifact_reference",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:003773cc792f67c35be82df41fdb152c590f59d5fc0e73b034d245add0152c8d",
+      "target": "claim-6c0452217f3b4710"
+    },
+    {
+      "derivation": "resolved_run_result_output",
+      "field": "evidence[0].outputs.geometry",
+      "reference_event": "claim-6c0452217f3b4710",
+      "relation": "evidence_artifact_reference",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:9bde5a978f7b3edf9a603199066d2612bae457e68e25e15e6426ec0e4161ab0b",
+      "target": "claim-6c0452217f3b4710"
+    },
+    {
+      "derivation": "resolved_run_result_output",
+      "field": "evidence[0].outputs.log",
+      "reference_event": "claim-6c0452217f3b4710",
+      "relation": "evidence_artifact_reference",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:4c47eb1b7846505ebbe9660011b6235ef72460d9c907c2fe018f6ba65fff1442",
+      "target": "claim-6c0452217f3b4710"
+    },
+    {
+      "derivation": "resolved_run_result_output",
+      "field": "evidence[0].outputs.metrics",
+      "reference_event": "claim-6c0452217f3b4710",
+      "relation": "evidence_artifact_reference",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:24d98072904dc4ee16181f1d7e9e09609c14ba51191734cb7bef4ef204b3dd84",
+      "target": "claim-6c0452217f3b4710"
+    },
+    {
+      "derivation": "resolved_run_result_output",
+      "field": "evidence[0].outputs.raw_data",
+      "reference_event": "claim-6c0452217f3b4710",
+      "relation": "evidence_artifact_reference",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:db65c5900ba0ec2099b620dc1b29825285b87912ad323343957a94dff3b5573b",
+      "target": "claim-6c0452217f3b4710"
+    },
+    {
+      "derivation": "resolved_run_result_output",
+      "field": "evidence[0].outputs.source_features_receipt",
+      "reference_event": "claim-6c0452217f3b4710",
+      "relation": "evidence_artifact_reference",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:51b668879b60c3e5ce90cb1696569ff257daae7c24861e70e2e222a48dda01de",
+      "target": "claim-6c0452217f3b4710"
+    },
+    {
+      "derivation": "resolved_run_result",
+      "field": "evidence[1]",
+      "reference_event": "claim-6c0452217f3b4710",
+      "relation": "evidence_result_reference",
+      "scientific_validity": "not_assessed",
+      "source": "result-d7d3ba732dbc44be",
+      "target": "claim-6c0452217f3b4710"
+    },
+    {
+      "derivation": "resolved_run_result_output",
+      "field": "evidence[1].outputs.log",
+      "reference_event": "claim-6c0452217f3b4710",
+      "relation": "evidence_artifact_reference",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:d7134bd247f9c6881174c39730e3dca9fe00468bd4400f5ca0d37a189213c410",
+      "target": "claim-6c0452217f3b4710"
+    },
+    {
+      "derivation": "resolved_run_result_output",
+      "field": "evidence[1].outputs.metrics",
+      "reference_event": "claim-6c0452217f3b4710",
+      "relation": "evidence_artifact_reference",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:24d98072904dc4ee16181f1d7e9e09609c14ba51191734cb7bef4ef204b3dd84",
+      "target": "claim-6c0452217f3b4710"
+    },
+    {
+      "derivation": "resolved_run_result_output",
+      "field": "evidence[1].outputs.raw_data",
+      "reference_event": "claim-6c0452217f3b4710",
+      "relation": "evidence_artifact_reference",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:db65c5900ba0ec2099b620dc1b29825285b87912ad323343957a94dff3b5573b",
+      "target": "claim-6c0452217f3b4710"
+    },
+    {
+      "derivation": "resolved_run_result_output",
+      "field": "evidence[1].outputs.reanalysis",
+      "reference_event": "claim-6c0452217f3b4710",
+      "relation": "evidence_artifact_reference",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:f9c929f02f6446322881ed9db0562b05bea6571ffd2468699a38d672ea592761",
+      "target": "claim-6c0452217f3b4710"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "tree",
+      "reference_event": "search_terminal-e4b3888c5d5e4fc5",
+      "relation": "terminal_tree",
+      "scientific_validity": "not_assessed",
+      "source": "search_tree-b21655dc574d4846",
+      "target": "search_terminal-e4b3888c5d5e4fc5"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "selection",
+      "reference_event": "search_terminal-e4b3888c5d5e4fc5",
+      "relation": "terminal_selection",
+      "scientific_validity": "not_assessed",
+      "source": "search_selection-8d55cfd34d524321",
+      "target": "search_terminal-e4b3888c5d5e4fc5"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "node",
+      "reference_event": "search_terminal-e4b3888c5d5e4fc5",
+      "relation": "terminal_node",
+      "scientific_validity": "not_assessed",
+      "source": "experiment_node-16f0e984676b4009",
+      "target": "search_terminal-e4b3888c5d5e4fc5"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "run",
+      "reference_event": "search_terminal-e4b3888c5d5e4fc5",
+      "relation": "terminal_run",
+      "scientific_validity": "not_assessed",
+      "source": "run-176a90dee85f4220",
+      "target": "search_terminal-e4b3888c5d5e4fc5"
+    },
+    {
+      "derivation": "resolved_terminal_selection_run",
+      "field": "run",
+      "reference_event": "search_terminal-e4b3888c5d5e4fc5",
+      "relation": "selection_run_reference",
+      "scientific_validity": "not_assessed",
+      "source": "search_selection-8d55cfd34d524321",
+      "target": "run-176a90dee85f4220"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "claim",
+      "reference_event": "search_terminal-e4b3888c5d5e4fc5",
+      "relation": "terminal_claim",
+      "scientific_validity": "not_assessed",
+      "source": "claim-6c0452217f3b4710",
+      "target": "search_terminal-e4b3888c5d5e4fc5"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "data",
+      "reference_event": "data_exposure-bd6eaf0d53eb4812",
+      "relation": "exposed_data",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:7deea6d4d1f063c4ef01b0c5fa9b31b487e8844ec41b2317bb9a9880ffe45d73",
+      "target": "data_exposure-bd6eaf0d53eb4812"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "claim",
+      "reference_event": "review-0903d559cf0a46d0",
+      "relation": "review_target",
+      "scientific_validity": "not_assessed",
+      "source": "claim-6c0452217f3b4710",
+      "target": "review-0903d559cf0a46d0"
+    },
+    {
+      "derivation": "resolved_frozen_planning_ancestry",
+      "field": "basis_hash",
+      "reference_event": "review-0903d559cf0a46d0",
+      "relation": "review_planning_context",
+      "scientific_validity": "not_assessed",
+      "source": "research_question-48690754353c4b39",
+      "target": "review-0903d559cf0a46d0"
+    },
+    {
+      "derivation": "resolved_frozen_planning_ancestry",
+      "field": "basis_hash",
+      "reference_event": "review-0903d559cf0a46d0",
+      "relation": "review_planning_context",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-630b2607fa074493",
+      "target": "review-0903d559cf0a46d0"
+    },
+    {
+      "derivation": "resolved_frozen_planning_ancestry",
+      "field": "basis_hash",
+      "reference_event": "review-0903d559cf0a46d0",
+      "relation": "review_planning_context",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-f145740282534644",
+      "target": "review-0903d559cf0a46d0"
+    },
+    {
+      "derivation": "resolved_frozen_planning_ancestry",
+      "field": "basis_hash",
+      "reference_event": "review-0903d559cf0a46d0",
+      "relation": "review_planning_context",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-6398e136702b4acc",
+      "target": "review-0903d559cf0a46d0"
+    },
+    {
+      "derivation": "resolved_frozen_planning_ancestry",
+      "field": "basis_hash",
+      "reference_event": "review-0903d559cf0a46d0",
+      "relation": "review_planning_context",
+      "scientific_validity": "not_assessed",
+      "source": "explanation_set-0618b49c6b9b45ca",
+      "target": "review-0903d559cf0a46d0"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "claim",
+      "reference_event": "review-b9af053b48f5469d",
+      "relation": "review_target",
+      "scientific_validity": "not_assessed",
+      "source": "claim-6c0452217f3b4710",
+      "target": "review-b9af053b48f5469d"
+    },
+    {
+      "derivation": "resolved_frozen_planning_ancestry",
+      "field": "basis_hash",
+      "reference_event": "review-b9af053b48f5469d",
+      "relation": "review_planning_context",
+      "scientific_validity": "not_assessed",
+      "source": "research_question-48690754353c4b39",
+      "target": "review-b9af053b48f5469d"
+    },
+    {
+      "derivation": "resolved_frozen_planning_ancestry",
+      "field": "basis_hash",
+      "reference_event": "review-b9af053b48f5469d",
+      "relation": "review_planning_context",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-630b2607fa074493",
+      "target": "review-b9af053b48f5469d"
+    },
+    {
+      "derivation": "resolved_frozen_planning_ancestry",
+      "field": "basis_hash",
+      "reference_event": "review-b9af053b48f5469d",
+      "relation": "review_planning_context",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-f145740282534644",
+      "target": "review-b9af053b48f5469d"
+    },
+    {
+      "derivation": "resolved_frozen_planning_ancestry",
+      "field": "basis_hash",
+      "reference_event": "review-b9af053b48f5469d",
+      "relation": "review_planning_context",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-6398e136702b4acc",
+      "target": "review-b9af053b48f5469d"
+    },
+    {
+      "derivation": "resolved_frozen_planning_ancestry",
+      "field": "basis_hash",
+      "reference_event": "review-b9af053b48f5469d",
+      "relation": "review_planning_context",
+      "scientific_validity": "not_assessed",
+      "source": "explanation_set-0618b49c6b9b45ca",
+      "target": "review-b9af053b48f5469d"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "claim",
+      "reference_event": "review-103c85a011cd4eec",
+      "relation": "review_target",
+      "scientific_validity": "not_assessed",
+      "source": "claim-6c0452217f3b4710",
+      "target": "review-103c85a011cd4eec"
+    },
+    {
+      "derivation": "resolved_frozen_planning_ancestry",
+      "field": "basis_hash",
+      "reference_event": "review-103c85a011cd4eec",
+      "relation": "review_planning_context",
+      "scientific_validity": "not_assessed",
+      "source": "research_question-48690754353c4b39",
+      "target": "review-103c85a011cd4eec"
+    },
+    {
+      "derivation": "resolved_frozen_planning_ancestry",
+      "field": "basis_hash",
+      "reference_event": "review-103c85a011cd4eec",
+      "relation": "review_planning_context",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-630b2607fa074493",
+      "target": "review-103c85a011cd4eec"
+    },
+    {
+      "derivation": "resolved_frozen_planning_ancestry",
+      "field": "basis_hash",
+      "reference_event": "review-103c85a011cd4eec",
+      "relation": "review_planning_context",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-f145740282534644",
+      "target": "review-103c85a011cd4eec"
+    },
+    {
+      "derivation": "resolved_frozen_planning_ancestry",
+      "field": "basis_hash",
+      "reference_event": "review-103c85a011cd4eec",
+      "relation": "review_planning_context",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-6398e136702b4acc",
+      "target": "review-103c85a011cd4eec"
+    },
+    {
+      "derivation": "resolved_frozen_planning_ancestry",
+      "field": "basis_hash",
+      "reference_event": "review-103c85a011cd4eec",
+      "relation": "review_planning_context",
+      "scientific_validity": "not_assessed",
+      "source": "explanation_set-0618b49c6b9b45ca",
+      "target": "review-103c85a011cd4eec"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[0]",
+      "reference_event": "protocol-cb722b1f33024d80",
+      "relation": "registered_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-630b2607fa074493",
+      "target": "protocol-cb722b1f33024d80"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[1]",
+      "reference_event": "protocol-cb722b1f33024d80",
+      "relation": "registered_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-f145740282534644",
+      "target": "protocol-cb722b1f33024d80"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[2]",
+      "reference_event": "protocol-cb722b1f33024d80",
+      "relation": "registered_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-6398e136702b4acc",
+      "target": "protocol-cb722b1f33024d80"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "parent",
+      "reference_event": "protocol-cb722b1f33024d80",
+      "relation": "protocol_parent",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-709740e381854619",
+      "target": "protocol-cb722b1f33024d80"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "planning.question",
+      "reference_event": "protocol-cb722b1f33024d80",
+      "relation": "protocol_question",
+      "scientific_validity": "not_assessed",
+      "source": "research_question-48690754353c4b39",
+      "target": "protocol-cb722b1f33024d80"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "planning.explanation_set",
+      "reference_event": "protocol-cb722b1f33024d80",
+      "relation": "protocol_explanation_set",
+      "scientific_validity": "not_assessed",
+      "source": "explanation_set-0618b49c6b9b45ca",
+      "target": "protocol-cb722b1f33024d80"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "implementation",
+      "reference_event": "protocol-cb722b1f33024d80",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:91d32a666f83e41917e0c6da2dc7fd5d983225244621b6507a963c5f821df6cd",
+      "target": "protocol-cb722b1f33024d80"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "environment",
+      "reference_event": "protocol-cb722b1f33024d80",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+      "target": "protocol-cb722b1f33024d80"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "data",
+      "reference_event": "protocol-cb722b1f33024d80",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:00801a360e1761415276b4c86cf127a75aec0fc519d22368f59770d7af68cb3b",
+      "target": "protocol-cb722b1f33024d80"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "tree",
+      "reference_event": "experiment_node-d65e1d291d914d72",
+      "relation": "tree_node",
+      "scientific_validity": "not_assessed",
+      "source": "search_tree-b21655dc574d4846",
+      "target": "experiment_node-d65e1d291d914d72"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "protocol",
+      "reference_event": "experiment_node-d65e1d291d914d72",
+      "relation": "node_protocol",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-cb722b1f33024d80",
+      "target": "experiment_node-d65e1d291d914d72"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "parent",
+      "reference_event": "experiment_node-d65e1d291d914d72",
+      "relation": "node_parent",
+      "scientific_validity": "not_assessed",
+      "source": "experiment_node-16f0e984676b4009",
+      "target": "experiment_node-d65e1d291d914d72"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "tree",
+      "reference_event": "search_selection-9eb032fb8d714e85",
+      "relation": "selection_tree",
+      "scientific_validity": "not_assessed",
+      "source": "search_tree-b21655dc574d4846",
+      "target": "search_selection-9eb032fb8d714e85"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "node",
+      "reference_event": "search_selection-9eb032fb8d714e85",
+      "relation": "selection_node",
+      "scientific_validity": "not_assessed",
+      "source": "experiment_node-d65e1d291d914d72",
+      "target": "search_selection-9eb032fb8d714e85"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "protocol",
+      "reference_event": "search_selection-9eb032fb8d714e85",
+      "relation": "selection_protocol",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-cb722b1f33024d80",
+      "target": "search_selection-9eb032fb8d714e85"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "frontier[0].node",
+      "reference_event": "search_selection-9eb032fb8d714e85",
+      "relation": "selection_frontier",
+      "scientific_validity": "not_assessed",
+      "source": "experiment_node-d65e1d291d914d72",
+      "target": "search_selection-9eb032fb8d714e85"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "protocol",
+      "reference_event": "run-6dff93312da14e6f",
+      "relation": "run_protocol",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-cb722b1f33024d80",
+      "target": "run-6dff93312da14e6f"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "implementation",
+      "reference_event": "run-6dff93312da14e6f",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:91d32a666f83e41917e0c6da2dc7fd5d983225244621b6507a963c5f821df6cd",
+      "target": "run-6dff93312da14e6f"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "environment",
+      "reference_event": "run-6dff93312da14e6f",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+      "target": "run-6dff93312da14e6f"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "run",
+      "reference_event": "result-fb4c7d427eb241cb",
+      "relation": "run_result",
+      "scientific_validity": "not_assessed",
+      "source": "run-6dff93312da14e6f",
+      "target": "result-fb4c7d427eb241cb"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.clotho",
+      "reference_event": "result-fb4c7d427eb241cb",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:494f4608a4ee8360d70ff63345c68eebf19f55ffec7888663dc3f2ebbf8a109b",
+      "target": "result-fb4c7d427eb241cb"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.log",
+      "reference_event": "result-fb4c7d427eb241cb",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:b1b2ee7aa4707204b57611d3a0821c6ab6978b47fc4e07991450aa948fcd952c",
+      "target": "result-fb4c7d427eb241cb"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.metadata_control",
+      "reference_event": "result-fb4c7d427eb241cb",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:11a4e227ce8a3056456f91ff65847292ec3540ff8fe66c8c744e9bba30f42895",
+      "target": "result-fb4c7d427eb241cb"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.metrics",
+      "reference_event": "result-fb4c7d427eb241cb",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:00c7ae181c3aaad43c3a2702e3682071d88fbff4f097ee4f675c6846bfe26413",
+      "target": "result-fb4c7d427eb241cb"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.observability",
+      "reference_event": "result-fb4c7d427eb241cb",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:9140cdd76fb5172ae678d31c24fb0670cb71bea886f37444ef51c2cfc25d0e6d",
+      "target": "result-fb4c7d427eb241cb"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.raw_data",
+      "reference_event": "result-fb4c7d427eb241cb",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:00801a360e1761415276b4c86cf127a75aec0fc519d22368f59770d7af68cb3b",
+      "target": "result-fb4c7d427eb241cb"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.robustness",
+      "reference_event": "result-fb4c7d427eb241cb",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:78eea71b67b0d35e03f0499cbf8c0abe11e11cfdffaafb95f95c87e4134979ae",
+      "target": "result-fb4c7d427eb241cb"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "tree",
+      "reference_event": "search_terminal-3bcb6d3db7454431",
+      "relation": "terminal_tree",
+      "scientific_validity": "not_assessed",
+      "source": "search_tree-b21655dc574d4846",
+      "target": "search_terminal-3bcb6d3db7454431"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "selection",
+      "reference_event": "search_terminal-3bcb6d3db7454431",
+      "relation": "terminal_selection",
+      "scientific_validity": "not_assessed",
+      "source": "search_selection-9eb032fb8d714e85",
+      "target": "search_terminal-3bcb6d3db7454431"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "node",
+      "reference_event": "search_terminal-3bcb6d3db7454431",
+      "relation": "terminal_node",
+      "scientific_validity": "not_assessed",
+      "source": "experiment_node-d65e1d291d914d72",
+      "target": "search_terminal-3bcb6d3db7454431"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "run",
+      "reference_event": "search_terminal-3bcb6d3db7454431",
+      "relation": "terminal_run",
+      "scientific_validity": "not_assessed",
+      "source": "run-6dff93312da14e6f",
+      "target": "search_terminal-3bcb6d3db7454431"
+    },
+    {
+      "derivation": "resolved_terminal_selection_run",
+      "field": "run",
+      "reference_event": "search_terminal-3bcb6d3db7454431",
+      "relation": "selection_run_reference",
+      "scientific_validity": "not_assessed",
+      "source": "search_selection-9eb032fb8d714e85",
+      "target": "run-6dff93312da14e6f"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[0]",
+      "reference_event": "protocol-7117708879ce4775",
+      "relation": "registered_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-630b2607fa074493",
+      "target": "protocol-7117708879ce4775"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[1]",
+      "reference_event": "protocol-7117708879ce4775",
+      "relation": "registered_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-f145740282534644",
+      "target": "protocol-7117708879ce4775"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "hypotheses[2]",
+      "reference_event": "protocol-7117708879ce4775",
+      "relation": "registered_hypothesis",
+      "scientific_validity": "not_assessed",
+      "source": "hypothesis-6398e136702b4acc",
+      "target": "protocol-7117708879ce4775"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "parent",
+      "reference_event": "protocol-7117708879ce4775",
+      "relation": "protocol_parent",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-cb722b1f33024d80",
+      "target": "protocol-7117708879ce4775"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "planning.question",
+      "reference_event": "protocol-7117708879ce4775",
+      "relation": "protocol_question",
+      "scientific_validity": "not_assessed",
+      "source": "research_question-48690754353c4b39",
+      "target": "protocol-7117708879ce4775"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "planning.explanation_set",
+      "reference_event": "protocol-7117708879ce4775",
+      "relation": "protocol_explanation_set",
+      "scientific_validity": "not_assessed",
+      "source": "explanation_set-0618b49c6b9b45ca",
+      "target": "protocol-7117708879ce4775"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "implementation",
+      "reference_event": "protocol-7117708879ce4775",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:b0777e8694257fd960bfdff24dfc1e0bfa1a97a37e8b4f46aeec9dd602243a7f",
+      "target": "protocol-7117708879ce4775"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "environment",
+      "reference_event": "protocol-7117708879ce4775",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+      "target": "protocol-7117708879ce4775"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "data",
+      "reference_event": "protocol-7117708879ce4775",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:e7a399d0f30e03138fbe595c96d89e0c9a6d8e2930e29c916529cd915a73644e",
+      "target": "protocol-7117708879ce4775"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "tree",
+      "reference_event": "experiment_node-5923fa82978c4b52",
+      "relation": "tree_node",
+      "scientific_validity": "not_assessed",
+      "source": "search_tree-b21655dc574d4846",
+      "target": "experiment_node-5923fa82978c4b52"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "protocol",
+      "reference_event": "experiment_node-5923fa82978c4b52",
+      "relation": "node_protocol",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-7117708879ce4775",
+      "target": "experiment_node-5923fa82978c4b52"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "parent",
+      "reference_event": "experiment_node-5923fa82978c4b52",
+      "relation": "node_parent",
+      "scientific_validity": "not_assessed",
+      "source": "experiment_node-d65e1d291d914d72",
+      "target": "experiment_node-5923fa82978c4b52"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "tree",
+      "reference_event": "search_selection-349cb31513d7430e",
+      "relation": "selection_tree",
+      "scientific_validity": "not_assessed",
+      "source": "search_tree-b21655dc574d4846",
+      "target": "search_selection-349cb31513d7430e"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "node",
+      "reference_event": "search_selection-349cb31513d7430e",
+      "relation": "selection_node",
+      "scientific_validity": "not_assessed",
+      "source": "experiment_node-5923fa82978c4b52",
+      "target": "search_selection-349cb31513d7430e"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "protocol",
+      "reference_event": "search_selection-349cb31513d7430e",
+      "relation": "selection_protocol",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-7117708879ce4775",
+      "target": "search_selection-349cb31513d7430e"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "frontier[0].node",
+      "reference_event": "search_selection-349cb31513d7430e",
+      "relation": "selection_frontier",
+      "scientific_validity": "not_assessed",
+      "source": "experiment_node-5923fa82978c4b52",
+      "target": "search_selection-349cb31513d7430e"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "protocol",
+      "reference_event": "run-2645cf086c704654",
+      "relation": "run_protocol",
+      "scientific_validity": "not_assessed",
+      "source": "protocol-7117708879ce4775",
+      "target": "run-2645cf086c704654"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "implementation",
+      "reference_event": "run-2645cf086c704654",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:b0777e8694257fd960bfdff24dfc1e0bfa1a97a37e8b4f46aeec9dd602243a7f",
+      "target": "run-2645cf086c704654"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "environment",
+      "reference_event": "run-2645cf086c704654",
+      "relation": "artifact_input",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+      "target": "run-2645cf086c704654"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "run",
+      "reference_event": "result-85e867e999884aea",
+      "relation": "run_result",
+      "scientific_validity": "not_assessed",
+      "source": "run-2645cf086c704654",
+      "target": "result-85e867e999884aea"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.caption_partial",
+      "reference_event": "result-85e867e999884aea",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:f144ff572cccd325a6a7a4d8171abea3a2c29378dc99bf4de76764ca46941016",
+      "target": "result-85e867e999884aea"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.log",
+      "reference_event": "result-85e867e999884aea",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:1646a86213afaef2737747d0d2aef6ab917c831096035e27251f0c4e8a504ade",
+      "target": "result-85e867e999884aea"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.metrics",
+      "reference_event": "result-85e867e999884aea",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:51696c4067413625171bc5c0a30de07e208cebc430298f2b77bb89c85501fde6",
+      "target": "result-85e867e999884aea"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "outputs.raw_data",
+      "reference_event": "result-85e867e999884aea",
+      "relation": "recorded_output",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:e7a399d0f30e03138fbe595c96d89e0c9a6d8e2930e29c916529cd915a73644e",
+      "target": "result-85e867e999884aea"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "tree",
+      "reference_event": "search_terminal-6db47656eba945b4",
+      "relation": "terminal_tree",
+      "scientific_validity": "not_assessed",
+      "source": "search_tree-b21655dc574d4846",
+      "target": "search_terminal-6db47656eba945b4"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "selection",
+      "reference_event": "search_terminal-6db47656eba945b4",
+      "relation": "terminal_selection",
+      "scientific_validity": "not_assessed",
+      "source": "search_selection-349cb31513d7430e",
+      "target": "search_terminal-6db47656eba945b4"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "node",
+      "reference_event": "search_terminal-6db47656eba945b4",
+      "relation": "terminal_node",
+      "scientific_validity": "not_assessed",
+      "source": "experiment_node-5923fa82978c4b52",
+      "target": "search_terminal-6db47656eba945b4"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "run",
+      "reference_event": "search_terminal-6db47656eba945b4",
+      "relation": "terminal_run",
+      "scientific_validity": "not_assessed",
+      "source": "run-2645cf086c704654",
+      "target": "search_terminal-6db47656eba945b4"
+    },
+    {
+      "derivation": "resolved_terminal_selection_run",
+      "field": "run",
+      "reference_event": "search_terminal-6db47656eba945b4",
+      "relation": "selection_run_reference",
+      "scientific_validity": "not_assessed",
+      "source": "search_selection-349cb31513d7430e",
+      "target": "run-2645cf086c704654"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "tree",
+      "reference_event": "search_selection-e8904c92c4434644",
+      "relation": "selection_tree",
+      "scientific_validity": "not_assessed",
+      "source": "search_tree-b21655dc574d4846",
+      "target": "search_selection-e8904c92c4434644"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "data",
+      "reference_event": "data_exposure-761a4e91f1a348a4",
+      "relation": "exposed_data",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:30d1bd121d2658975c0a95dde6d95f1565a877d99a2e5874b5220600021cbbfb",
+      "target": "data_exposure-761a4e91f1a348a4"
+    },
+    {
+      "derivation": "recorded_reference",
+      "field": "data",
+      "reference_event": "data_exposure-ab4ce1bff5d84a0c",
+      "relation": "exposed_data",
+      "scientific_validity": "not_assessed",
+      "source": "artifact:sha256:d6e647ed700597aad1009d7a3ad1d53940857a435cffcac84fe632c72e43e032",
+      "target": "data_exposure-ab4ce1bff5d84a0c"
+    }
+  ],
+  "graph_version": 1,
+  "nodes": [
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:20:09.692569+00:00",
+      "event_hash": "c255ea4407f5694f2fe4ae9c018f6f60d7975dc6fcf530c10fddacc630a40bcd",
+      "id": "research_question-48690754353c4b39",
+      "kind": "research_question",
+      "payload": {
+        "constraints": [
+          "RouterAI is the only model API",
+          "no second-stage utility estimate without reproducible native geometry"
+        ],
+        "objective": "Preserve the native research question and bound the reachable pilot by evidence.",
+        "parent": null,
+        "parent_hash": null,
+        "revision_reason": null,
+        "schema_version": 1,
+        "scope": {
+          "inference": "concept relationship agreement across text, image, environmental audio, and silent video",
+          "mode": "exploratory_multimodal_geometry",
+          "population": "bounded exploratory sample of licensed Commons concepts and observed RouterAI model routes"
+        },
+        "statement": "Do independently trained text, image, environmental-audio and silent-video encoders preserve similar relationships between the same concepts, at different semantic granularities and information constraints?",
+        "stopping_criteria": [
+          "Record unavailable modalities without treating them as observations.",
+          "Freeze the contextual portfolio before geometry evaluation."
+        ],
+        "study_id": "multimodal-semantic-geometry"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 1
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:20:09.699255+00:00",
+      "event_hash": "c603dd5dccdac56e27e95495de4e0f2018ebc9dd5a74971589b955998ae96a50",
+      "id": "hypothesis-630b2607fa074493",
+      "kind": "hypothesis",
+      "payload": {
+        "falsifier": "For accessible, reliable representations, beyond-taxonomy agreement fails to exceed the registered nulls.",
+        "prediction": "Cross-source ordinal RSA exceeds taxonomy-preserving and within-group permutation nulls.",
+        "scope": {
+          "inference": "concept relationship agreement across text, image, environmental audio, and silent video",
+          "mode": "exploratory_multimodal_geometry",
+          "population": "bounded exploratory sample of licensed Commons concepts and observed RouterAI model routes"
+        },
+        "statement": "Representations share concept geometry beyond broad taxonomy."
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 2
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:20:09.703136+00:00",
+      "event_hash": "7498ab5cfdf323c610e7bcf0d3a40b0adbe261e1cecd971a6de3f771130cb995",
+      "id": "hypothesis-f145740282534644",
+      "kind": "hypothesis",
+      "payload": {
+        "falsifier": "Within-group agreement survives creator-disjoint comparison after null calibration.",
+        "prediction": "Global ordinal RSA exceeds its null more often than within-group RSA, or same-source agreement is stronger.",
+        "scope": {
+          "inference": "concept relationship agreement across text, image, environmental audio, and silent video",
+          "mode": "exploratory_multimodal_geometry",
+          "population": "bounded exploratory sample of licensed Commons concepts and observed RouterAI model routes"
+        },
+        "statement": "Broad category structure or recording context explains apparent agreement."
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 3
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:20:09.709893+00:00",
+      "event_hash": "ab9be752a7abc2a122d83d9319c9c6d5092c567e0b2d172c06897a0f6d7c091e",
+      "id": "hypothesis-6398e136702b4acc",
+      "kind": "hypothesis",
+      "payload": {
+        "falsifier": "Agreement also appears in independently trained native checkpoint families using reliable disjoint inputs.",
+        "prediction": "Caption-mediated and co-aligned comparisons can exhibit stronger agreement than fixed sensory controls.",
+        "scope": {
+          "inference": "concept relationship agreement across text, image, environmental audio, and silent video",
+          "mode": "exploratory_multimodal_geometry",
+          "population": "bounded exploratory sample of licensed Commons concepts and observed RouterAI model routes"
+        },
+        "statement": "Text mediation or joint training explains apparent agreement in contextual representations."
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 4
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:20:09.716781+00:00",
+      "event_hash": "95c97eeea2f4fd4c167309fee09a01bdb25048661657a1f5c39af1ebe2309de8",
+      "id": "explanation_set-0618b49c6b9b45ca",
+      "kind": "explanation_set",
+      "payload": {
+        "comparison_plan": "Separate native, jointly trained, mediated and fixed-signal claims.",
+        "excluded_reasons": {},
+        "hypotheses": [
+          "hypothesis-630b2607fa074493",
+          "hypothesis-f145740282534644",
+          "hypothesis-6398e136702b4acc"
+        ],
+        "hypothesis_hashes": {
+          "hypothesis-630b2607fa074493": "c603dd5dccdac56e27e95495de4e0f2018ebc9dd5a74971589b955998ae96a50",
+          "hypothesis-6398e136702b4acc": "ab9be752a7abc2a122d83d9319c9c6d5092c567e0b2d172c06897a0f6d7c091e",
+          "hypothesis-f145740282534644": "7498ab5cfdf323c610e7bcf0d3a40b0adbe261e1cecd971a6de3f771130cb995"
+        },
+        "parent": null,
+        "parent_hash": null,
+        "question": "research_question-48690754353c4b39",
+        "question_hash": "c255ea4407f5694f2fe4ae9c018f6f60d7975dc6fcf530c10fddacc630a40bcd",
+        "revision_reason": null,
+        "schema_version": 1,
+        "study_id": "multimodal-semantic-geometry"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 5
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:20:09.746061+00:00",
+      "event_hash": "b2302c8915c1d2936b82a579fc4deb6342c7f4164411bcbf3e926250b26675c7",
+      "id": "data_exposure-a0d13c570b944278",
+      "kind": "data_exposure",
+      "payload": {
+        "data": "26c49f59fe44ecc6d69385a57f969ff29c80e5c47421884eddb5461d373f9141",
+        "protocol": null,
+        "purpose": "RouterAI design roles: feasibility"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 6
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:20:09.771943+00:00",
+      "event_hash": "65127eca95b2933edb092b113091ce87f53439d8573872e791075f75ad5e7dd2",
+      "id": "data_exposure-8a5a936fcf374334",
+      "kind": "data_exposure",
+      "payload": {
+        "data": "d407ca99415becf5c366b6a96de836d5261fbcf360caf88c4a8788df929c6a6e",
+        "protocol": null,
+        "purpose": "RouterAI design roles: initial"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 7
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:20:09.872927+00:00",
+      "event_hash": "f1b6ccd645c0eac6c168999a155aafc0d4f01263ff2f7a1accb876dcf835dff8",
+      "id": "protocol-687a139367d04aa5",
+      "kind": "protocol",
+      "payload": {
+        "analysis_plan": "Count modalities meeting the two-native-family requirement.",
+        "data": "9923a21a8fa533f6810e838b3249f5e351f72ed52f8bc5986a8f32bb85f8f393",
+        "design": "Replay the recorded authenticated RouterAI catalogue and input-format checks.",
+        "environment": "43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+        "hypotheses": [
+          "hypothesis-630b2607fa074493",
+          "hypothesis-f145740282534644",
+          "hypothesis-6398e136702b4acc"
+        ],
+        "implementation": "0ef830eac16f09be639046ba65c9578d3acd06da88d2d06be2ac95bd3e7c1cc5",
+        "metric": "eligible_modality_count",
+        "parent": null,
+        "planning": {
+          "explanation_set": "explanation_set-0618b49c6b9b45ca",
+          "explanation_set_hash": "95c97eeea2f4fd4c167309fee09a01bdb25048661657a1f5c39af1ebe2309de8",
+          "question": "research_question-48690754353c4b39",
+          "question_hash": "c255ea4407f5694f2fe4ae9c018f6f60d7975dc6fcf530c10fddacc630a40bcd",
+          "schema_version": 1,
+          "study_id": "multimodal-semantic-geometry"
+        },
+        "replication_tolerance": 0,
+        "run_limit": 2,
+        "scope": {
+          "inference": "concept relationship agreement across text, image, environmental audio, and silent video",
+          "mode": "exploratory_multimodal_geometry",
+          "population": "bounded exploratory sample of licensed Commons concepts and observed RouterAI model routes"
+        },
+        "seeds": [
+          20261125
+        ],
+        "stopping_rule": "One observed snapshot and its finite probe set."
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 8
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:20:09.878300+00:00",
+      "event_hash": "ef2510a160707dfff5597d73c607b532c63bfcb1d8b903bb96509a5eb850f71f",
+      "id": "search_tree-b21655dc574d4846",
+      "kind": "search_tree",
+      "payload": {
+        "budget": 4,
+        "cost_unit": "bounded_study_stage",
+        "cost_weight": 0.1,
+        "max_depth": 3,
+        "max_inflight": 1,
+        "max_nodes": 4,
+        "max_retries": 2,
+        "max_selections": 4,
+        "max_width": 2,
+        "meaning": "research_priority_only",
+        "policy": "bounded_best_first_v1",
+        "seed": 20261125,
+        "tournament": null,
+        "weights": {
+          "coverage": 0.4,
+          "discrimination": 1.0,
+          "invalidity_risk": 1.0,
+          "uncertainty": 0.4
+        }
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 9
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:20:09.885680+00:00",
+      "event_hash": "837261c993e6d21c4ccbacbe3bcf31d2df3eae1b7841dee84ba32d4c54d7589c",
+      "id": "experiment_node-f9d191f33b744046",
+      "kind": "experiment_node",
+      "payload": {
+        "action": "baseline",
+        "components": {
+          "coverage": 1.0,
+          "discrimination": 1.0,
+          "invalidity_risk": 0.0,
+          "uncertainty": 0.1
+        },
+        "depth": 0,
+        "estimated_cost": 1.0,
+        "execution_mode": "primary",
+        "parent": null,
+        "protocol": "protocol-687a139367d04aa5",
+        "protocol_hash": "f1b6ccd645c0eac6c168999a155aafc0d4f01263ff2f7a1accb876dcf835dff8",
+        "rationale": "Checkpoint admissibility decides whether the original empirical stage can run.",
+        "scientific_evidence_eligible": true,
+        "score": 1.3399999999999999,
+        "technical_attempt": 0,
+        "tree": "search_tree-b21655dc574d4846"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 10
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:20:09.891684+00:00",
+      "event_hash": "184a2732038ba12b6ed228a2203ab9927f9bcb76d393c631318fa32e7b7e49ec",
+      "id": "search_selection-f83d4137edd1490d",
+      "kind": "search_selection",
+      "payload": {
+        "action": "baseline",
+        "frontier": [
+          {
+            "estimated_cost": 1.0,
+            "node": "experiment_node-f9d191f33b744046",
+            "reason": "eligible",
+            "score": 1.3399999999999999
+          }
+        ],
+        "node": "experiment_node-f9d191f33b744046",
+        "policy": "bounded_best_first_v1",
+        "protocol": "protocol-687a139367d04aa5",
+        "reason": "best_affordable_priority",
+        "remaining_before": "4",
+        "reserved_cost": 1.0,
+        "scientific_validity": "not_assessed",
+        "tree": "search_tree-b21655dc574d4846"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 11
+    },
+    {
+      "actor": "availability-executor",
+      "created_at": "2026-11-25T17:20:09.950377+00:00",
+      "event_hash": "0b9baee0b4fe202ef321f91b96972b83d8bb3130170380cd58759749c81748cb",
+      "id": "run-a544d5ce79174a65",
+      "kind": "run",
+      "payload": {
+        "command": [
+          "study.workflow",
+          "readiness",
+          "recorded RouterAI catalog and probes"
+        ],
+        "environment": "43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+        "implementation": "0ef830eac16f09be639046ba65c9578d3acd06da88d2d06be2ac95bd3e7c1cc5",
+        "protocol": "protocol-687a139367d04aa5",
+        "protocol_hash": "f1b6ccd645c0eac6c168999a155aafc0d4f01263ff2f7a1accb876dcf835dff8",
+        "replicate_of": null,
+        "role_profile": {
+          "backend": "local_subprocess",
+          "code_relation": "not_compared",
+          "filesystem_enforcement": "not_enforced",
+          "host_user": "same",
+          "independent_replication": false,
+          "network_enforcement": "not_enforced",
+          "os_isolation": "none",
+          "proves_implementation_withheld": false,
+          "role": "executor",
+          "sandbox": false,
+          "schema_version": 1
+        },
+        "seed": 20261125
+      },
+      "role": "executor",
+      "scientific_validity": "not_assessed",
+      "seq": 12
+    },
+    {
+      "actor": "availability-executor",
+      "created_at": "2026-11-25T17:20:09.987973+00:00",
+      "event_hash": "6ca8756e0c1ee31655aa25f4546ea981fb49ceb79a0dde05530b600b7f395029",
+      "id": "result-fece93799338415d",
+      "kind": "result",
+      "payload": {
+        "outputs": {
+          "log": "03d65f557154d080f171fbfa0e74d3ecd8e224f59a48136947eea8f1ea654b7e",
+          "metrics": "dcb4306f62b5b516c836d69159ab581e022fab7dff8e7a8a977dbad69bea28b4",
+          "raw_data": "9923a21a8fa533f6810e838b3249f5e351f72ed52f8bc5986a8f32bb85f8f393"
+        },
+        "reason": "",
+        "run": "run-a544d5ce79174a65",
+        "status": "completed"
+      },
+      "role": "executor",
+      "scientific_validity": "not_assessed",
+      "seq": 13
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:20:09.995224+00:00",
+      "event_hash": "aa34ac2735f8e59064a4ddbe01dfe05151ed0906b71468a794d1f31b0de0615e",
+      "id": "search_terminal-91c77d93d9ae438f",
+      "kind": "search_terminal",
+      "payload": {
+        "actual_cost": 1.0,
+        "claim": null,
+        "cost_overrun": 0,
+        "cost_overrun_exact": "0",
+        "node": "experiment_node-f9d191f33b744046",
+        "reason": "Availability audit completed; native gate is blocked.",
+        "reserved_cost": 1.0,
+        "run": "run-a544d5ce79174a65",
+        "scientific_outcome": "not_assessed",
+        "scientific_validity": "not_assessed",
+        "selection": "search_selection-f83d4137edd1490d",
+        "status": "completed",
+        "tree": "search_tree-b21655dc574d4846"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 14
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:36:39.873799+00:00",
+      "event_hash": "1c84aa0fb6d315668600ae849ef577d0826794e963485c5aedba4d03082bc318",
+      "id": "data_exposure-19f5c72e28934410",
+      "kind": "data_exposure",
+      "payload": {
+        "data": "acd7592a8cbeb5c51d639f92d063bf4943ec86ec8357fe3b3b3670092d1a7ea2",
+        "protocol": null,
+        "purpose": "Frozen ordinal estimands and registered model comparisons"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 15
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:36:39.885509+00:00",
+      "event_hash": "d9fc4c7c173bc1bc0f66045a0cefbdaa56ffdf39f647123e186d5cc684c28316",
+      "id": "data_exposure-b07243cbe19f4fd5",
+      "kind": "data_exposure",
+      "payload": {
+        "data": "c970b09336c81dc2e47c40c8e7d157bcb0feab2d4cc69c007be6adc460c98d6c",
+        "protocol": null,
+        "purpose": "Frozen Commons licenses, source roster and creator-exclusive folds"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 16
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:36:40.016289+00:00",
+      "event_hash": "3a20c5f5793f71a3ab919a5e49c691a4005140c43bec0c4fdd025ef13f8469e8",
+      "id": "protocol-709740e381854619",
+      "kind": "protocol",
+      "payload": {
+        "analysis_plan": "Use the frozen protocol JSON and source roster. Recheck all overall RSA with SciPy.",
+        "data": "1a9325a58a7d82782eb2714011ff0919106a4a146f2e8c57659c76fd1e9b40d1",
+        "design": "Run the registered Commons contextual representation comparisons.",
+        "environment": "43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+        "hypotheses": [
+          "hypothesis-630b2607fa074493",
+          "hypothesis-f145740282534644",
+          "hypothesis-6398e136702b4acc"
+        ],
+        "implementation": "f3b7e08d6546ad8a0e909cb74e18c4eda1eb4cc638c1c9300c39d3c172559ad7",
+        "metric": "rsa_estimates_checked",
+        "parent": null,
+        "planning": {
+          "explanation_set": "explanation_set-0618b49c6b9b45ca",
+          "explanation_set_hash": "95c97eeea2f4fd4c167309fee09a01bdb25048661657a1f5c39af1ebe2309de8",
+          "question": "research_question-48690754353c4b39",
+          "question_hash": "c255ea4407f5694f2fe4ae9c018f6f60d7975dc6fcf530c10fddacc630a40bcd",
+          "schema_version": 1,
+          "study_id": "multimodal-semantic-geometry"
+        },
+        "replication_tolerance": 0,
+        "run_limit": 2,
+        "scope": {
+          "inference": "concept relationship agreement across text, image, environmental audio, and silent video",
+          "mode": "exploratory_multimodal_geometry",
+          "population": "bounded exploratory sample of licensed Commons concepts and observed RouterAI model routes"
+        },
+        "seeds": [
+          20261125
+        ],
+        "stopping_rule": "One fixed roster and one same-data computation check. Missing features retain error and coverage records."
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 17
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:36:40.017483+00:00",
+      "event_hash": "d85c2babde655607bc7f5ae5492f5facf846411903ec9c818f288fab613e264a",
+      "id": "experiment_node-16f0e984676b4009",
+      "kind": "experiment_node",
+      "payload": {
+        "action": "discriminate",
+        "components": {
+          "coverage": 0.75,
+          "discrimination": 0.8,
+          "invalidity_risk": 0.5,
+          "uncertainty": 0.7
+        },
+        "depth": 1,
+        "estimated_cost": 1.0,
+        "execution_mode": "primary",
+        "parent": "experiment_node-f9d191f33b744046",
+        "protocol": "protocol-709740e381854619",
+        "protocol_hash": "3a20c5f5793f71a3ab919a5e49c691a4005140c43bec0c4fdd025ef13f8469e8",
+        "rationale": "Retain interpretable contextual and proxy evidence given the frozen native gate.",
+        "scientific_evidence_eligible": true,
+        "score": 0.7800000000000001,
+        "technical_attempt": 0,
+        "tree": "search_tree-b21655dc574d4846"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 18
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:36:40.018431+00:00",
+      "event_hash": "cdd0798090e49063856acb8a18505a5e57f7dd879e09d0bec026d2ccbc36b5f1",
+      "id": "search_selection-8d55cfd34d524321",
+      "kind": "search_selection",
+      "payload": {
+        "action": "discriminate",
+        "frontier": [
+          {
+            "estimated_cost": 1.0,
+            "node": "experiment_node-16f0e984676b4009",
+            "reason": "eligible",
+            "score": 0.7800000000000001
+          }
+        ],
+        "node": "experiment_node-16f0e984676b4009",
+        "policy": "bounded_best_first_v1",
+        "protocol": "protocol-709740e381854619",
+        "reason": "best_affordable_priority",
+        "remaining_before": "3",
+        "reserved_cost": 1.0,
+        "scientific_validity": "not_assessed",
+        "tree": "search_tree-b21655dc574d4846"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 19
+    },
+    {
+      "actor": "geometry-executor",
+      "created_at": "2026-11-25T17:36:40.349005+00:00",
+      "event_hash": "21c5b0b25ec564d9361dcba0ba218af095893ffa94e45f982a06e68cfd727b30",
+      "id": "run-176a90dee85f4220",
+      "kind": "run",
+      "payload": {
+        "command": [
+          "C:\\projects\\multimodal-semantic-geometry\\.venv\\Scripts\\python.exe",
+          "-u",
+          "-m",
+          "study.features",
+          "--root",
+          ".research\\commons-v3",
+          "then",
+          "-u",
+          "-m",
+          "study.geometry",
+          "--root",
+          ".research\\commons-v3"
+        ],
+        "environment": "43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+        "implementation": "f3b7e08d6546ad8a0e909cb74e18c4eda1eb4cc638c1c9300c39d3c172559ad7",
+        "protocol": "protocol-709740e381854619",
+        "protocol_hash": "3a20c5f5793f71a3ab919a5e49c691a4005140c43bec0c4fdd025ef13f8469e8",
+        "replicate_of": null,
+        "role_profile": {
+          "backend": "local_subprocess",
+          "code_relation": "not_compared",
+          "filesystem_enforcement": "not_enforced",
+          "host_user": "same",
+          "independent_replication": false,
+          "network_enforcement": "not_enforced",
+          "os_isolation": "none",
+          "proves_implementation_withheld": false,
+          "role": "executor",
+          "sandbox": false,
+          "schema_version": 1
+        },
+        "seed": 20261125
+      },
+      "role": "executor",
+      "scientific_validity": "not_assessed",
+      "seq": 20
+    },
+    {
+      "actor": "geometry-executor",
+      "created_at": "2026-11-25T17:43:39.414976+00:00",
+      "event_hash": "988fca2c49d5a11a29918f62ccc4cd0a406626bf54eff6eef64e186de9a11439",
+      "id": "result-4b901011b63140f8",
+      "kind": "result",
+      "payload": {
+        "outputs": {
+          "descriptions": "003773cc792f67c35be82df41fdb152c590f59d5fc0e73b034d245add0152c8d",
+          "geometry": "9bde5a978f7b3edf9a603199066d2612bae457e68e25e15e6426ec0e4161ab0b",
+          "log": "4c47eb1b7846505ebbe9660011b6235ef72460d9c907c2fe018f6ba65fff1442",
+          "metrics": "24d98072904dc4ee16181f1d7e9e09609c14ba51191734cb7bef4ef204b3dd84",
+          "raw_data": "db65c5900ba0ec2099b620dc1b29825285b87912ad323343957a94dff3b5573b",
+          "source_features_receipt": "51b668879b60c3e5ce90cb1696569ff257daae7c24861e70e2e222a48dda01de"
+        },
+        "reason": "",
+        "run": "run-176a90dee85f4220",
+        "status": "completed"
+      },
+      "role": "executor",
+      "scientific_validity": "not_assessed",
+      "seq": 21
+    },
+    {
+      "actor": "geometry-scipy-check",
+      "created_at": "2026-11-25T17:43:39.432233+00:00",
+      "event_hash": "ff2d364a3202bf2b0a46d9f095aca51ab0bbc269205ac6ece9a4d39ea2894b4e",
+      "id": "run-4c935c1cf912408a",
+      "kind": "run",
+      "payload": {
+        "command": [
+          "C:\\projects\\multimodal-semantic-geometry\\.venv\\Scripts\\python.exe",
+          "-u",
+          "-m",
+          "study.check_geometry",
+          "--root",
+          ".research\\commons-v3"
+        ],
+        "environment": "43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+        "implementation": "800a6f3f0a514a1976d17b4890397783316b5f97bab3929c6ee07da99a7df72b",
+        "protocol": "protocol-709740e381854619",
+        "protocol_hash": "3a20c5f5793f71a3ab919a5e49c691a4005140c43bec0c4fdd025ef13f8469e8",
+        "replicate_of": "run-176a90dee85f4220",
+        "role_profile": {
+          "backend": "local_subprocess",
+          "code_relation": "not_compared",
+          "filesystem_enforcement": "not_enforced",
+          "host_user": "same",
+          "independent_replication": false,
+          "network_enforcement": "not_enforced",
+          "os_isolation": "none",
+          "proves_implementation_withheld": false,
+          "role": "replicator",
+          "sandbox": false,
+          "schema_version": 1
+        },
+        "seed": 20261125
+      },
+      "role": "replicator",
+      "scientific_validity": "not_assessed",
+      "seq": 22
+    },
+    {
+      "actor": "geometry-scipy-check",
+      "created_at": "2026-11-25T17:43:40.521735+00:00",
+      "event_hash": "8f4c4f0d286c31f50ec72c14b9ae57fb9bd5c823b1ca714bdfe8359a3d6cdc08",
+      "id": "result-d7d3ba732dbc44be",
+      "kind": "result",
+      "payload": {
+        "outputs": {
+          "log": "d7134bd247f9c6881174c39730e3dca9fe00468bd4400f5ca0d37a189213c410",
+          "metrics": "24d98072904dc4ee16181f1d7e9e09609c14ba51191734cb7bef4ef204b3dd84",
+          "raw_data": "db65c5900ba0ec2099b620dc1b29825285b87912ad323343957a94dff3b5573b",
+          "reanalysis": "f9c929f02f6446322881ed9db0562b05bea6571ffd2468699a38d672ea592761"
+        },
+        "reason": "",
+        "run": "run-4c935c1cf912408a",
+        "status": "completed"
+      },
+      "role": "replicator",
+      "scientific_validity": "not_assessed",
+      "seq": 23
+    },
+    {
+      "actor": "geometry-analyst",
+      "created_at": "2026-11-25T17:43:40.522812+00:00",
+      "event_hash": "02481d768894553ea281cf0a5713e0e419b672794f9ec4e47c1cf0d22411b5d5",
+      "id": "claim-6c0452217f3b4710",
+      "kind": "claim",
+      "payload": {
+        "evidence": [
+          "run-176a90dee85f4220",
+          "run-4c935c1cf912408a"
+        ],
+        "inference_mode": "exploratory",
+        "limitations": [
+          "Commons media availability and metadata-driven selection constrain generalization.",
+          "Image models include cross-modal training. Audio and video are represented by fixed signals or text-mediated features.",
+          "SciPy checks cached inputs and relies on the existing roster. Provider repeat, new data and independent scientific approval are distinct."
+        ],
+        "outcome": "inconclusive",
+        "protocol": "protocol-709740e381854619",
+        "scope": {
+          "inference": "concept relationship agreement across text, image, environmental audio, and silent video",
+          "mode": "exploratory_multimodal_geometry",
+          "population": "bounded exploratory sample of licensed Commons concepts and observed RouterAI model routes"
+        },
+        "statement": "The bounded contextual stage measured and cross-checked 42 overall RSA estimates. The independently trained four-modality claim remains inconclusive under the observed API route."
+      },
+      "role": "analyst",
+      "scientific_validity": "not_assessed",
+      "seq": 24
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:43:40.523799+00:00",
+      "event_hash": "9e3407465851d462e65744f806a290046a536ba5ddedc75da20f2f58ada86386",
+      "id": "search_terminal-e4b3888c5d5e4fc5",
+      "kind": "search_terminal",
+      "payload": {
+        "actual_cost": 1.0,
+        "claim": "claim-6c0452217f3b4710",
+        "cost_overrun": 0,
+        "cost_overrun_exact": "0",
+        "node": "experiment_node-16f0e984676b4009",
+        "reason": "Frozen contextual computation and separate same-data RSA implementation finished.",
+        "reserved_cost": 1.0,
+        "run": "run-176a90dee85f4220",
+        "scientific_outcome": "inconclusive",
+        "scientific_validity": "not_assessed",
+        "selection": "search_selection-8d55cfd34d524321",
+        "status": "completed",
+        "tree": "search_tree-b21655dc574d4846"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 25
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:44:03.863047+00:00",
+      "event_hash": "13a0f38b9a93e869ca75f75680ce5678aed3dbde1bf35d7249335573809a72bd",
+      "id": "data_exposure-bd6eaf0d53eb4812",
+      "kind": "data_exposure",
+      "payload": {
+        "data": "7deea6d4d1f063c4ef01b0c5fa9b31b487e8844ec41b2317bb9a9880ffe45d73",
+        "protocol": null,
+        "purpose": "RouterAI evidence critique, trusted-local context only"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 26
+    },
+    {
+      "actor": "routerai-design-reviewer",
+      "created_at": "2026-11-25T17:44:03.911277+00:00",
+      "event_hash": "dba70bb549c1e77443685bf0336075ad88c3e973144201ac72d6e2af61c28450",
+      "id": "review-0903d559cf0a46d0",
+      "kind": "review",
+      "payload": {
+        "actions": [
+          "Check selection and literal vocabulary on the frozen source cohort.",
+          "Mask one information source at a time and record direct observer outcomes.",
+          "Recompute the Clotho comparison on its own cached sources.",
+          "Repeat affected caption inputs without auxiliary container metadata."
+        ],
+        "basis_hash": "612a1b3efcb481f72158e77297ce87befb981702ccee86e12711d47f1c07c691",
+        "claim": "claim-6c0452217f3b4710",
+        "rationale": "# Research Subagent Review: Native Semantic Geometry\n\n## Critical Finding\n\n**The native hypothesis cannot be tested with current data.** The research question requires independently trained encoders for text, image, environmental-audio, and silent-video modalities. The evidence packet explicitly states:\n\n> \"No eligible independent image, audio, or video checkpoints through the allowed provider. Raw image calls went to co-aligned image models. Audio and video geometric embedding inputs were caption proxies or fixed signals.\"\n\nThis is not a limitation of analysis—it is a fundamental experimental constraint that invalidates the native geometry claim.\n\n---\n\n## Evidence-by-Objection\n\n### Objection 1: \"Text-to-text similarity proves native geometry exists\"\n**Status:** Insufficient.  \nText pairs (BGE↔Qwen: ρ=0.68, p=0.025; ρ=0.49, p=0.0252) show *intra-modality reliability*, not cross-modal native geometry. These measure whether independent text encoders agree, not whether text and image share unsupervised semantic structure.\n\n### Objection 2: \"Image-to-image and cross-modal alignment replicate native structure\"\n**Status:** Confounded.  \nImage pairs (Titan↔Voyage: ρ=0.81) and text-to-image pairs (BGE↔Titan: ρ=0.52, p=0.0252) are measured on the same 120 samples. High CKA (0.93–0.94) suggests structural alignment, but:\n- Image models (Titan, Voyage, Gemini) are co-aligned during training or use shared embedding spaces.\n- Text-to-image correlations could arise from: (a) native geometry, (b) convergent training objectives, or (c) caption-mediated leakage.\n\n### Objection 3: \"Caption-mediated pairs show weaker agreement, supporting the native hypothesis by contrast\"\n**Status:** Demonstrates caption dependency, *not* native geometry.  \n- Text↔audio-caption (ρ=0.32, p=0.034): weak, p_holm=1.0 (not significant after correction).\n- Image↔audio-caption (ρ=0.29, p=0.025): weak, p_holm=1.0.\n- **These cannot argue for native geometry; they only show caption-mediated encoding is unreliable.**\n\n### Objection 4: \"Fixed signal controls (audio_signal, video_static/motion) are low; therefore non-signal tests are meaningful\"\n**Status:** Partial mitigation, insufficient isolation.  \nFixed signals show near-zero structure (ρ≤0.41; most p_holm=1.0). This correctly rules out trivial signal artifacts. However:\n- Audio and video encoders do not exist independently; only captions and motion features do.\n- Comparison to fixed signals cannot distinguish native geometry from caption artifacts.\n\n### Objection 5: \"Within-group Spearman estimates are significant (p<0.01) across modality pairs\"\n**Status:** Statistically real, conceptually weak.  \nWithin-group estimates are higher (0.49–0.63) than paired correlations, suggesting concept structure outweighs modality difference. But:\n- With 19 concepts and n=120 sources, group blocking reduces degrees of freedom.\n- Significance does not establish *independence* of modality encoding—aligned models converge on concept structure by design.\n\n---\n\n## Decision Point\n\n**Stop or pivot?** The native hypothesis requires a next experiment, not reanalysis:\n\n### Smallest Discriminating Test (Cost vs. Information)\n\n**Option A: Acquire independent audio/video encoders**  \n- *Cost:* High (new model runs, infrastructure).  \n- *Information gain:* Definitive—replaces all caption and fixed-signal proxies.  \n- *Recommended if:* Budget and timeline allow.\n\n**Option B: Subsample sources by caption-dependency**  \n- *Cost:* Low (data already acquired).  \n- *Information gain:* Moderate—partition native vs. caption signal.  \n- *Method:* Stratify 120 sources by caption BLEU/semantic similarity. Recompute text-to-{audio,video-caption} correlations on sources with low vs. high caption fidelity. If native geometry exists, caption-dependent sources should show *no* correlation gain.  \n- *Stopping rule:* If all strata show equal caption-mediated decay (ρ → 0.15–0.35), caption explains agreement. If caption-independent sources retain ρ > 0.5, pursue Option A.\n\n**Option C: Stop—declare caption-mediated result**  \n- *Rationale:* Current data show text and co-aligned images correlate; audio/video reduce to captions or noise. No native modality separation is testable.  \n- *Publication stance:* \"Cross-encoder geometry arises from shared training objectives and caption supervision, not independent modal semantics.\"\n\n---\n\n## Recommendation\n\n**Proceed with Option B.** It costs ~2–4 hours of analysis and has clear decision logic:\n\n1. Compute caption quality proxy for each of 120 items (caption-to-source semantic similarity via a held-out model).\n2. Split into high/low caption-fidelity cohorts.\n3. Recompute text↔audio-caption and text↔video-caption Spearman within each cohort.\n4. If low-caption-fidelity cohort shows ρ ≈ 0.0–0.15 (consistent with noise), caption mediation is the dominant mechanism, and Option C (stop) is justified.\n5. If low-caption-fidelity cohort retains ρ ≥ 0.4, pursue independent encoder procurement (Option A).\n\nThis avoids wasted effort on models that do not answer the research question while maximizing signal extraction from available data.",
+        "verdict": "request_changes"
+      },
+      "role": "reviewer",
+      "scientific_validity": "not_assessed",
+      "seq": 27
+    },
+    {
+      "actor": "routerai-statistics-reviewer",
+      "created_at": "2026-11-25T17:44:03.942574+00:00",
+      "event_hash": "e937028add2ee766cd179c2b16c7d493c59a99c46f8ccd80e1403031c595cc2c",
+      "id": "review-b9af053b48f5469d",
+      "kind": "review",
+      "payload": {
+        "actions": [
+          "Check selection and literal vocabulary on the frozen source cohort.",
+          "Mask one information source at a time and record direct observer outcomes.",
+          "Recompute the Clotho comparison on its own cached sources.",
+          "Repeat affected caption inputs without auxiliary container metadata."
+        ],
+        "basis_hash": "612a1b3efcb481f72158e77297ce87befb981702ccee86e12711d47f1c07c691",
+        "claim": "claim-6c0452217f3b4710",
+        "rationale": "## Results Phase Review: Logical Implications and Effect Sizes\n\n### Primary Native Hypothesis\n\n**Objection: Native semantic geometry across independently trained text, image, audio, and video encoders is untestable.** Upheld. The evidence packet explicitly states that no eligible independent image, audio, or video checkpoints exist through RouterAI. Text-to-image pairs (e.g., `text_bge__image_titan` with within-group ρ=0.615, p_holm=0.0252) are between independent text encoders and *co-aligned* image models, not native geometry tests.\n\n### Effect Sizes and Unit of Inference\n\n**Within-group Spearman ρ** uses 120 sources across 19 concepts (2, 6, 5, 6 per group in 4 groups). Null distributions derive from 4999 draws with concept-label permutation. This is reasonable within-group inference. However, **effect sizes** for native-proxied pairs (e.g., `text_bge__image_titan`, ρ=0.615, CI [0.249, 0.539]) are modest. Reliability is moderate (left=0.561, right=0.576) with metric error ~0.135. The **global p_holm at 0.0252** survives Holm correction for 126 slots (0.05/126≈0.0004 raw threshold equivalent?), but these values align for within-group tests only.\n\n### Null Scope and Selection Concerns\n\n- **Within-group** null (the creator-disjoint permutation) is well-constructed: median near zero, q95 ~0.26-0.29. But the **hypergeometric null** for paired vs. cross-source comparisons is unclear. The `cross_source` values are often competitive with paired, especially in native-proxied pairs (e.g., `text_bge__image_titan`: paired=0.522, cross=0.592). This indicates the \"matching\" isn't specific enough.\n- **Selection bias**: The concept set (19 concepts) is small and audibly non-uniform: 2 animal vocalizations vs. 8 piano sources. Power is low per cell. Groups are post-hoc constructed.\n\n### Same-Data vs. New-Data\n\nAll evidence is from 120 Commons Description sources. The Clotho reanalysis uses 64 human-machine comparisons but is a different dataset (audio caption similarity only). No new-data validation of native geometry exists. The fixed signal controls (`text_bge__audio_signal`, ρ=0.147, ns) correctly fail to reject, confirming controls behave.\n\n### Caption-Mediated Objections\n- `text_bge__audio_caption_bge` (ρ=0.321, p_blocked_holm=1.0) and `audio_caption_bge__video_caption_bge` (ρ=0.203, p=0.0882) show no significant structure after correction. The high reliability (0.655, 0.714) with large metric error (0.455) indicates unreliable measurement due to caption collapse, not geometry.\n- The `image_caption_bge__video_caption_bge` (ρ=0.877, p_holm=0.0252) is likely shared caption-bottleneck similarity, not native geometry.\n\n### Next Test\n\n**Stopping Rationale**: The research question cannot be addressed with current data. No independent image/audio/video encoders exist. All comparisons are either co-aligned, caption-mediated, or fixed signal controls. Recommend pausing until at least one independently trained non-text encoder (e.g., a self-supervised audio model without text alignment) is available through RouterAI.\n\n**Test**: Request a new protocol with at least 200 sources and one true native encoder pair per modality.",
+        "verdict": "request_changes"
+      },
+      "role": "reviewer",
+      "scientific_validity": "not_assessed",
+      "seq": 28
+    },
+    {
+      "actor": "routerai-falsification-reviewer",
+      "created_at": "2026-11-25T17:44:03.974477+00:00",
+      "event_hash": "6d13db2ccc0a582caa296636135f4ea26fd84dcfcf2555175b429264125dc15b",
+      "id": "review-103c85a011cd4eec",
+      "kind": "review",
+      "payload": {
+        "actions": [
+          "Check selection and literal vocabulary on the frozen source cohort.",
+          "Mask one information source at a time and record direct observer outcomes.",
+          "Recompute the Clotho comparison on its own cached sources.",
+          "Repeat affected caption inputs without auxiliary container metadata."
+        ],
+        "basis_hash": "612a1b3efcb481f72158e77297ce87befb981702ccee86e12711d47f1c07c691",
+        "claim": "claim-6c0452217f3b4710",
+        "rationale": "# Results-Review: Native Semantic Geometry Claim\n\n**Verdict: Do not advance to the gated alignment study. The packet supports, at most, a narrower claim about shared captioner and text-head structure.**\n\n## 1. Strongest alternative explanation: shared captioner and text head\n\nThe data fit a simpler account better than a native cross-modal one. Several of the strongest associations are caption-to-caption or caption-to-text pairs:\n\n- `image_caption_bge__video_caption_bge`: paired 0.877, CKA 0.92, p_holm 0.034.\n- `text_bge__video_caption_bge`: paired 0.513, p_holm 0.034.\n- `text_qwen__video_caption_qwen`: paired 0.482, p_holm 0.024.\n\nThe packet itself labels these pairs \"text_mediated.\" The high caption-caption agreement points to a shared captioner or shared text encoder, not to native perceptual geometry. Audio and video are represented only by caption proxies or fixed signals, so the packet cannot separate \"the encoder learned semantics from the medium\" from \"the captioner produced similar text.\"\n\n## 2. Misleading scope\n\n- **\"Native\" is not supported for image or audio/video.** The native_constraints field says no independent image, audio, or video checkpoints were eligible. Image calls went to co-aligned families (Titan, Voyage, Gemini), and audio/video inputs are captions or fixed signals. Only the BGE and Qwen text pairs are independent of each other. Any \"native image/audio/video\" wording should be removed.\n- **Within-group significance is fragile.** Several within-group effects are not robust after Holm correction: `text_qwen__image_titan` (p_holm 0.174), `text_gemini__image_gemini` (p_holm 0.408), `image_titan__audio_caption_bge` (p_holm 0.22). The strongest cross-modal claim, `text_bge__image_titan`, has a paired-excess lower bound of −0.018, so its excess over the null is not reliably positive.\n- **The four-group structure may do the work.** The within-group test uses 4 groups with 2 to 6 concepts each, and the animal group has only 2 concepts. Group membership alone may drive much of the association.\n- **The reanalysis value (≈5.6e−16)** is a numerical identity check, not evidence.\n\n## 3. Mechanistic conclusions to reject\n\n- Fixed signals are not clean nulls. `image_titan__video_motion` (fixed motion signal) has paired 0.41, within-group p_holm 0.047, and CKA 0.66. Low-level motion structure is a live explanation, not a control that failed.\n- Metric error is not uniformly better than the constant baseline. For `text_gemini__image_gemini`, metric error 0.231 exceeds constant error 0.195. Several pairs have low split-half reliability (`audio_signal` 0.22, `video_static` 0.38), so their nulls are weakly interpretable.\n- Clotho `human_bge_early` vs `human_bge_late` (0.49) reflects self-consistency of one text model, not cross-modal geometry, and should not be cited as support.\n\n## 4. Specific checks demanded before any further claim\n\n1. **Partial out the captioner.** Regress cross-modal similarity on caption-caption similarity, and test whether text–image excess survives. Repeat with at least one independent captioner family.\n2. **Within-group residuals.** Recompute excess after removing group-mean similarity, and report whether any cross-group signal remains.\n3. **Container and metadata leakage.** The audit lists non-structural tags (`title`, `description`, `location`) and two videos with auxiliary streams. Re-run with these fields removed and with duration/file-size covariates.\n4. **Holm family consistency.** Several pairs have different `p_global_holm` and `p_blocked_holm` values. Document the exact family for each.\n5. **Label-null calibration.** Confirm the concept-label null preserves creator-disjoint structure, since 19 concepts with 4–8 sources each limit the number of distinct null permutations.\n\n## Stopping rationale\n\nStop the alignment study. The current evidence does not establish native cross-modal geometry. The next test should be check 1 (captioner-partialled analysis) on the existing packet, because it is the decisive test between the native and caption-mediated accounts.",
+        "verdict": "request_changes"
+      },
+      "role": "reviewer",
+      "scientific_validity": "not_assessed",
+      "seq": 29
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:44:04.085667+00:00",
+      "event_hash": "5d0babd6473e9090c357a6d45fd775dca38db0876d2115eab9b2fd11750207d9",
+      "id": "protocol-cb722b1f33024d80",
+      "kind": "protocol",
+      "payload": {
+        "analysis_plan": "Preserve paired intervention contrasts and the two source populations.",
+        "data": "00801a360e1761415276b4c86cf127a75aec0fc519d22368f59770d7af68cb3b",
+        "design": "Observer interventions, container-metadata control, cohort sensitivity, and a cached separate-dataset audio–text check.",
+        "environment": "43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+        "hypotheses": [
+          "hypothesis-630b2607fa074493",
+          "hypothesis-f145740282534644",
+          "hypothesis-6398e136702b4acc"
+        ],
+        "implementation": "91d32a666f83e41917e0c6da2dc7fd5d983225244621b6507a963c5f821df6cd",
+        "metric": "followup_checks_reported",
+        "parent": "protocol-709740e381854619",
+        "planning": {
+          "explanation_set": "explanation_set-0618b49c6b9b45ca",
+          "explanation_set_hash": "95c97eeea2f4fd4c167309fee09a01bdb25048661657a1f5c39af1ebe2309de8",
+          "question": "research_question-48690754353c4b39",
+          "question_hash": "c255ea4407f5694f2fe4ae9c018f6f60d7975dc6fcf530c10fddacc630a40bcd",
+          "schema_version": 1,
+          "study_id": "multimodal-semantic-geometry"
+        },
+        "replication_tolerance": 0,
+        "run_limit": 2,
+        "scope": {
+          "inference": "concept relationship agreement across text, image, environmental audio, and silent video",
+          "mode": "exploratory_multimodal_geometry",
+          "population": "bounded exploratory sample of licensed Commons concepts and observed RouterAI model routes"
+        },
+        "seeds": [
+          20261125
+        ],
+        "stopping_rule": "One pass each for observer, metadata control, cohort sensitivity, and offline Clotho computations."
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 30
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:44:04.086760+00:00",
+      "event_hash": "74a01b0f28df5a4900879e4cece529d5fb359b809952ebdcf91e7e27a6329493",
+      "id": "experiment_node-d65e1d291d914d72",
+      "kind": "experiment_node",
+      "payload": {
+        "action": "robustness",
+        "components": {
+          "coverage": 0.7,
+          "discrimination": 0.8,
+          "invalidity_risk": 0.5,
+          "uncertainty": 0.85
+        },
+        "depth": 2,
+        "estimated_cost": 1.0,
+        "execution_mode": "primary",
+        "parent": "experiment_node-16f0e984676b4009",
+        "protocol": "protocol-cb722b1f33024d80",
+        "protocol_hash": "5d0babd6473e9090c357a6d45fd775dca38db0876d2115eab9b2fd11750207d9",
+        "rationale": "Evidence-critical checks can distinguish observational context, lexical mediation, and observer accessibility.",
+        "scientific_evidence_eligible": true,
+        "score": 0.8200000000000001,
+        "technical_attempt": 0,
+        "tree": "search_tree-b21655dc574d4846"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 31
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:44:04.087728+00:00",
+      "event_hash": "3dd717e5580ee2495400e82b95e23388524bd3dff04dc32e6d5835d59f6c4c97",
+      "id": "search_selection-9eb032fb8d714e85",
+      "kind": "search_selection",
+      "payload": {
+        "action": "robustness",
+        "frontier": [
+          {
+            "estimated_cost": 1.0,
+            "node": "experiment_node-d65e1d291d914d72",
+            "reason": "eligible",
+            "score": 0.8200000000000001
+          }
+        ],
+        "node": "experiment_node-d65e1d291d914d72",
+        "policy": "bounded_best_first_v1",
+        "protocol": "protocol-cb722b1f33024d80",
+        "reason": "best_affordable_priority",
+        "remaining_before": "2",
+        "reserved_cost": 1.0,
+        "scientific_validity": "not_assessed",
+        "tree": "search_tree-b21655dc574d4846"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 32
+    },
+    {
+      "actor": "geometry-followup-executor",
+      "created_at": "2026-11-25T17:44:04.091240+00:00",
+      "event_hash": "ba0a299ec217265e05a58de1225b93618be03d6b08b6f50186b92aaa985d9b2d",
+      "id": "run-6dff93312da14e6f",
+      "kind": "run",
+      "payload": {
+        "command": [
+          "study.workflow",
+          "followup",
+          "observability",
+          "robustness",
+          "metadata_control",
+          "clotho"
+        ],
+        "environment": "43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+        "implementation": "91d32a666f83e41917e0c6da2dc7fd5d983225244621b6507a963c5f821df6cd",
+        "protocol": "protocol-cb722b1f33024d80",
+        "protocol_hash": "5d0babd6473e9090c357a6d45fd775dca38db0876d2115eab9b2fd11750207d9",
+        "replicate_of": null,
+        "role_profile": {
+          "backend": "local_subprocess",
+          "code_relation": "not_compared",
+          "filesystem_enforcement": "not_enforced",
+          "host_user": "same",
+          "independent_replication": false,
+          "network_enforcement": "not_enforced",
+          "os_isolation": "none",
+          "proves_implementation_withheld": false,
+          "role": "executor",
+          "sandbox": false,
+          "schema_version": 1
+        },
+        "seed": 20261125
+      },
+      "role": "executor",
+      "scientific_validity": "not_assessed",
+      "seq": 33
+    },
+    {
+      "actor": "geometry-followup-executor",
+      "created_at": "2026-11-25T17:50:54.959072+00:00",
+      "event_hash": "e8801127505d3ab37c527bb90868953e3ea0777ae968a7a844d21430ad5db74a",
+      "id": "result-fb4c7d427eb241cb",
+      "kind": "result",
+      "payload": {
+        "outputs": {
+          "clotho": "494f4608a4ee8360d70ff63345c68eebf19f55ffec7888663dc3f2ebbf8a109b",
+          "log": "b1b2ee7aa4707204b57611d3a0821c6ab6978b47fc4e07991450aa948fcd952c",
+          "metadata_control": "11a4e227ce8a3056456f91ff65847292ec3540ff8fe66c8c744e9bba30f42895",
+          "metrics": "00c7ae181c3aaad43c3a2702e3682071d88fbff4f097ee4f675c6846bfe26413",
+          "observability": "9140cdd76fb5172ae678d31c24fb0670cb71bea886f37444ef51c2cfc25d0e6d",
+          "raw_data": "00801a360e1761415276b4c86cf127a75aec0fc519d22368f59770d7af68cb3b",
+          "robustness": "78eea71b67b0d35e03f0499cbf8c0abe11e11cfdffaafb95f95c87e4134979ae"
+        },
+        "reason": "",
+        "run": "run-6dff93312da14e6f",
+        "status": "completed"
+      },
+      "role": "executor",
+      "scientific_validity": "not_assessed",
+      "seq": 34
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:50:54.961835+00:00",
+      "event_hash": "4bc87ba2e801bba1c2f64372d281ea4d903e2181e3802ee69b0a3a932f52449d",
+      "id": "search_terminal-3bcb6d3db7454431",
+      "kind": "search_terminal",
+      "payload": {
+        "actual_cost": 1.0,
+        "claim": null,
+        "cost_overrun": 0,
+        "cost_overrun_exact": "0",
+        "node": "experiment_node-d65e1d291d914d72",
+        "reason": "Follow-up outputs verified and stored.",
+        "reserved_cost": 1.0,
+        "run": "run-6dff93312da14e6f",
+        "scientific_outcome": "not_assessed",
+        "scientific_validity": "not_assessed",
+        "selection": "search_selection-9eb032fb8d714e85",
+        "status": "completed",
+        "tree": "search_tree-b21655dc574d4846"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 35
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:50:58.734945+00:00",
+      "event_hash": "c5626910a62d95aeaca046230affffd8d8fa820677c7fe4eea876ad8fc38dfa7",
+      "id": "protocol-7117708879ce4775",
+      "kind": "protocol",
+      "payload": {
+        "analysis_plan": "Remove broad category-pair means and image-caption RDM associations. Jointly permute images and their caption axes.",
+        "data": "e7a399d0f30e03138fbe595c96d89e0c9a6d8e2930e29c916529cd915a73644e",
+        "design": "Post-pilot descriptive stress test of the three direct text–image routes.",
+        "environment": "43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+        "hypotheses": [
+          "hypothesis-630b2607fa074493",
+          "hypothesis-f145740282534644",
+          "hypothesis-6398e136702b4acc"
+        ],
+        "implementation": "b0777e8694257fd960bfdff24dfc1e0bfa1a97a37e8b4f46aeec9dd602243a7f",
+        "metric": "controlled_pairs_reported",
+        "parent": "protocol-cb722b1f33024d80",
+        "planning": {
+          "explanation_set": "explanation_set-0618b49c6b9b45ca",
+          "explanation_set_hash": "95c97eeea2f4fd4c167309fee09a01bdb25048661657a1f5c39af1ebe2309de8",
+          "question": "research_question-48690754353c4b39",
+          "question_hash": "c255ea4407f5694f2fe4ae9c018f6f60d7975dc6fcf530c10fddacc630a40bcd",
+          "schema_version": 1,
+          "study_id": "multimodal-semantic-geometry"
+        },
+        "replication_tolerance": 0,
+        "run_limit": 2,
+        "scope": {
+          "inference": "concept relationship agreement across text, image, environmental audio, and silent video",
+          "mode": "exploratory_multimodal_geometry",
+          "population": "bounded exploratory sample of licensed Commons concepts and observed RouterAI model routes"
+        },
+        "seeds": [
+          20261125
+        ],
+        "stopping_rule": "One pass on the same frozen cohort with no added confirmatory inference."
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 36
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:50:58.742148+00:00",
+      "event_hash": "49af1199651b3541cc3c183916e0d62e45d9cc5410fca5a48893345964cc0a06",
+      "id": "experiment_node-5923fa82978c4b52",
+      "kind": "experiment_node",
+      "payload": {
+        "action": "robustness",
+        "components": {
+          "coverage": 0.45,
+          "discrimination": 0.65,
+          "invalidity_risk": 0.55,
+          "uncertainty": 0.6
+        },
+        "depth": 3,
+        "estimated_cost": 1.0,
+        "execution_mode": "primary",
+        "parent": "experiment_node-d65e1d291d914d72",
+        "protocol": "protocol-7117708879ce4775",
+        "protocol_hash": "c5626910a62d95aeaca046230affffd8d8fa820677c7fe4eea876ad8fc38dfa7",
+        "rationale": "A RouterAI role requested a caption-conditioned descriptive test after observing the pilot.",
+        "scientific_evidence_eligible": true,
+        "score": 0.42000000000000004,
+        "technical_attempt": 0,
+        "tree": "search_tree-b21655dc574d4846"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 37
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:50:58.744802+00:00",
+      "event_hash": "19df6b8f8e4612568ab0ba9104f1dc5740abac8d140e7ce610e584c98d98da7e",
+      "id": "search_selection-349cb31513d7430e",
+      "kind": "search_selection",
+      "payload": {
+        "action": "robustness",
+        "frontier": [
+          {
+            "estimated_cost": 1.0,
+            "node": "experiment_node-5923fa82978c4b52",
+            "reason": "eligible",
+            "score": 0.42000000000000004
+          }
+        ],
+        "node": "experiment_node-5923fa82978c4b52",
+        "policy": "bounded_best_first_v1",
+        "protocol": "protocol-7117708879ce4775",
+        "reason": "best_affordable_priority",
+        "remaining_before": "1",
+        "reserved_cost": 1.0,
+        "scientific_validity": "not_assessed",
+        "tree": "search_tree-b21655dc574d4846"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 38
+    },
+    {
+      "actor": "geometry-adaptive-executor",
+      "created_at": "2026-11-25T17:50:58.749963+00:00",
+      "event_hash": "fe98db40d4675d2872d38939aebe43824e18b5e44f6f70a631aee04f2de11a80",
+      "id": "run-2645cf086c704654",
+      "kind": "run",
+      "payload": {
+        "command": [
+          "C:\\projects\\multimodal-semantic-geometry\\.venv\\Scripts\\python.exe",
+          "-u",
+          "-m",
+          "study.caption_partial",
+          "--root",
+          ".research\\commons-v3"
+        ],
+        "environment": "43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+        "implementation": "b0777e8694257fd960bfdff24dfc1e0bfa1a97a37e8b4f46aeec9dd602243a7f",
+        "protocol": "protocol-7117708879ce4775",
+        "protocol_hash": "c5626910a62d95aeaca046230affffd8d8fa820677c7fe4eea876ad8fc38dfa7",
+        "replicate_of": null,
+        "role_profile": {
+          "backend": "local_subprocess",
+          "code_relation": "not_compared",
+          "filesystem_enforcement": "not_enforced",
+          "host_user": "same",
+          "independent_replication": false,
+          "network_enforcement": "not_enforced",
+          "os_isolation": "none",
+          "proves_implementation_withheld": false,
+          "role": "executor",
+          "sandbox": false,
+          "schema_version": 1
+        },
+        "seed": 20261125
+      },
+      "role": "executor",
+      "scientific_validity": "not_assessed",
+      "seq": 39
+    },
+    {
+      "actor": "geometry-adaptive-executor",
+      "created_at": "2026-11-25T17:50:59.724446+00:00",
+      "event_hash": "467afe4d107f10c59aa4466edcf1c723085015bf4a7026dc74878b72f8f7d960",
+      "id": "result-85e867e999884aea",
+      "kind": "result",
+      "payload": {
+        "outputs": {
+          "caption_partial": "f144ff572cccd325a6a7a4d8171abea3a2c29378dc99bf4de76764ca46941016",
+          "log": "1646a86213afaef2737747d0d2aef6ab917c831096035e27251f0c4e8a504ade",
+          "metrics": "51696c4067413625171bc5c0a30de07e208cebc430298f2b77bb89c85501fde6",
+          "raw_data": "e7a399d0f30e03138fbe595c96d89e0c9a6d8e2930e29c916529cd915a73644e"
+        },
+        "reason": "",
+        "run": "run-2645cf086c704654",
+        "status": "completed"
+      },
+      "role": "executor",
+      "scientific_validity": "not_assessed",
+      "seq": 40
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:50:59.727479+00:00",
+      "event_hash": "c78ca33fb50bbdfefc7a4fd6a61a976d9c83d01b3bb030736c553281ac626232",
+      "id": "search_terminal-6db47656eba945b4",
+      "kind": "search_terminal",
+      "payload": {
+        "actual_cost": 1.0,
+        "claim": null,
+        "cost_overrun": 0,
+        "cost_overrun_exact": "0",
+        "node": "experiment_node-5923fa82978c4b52",
+        "reason": "Caption-conditioned sensitivity reached a terminal execution state.",
+        "reserved_cost": 1.0,
+        "run": "run-2645cf086c704654",
+        "scientific_outcome": "not_assessed",
+        "scientific_validity": "not_assessed",
+        "selection": "search_selection-349cb31513d7430e",
+        "status": "completed",
+        "tree": "search_tree-b21655dc574d4846"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 41
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:50:59.730375+00:00",
+      "event_hash": "ea4b725f3b30fa293b0098cd3cad8542c9e4a4c36b9fc723ae81f56f137ae0e1",
+      "id": "search_selection-e8904c92c4434644",
+      "kind": "search_selection",
+      "payload": {
+        "action": null,
+        "frontier": [],
+        "node": null,
+        "policy": "bounded_best_first_v1",
+        "protocol": null,
+        "reason": "selection_limit",
+        "remaining_before": "0",
+        "reserved_cost": 0,
+        "scientific_validity": "not_assessed",
+        "tree": "search_tree-b21655dc574d4846"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 42
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:56:08.639432+00:00",
+      "event_hash": "a1452895d89d9a5cf130f672e143636ff4124b56d4385291ba0ac98c708e5ec2",
+      "id": "data_exposure-761a4e91f1a348a4",
+      "kind": "data_exposure",
+      "payload": {
+        "data": "30d1bd121d2658975c0a95dde6d95f1565a877d99a2e5874b5220600021cbbfb",
+        "protocol": null,
+        "purpose": "Postflight provenance and critical reading: provider_alias_audit"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 43
+    },
+    {
+      "actor": "geometry-planner",
+      "created_at": "2026-11-25T17:56:08.647061+00:00",
+      "event_hash": "56ccf78fa134a4a51254604f8d9f6542fddca1ebc1051235d8254ee109fc53bc",
+      "id": "data_exposure-ab4ce1bff5d84a0c",
+      "kind": "data_exposure",
+      "payload": {
+        "data": "d6e647ed700597aad1009d7a3ad1d53940857a435cffcac84fe632c72e43e032",
+        "protocol": null,
+        "purpose": "Postflight provenance and critical reading: closing_critique"
+      },
+      "role": "planner",
+      "scientific_validity": "not_assessed",
+      "seq": 44
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:003773cc792f67c35be82df41fdb152c590f59d5fc0e73b034d245add0152c8d",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 340979,
+        "integrity": "verified",
+        "sha256": "003773cc792f67c35be82df41fdb152c590f59d5fc0e73b034d245add0152c8d"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:00801a360e1761415276b4c86cf127a75aec0fc519d22368f59770d7af68cb3b",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 414,
+        "integrity": "verified",
+        "sha256": "00801a360e1761415276b4c86cf127a75aec0fc519d22368f59770d7af68cb3b"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:00c7ae181c3aaad43c3a2702e3682071d88fbff4f097ee4f675c6846bfe26413",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 30,
+        "integrity": "verified",
+        "sha256": "00c7ae181c3aaad43c3a2702e3682071d88fbff4f097ee4f675c6846bfe26413"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:03d65f557154d080f171fbfa0e74d3ecd8e224f59a48136947eea8f1ea654b7e",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 84,
+        "integrity": "verified",
+        "sha256": "03d65f557154d080f171fbfa0e74d3ecd8e224f59a48136947eea8f1ea654b7e"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:0ef830eac16f09be639046ba65c9578d3acd06da88d2d06be2ac95bd3e7c1cc5",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 17296,
+        "integrity": "verified",
+        "sha256": "0ef830eac16f09be639046ba65c9578d3acd06da88d2d06be2ac95bd3e7c1cc5"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:11a4e227ce8a3056456f91ff65847292ec3540ff8fe66c8c744e9bba30f42895",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 16249,
+        "integrity": "verified",
+        "sha256": "11a4e227ce8a3056456f91ff65847292ec3540ff8fe66c8c744e9bba30f42895"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:1646a86213afaef2737747d0d2aef6ab917c831096035e27251f0c4e8a504ade",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 2007,
+        "integrity": "verified",
+        "sha256": "1646a86213afaef2737747d0d2aef6ab917c831096035e27251f0c4e8a504ade"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:1a9325a58a7d82782eb2714011ff0919106a4a146f2e8c57659c76fd1e9b40d1",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 167,
+        "integrity": "verified",
+        "sha256": "1a9325a58a7d82782eb2714011ff0919106a4a146f2e8c57659c76fd1e9b40d1"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:24d98072904dc4ee16181f1d7e9e09609c14ba51191734cb7bef4ef204b3dd84",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 28,
+        "integrity": "verified",
+        "sha256": "24d98072904dc4ee16181f1d7e9e09609c14ba51191734cb7bef4ef204b3dd84"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:26c49f59fe44ecc6d69385a57f969ff29c80e5c47421884eddb5461d373f9141",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 5466,
+        "integrity": "verified",
+        "sha256": "26c49f59fe44ecc6d69385a57f969ff29c80e5c47421884eddb5461d373f9141"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:30d1bd121d2658975c0a95dde6d95f1565a877d99a2e5874b5220600021cbbfb",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 33384,
+        "integrity": "verified",
+        "sha256": "30d1bd121d2658975c0a95dde6d95f1565a877d99a2e5874b5220600021cbbfb"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 338,
+        "integrity": "verified",
+        "sha256": "43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:494f4608a4ee8360d70ff63345c68eebf19f55ffec7888663dc3f2ebbf8a109b",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 10004,
+        "integrity": "verified",
+        "sha256": "494f4608a4ee8360d70ff63345c68eebf19f55ffec7888663dc3f2ebbf8a109b"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:4c47eb1b7846505ebbe9660011b6235ef72460d9c907c2fe018f6ba65fff1442",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 1883,
+        "integrity": "verified",
+        "sha256": "4c47eb1b7846505ebbe9660011b6235ef72460d9c907c2fe018f6ba65fff1442"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:51696c4067413625171bc5c0a30de07e208cebc430298f2b77bb89c85501fde6",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 31,
+        "integrity": "verified",
+        "sha256": "51696c4067413625171bc5c0a30de07e208cebc430298f2b77bb89c85501fde6"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:51b668879b60c3e5ce90cb1696569ff257daae7c24861e70e2e222a48dda01de",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 2213,
+        "integrity": "verified",
+        "sha256": "51b668879b60c3e5ce90cb1696569ff257daae7c24861e70e2e222a48dda01de"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:78eea71b67b0d35e03f0499cbf8c0abe11e11cfdffaafb95f95c87e4134979ae",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 46338,
+        "integrity": "verified",
+        "sha256": "78eea71b67b0d35e03f0499cbf8c0abe11e11cfdffaafb95f95c87e4134979ae"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:7deea6d4d1f063c4ef01b0c5fa9b31b487e8844ec41b2317bb9a9880ffe45d73",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 14589,
+        "integrity": "verified",
+        "sha256": "7deea6d4d1f063c4ef01b0c5fa9b31b487e8844ec41b2317bb9a9880ffe45d73"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:800a6f3f0a514a1976d17b4890397783316b5f97bab3929c6ee07da99a7df72b",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 2936,
+        "integrity": "verified",
+        "sha256": "800a6f3f0a514a1976d17b4890397783316b5f97bab3929c6ee07da99a7df72b"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:9140cdd76fb5172ae678d31c24fb0670cb71bea886f37444ef51c2cfc25d0e6d",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 257853,
+        "integrity": "verified",
+        "sha256": "9140cdd76fb5172ae678d31c24fb0670cb71bea886f37444ef51c2cfc25d0e6d"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:91d32a666f83e41917e0c6da2dc7fd5d983225244621b6507a963c5f821df6cd",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 103515,
+        "integrity": "verified",
+        "sha256": "91d32a666f83e41917e0c6da2dc7fd5d983225244621b6507a963c5f821df6cd"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:9923a21a8fa533f6810e838b3249f5e351f72ed52f8bc5986a8f32bb85f8f393",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 40788,
+        "integrity": "verified",
+        "sha256": "9923a21a8fa533f6810e838b3249f5e351f72ed52f8bc5986a8f32bb85f8f393"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:9bde5a978f7b3edf9a603199066d2612bae457e68e25e15e6426ec0e4161ab0b",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 333901,
+        "integrity": "verified",
+        "sha256": "9bde5a978f7b3edf9a603199066d2612bae457e68e25e15e6426ec0e4161ab0b"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:acd7592a8cbeb5c51d639f92d063bf4943ec86ec8357fe3b3b3670092d1a7ea2",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 4050,
+        "integrity": "verified",
+        "sha256": "acd7592a8cbeb5c51d639f92d063bf4943ec86ec8357fe3b3b3670092d1a7ea2"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:b0777e8694257fd960bfdff24dfc1e0bfa1a97a37e8b4f46aeec9dd602243a7f",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 35523,
+        "integrity": "verified",
+        "sha256": "b0777e8694257fd960bfdff24dfc1e0bfa1a97a37e8b4f46aeec9dd602243a7f"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:b1b2ee7aa4707204b57611d3a0821c6ab6978b47fc4e07991450aa948fcd952c",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 3877,
+        "integrity": "verified",
+        "sha256": "b1b2ee7aa4707204b57611d3a0821c6ab6978b47fc4e07991450aa948fcd952c"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:c970b09336c81dc2e47c40c8e7d157bcb0feab2d4cc69c007be6adc460c98d6c",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 282179,
+        "integrity": "verified",
+        "sha256": "c970b09336c81dc2e47c40c8e7d157bcb0feab2d4cc69c007be6adc460c98d6c"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:d407ca99415becf5c366b6a96de836d5261fbcf360caf88c4a8788df929c6a6e",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 63440,
+        "integrity": "verified",
+        "sha256": "d407ca99415becf5c366b6a96de836d5261fbcf360caf88c4a8788df929c6a6e"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:d6e647ed700597aad1009d7a3ad1d53940857a435cffcac84fe632c72e43e032",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 15288,
+        "integrity": "verified",
+        "sha256": "d6e647ed700597aad1009d7a3ad1d53940857a435cffcac84fe632c72e43e032"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:d7134bd247f9c6881174c39730e3dca9fe00468bd4400f5ca0d37a189213c410",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 156,
+        "integrity": "verified",
+        "sha256": "d7134bd247f9c6881174c39730e3dca9fe00468bd4400f5ca0d37a189213c410"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:db65c5900ba0ec2099b620dc1b29825285b87912ad323343957a94dff3b5573b",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 9541136,
+        "integrity": "verified",
+        "sha256": "db65c5900ba0ec2099b620dc1b29825285b87912ad323343957a94dff3b5573b"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:dcb4306f62b5b516c836d69159ab581e022fab7dff8e7a8a977dbad69bea28b4",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 517,
+        "integrity": "verified",
+        "sha256": "dcb4306f62b5b516c836d69159ab581e022fab7dff8e7a8a977dbad69bea28b4"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:e7a399d0f30e03138fbe595c96d89e0c9a6d8e2930e29c916529cd915a73644e",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 242,
+        "integrity": "verified",
+        "sha256": "e7a399d0f30e03138fbe595c96d89e0c9a6d8e2930e29c916529cd915a73644e"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:f144ff572cccd325a6a7a4d8171abea3a2c29378dc99bf4de76764ca46941016",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 4831,
+        "integrity": "verified",
+        "sha256": "f144ff572cccd325a6a7a4d8171abea3a2c29378dc99bf4de76764ca46941016"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:f3b7e08d6546ad8a0e909cb74e18c4eda1eb4cc638c1c9300c39d3c172559ad7",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 60059,
+        "integrity": "verified",
+        "sha256": "f3b7e08d6546ad8a0e909cb74e18c4eda1eb4cc638c1c9300c39d3c172559ad7"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    },
+    {
+      "actor": null,
+      "created_at": null,
+      "event_hash": null,
+      "id": "artifact:sha256:f9c929f02f6446322881ed9db0562b05bea6571ffd2468699a38d672ea592761",
+      "kind": "artifact",
+      "payload": {
+        "bytes": 9594,
+        "integrity": "verified",
+        "sha256": "f9c929f02f6446322881ed9db0562b05bea6571ffd2468699a38d672ea592761"
+      },
+      "role": null,
+      "scientific_validity": "not_assessed",
+      "seq": null
+    }
+  ],
+  "revision": 44,
+  "scientific_validity": "not_assessed",
+  "snapshot_hash": "56ccf78fa134a4a51254604f8d9f6542fddca1ebc1051235d8254ee109fc53bc",
+  "validation": "event_chain_references_and_artifact_bytes_at_construction"
+}

@@ -1,0 +1,254 @@
+{
+  "captured_utc": "2026-11-25T18:31:12.018240+00:00",
+  "docs": "https://routerai.ru/docs/guides/overview/provider-selection",
+  "rows": [
+    {
+      "model": "baai/bge-m3",
+      "requested_only": "deepinfra",
+      "actual": [
+        {
+          "model": "BAAI/bge-m3",
+          "provider": "DeepInfra"
+        },
+        {
+          "model": "BAAI/bge-m3",
+          "provider": "DeepInfra"
+        },
+        {
+          "model": "BAAI/bge-m3",
+          "provider": "DeepInfra"
+        },
+        {
+          "model": "BAAI/bge-m3",
+          "provider": "DeepInfra"
+        }
+      ],
+      "failures": [],
+      "calibration": {
+        "transport": "input_sensitive",
+        "aliases": [
+          "BAAI/bge-m3",
+          "BAAI/bge-m3",
+          "BAAI/bge-m3",
+          "BAAI/bge-m3"
+        ],
+        "response_model": "BAAI/bge-m3",
+        "dimension": 1024,
+        "control_gap": 1.0316609637735303,
+        "max_repeat_drift": 0.0010973715640135696,
+        "vector_sha256": [
+          "4263b630a4e0887f0d914fef27584af356526eb9838e8325995afe27aa1392b6",
+          "e65ea27461f0124ae27dbe8ce0a107622b498ce73acc68045b4d1bea0ae22a8a",
+          "331436a047235ca3f3d6c8c858916e65898b4da778cbff04a0eeeeccc08661c4",
+          "b55e6872f0e87ac980bacf3b79ed2e0eb0a65dc96a1e8e494d4956ffa9e4a799"
+        ]
+      },
+      "pinned_provider_verified": true,
+      "unsupported_provider_rejected": false
+    },
+    {
+      "model": "baai/bge-m3",
+      "requested_only": "parasail",
+      "actual": [
+        {
+          "model": "parasail-bge-m3",
+          "provider": "Parasail"
+        },
+        {
+          "model": "parasail-bge-m3",
+          "provider": "Parasail"
+        },
+        {
+          "model": "parasail-bge-m3",
+          "provider": "Parasail"
+        },
+        {
+          "model": "parasail-bge-m3",
+          "provider": "Parasail"
+        }
+      ],
+      "failures": [],
+      "calibration": {
+        "transport": "input_sensitive",
+        "aliases": [
+          "parasail-bge-m3",
+          "parasail-bge-m3",
+          "parasail-bge-m3",
+          "parasail-bge-m3"
+        ],
+        "response_model": "parasail-bge-m3",
+        "dimension": 1024,
+        "control_gap": 1.0317861853082626,
+        "max_repeat_drift": 0.0,
+        "vector_sha256": [
+          "de9af6a2e2ccb515b57ff5ff7fbc001dd1332aa6e0cdb34a3798c747adcacce0",
+          "e3b0aa2386869c4cf0c95a8d859764ab94cd7956baa4a58881e09e3558b03b0a",
+          "de9af6a2e2ccb515b57ff5ff7fbc001dd1332aa6e0cdb34a3798c747adcacce0",
+          "e3b0aa2386869c4cf0c95a8d859764ab94cd7956baa4a58881e09e3558b03b0a"
+        ]
+      },
+      "pinned_provider_verified": true,
+      "unsupported_provider_rejected": false
+    },
+    {
+      "model": "baai/bge-m3",
+      "requested_only": "openai",
+      "actual": [],
+      "failures": [
+        "RouterAI HTTP 404: pin:baai/bge-m3:openai:0:0 124761a30585",
+        "RouterAI HTTP 404: pin:baai/bge-m3:openai:0:1 6c19134acce0",
+        "RouterAI HTTP 404: pin:baai/bge-m3:openai:1:0 124761a30585",
+        "RouterAI HTTP 404: pin:baai/bge-m3:openai:1:1 6c19134acce0"
+      ],
+      "calibration": null,
+      "pinned_provider_verified": false,
+      "unsupported_provider_rejected": true
+    },
+    {
+      "model": "qwen/qwen3-embedding-8b",
+      "requested_only": "deepinfra",
+      "actual": [
+        {
+          "model": "Qwen/Qwen3-Embedding-8B",
+          "provider": "DeepInfra"
+        },
+        {
+          "model": "Qwen/Qwen3-Embedding-8B",
+          "provider": "DeepInfra"
+        },
+        {
+          "model": "Qwen/Qwen3-Embedding-8B",
+          "provider": "DeepInfra"
+        },
+        {
+          "model": "Qwen/Qwen3-Embedding-8B",
+          "provider": "DeepInfra"
+        }
+      ],
+      "failures": [],
+      "calibration": {
+        "transport": "input_sensitive",
+        "aliases": [
+          "Qwen/Qwen3-Embedding-8B",
+          "Qwen/Qwen3-Embedding-8B",
+          "Qwen/Qwen3-Embedding-8B",
+          "Qwen/Qwen3-Embedding-8B"
+        ],
+        "response_model": "Qwen/Qwen3-Embedding-8B",
+        "dimension": 4096,
+        "control_gap": 1.137809487736104,
+        "max_repeat_drift": 0.059567624954255285,
+        "vector_sha256": [
+          "78d417b2c9683da39a8596db16eafb651cfee354fb503b17d6094683787f34c5",
+          "b55dede95eb6caf97c330a68c6675b9315db8542e5a58f3876dc1eb6a4bc9614",
+          "78d417b2c9683da39a8596db16eafb651cfee354fb503b17d6094683787f34c5",
+          "6dd9e62d5bb1b27f9fabd0de8fcab33aad330e09b38d3d5ab1988f1fe029f97d"
+        ]
+      },
+      "pinned_provider_verified": true,
+      "unsupported_provider_rejected": false
+    },
+    {
+      "model": "qwen/qwen3-embedding-8b",
+      "requested_only": "nebius",
+      "actual": [
+        {
+          "model": "Qwen/Qwen3-Embedding-8B",
+          "provider": "Nebius"
+        },
+        {
+          "model": "Qwen/Qwen3-Embedding-8B",
+          "provider": "Nebius"
+        },
+        {
+          "model": "Qwen/Qwen3-Embedding-8B",
+          "provider": "Nebius"
+        },
+        {
+          "model": "Qwen/Qwen3-Embedding-8B",
+          "provider": "Nebius"
+        }
+      ],
+      "failures": [],
+      "calibration": {
+        "transport": "input_sensitive",
+        "aliases": [
+          "Qwen/Qwen3-Embedding-8B",
+          "Qwen/Qwen3-Embedding-8B",
+          "Qwen/Qwen3-Embedding-8B",
+          "Qwen/Qwen3-Embedding-8B"
+        ],
+        "response_model": "Qwen/Qwen3-Embedding-8B",
+        "dimension": 4096,
+        "control_gap": 1.1403207937777153,
+        "max_repeat_drift": 0.0,
+        "vector_sha256": [
+          "ce2aed4ffb0f4b15fd88f76c8bec09439bc920698f7dd771712fb60db5449219",
+          "3445b478184608a0613c1a5752f3a1c0ba9bfc49a1c6e97bacd322d723853fba",
+          "ce2aed4ffb0f4b15fd88f76c8bec09439bc920698f7dd771712fb60db5449219",
+          "3445b478184608a0613c1a5752f3a1c0ba9bfc49a1c6e97bacd322d723853fba"
+        ]
+      },
+      "pinned_provider_verified": true,
+      "unsupported_provider_rejected": false
+    },
+    {
+      "model": "qwen/qwen3-embedding-8b",
+      "requested_only": "siliconflow",
+      "actual": [
+        {
+          "model": "Qwen/Qwen3-Embedding-8B",
+          "provider": "SiliconFlow"
+        },
+        {
+          "model": "Qwen/Qwen3-Embedding-8B",
+          "provider": "SiliconFlow"
+        },
+        {
+          "model": "Qwen/Qwen3-Embedding-8B",
+          "provider": "SiliconFlow"
+        },
+        {
+          "model": "Qwen/Qwen3-Embedding-8B",
+          "provider": "SiliconFlow"
+        }
+      ],
+      "failures": [],
+      "calibration": {
+        "transport": "input_sensitive",
+        "aliases": [
+          "Qwen/Qwen3-Embedding-8B",
+          "Qwen/Qwen3-Embedding-8B",
+          "Qwen/Qwen3-Embedding-8B",
+          "Qwen/Qwen3-Embedding-8B"
+        ],
+        "response_model": "Qwen/Qwen3-Embedding-8B",
+        "dimension": 4096,
+        "control_gap": 1.140814736968031,
+        "max_repeat_drift": 0.012271977970383742,
+        "vector_sha256": [
+          "c8d642da781a502ce14eff0d9d4c22e3af1ba8e2b93a7b5e64f426dca269de72",
+          "058621414ade852d1af61b729a58e3009169eb85d5c0255b352d55135f7b40dd",
+          "c8d642da781a502ce14eff0d9d4c22e3af1ba8e2b93a7b5e64f426dca269de72",
+          "dfded02b2e1d076b8f85d1696946b1d97871effc592872aeb3e8154e80ad91b9"
+        ]
+      },
+      "pinned_provider_verified": true,
+      "unsupported_provider_rejected": false
+    },
+    {
+      "model": "qwen/qwen3-embedding-8b",
+      "requested_only": "openai",
+      "actual": [],
+      "failures": [
+        "RouterAI HTTP 404: pin:qwen/qwen3-embedding-8b:openai:0:0 87c08d26162d",
+        "RouterAI HTTP 404: pin:qwen/qwen3-embedding-8b:openai:0:1 314e8ff758b3",
+        "RouterAI HTTP 404: pin:qwen/qwen3-embedding-8b:openai:1:0 87c08d26162d",
+        "RouterAI HTTP 404: pin:qwen/qwen3-embedding-8b:openai:1:1 314e8ff758b3"
+      ],
+      "calibration": null,
+      "pinned_provider_verified": false,
+      "unsupported_provider_rejected": true
+    }
+  ]
+}

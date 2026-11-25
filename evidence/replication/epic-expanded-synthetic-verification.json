@@ -1,0 +1,10 @@
+{
+  "synthetic_only": true,
+  "dataset": "epic-sounds",
+  "concepts": 14,
+  "sources": 56,
+  "taxonomy_null_sampling": "exact",
+  "permutations_exact": 34560,
+  "minimum_exact_p": 2.8935185185185186e-05,
+  "manifest_sha256": "2aa2c8f99e0e7742021f7331971cb5ea9c6e635bbc499a64224c8bb4061d97fa"
+}

@@ -1,0 +1,7 @@
+{
+  "reason": "direct native acquisition is blocked by the RouterAI route audit",
+  "route_sha256": "25cd8ec057726870a1b28af4dadcc8a3c2d9542f1526656fe2d44e8df4d5ec69",
+  "candidate_manifest_sha256": "f6a56cde02c9d05b22940b4c2adfdcd5a19f802637589aa94c3e3d4427cf02c0",
+  "created_frozen_run": false,
+  "extraction_attempts": 0
+}

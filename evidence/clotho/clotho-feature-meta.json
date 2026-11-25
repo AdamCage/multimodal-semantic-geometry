@@ -1,0 +1,19 @@
+{
+  "errors": [],
+  "observed_models": {
+    "human_bge": [
+      "BAAI/bge-m3",
+      "parasail-bge-m3"
+    ],
+    "machine_bge": [
+      "BAAI/bge-m3",
+      "parasail-bge-m3"
+    ],
+    "machine_qwen": [
+      "Qwen/Qwen3-Embedding-8B"
+    ],
+    "human_qwen": [
+      "Qwen/Qwen3-Embedding-8B"
+    ]
+  }
+}

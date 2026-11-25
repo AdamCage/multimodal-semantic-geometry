@@ -1,0 +1,987 @@
+{
+  "protocols": "Ordinal Spearman in creator-disjoint folds, 4999 concept-label null draws with 126 Holm slots, plus separate descriptives.",
+  "measurements": [
+    {
+      "pair": "text_bge__text_qwen",
+      "interpretation": "reliability_context",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.6766469868241052,
+      "cross_source": 0.4872921016631865,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.0804,
+      "within_group": {
+        "estimate": 0.5333333333333333,
+        "null_median": -0.001569264069264072,
+        "null_q95": 0.2778210678210677,
+        "p": 0.0008,
+        "p_holm": 0.060000000000000005
+      },
+      "reliability": {
+        "left": 0.5613603091175268,
+        "right": 0.5065135478916167
+      },
+      "source_sensitivity": [
+        0.1738528691770465,
+        0.5190485876112991
+      ],
+      "paired_excess_sensitivity": [
+        0.10653562771497835,
+        0.5085576115391074
+      ],
+      "neighbors_k3": 0.49122807017543857,
+      "cka": 0.9417106919768922,
+      "metric_error": 0.16058977683096728,
+      "constant_error": 0.14634223336480923
+    },
+    {
+      "pair": "image_titan__image_voyage",
+      "interpretation": "co_aligned_image_families",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.807143542851657,
+      "cross_source": 0.5402128782969735,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.0804,
+      "within_group": {
+        "estimate": 0.519390331890332,
+        "null_median": -0.004924242424242456,
+        "null_q95": 0.2597997835497834,
+        "p": 0.0014,
+        "p_holm": 0.091
+      },
+      "reliability": {
+        "left": 0.5763457892336862,
+        "right": 0.576861785105719
+      },
+      "source_sensitivity": [
+        0.2903202174382605,
+        0.5466039671682626
+      ],
+      "paired_excess_sensitivity": [
+        0.1551378188974488,
+        0.4433429332565338
+      ],
+      "neighbors_k3": 0.5175438596491229,
+      "cka": 0.9169001060829257,
+      "metric_error": 0.15469274192300794,
+      "constant_error": 0.17271642954102664
+    },
+    {
+      "pair": "text_bge__image_titan",
+      "interpretation": "native_inputs_separate_models_image_coaligned",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.5221362229102167,
+      "cross_source": 0.5920584635322919,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.0252,
+      "within_group": {
+        "estimate": 0.6154761904761905,
+        "null_median": -0.00766594516594515,
+        "null_q95": 0.28750000000000003,
+        "p": 0.0002,
+        "p_holm": 0.0252
+      },
+      "reliability": {
+        "left": 0.5613603091175268,
+        "right": 0.5763457892336862
+      },
+      "source_sensitivity": [
+        0.248656370749034,
+        0.5393046655626755
+      ],
+      "paired_excess_sensitivity": [
+        -0.01832343341253278,
+        0.29024521803825587
+      ],
+      "neighbors_k3": 0.5,
+      "cka": 0.9323387026909419,
+      "metric_error": 0.13542438732422984,
+      "constant_error": 0.21583700775829442
+    },
+    {
+      "pair": "text_qwen__image_voyage",
+      "interpretation": "native_inputs_separate_models_image_coaligned",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.49612403100775193,
+      "cross_source": 0.503454772361821,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.0252,
+      "within_group": {
+        "estimate": 0.603896103896104,
+        "null_median": -0.015151515151515138,
+        "null_q95": 0.25125541125541084,
+        "p": 0.0002,
+        "p_holm": 0.0252
+      },
+      "reliability": {
+        "left": 0.5065135478916167,
+        "right": 0.576861785105719
+      },
+      "source_sensitivity": [
+        0.2601379388964888,
+        0.4781607747138022
+      ],
+      "paired_excess_sensitivity": [
+        -0.06353301173590614,
+        0.1918554251565987
+      ],
+      "neighbors_k3": 0.5438596491228069,
+      "cka": 0.9345271099691781,
+      "metric_error": 0.13798301696440815,
+      "constant_error": 0.17271642954102664
+    },
+    {
+      "pair": "text_bge__image_voyage",
+      "interpretation": "native_inputs_separate_models_image_coaligned",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.4803621571027432,
+      "cross_source": 0.5138670890632874,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.0252,
+      "within_group": {
+        "estimate": 0.5721500721500722,
+        "null_median": -0.008405483405483397,
+        "null_q95": 0.2622330447330446,
+        "p": 0.0004,
+        "p_holm": 0.033600000000000005
+      },
+      "reliability": {
+        "left": 0.5613603091175268,
+        "right": 0.576861785105719
+      },
+      "source_sensitivity": [
+        0.25437774497804017,
+        0.48965542275661794
+      ],
+      "paired_excess_sensitivity": [
+        -0.058605911152710764,
+        0.1954493964048288
+      ],
+      "neighbors_k3": 0.5350877192982456,
+      "cka": 0.9243325249678973,
+      "metric_error": 0.11659425556490813,
+      "constant_error": 0.17271642954102664
+    },
+    {
+      "pair": "text_qwen__image_titan",
+      "interpretation": "native_inputs_separate_models_image_coaligned",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.4175330597355222,
+      "cross_source": 0.4434552523579812,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.060000000000000005,
+      "within_group": {
+        "estimate": 0.49006132756132753,
+        "null_median": -0.0028679653679653688,
+        "null_q95": 0.26652417027417,
+        "p": 0.003,
+        "p_holm": 0.17400000000000002
+      },
+      "reliability": {
+        "left": 0.5065135478916167,
+        "right": 0.5763457892336862
+      },
+      "source_sensitivity": [
+        0.1715988672090623,
+        0.429172966616267
+      ],
+      "paired_excess_sensitivity": [
+        -0.062129142966856225,
+        0.2780517555859553
+      ],
+      "neighbors_k3": 0.49122807017543857,
+      "cka": 0.9293017146365696,
+      "metric_error": 0.1790221368773861,
+      "constant_error": 0.21583700775829442
+    },
+    {
+      "pair": "text_gemini__image_gemini",
+      "interpretation": "shared_coaligned_model",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.5009467924256605,
+      "cross_source": 0.4303729570163438,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.046799999999999994,
+      "within_group": {
+        "estimate": 0.4162157287157287,
+        "null_median": -0.007738095238095238,
+        "null_q95": 0.25285714285714234,
+        "p": 0.008,
+        "p_holm": 0.40800000000000003
+      },
+      "reliability": {
+        "left": 0.4188158494732041,
+        "right": 0.6039767681858543
+      },
+      "source_sensitivity": [
+        0.08153766769865838,
+        0.4793436052511578
+      ],
+      "paired_excess_sensitivity": [
+        0.014110087119303125,
+        0.42232252141982873
+      ],
+      "neighbors_k3": 0.48245614035087714,
+      "cka": 0.9282664254326651,
+      "metric_error": 0.2309109308447645,
+      "constant_error": 0.1950635330408076
+    },
+    {
+      "pair": "text_bge__audio_caption_bge",
+      "interpretation": "text_mediated_shared_text_head",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.32144982840137276,
+      "cross_source": 0.3190894472844217,
+      "p_global_holm": 0.033600000000000005,
+      "p_blocked_holm": 1.0,
+      "within_group": {
+        "estimate": 0.4066378066378067,
+        "null_median": 0.00023448773448776772,
+        "null_q95": 0.2713798701298701,
+        "p": 0.0064,
+        "p_holm": 0.33280000000000004
+      },
+      "reliability": {
+        "left": 0.5613603091175268,
+        "right": 0.6546859625122998
+      },
+      "source_sensitivity": [
+        0.03351195190438475,
+        0.36432236542107677
+      ],
+      "paired_excess_sensitivity": [
+        -0.025149878800969656,
+        0.30757937936496504
+      ],
+      "neighbors_k3": 0.45614035087719296,
+      "cka": 0.7589721617214138,
+      "metric_error": 0.40688083209651954,
+      "constant_error": 0.45616772000366823
+    },
+    {
+      "pair": "text_bge__video_caption_bge",
+      "interpretation": "text_mediated_shared_text_head",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.5125602995176037,
+      "cross_source": 0.5777833777329779,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.060000000000000005,
+      "within_group": {
+        "estimate": 0.5890512265512265,
+        "null_median": -0.003246753246753257,
+        "null_q95": 0.30421897546897486,
+        "p": 0.0004,
+        "p_holm": 0.033600000000000005
+      },
+      "reliability": {
+        "left": 0.5613603091175268,
+        "right": 0.7140662874697001
+      },
+      "source_sensitivity": [
+        0.3055240358077136,
+        0.5582649338805288
+      ],
+      "paired_excess_sensitivity": [
+        -0.04225580195358432,
+        0.20407126742986062
+      ],
+      "neighbors_k3": 0.5614035087719298,
+      "cka": 0.9106262694318612,
+      "metric_error": 0.1543825804476586,
+      "constant_error": 0.22273998800507094
+    },
+    {
+      "pair": "image_titan__audio_caption_bge",
+      "interpretation": "text_mediated_audio",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.2901744786041711,
+      "cross_source": 0.40644394844841225,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 1.0,
+      "within_group": {
+        "estimate": 0.3788059163059163,
+        "null_median": 0.004220779220779204,
+        "null_q95": 0.24320707070707048,
+        "p": 0.004,
+        "p_holm": 0.22
+      },
+      "reliability": {
+        "left": 0.5763457892336862,
+        "right": 0.6546859625122998
+      },
+      "source_sensitivity": [
+        0.19234904120767032,
+        0.4962051503587971
+      ],
+      "paired_excess_sensitivity": [
+        -0.12938494492044053,
+        0.1445090839273286
+      ],
+      "neighbors_k3": 0.4298245614035088,
+      "cka": 0.7450599610855309,
+      "metric_error": 0.36276511098102404,
+      "constant_error": 0.45616772000366823
+    },
+    {
+      "pair": "image_titan__video_caption_bge",
+      "interpretation": "text_mediated_video",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.7309405524755798,
+      "cross_source": 0.5807509539923678,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.2128,
+      "within_group": {
+        "estimate": 0.5650613275613275,
+        "null_median": -0.0031746031746031265,
+        "null_q95": 0.2838961038961038,
+        "p": 0.0006,
+        "p_holm": 0.046799999999999994
+      },
+      "reliability": {
+        "left": 0.5763457892336862,
+        "right": 0.7140662874697001
+      },
+      "source_sensitivity": [
+        0.30743556051551585,
+        0.6102008783929727
+      ],
+      "paired_excess_sensitivity": [
+        0.10022523819809437,
+        0.3823108215134278
+      ],
+      "neighbors_k3": 0.5175438596491228,
+      "cka": 0.9103224655888307,
+      "metric_error": 0.1998119586242746,
+      "constant_error": 0.22273998800507094
+    },
+    {
+      "pair": "audio_caption_bge__video_caption_bge",
+      "interpretation": "text_mediated_shared_captioner_and_text_head",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.20327237382100935,
+      "cross_source": 0.32046703626370987,
+      "p_global_holm": 0.1008,
+      "p_blocked_holm": 1.0,
+      "within_group": {
+        "estimate": 0.2179292929292929,
+        "null_median": 0.0014249639249639217,
+        "null_q95": 0.25923701298701285,
+        "p": 0.0882,
+        "p_holm": 1.0
+      },
+      "reliability": {
+        "left": 0.6546859625122998,
+        "right": 0.7140662874697001
+      },
+      "source_sensitivity": [
+        0.13195670434636522,
+        0.4209035927712578
+      ],
+      "paired_excess_sensitivity": [
+        -0.15273633810929504,
+        0.09220354237166095
+      ],
+      "neighbors_k3": 0.3771929824561403,
+      "cka": 0.7315831711407159,
+      "metric_error": 0.45488935978398154,
+      "constant_error": 0.22273998800507094
+    },
+    {
+      "pair": "audio_caption_qwen__video_caption_qwen",
+      "interpretation": "text_mediated_shared_captioner_and_text_head",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.19706122351021188,
+      "cross_source": 0.2512227902176783,
+      "p_global_holm": 0.48960000000000004,
+      "p_blocked_holm": 1.0,
+      "within_group": {
+        "estimate": 0.061309523809523814,
+        "null_median": -0.0012085137085137143,
+        "null_q95": 0.25630952380952376,
+        "p": 0.3438,
+        "p_holm": 1.0
+      },
+      "reliability": {
+        "left": 0.553046775625795,
+        "right": 0.6893824849401204
+      },
+      "source_sensitivity": [
+        0.0764030887752898,
+        0.40809513523891805
+      ],
+      "paired_excess_sensitivity": [
+        -0.15782783737730097,
+        0.13855869153046776
+      ],
+      "neighbors_k3": 0.3070175438596491,
+      "cka": 0.7303560197737298,
+      "metric_error": 0.38992364203467256,
+      "constant_error": 0.219631996541874
+    },
+    {
+      "pair": "image_caption_bge__audio_caption_bge",
+      "interpretation": "text_mediated_shared_captioner_and_text_head",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.17777257781937744,
+      "cross_source": 0.23785849713202287,
+      "p_global_holm": 1.0,
+      "p_blocked_holm": 1.0,
+      "within_group": {
+        "estimate": 0.2590367965367965,
+        "null_median": -0.002380952380952437,
+        "null_q95": 0.26148088023087973,
+        "p": 0.0534,
+        "p_holm": 1.0
+      },
+      "reliability": {
+        "left": 0.7378260973912206,
+        "right": 0.6546859625122998
+      },
+      "source_sensitivity": [
+        0.054457004343965235,
+        0.3555046559627522
+      ],
+      "paired_excess_sensitivity": [
+        -0.09856313149494801,
+        0.15051653586771305
+      ],
+      "neighbors_k3": 0.43859649122807015,
+      "cka": 0.7222495993897889,
+      "metric_error": 0.41963867881033234,
+      "constant_error": 0.45616772000366823
+    },
+    {
+      "pair": "image_caption_bge__video_caption_bge",
+      "interpretation": "text_mediated_shared_captioner_and_text_head",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.8772685818513447,
+      "cross_source": 0.6992092063263491,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.0252,
+      "within_group": {
+        "estimate": 0.6052128427128428,
+        "null_median": -0.006890331890331873,
+        "null_q95": 0.29674062049062017,
+        "p": 0.0004,
+        "p_holm": 0.033600000000000005
+      },
+      "reliability": {
+        "left": 0.7378260973912206,
+        "right": 0.7140662874697001
+      },
+      "source_sensitivity": [
+        0.4617099263205893,
+        0.6964453884368923
+      ],
+      "paired_excess_sensitivity": [
+        0.1521710826313389,
+        0.3953882568939448
+      ],
+      "neighbors_k3": 0.5877192982456141,
+      "cka": 0.920042309151977,
+      "metric_error": 0.1500226614390751,
+      "constant_error": 0.22273998800507094
+    },
+    {
+      "pair": "text_qwen__audio_caption_qwen",
+      "interpretation": "text_mediated_shared_text_head",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.1514363885088919,
+      "cross_source": 0.20762833897328822,
+      "p_global_holm": 0.6642,
+      "p_blocked_holm": 1.0,
+      "within_group": {
+        "estimate": 0.25232683982683984,
+        "null_median": 0.0013528138528138417,
+        "null_q95": 0.24171717171717155,
+        "p": 0.0438,
+        "p_holm": 1.0
+      },
+      "reliability": {
+        "left": 0.5065135478916167,
+        "right": 0.553046775625795
+      },
+      "source_sensitivity": [
+        -0.017461000311997515,
+        0.28664080687354515
+      ],
+      "paired_excess_sensitivity": [
+        -0.09786983704130366,
+        0.24005357957136347
+      ],
+      "neighbors_k3": 0.3421052631578947,
+      "cka": 0.7544392514671838,
+      "metric_error": 0.4096637463698436,
+      "constant_error": 0.42500553801638463
+    },
+    {
+      "pair": "text_qwen__video_caption_qwen",
+      "interpretation": "text_mediated_shared_text_head",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.48212614299085604,
+      "cross_source": 0.49729162166702656,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.2052,
+      "within_group": {
+        "estimate": 0.49920634920634915,
+        "null_median": 0.003391053391053398,
+        "null_q95": 0.308829365079365,
+        "p": 0.0044,
+        "p_holm": 0.2376
+      },
+      "reliability": {
+        "left": 0.5065135478916167,
+        "right": 0.6893824849401204
+      },
+      "source_sensitivity": [
+        0.2535253917968656,
+        0.5044126046991624
+      ],
+      "paired_excess_sensitivity": [
+        -0.07163696690426484,
+        0.20645276837785292
+      ],
+      "neighbors_k3": 0.5701754385964912,
+      "cka": 0.9331210859615822,
+      "metric_error": 0.17606459085566736,
+      "constant_error": 0.219631996541874
+    },
+    {
+      "pair": "text_bge__audio_signal",
+      "interpretation": "fixed_signal_control",
+      "status": "measured",
+      "source_count": 120,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.14675642594859242,
+      "cross_source": 0.16713466292269658,
+      "p_global_holm": 1.0,
+      "p_blocked_holm": 1.0,
+      "within_group": {
+        "estimate": 0.16158008658008657,
+        "null_median": -0.004202741702741708,
+        "null_q95": 0.2254148629148629,
+        "p": 0.1236,
+        "p_holm": 1.0
+      },
+      "reliability": {
+        "left": 0.5613603091175268,
+        "right": 0.21751265989872076
+      },
+      "source_sensitivity": [
+        -0.03849029207766336,
+        0.24286587707298338
+      ],
+      "paired_excess_sensitivity": [
+        -0.15255441956464347,
+        0.2164023087815298
+      ],
+      "neighbors_k3": 0.23684210526315788,
+      "cka": 0.42288718376619977,
+      "metric_error": 0.6971871284882754,
+      "constant_error": 0.7034396832547302
+    },
+    {
+      "pair": "image_titan__video_static",
+      "interpretation": "fixed_signal_control",
+      "status": "measured",
+      "source_count": 118,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.25863993088055304,
+      "cross_source": 0.2561919504643963,
+      "p_global_holm": 0.48960000000000004,
+      "p_blocked_holm": 1.0,
+      "within_group": {
+        "estimate": 0.05833333333333335,
+        "null_median": -0.006727994227994222,
+        "null_q95": 0.24731421356421326,
+        "p": 0.3454,
+        "p_holm": 1.0
+      },
+      "reliability": {
+        "left": 0.5672930616555067,
+        "right": 0.38050015599875203
+      },
+      "source_sensitivity": [
+        -0.03318147454820358,
+        0.27508267933856523
+      ],
+      "paired_excess_sensitivity": [
+        -0.10349353205174358,
+        0.23800789593683247
+      ],
+      "neighbors_k3": 0.21052631578947367,
+      "cka": 0.4975544032631353,
+      "metric_error": 0.661070240699306,
+      "constant_error": 0.6931339824967913
+    },
+    {
+      "pair": "image_titan__video_motion",
+      "interpretation": "fixed_signal_control",
+      "status": "measured",
+      "source_count": 118,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.40662034703722355,
+      "cross_source": 0.34094247246022025,
+      "p_global_holm": 0.0252,
+      "p_blocked_holm": 0.2862,
+      "within_group": {
+        "estimate": 0.4151515151515152,
+        "null_median": -0.002471139971139976,
+        "null_q95": 0.20913419913419912,
+        "p": 0.0006,
+        "p_holm": 0.046799999999999994
+      },
+      "reliability": {
+        "left": 0.5672930616555067,
+        "right": 0.3207358341133271
+      },
+      "source_sensitivity": [
+        0.06955444356445148,
+        0.4387581299349605
+      ],
+      "paired_excess_sensitivity": [
+        -0.034474164206686385,
+        0.34686040511675903
+      ],
+      "neighbors_k3": 0.3070175438596491,
+      "cka": 0.6606608449947279,
+      "metric_error": 0.43939420434890575,
+      "constant_error": 0.49648803509572265
+    },
+    {
+      "pair": "audio_signal__video_motion",
+      "interpretation": "fixed_signal_control",
+      "status": "measured",
+      "source_count": 118,
+      "groups": {
+        "animal_vocalizations": 2,
+        "instruments": 6,
+        "mechanical_or_natural_events": 5,
+        "powered_transport": 6
+      },
+      "paired": 0.2853109175126598,
+      "cross_source": 0.043995248038015675,
+      "p_global_holm": 1.0,
+      "p_blocked_holm": 1.0,
+      "within_group": {
+        "estimate": 0.15212842712842714,
+        "null_median": 0.0009559884559884949,
+        "null_q95": 0.23760642135642127,
+        "p": 0.1468,
+        "p_holm": 1.0
+      },
+      "reliability": {
+        "left": 0.21088391292869657,
+        "right": 0.3207358341133271
+      },
+      "source_sensitivity": [
+        -0.15001805985552114,
+        0.19677928576571388
+      ],
+      "paired_excess_sensitivity": [
+        -0.01794693642450859,
+        0.42163228694170446
+      ],
+      "neighbors_k3": 0.20175438596491227,
+      "cka": 0.3076875927484118,
+      "metric_error": 0.9566790047817857,
+      "constant_error": 0.49648803509572265
+    }
+  ],
+  "roster_sources": 120,
+  "concept_source_counts": {
+    "dog_bark": 4,
+    "rooster_crow": 4,
+    "accordion": 8,
+    "acoustic_guitar": 4,
+    "cello": 4,
+    "piano": 8,
+    "trumpet": 4,
+    "violin": 6,
+    "chainsaw": 4,
+    "church_bell": 8,
+    "fireworks": 6,
+    "ocean_waves": 8,
+    "waterfall": 8,
+    "diesel_train": 8,
+    "electric_train": 8,
+    "helicopter": 8,
+    "jet_aircraft": 6,
+    "propeller_aircraft": 6,
+    "steam_train": 8
+  },
+  "media_origin": {
+    "commons_description": 120
+  },
+  "feature_coverage": {
+    "audio_caption_bge": 120,
+    "audio_caption_qwen": 120,
+    "audio_signal": 120,
+    "image_caption_bge": 120,
+    "image_caption_qwen": 120,
+    "image_gemini": 120,
+    "image_titan": 120,
+    "image_voyage": 120,
+    "text_bge": 120,
+    "text_gemini": 120,
+    "text_qwen": 120,
+    "video_caption_bge": 120,
+    "video_caption_qwen": 120,
+    "video_motion": 119,
+    "video_static": 119
+  },
+  "observed_models": {
+    "image_titan": {
+      "amazon.titan-embed-image-v1": 120
+    },
+    "image_voyage": {
+      "voyage-multimodal-3.5": 120
+    },
+    "image_gemini": {
+      "google/gemini-embedding-2": 120
+    },
+    "text_bge": {
+      "BAAI/bge-m3": 24,
+      "parasail-bge-m3": 96
+    },
+    "text_qwen": {
+      "Qwen/Qwen3-Embedding-8B": 120
+    },
+    "text_gemini": {
+      "google/gemini-embedding-2": 120
+    },
+    "audio_caption_bge": {
+      "BAAI/bge-m3": 12,
+      "parasail-bge-m3": 108
+    },
+    "audio_caption_qwen": {
+      "Qwen/Qwen3-Embedding-8B": 120
+    },
+    "image_caption_bge": {
+      "BAAI/bge-m3": 48,
+      "parasail-bge-m3": 72
+    },
+    "image_caption_qwen": {
+      "Qwen/Qwen3-Embedding-8B": 120
+    },
+    "video_caption_bge": {
+      "BAAI/bge-m3": 60,
+      "parasail-bge-m3": 60
+    },
+    "video_caption_qwen": {
+      "Qwen/Qwen3-Embedding-8B": 120
+    }
+  },
+  "reanalysis": 5.551115123125783e-16,
+  "clotho": [
+    {
+      "left": "human_bge",
+      "right": "machine_bge",
+      "status": "measured",
+      "sources": 64,
+      "estimate": 0.10303655780409822,
+      "null_median": -0.0013622115246213528,
+      "null_q95": 0.11112076198466858,
+      "p": 0.0655,
+      "source_subsample_percentile": [
+        0.04687613950813023,
+        0.16291010554209628
+      ],
+      "p_holm": 0.0655
+    },
+    {
+      "left": "human_bge",
+      "right": "machine_qwen",
+      "status": "measured",
+      "sources": 64,
+      "estimate": 0.18289135869860998,
+      "null_median": -0.00045331918442742926,
+      "null_q95": 0.1095260463596943,
+      "p": 0.0025,
+      "source_subsample_percentile": [
+        0.11900663954996032,
+        0.2603956061324941
+      ],
+      "p_holm": 0.0075
+    },
+    {
+      "left": "human_bge",
+      "right": "audio_signal",
+      "status": "measured",
+      "sources": 64,
+      "estimate": 0.14135218567263913,
+      "null_median": -0.0010289415778244513,
+      "null_q95": 0.1107390700257783,
+      "p": 0.0185,
+      "source_subsample_percentile": [
+        0.0630777637314873,
+        0.22344147883411863
+      ],
+      "p_holm": 0.037
+    },
+    {
+      "left": "human_bge_early",
+      "right": "human_bge_late",
+      "status": "measured",
+      "sources": 64,
+      "estimate": 0.49261250568326015,
+      "null_median": 0.0017945698007911105,
+      "null_q95": 0.1021199340053597,
+      "p": 0.0005,
+      "source_subsample_percentile": [
+        0.42674030953109476,
+        0.5579819985867509
+      ],
+      "p_holm": 0.002
+    }
+  ],
+  "native_constraints": "BGE and Qwen independently trained text checkpoints available. No eligible independent image, audio, or video checkpoints through the allowed provider. Raw image calls went to co-aligned image models. Audio and video geometric embedding inputs were caption proxies or fixed signals.",
+  "container_audit": {
+    "samples": 120,
+    "videos_with_auxiliary_streams": 2,
+    "video_nonstructural_tag_keys": [
+      "album_artist",
+      "description",
+      "location",
+      "location-eng",
+      "title"
+    ],
+    "audio_nonstructural_tag_keys": [
+      "timecode",
+      "title"
+    ]
+  }
+}

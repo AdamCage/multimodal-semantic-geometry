@@ -1,0 +1,38 @@
+{
+  "scope": "Synthetic vectors attached to the real source layout for code validation only; no scientific outcomes",
+  "source_manifest_sha256": "954638e700759e8b6b6345f22695d8de4492384309bc5cd66d6fbf044eab2212",
+  "panels": {
+    "measured": 64
+  },
+  "holm_family_slots": 384,
+  "patterns": [
+    {
+      "dataset": "commons-discovery",
+      "split": "development",
+      "taxonomy_permutations": 36,
+      "sampling": "exact",
+      "pairs": 16
+    },
+    {
+      "dataset": "commons-discovery",
+      "split": "heldout",
+      "taxonomy_permutations": 1440,
+      "sampling": "exact",
+      "pairs": 16
+    },
+    {
+      "dataset": "epic-sounds",
+      "split": "development",
+      "taxonomy_permutations": 16,
+      "sampling": "exact",
+      "pairs": 16
+    },
+    {
+      "dataset": "epic-sounds",
+      "split": "heldout",
+      "taxonomy_permutations": 16,
+      "sampling": "exact",
+      "pairs": 16
+    }
+  ]
+}

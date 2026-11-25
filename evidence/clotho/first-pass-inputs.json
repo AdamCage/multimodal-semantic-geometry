@@ -1,0 +1,1476 @@
+{
+  "sources": {
+    "clotho-0200": {
+      "source_id": "clotho-0200",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/200/audio/audio.wav",
+      "mirror_sha256": "f508440f902a4609a2658d782ae926a832bf5d8a2e41834a5f54b133edc1d9da",
+      "input_sha256": "25bb74064d61f18bb292717f79b7ffb0c41dff86d6f307cc00d75e9bd3328057"
+    },
+    "clotho-0622": {
+      "source_id": "clotho-0622",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/622/audio/audio.wav",
+      "mirror_sha256": "85f50b80fb6fc69921e0f59bc1e31bd23d716d2204b1739e0435d527f32efaca",
+      "input_sha256": "9ff324ca9eb5d4d56ab3500a10dc1414d55c0517a0e5d052a06cc37adea7b96c"
+    },
+    "clotho-0028": {
+      "source_id": "clotho-0028",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/28/audio/audio.wav",
+      "mirror_sha256": "5c98880aad81b9a149088b9797849a1a1854dd0d2eafa4d5c6fde3a20142a1c5",
+      "input_sha256": "d277f5d66fe6bb7a2960f8388322628e149b13b032216a9350847acfb93e9609"
+    },
+    "clotho-0480": {
+      "source_id": "clotho-0480",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/480/audio/audio.wav",
+      "mirror_sha256": "e971989d5283f641b07ea4f15d06c5f711e563861f0097d134b02805334bf730",
+      "input_sha256": "9ef9ece03c925d8d67cf290f4659fed17826df4e1c55ccc614af6071b90a8554"
+    },
+    "clotho-0742": {
+      "source_id": "clotho-0742",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/742/audio/audio.wav",
+      "mirror_sha256": "9270470a38c2c66baa1a8c1a15e119edb28992b499b4806697cb225dce7538aa",
+      "input_sha256": "00fead9f93776318d55f8a1168fb8f3ad30d659e34b59915d7727ca4426727a3"
+    },
+    "clotho-0869": {
+      "source_id": "clotho-0869",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/869/audio/audio.wav",
+      "mirror_sha256": "85e6adc799e8c924a0b9fd1cc4d51b0722be4963806ff4b3e6c62f38176f82f0",
+      "input_sha256": "37c39e89841dd7ccd52fb57e83275f658eeb9f883bc814cc07bf9d3ccab65a51"
+    },
+    "clotho-0879": {
+      "source_id": "clotho-0879",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/879/audio/audio.wav",
+      "mirror_sha256": "ed7f16f069bf681b1d434b8d4e58a4fe010187286d66cda5f93636446fcc8f31",
+      "input_sha256": "664778b74eb07b8c4fa0c4745ea9a39e618f3c9d7eaf4899fd96d396c48a63e9"
+    },
+    "clotho-0086": {
+      "source_id": "clotho-0086",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/86/audio/audio.wav",
+      "mirror_sha256": "9132a3adf4538c0ef5fc6fa33f5e7001e7d7a81d1466acd306b1a48932b30de8",
+      "input_sha256": "ab57d4943a54c334fd1f4c29d6b31ce9b238209690a0eac2abf3203b864545d7"
+    },
+    "clotho-0780": {
+      "source_id": "clotho-0780",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/780/audio/audio.wav",
+      "mirror_sha256": "16890960519776e83fe91320273dbcf312ab7934f5ec11847ca33522b57fe497",
+      "input_sha256": "c6036d2a650319f1c5e087792fd1c0ce38155bbf3fd57740fee2fb0f8ee002b0"
+    },
+    "clotho-0142": {
+      "source_id": "clotho-0142",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/142/audio/audio.wav",
+      "mirror_sha256": "336099cb403dec5dc586312b3794042ecc2f15e52f9d40b1e63a288a54dcfbea",
+      "input_sha256": "b16cef8034fd4e52fb8bbaa7f62450e7674ac0398bb3a7bf50dc8f33e553ebd1"
+    },
+    "clotho-0488": {
+      "source_id": "clotho-0488",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/488/audio/audio.wav",
+      "mirror_sha256": "6f5591de9c63b7ea5dc42b80e6e83f71f9c45c0ea77d5be426fe9e652c70700e",
+      "input_sha256": "fdd776f322d21104a4300a1557bfc3955897c9e617f425d83efbeeea3c4143f2"
+    },
+    "clotho-0728": {
+      "source_id": "clotho-0728",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/728/audio/audio.wav",
+      "mirror_sha256": "a45815f20eef82e88ed33623725abe22676c8579d7e2ce13695ce8451d098172",
+      "input_sha256": "0fdf87192ff82dc72f3c6f8133291471c25268d18a960f0690637c3e7ee37728"
+    },
+    "clotho-0172": {
+      "source_id": "clotho-0172",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/172/audio/audio.wav",
+      "mirror_sha256": "2422d167833e2ad1921de3a912c89b812756e6c05cb17770f724342c85f33347",
+      "input_sha256": "217a9c241ee22e2c1ade92c5e2289a46213c97fa08089fde9f826270fecfe4d6"
+    },
+    "clotho-0880": {
+      "source_id": "clotho-0880",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/880/audio/audio.wav",
+      "mirror_sha256": "72a3125a5bd3ac08217751809c50d952970f21877d3b6330360d13635b1d0f88",
+      "input_sha256": "0aff8e1059f0cf0c889b1816985b024fe5ea387ac221b890c14e41c1e63a3c3d"
+    },
+    "clotho-0006": {
+      "source_id": "clotho-0006",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/6/audio/audio.wav",
+      "mirror_sha256": "3d1d05b81e8fd532fa812b954c247bd3a7b83e1704024c8ea845867e58805a9d",
+      "input_sha256": "79f6dd083635101d1a2cdf71564244699ae1b6b1c4f451bcfb49cbbbe94ccd26"
+    },
+    "clotho-0227": {
+      "source_id": "clotho-0227",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/227/audio/audio.wav",
+      "mirror_sha256": "f6377d32ae67755b6bcd330c62c855c6ccbf7c49ce961abc2928d10cf7d0c19a",
+      "input_sha256": "6921130e09d31e6d6f9601a3b9869c123ec32a4a5b92053f84ab53aaad800656"
+    },
+    "clotho-0316": {
+      "source_id": "clotho-0316",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/316/audio/audio.wav",
+      "mirror_sha256": "5faa7f1d919d14a8c19e67db5d8e12f36826c8135c927f06d9d37a84bd97d856",
+      "input_sha256": "e427d8ad20af722ba7c6355efb7f1e6ec4554da1cb12b81ccae2609dfbb693ac"
+    },
+    "clotho-0151": {
+      "source_id": "clotho-0151",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/151/audio/audio.wav",
+      "mirror_sha256": "c3d7260bfcdefbbbc41a86497cb894afc1589c0c6a40ab5d84ea004ce87eb3d5",
+      "input_sha256": "e781554f30bb9606bd12b25b1237f54877909002b0445d24af1869eed8e5fb61"
+    },
+    "clotho-0212": {
+      "source_id": "clotho-0212",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/212/audio/audio.wav",
+      "mirror_sha256": "736a0a42a602eddca74b265fa1f881f1d89b23a4e66eb8ee02f32e610bdca30d",
+      "input_sha256": "c87d51a0217db6aac20a91fcdd0b8bb08d278e648ce7e497dd44c6207273a5f3"
+    },
+    "clotho-0486": {
+      "source_id": "clotho-0486",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/486/audio/audio.wav",
+      "mirror_sha256": "e29ef77e002ed07844ebf2201812113dbf5ae911d4f031c91ff823befd699d78",
+      "input_sha256": "128f71b76e25a04e371802725546e98017e3cae09a8a9ffadfa4ba0a42676ddd"
+    },
+    "clotho-0140": {
+      "source_id": "clotho-0140",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/140/audio/audio.wav",
+      "mirror_sha256": "d2be07a191a4e2dc13ce3ecc165b8a0407255b8ae998b9e74aa18af40482d776",
+      "input_sha256": "a269a02ab4ccd2440f6d1fa8716fd06ac44d2a8854d4e3ac1d2cc403cd5fd447"
+    },
+    "clotho-0171": {
+      "source_id": "clotho-0171",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/171/audio/audio.wav",
+      "mirror_sha256": "37cb68653745e5e09865721b7e6bfe966dcd034f94c0369a9c93fba49a917eee",
+      "input_sha256": "abc65d99012f8ee8fffaa1a48f6644a5533473fe34ac26b2000c06ad65d0f23c"
+    },
+    "clotho-0550": {
+      "source_id": "clotho-0550",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/550/audio/audio.wav",
+      "mirror_sha256": "3f958f0bdf4a3d681ee62a913940b79342f41753e9a3af21b49c6b8a2ebc996c",
+      "input_sha256": "00cb71983874dcdec394451d96b0436ef1cc961569dde2cf08262c19c6715924"
+    },
+    "clotho-0682": {
+      "source_id": "clotho-0682",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/682/audio/audio.wav",
+      "mirror_sha256": "983887713a6b902157c6249502f527c84f852a8d0f5092b912fcb880945fdfef",
+      "input_sha256": "1ecf0e7df7755f6824919db255eb63f843d4e48ce30791b2285b19a044c11230"
+    },
+    "clotho-0872": {
+      "source_id": "clotho-0872",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/872/audio/audio.wav",
+      "mirror_sha256": "a4cb790e6b36ca97a21d8d448bcdcf9a8635dffd4b6e46f821ba53973cdc9e3a",
+      "input_sha256": "541b107f85c06b408e72d8812ef1634114990fb467dca609b3fcddbf364cd716"
+    },
+    "clotho-0883": {
+      "source_id": "clotho-0883",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/883/audio/audio.wav",
+      "mirror_sha256": "17bf2095515b7ee08db761f27b3144acf56f33fb24777cb3c0a640acc455c0df",
+      "input_sha256": "8d8cd896a60e22db235bf8fa1f80a4e1f3d888213ca3c569ef2d950ad66ed476"
+    },
+    "clotho-0526": {
+      "source_id": "clotho-0526",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/526/audio/audio.wav",
+      "mirror_sha256": "c4ada4c3546a6d71cd3ca12688e888222eafda1e61206e4f72796c4927b06499",
+      "input_sha256": "16d890f79bcaedc9de1319ea0ac0f19f84df895f6e5f050b69eb1ba67c67457a"
+    },
+    "clotho-0940": {
+      "source_id": "clotho-0940",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/940/audio/audio.wav",
+      "mirror_sha256": "4948a7d56a12471f6fc26d45ff5a25ec834979f4268ce35ee5938dcbd9f700f9",
+      "input_sha256": "3d83624e2de3e0393b7d04497af5d32ebceba265627ef0d099f63acae25e0c63"
+    },
+    "clotho-0785": {
+      "source_id": "clotho-0785",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/785/audio/audio.wav",
+      "mirror_sha256": "388a74aae104ffa82e1ad30aba8eaa3726eb2b7ab1143c43605b85bde04a1dc9",
+      "input_sha256": "6f53d1d77655d9e7a93597c76347a1a807ebeef7e4cba9444956655e2594759d"
+    },
+    "clotho-0692": {
+      "source_id": "clotho-0692",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/692/audio/audio.wav",
+      "mirror_sha256": "0d5db58e96b1a5e861c5ffd875ea159bc2358ae6122f89e29048ef652c5b6264",
+      "input_sha256": "3ccb0309c228f0946924e8a59dfadc2f7b463e18ddd05007fc48c5189c305237"
+    },
+    "clotho-0379": {
+      "source_id": "clotho-0379",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/379/audio/audio.wav",
+      "mirror_sha256": "5658a37fd5dc2cd0e6621baa246656d0138b8f02343c44b81f000e921250ddaf",
+      "input_sha256": "e8ad917ee4094856ba6231c20f027bcfe74711d3ee62e7e5ac45f598b3826779"
+    },
+    "clotho-0361": {
+      "source_id": "clotho-0361",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/361/audio/audio.wav",
+      "mirror_sha256": "05fabc0e7a60d6f356590043ee56072ad3e99e4fc23fb0537b15fd78d56ffdcb",
+      "input_sha256": "5fab66932ab7358cdd88115f968a696cbd93f57f224ab7f46fae3870287744ba"
+    },
+    "clotho-0346": {
+      "source_id": "clotho-0346",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/346/audio/audio.wav",
+      "mirror_sha256": "0181ab9a37024866e1022985b9d096f67b72f09ecd097c3ab2107d8096723974",
+      "input_sha256": "eb544c9b4dee56bbaa814954c6f4265c07b7d036b71da956d08f7b1e4e8e1d88"
+    },
+    "clotho-0750": {
+      "source_id": "clotho-0750",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/750/audio/audio.wav",
+      "mirror_sha256": "ba4def4b136aac298cd1cf9b571c96debb137c42c3521096aaf65f30f82ddfa1",
+      "input_sha256": "9048ab279507ce6671e553e83ce392fe9aa88fecc904476b1d1979f65df8a796"
+    },
+    "clotho-0896": {
+      "source_id": "clotho-0896",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/896/audio/audio.wav",
+      "mirror_sha256": "f89cc84c41c7a899680a38c26d3a12212a11af127cc9f055bc5800e4631d3c96",
+      "input_sha256": "7ea5710672e74eb5476dd0f71b9968f5fed8a3e75897b3137723ad2665d9640d"
+    },
+    "clotho-0367": {
+      "source_id": "clotho-0367",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/367/audio/audio.wav",
+      "mirror_sha256": "8f072682367d5bddc290812abccdc615c62eefcfff2d636c72fdbd2f71398450",
+      "input_sha256": "a186a4815057ee3bf7ab1eacb5d2f6ca6849fc8bb9a91ef951364da8521ac2ff"
+    },
+    "clotho-0080": {
+      "source_id": "clotho-0080",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/80/audio/audio.wav",
+      "mirror_sha256": "486bcf8df9aec703ee24a18d968d8dfae9a70a9f525a4d5747a3ed2be48bec64",
+      "input_sha256": "0a4d554bfc79ac4cc2f54ffdc7be960c7709a548be53ce4d4b533fe4cb0d04c3"
+    },
+    "clotho-0649": {
+      "source_id": "clotho-0649",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/649/audio/audio.wav",
+      "mirror_sha256": "82df290895e998c79534ac8cb8d0c0c63e736ad5ac984d7bbbe2936cb65d26d1",
+      "input_sha256": "95a9b6b27be1695beb60ca0e1fe07354bebb0af1a8a2c91401910798b18a3e5e"
+    },
+    "clotho-0726": {
+      "source_id": "clotho-0726",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/726/audio/audio.wav",
+      "mirror_sha256": "5931ac9fa8de929515c32f14e0a6904347c5afff4e7fd285683112d9f52b4473",
+      "input_sha256": "43a096b6212f5440cacf434051a1f2f59776520ca827e5601daa5d663ece90f5"
+    },
+    "clotho-0916": {
+      "source_id": "clotho-0916",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/916/audio/audio.wav",
+      "mirror_sha256": "bd992ba86a3cd5295d38639bd2b98487fa4359da2942358636f88a6d17bb73a6",
+      "input_sha256": "531350aa2a423a043241a04eb34535c9c7480cb47ae64c51300d13cbbdfb423f"
+    },
+    "clotho-0819": {
+      "source_id": "clotho-0819",
+      "mirror_path": "/cached-assets/gijs/clotho/--/93be4f14a2d662389bb30c324781d2b489b583fd/--/default/test/819/audio/audio.wav",
+      "mirror_sha256": "0517625989fb9c08f5701c71f94cfe259b10e14773ad2f11bdbbd373f1aaee17",
+      "input_sha256": "0b3d97a063875836bd0f611380d63e57ec451d8bfd5978cf18f05421210a8731"
+    }
+  },
+  "machine_captions": {
+    "clotho-0780": {
+      "description": "The main environmental sound is speech, with an audible event of a car passing by. The car's engine and tire sounds are distinct.",
+      "speech": true,
+      "provider": {
+        "id": "rai-1795627118-3s7ROD7kVeHj4Gu5QQf1",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 964,
+          "prompt_tokens": 918,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 845,
+            "video_tokens": 0
+          },
+          "completion_tokens": 46,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.104882944608
+        }
+      }
+    },
+    "clotho-0028": {
+      "description": "The main environmental sound is a gentle breeze, with an audible event of a crow cawing repeatedly in the distance.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627118-ZfbnGXqZ57xEHiuYJOr1",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 1058,
+          "prompt_tokens": 1017,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 944,
+            "video_tokens": 0
+          },
+          "completion_tokens": 41,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.114122556288
+        }
+      }
+    },
+    "clotho-0622": {
+      "description": "A person is speaking indoors, and a faint, low-frequency hum is audible in the background.",
+      "speech": true,
+      "provider": {
+        "id": "rai-1795627119-UbxsgfeTQFkJzn5D1e2u",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 769,
+          "prompt_tokens": 731,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 658,
+            "video_tokens": 0
+          },
+          "completion_tokens": 38,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.082771966368
+        }
+      }
+    },
+    "clotho-0488": {
+      "description": "The main environmental sound is paper being handled, including crinkling, shuffling, and tearing. No other distinct sounds are audible.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627123-BWSrV0xrighDAqDKME7r",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 970,
+          "prompt_tokens": 924,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 851,
+            "video_tokens": 0
+          },
+          "completion_tokens": 46,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.105523842528
+        }
+      }
+    },
+    "clotho-0200": {
+      "description": "The main environmental sound is a continuous, low-frequency hum, likely from a large vehicle or machinery, with no distinct events.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627118-0MpdSa7mTJkvBkc3oMmQ",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 759,
+          "prompt_tokens": 713,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 640,
+            "video_tokens": 0
+          },
+          "completion_tokens": 46,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.082985599008
+        }
+      }
+    },
+    "clotho-0142": {
+      "description": "The main environmental sound is a vehicle, likely a bus, with an audible engine and air brake. No speech or singing is present.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627126-xGsJIP9PJ6KRg1f7ILBN",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 904,
+          "prompt_tokens": 859,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 786,
+            "video_tokens": 0
+          },
+          "completion_tokens": 45,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.09831374092800002
+        }
+      }
+    },
+    "clotho-0550": {
+      "description": "The main environmental sound is a low hum, likely from an aircraft, which then transitions into a distinct flyover sound.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627118-B34H6QZNNBskjkBUWkE4",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 806,
+          "prompt_tokens": 762,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 689,
+            "video_tokens": 0
+          },
+          "completion_tokens": 44,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.08768551708799999
+        }
+      }
+    },
+    "clotho-0480": {
+      "description": "The soundscape features a distinct whoosh, followed by the continuous gurgling and bubbling of water, suggesting a liquid transfer or flow.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627119-lmznKgC7gnRUoY03Lwo8",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 947,
+          "prompt_tokens": 901,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 828,
+            "video_tokens": 0
+          },
+          "completion_tokens": 46,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.103067067168
+        }
+      }
+    },
+    "clotho-0086": {
+      "description": "The main environmental sound is a continuous hum, possibly from a refrigerator, with an audible event of a squeaking sound.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627128-lEqGJFjawSFeWz9v7JjW",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 863,
+          "prompt_tokens": 821,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 748,
+            "video_tokens": 0
+          },
+          "completion_tokens": 42,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.093453598368
+        }
+      }
+    },
+    "clotho-0869": {
+      "description": "The main environmental sound is a continuous water drip, with an audible event of water pouring into a container.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627119-ruvpeVosYx4DIXIC9j51",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 873,
+          "prompt_tokens": 834,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 761,
+            "video_tokens": 0
+          },
+          "completion_tokens": 39,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.094041088128
+        }
+      }
+    },
+    "clotho-0879": {
+      "description": "The main environmental sound is a hum, possibly from a vehicle, with speech audible in the background. A distinct whoosh sound is also present.",
+      "speech": true,
+      "provider": {
+        "id": "rai-1795627124-TytRT19KKUJya1JlHjHA",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 1081,
+          "prompt_tokens": 1032,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 959,
+            "video_tokens": 0
+          },
+          "completion_tokens": 49,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.117861127488
+        }
+      }
+    },
+    "clotho-0172": {
+      "description": "The main environmental sound is a machine, possibly a sewing machine, with a distinct whirring and clanking sound.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627130-eO4xCTvM0AdyiX8G1hRL",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 1057,
+          "prompt_tokens": 1019,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 946,
+            "video_tokens": 0
+          },
+          "completion_tokens": 38,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.113535066528
+        }
+      }
+    },
+    "clotho-0742": {
+      "description": "The recording features the rhythmic clanking and grinding of a train, possibly a freight train, as it moves along the tracks.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627118-eovvXQfpa5hPwLtQLwxa",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 1012,
+          "prompt_tokens": 966,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 893,
+            "video_tokens": 0
+          },
+          "completion_tokens": 46,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.110010127968
+        }
+      }
+    },
+    "clotho-0151": {
+      "description": "The recording features the distinct sounds of a printer operating, including paper being fed and the printing mechanism working. No speech or singing is audible.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627130-rw5mpEiggROtAD4sfuvh",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 887,
+          "prompt_tokens": 839,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 766,
+            "video_tokens": 0
+          },
+          "completion_tokens": 48,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.096978536928
+        }
+      }
+    },
+    "clotho-0006": {
+      "description": "The main environmental sound is a human breathing heavily, with an audible gasp or sharp inhale occurring multiple times.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627134-0evxEfLU1gHFIJeYDpYU",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 610,
+          "prompt_tokens": 570,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 497,
+            "video_tokens": 0
+          },
+          "completion_tokens": 40,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.066108620448
+        }
+      }
+    },
+    "clotho-0880": {
+      "description": "The main environmental sound is the crunching of footsteps on snow, with no other distinct sounds or events audible.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627135-CJkwFkcSpTCKmh3pwL1j",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 999,
+          "prompt_tokens": 959,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 886,
+            "video_tokens": 0
+          },
+          "completion_tokens": 40,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.107660168928
+        }
+      }
+    },
+    "clotho-0872": {
+      "description": "The sound of a liquid being poured is followed by a gurgling noise, then a distinct gulp. A cough is heard at the end.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627137-6OJzqXE3Gw1zkD5ibWP8",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 876,
+          "prompt_tokens": 827,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 754,
+            "video_tokens": 0
+          },
+          "completion_tokens": 49,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.095963781888
+        }
+      }
+    },
+    "clotho-0227": {
+      "description": "A high-pitched, continuous whine is heard, resembling a drill or a small motor, with a distinct, rhythmic buzzing sound.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627130-qnGdlXkvKrtZ2Pqc02Xy",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 1023,
+          "prompt_tokens": 977,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 904,
+            "video_tokens": 0
+          },
+          "completion_tokens": 46,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.111185107488
+        }
+      }
+    },
+    "clotho-0316": {
+      "description": "The main environmental sound is a rooster crowing repeatedly, with a faint background hum. The audible event is the rooster's vocalizations.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627136-NGlXObBhYA1r0ZPTU2gj",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 948,
+          "prompt_tokens": 900,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 827,
+            "video_tokens": 0
+          },
+          "completion_tokens": 48,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.103494332448
+        }
+      }
+    },
+    "clotho-0212": {
+      "description": "The recording features the distinct sound of a vehicle engine, initially idling and then accelerating, with no other environmental sounds.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627138-iGMncxePPHLgqrHb1ZSB",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 773,
+          "prompt_tokens": 730,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 657,
+            "video_tokens": 0
+          },
+          "completion_tokens": 43,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.08400035404800002
+        }
+      }
+    },
+    "clotho-0486": {
+      "description": "The main environmental sound is a series of distinct, metallic 'clinks' or 'tings', suggesting a small object being struck or dropped. No other environmental sounds are audible.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627138-VBRnQVF3k07Ej5NFiebh",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 691,
+          "prompt_tokens": 635,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 562,
+            "video_tokens": 0
+          },
+          "completion_tokens": 56,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.077324334048
+        }
+      }
+    },
+    "clotho-0728": {
+      "description": "The main environmental sound is a continuous, loud hum, likely from a motor, with the distinct audible event of water flowing.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627138-UJMpcYZrykJGe7kh1dRN",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 809,
+          "prompt_tokens": 766,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 693,
+            "video_tokens": 0
+          },
+          "completion_tokens": 43,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.087845741568
+        }
+      }
+    },
+    "clotho-0883": {
+      "description": "The main environmental sound is a continuous hum, likely from an engine, with an audible event of a vehicle passing by.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627140-8L48fLQaiRqt7YHjiH6N",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 1039,
+          "prompt_tokens": 997,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 924,
+            "video_tokens": 0
+          },
+          "completion_tokens": 42,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.112253270688
+        }
+      }
+    },
+    "clotho-0171": {
+      "description": "The main environmental sound is a continuous engine hum, with an audible event of a vehicle driving by.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627135-DpVsp3QxkBJx7LzKLYlb",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 763,
+          "prompt_tokens": 724,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 651,
+            "video_tokens": 0
+          },
+          "completion_tokens": 39,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.082291292928
+        }
+      }
+    },
+    "clotho-0526": {
+      "description": "The recording features the distinct sound of a running engine, accompanied by the rhythmic clanking of metal, suggesting machinery in operation.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627142-uxGgTf16VTSy28DrKlyo",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 734,
+          "prompt_tokens": 691,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 618,
+            "video_tokens": 0
+          },
+          "completion_tokens": 43,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.079834517568
+        }
+      }
+    },
+    "clotho-0682": {
+      "description": "The recording features the distinct sound of a car driving on a wet road, accompanied by the rhythmic swish of windshield wipers. No speech or singing is audible.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627143-urMyDUsZllHVIym7ZZmQ",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 846,
+          "prompt_tokens": 796,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 723,
+            "video_tokens": 0
+          },
+          "completion_tokens": 50,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.092919516768
+        }
+      }
+    },
+    "clotho-0785": {
+      "description": "The main environmental sound is a car engine starting and idling, followed by the sound of a vehicle driving away.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627144-KLKmF8My7m6Xx9r62NQ6",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 724,
+          "prompt_tokens": 683,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 610,
+            "video_tokens": 0
+          },
+          "completion_tokens": 41,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.07844590540799999
+        }
+      }
+    },
+    "clotho-0916": {
+      "description": "The main environmental sound is a continuous, high-pitched hum, likely from insects, with a distinct, rhythmic chirping audible throughout the recording.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627142-tgat2pGruPW3R6DVuuV6",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 669,
+          "prompt_tokens": 622,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 549,
+            "video_tokens": 0
+          },
+          "completion_tokens": 47,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.07353235468800001
+        }
+      }
+    },
+    "clotho-0940": {
+      "description": "The recording features a bustling indoor environment with indistinct chatter, occasional clinking sounds, and a prominent hum, possibly from ventilation or machinery.",
+      "speech": true,
+      "provider": {
+        "id": "rai-1795627145-58GjNhQTl7PjCjjKFlqx",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 758,
+          "prompt_tokens": 710,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 637,
+            "video_tokens": 0
+          },
+          "completion_tokens": 48,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.083199231648
+        }
+      }
+    },
+    "clotho-0140": {
+      "description": "The main environmental sound is a continuous rustling, likely from paper or plastic, with no distinct audible events.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627145-YaA24GpD6jAdIBRpVNpI",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 1022,
+          "prompt_tokens": 982,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 909,
+            "video_tokens": 0
+          },
+          "completion_tokens": 40,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.110116944288
+        }
+      }
+    },
+    "clotho-0346": {
+      "description": "The main environmental sound is a horse trotting, with the audible event being a horse whinnying. No speech or singing is audible.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627150-MRe1EuroNK5z9IKEfHZZ",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 673,
+          "prompt_tokens": 624,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 551,
+            "video_tokens": 0
+          },
+          "completion_tokens": 49,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.07428006892800001
+        }
+      }
+    },
+    "clotho-0896": {
+      "description": "The main environmental sound is a vehicle passing by, with the audible event being the distinct sound of a car driving past.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627149-1pJRUlHAepWncUS5QS0O",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 1019,
+          "prompt_tokens": 977,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 904,
+            "video_tokens": 0
+          },
+          "completion_tokens": 42,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.110116944288
+        }
+      }
+    },
+    "clotho-0726": {
+      "description": "A continuous, low-frequency hum is audible, accompanied by a distinct, rhythmic clanking sound.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627151-qu7yiaq09cvymqPCOA1d",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 622,
+          "prompt_tokens": 582,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 509,
+            "video_tokens": 0
+          },
+          "completion_tokens": 40,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.06739041628800001
+        }
+      }
+    },
+    "clotho-0750": {
+      "description": "A continuous, high-pitched whine of a propeller aircraft engine is audible, increasing in intensity and then fading.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627150-OMSvYPK1jXq5LJiglEQq",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 791,
+          "prompt_tokens": 749,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 676,
+            "video_tokens": 0
+          },
+          "completion_tokens": 42,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.085762823328
+        }
+      }
+    },
+    "clotho-0819": {
+      "description": "A train horn sounds twice, with a distinct, loud blast followed by a shorter one, against a background of train sounds.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627149-llNKhi3VEVXeyBPXXNy8",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 950,
+          "prompt_tokens": 905,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 832,
+            "video_tokens": 0
+          },
+          "completion_tokens": 45,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.103227291648
+        }
+      }
+    },
+    "clotho-0692": {
+      "description": "The main environmental sound is paper being crumpled and handled, with a distinct rustling and tearing audible.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627142-aVWYD6rYrTELrUa1WjF8",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 1019,
+          "prompt_tokens": 978,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 905,
+            "video_tokens": 0
+          },
+          "completion_tokens": 41,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.109956719808
+        }
+      }
+    },
+    "clotho-0379": {
+      "description": "The main environmental sound is a squeaking noise, likely from a balloon being rubbed or deflated, with no other distinct sounds.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627149-vcGlNCtMTVUVW2XLxfRp",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 977,
+          "prompt_tokens": 933,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 860,
+            "video_tokens": 0
+          },
+          "completion_tokens": 44,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.105951107808
+        }
+      }
+    },
+    "clotho-0080": {
+      "description": "A continuous high-pitched alarm is audible, followed by the sound of an elevator door opening and closing, accompanied by speech.",
+      "speech": true,
+      "provider": {
+        "id": "rai-1795627156-5oYWz0TqH9k2FiJcdL2T",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 948,
+          "prompt_tokens": 905,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 832,
+            "video_tokens": 0
+          },
+          "completion_tokens": 43,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.102693210048
+        }
+      }
+    },
+    "clotho-0361": {
+      "description": "The main environmental sound is a squeaking noise, possibly from a rusty gate or a similar mechanism, with no other distinct sounds.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627149-54YJEt4IMcNpobWImLrc",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 719,
+          "prompt_tokens": 673,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 600,
+            "video_tokens": 0
+          },
+          "completion_tokens": 46,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.078712946208
+        }
+      }
+    },
+    "clotho-0367": {
+      "description": "The main environmental sound is a continuous, high-pitched buzzing, likely from an insect, with a distinct, rhythmic chirping audible throughout the recording.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627158-4scTJTHB0zh6hty8Ywkj",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 647,
+          "prompt_tokens": 597,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 524,
+            "video_tokens": 0
+          },
+          "completion_tokens": 50,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.071663069088
+        }
+      }
+    },
+    "clotho-0649": {
+      "description": "The main environmental sounds are a car driving, a car door opening and closing, and a car engine starting. No speech or singing is audible.",
+      "speech": false,
+      "provider": {
+        "id": "rai-1795627166-2LUz9qnHQx3KEBu1A3DZ",
+        "model": "google/gemini-2.5-flash",
+        "usage": {
+          "total_tokens": 887,
+          "prompt_tokens": 838,
+          "prompt_tokens_details": {
+            "cached_tokens": 0,
+            "cache_write_tokens": 0,
+            "audio_tokens": 765,
+            "video_tokens": 0
+          },
+          "completion_tokens": 49,
+          "completion_tokens_details": {
+            "reasoning_tokens": 0,
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "accepted_prediction_tokens": null,
+            "rejected_prediction_tokens": null
+          },
+          "cost": 0.097138761408
+        }
+      }
+    }
+  },
+  "failures": [
+    {
+      "source_id": "clotho-1009",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0777",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-1010",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0468",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0792",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0860",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0803",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0875",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0610",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0060",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0509",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0825",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0333",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0435",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0334",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0065",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0794",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0288",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0071",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0957",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0915",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0612",
+      "stage": "download",
+      "reason": "HTTPError"
+    },
+    {
+      "source_id": "clotho-0546",
+      "stage": "download",
+      "reason": "HTTPError"
+    }
+  ]
+}

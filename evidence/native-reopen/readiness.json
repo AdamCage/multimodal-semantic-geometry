@@ -1,0 +1,64 @@
+{
+  "episteme_commit": "7f5a1a0e43d7c35196cc8b3c9c74a618aa2559c3",
+  "readiness": {
+    "native_acquisition_ready": false,
+    "eligible_family_count": 1,
+    "stable_verified_families": {
+      "text": [
+        "qwen3_8b"
+      ],
+      "image": [],
+      "audio": [],
+      "video": []
+    },
+    "candidate_statuses": {
+      "bge_m3": "response_alias_changed",
+      "qwen3_8b": "eligible",
+      "dinov2": "model_not_found",
+      "mae": "model_not_found",
+      "beats": "model_not_found",
+      "audiomae": "model_not_found",
+      "videomae": "model_not_found",
+      "vjepa2": "model_not_found"
+    },
+    "alignment_empirics_ready": false,
+    "pilot_source_capacity": {
+      "total_sources": 120,
+      "concepts": 19,
+      "sources_by_fold": {
+        "A": 60,
+        "B": 60
+      },
+      "repeated_raw_source_across_folds": 0,
+      "optimistic_unique_training_pairs_per_dyad": 60,
+      "counts_feasible_at_ceiling": {
+        "16": true,
+        "64": false,
+        "256": false,
+        "1024": false
+      },
+      "interpretation": "Count ceiling on the exploratory source roster with fold B reserved. No training, concept holdout, model readiness or independent replication is inferred."
+    }
+  },
+  "run": "run-558e3dee76654de9",
+  "state": {
+    "root": "C:\\projects\\multimodal-semantic-geometry\\.research\\native-reopen\\ledger-reviewed\\episteme",
+    "synthetic_demo": false,
+    "event_count": 14,
+    "counts": {
+      "research_question": 1,
+      "hypothesis": 2,
+      "explanation_set": 1,
+      "data_exposure": 3,
+      "protocol": 1,
+      "search_tree": 1,
+      "experiment_node": 1,
+      "search_selection": 1,
+      "run": 1,
+      "result": 1,
+      "search_terminal": 1
+    },
+    "last_event_hash": "187291373dd5a15b71d23b22f37004467698bfc54ac43f61f42b28c39098564a",
+    "claims": []
+  }
+}

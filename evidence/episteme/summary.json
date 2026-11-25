@@ -1,0 +1,208 @@
+{
+  "episteme_git_revision": "7f5a1a0e43d7c35196cc8b3c9c74a618aa2559c3",
+  "root": "local EpistemeOS Store",
+  "synthetic_demo": false,
+  "event_count": 44,
+  "counts": {
+    "research_question": 1,
+    "hypothesis": 3,
+    "explanation_set": 1,
+    "data_exposure": 7,
+    "protocol": 4,
+    "search_tree": 1,
+    "experiment_node": 4,
+    "search_selection": 5,
+    "run": 5,
+    "result": 5,
+    "search_terminal": 4,
+    "claim": 1,
+    "review": 3
+  },
+  "last_event_hash": "56ccf78fa134a4a51254604f8d9f6542fddca1ebc1051235d8254ee109fc53bc",
+  "claims": [
+    {
+      "id": "claim-6c0452217f3b4710",
+      "statement": "The bounded contextual stage measured and cross-checked 42 overall RSA estimates. The independently trained four-modality claim remains inconclusive under the observed API route.",
+      "gate": {
+        "passed": true,
+        "failures": [],
+        "basis_hash": "612a1b3efcb481f72158e77297ce87befb981702ccee86e12711d47f1c07c691",
+        "claim": "claim-6c0452217f3b4710",
+        "checks_version": "0.1.0",
+        "scientific_validity": "not_assessed"
+      },
+      "next_action": {
+        "action": "replan",
+        "reasons": [
+          "Check selection and literal vocabulary on the frozen source cohort.",
+          "Mask one information source at a time and record direct observer outcomes.",
+          "Recompute the Clotho comparison on its own cached sources.",
+          "Repeat affected caption inputs without auxiliary container metadata.",
+          "Check selection and literal vocabulary on the frozen source cohort.",
+          "Mask one information source at a time and record direct observer outcomes.",
+          "Recompute the Clotho comparison on its own cached sources.",
+          "Repeat affected caption inputs without auxiliary container metadata.",
+          "Check selection and literal vocabulary on the frozen source cohort.",
+          "Mask one information source at a time and record direct observer outcomes.",
+          "Recompute the Clotho comparison on its own cached sources.",
+          "Repeat affected caption inputs without auxiliary container metadata."
+        ]
+      }
+    }
+  ],
+  "claim": "claim-6c0452217f3b4710",
+  "next_action": {
+    "action": "replan",
+    "reasons": [
+      "Check selection and literal vocabulary on the frozen source cohort.",
+      "Mask one information source at a time and record direct observer outcomes.",
+      "Recompute the Clotho comparison on its own cached sources.",
+      "Repeat affected caption inputs without auxiliary container metadata.",
+      "Check selection and literal vocabulary on the frozen source cohort.",
+      "Mask one information source at a time and record direct observer outcomes.",
+      "Recompute the Clotho comparison on its own cached sources.",
+      "Repeat affected caption inputs without auxiliary container metadata.",
+      "Check selection and literal vocabulary on the frozen source cohort.",
+      "Mask one information source at a time and record direct observer outcomes.",
+      "Recompute the Clotho comparison on its own cached sources.",
+      "Repeat affected caption inputs without auxiliary container metadata."
+    ]
+  },
+  "controller": {
+    "question": "research_question-48690754353c4b39",
+    "explanation_set": "explanation_set-0618b49c6b9b45ca",
+    "tree": "search_tree-b21655dc574d4846",
+    "readiness_node": "experiment_node-f9d191f33b744046",
+    "readiness_run": "run-a544d5ce79174a65",
+    "readiness": {
+      "catalog_count": 613,
+      "candidate_families": {
+        "text": [
+          "baai/bge-m3",
+          "qwen/qwen3-embedding-8b"
+        ],
+        "image": [
+          "dino",
+          "mae"
+        ],
+        "audio": [
+          "beats",
+          "audiomae"
+        ],
+        "video": [
+          "videomae",
+          "vjepa"
+        ]
+      },
+      "eligible": {
+        "text": [
+          "baai/bge-m3",
+          "qwen/qwen3-embedding-8b"
+        ],
+        "image": [],
+        "audio": [],
+        "video": []
+      },
+      "eligible_modality_count": 1,
+      "modality_minimum": 4,
+      "family_minimum": 2,
+      "same_mixed_audio_and_text_control": true,
+      "native_gate": "blocked",
+      "applied_gate": "blocked",
+      "interpretation": "availability outcome; no empirical test of native cross-modal geometry"
+    },
+    "geometry": {
+      "protocol": "protocol-709740e381854619",
+      "node": "experiment_node-16f0e984676b4009",
+      "selection": "search_selection-8d55cfd34d524321",
+      "implementation": "f3b7e08d6546ad8a0e909cb74e18c4eda1eb4cc638c1c9300c39d3c172559ad7",
+      "environment": "43cc0157d7926fcdbfcf07f2657cc03be6363a949e56c7939ffcbd1d98b63f47",
+      "roster_sha256": "c970b09336c81dc2e47c40c8e7d157bcb0feab2d4cc69c007be6adc460c98d6c",
+      "config_sha256": "acd7592a8cbeb5c51d639f92d063bf4943ec86ec8357fe3b3b3670092d1a7ea2"
+    },
+    "primary": {
+      "run": "run-176a90dee85f4220",
+      "check_run": "run-4c935c1cf912408a",
+      "claim": "claim-6c0452217f3b4710",
+      "gate": {
+        "passed": true,
+        "failures": [],
+        "basis_hash": "612a1b3efcb481f72158e77297ce87befb981702ccee86e12711d47f1c07c691",
+        "claim": "claim-6c0452217f3b4710",
+        "checks_version": "0.1.0",
+        "scientific_validity": "not_assessed"
+      }
+    },
+    "followup": {
+      "protocol": "protocol-cb722b1f33024d80",
+      "node": "experiment_node-d65e1d291d914d72",
+      "selection": "search_selection-9eb032fb8d714e85",
+      "run": "run-6dff93312da14e6f",
+      "reviews": [
+        "review-0903d559cf0a46d0",
+        "review-b9af053b48f5469d",
+        "review-103c85a011cd4eec"
+      ],
+      "completed": [
+        "observability",
+        "robustness",
+        "metadata_control",
+        "clotho"
+      ],
+      "outputs": {
+        "observability": "9140cdd76fb5172ae678d31c24fb0670cb71bea886f37444ef51c2cfc25d0e6d",
+        "robustness": "78eea71b67b0d35e03f0499cbf8c0abe11e11cfdffaafb95f95c87e4134979ae",
+        "metadata_control": "11a4e227ce8a3056456f91ff65847292ec3540ff8fe66c8c744e9bba30f42895",
+        "clotho": "494f4608a4ee8360d70ff63345c68eebf19f55ffec7888663dc3f2ebbf8a109b",
+        "log": "b1b2ee7aa4707204b57611d3a0821c6ab6978b47fc4e07991450aa948fcd952c",
+        "raw_data": "00801a360e1761415276b4c86cf127a75aec0fc519d22368f59770d7af68cb3b",
+        "metrics": "00c7ae181c3aaad43c3a2702e3682071d88fbff4f097ee4f675c6846bfe26413"
+      },
+      "next_action": {
+        "action": "replan",
+        "reasons": [
+          "Check selection and literal vocabulary on the frozen source cohort.",
+          "Mask one information source at a time and record direct observer outcomes.",
+          "Recompute the Clotho comparison on its own cached sources.",
+          "Repeat affected caption inputs without auxiliary container metadata.",
+          "Check selection and literal vocabulary on the frozen source cohort.",
+          "Mask one information source at a time and record direct observer outcomes.",
+          "Recompute the Clotho comparison on its own cached sources.",
+          "Repeat affected caption inputs without auxiliary container metadata.",
+          "Check selection and literal vocabulary on the frozen source cohort.",
+          "Mask one information source at a time and record direct observer outcomes.",
+          "Recompute the Clotho comparison on its own cached sources.",
+          "Repeat affected caption inputs without auxiliary container metadata."
+        ]
+      }
+    },
+    "adaptation": {
+      "status": "completed",
+      "reviews_matching": [
+        "design",
+        "falsification"
+      ],
+      "protocol": "protocol-7117708879ce4775",
+      "node": "experiment_node-5923fa82978c4b52",
+      "selection": "search_selection-349cb31513d7430e",
+      "run": "run-2645cf086c704654",
+      "outputs": {
+        "log": "1646a86213afaef2737747d0d2aef6ab917c831096035e27251f0c4e8a504ade",
+        "raw_data": "e7a399d0f30e03138fbe595c96d89e0c9a6d8e2930e29c916529cd915a73644e",
+        "metrics": "51696c4067413625171bc5c0a30de07e208cebc430298f2b77bb89c85501fde6",
+        "caption_partial": "f144ff572cccd325a6a7a4d8171abea3a2c29378dc99bf4de76764ca46941016"
+      },
+      "search_stop": "selection_limit"
+    },
+    "postflight": {
+      "provider_alias_audit": {
+        "sha256": "30d1bd121d2658975c0a95dde6d95f1565a877d99a2e5874b5220600021cbbfb",
+        "event": "data_exposure-761a4e91f1a348a4"
+      },
+      "closing_critique": {
+        "sha256": "d6e647ed700597aad1009d7a3ad1d53940857a435cffcac84fe632c72e43e032",
+        "event": "data_exposure-ab4ce1bff5d84a0c"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "sources": 120,
+  "concept_partitions": {
+    "development": {
+      "concepts": [
+        "church_bell",
+        "helicopter",
+        "jet_aircraft",
+        "ocean_waves",
+        "propeller_aircraft",
+        "rooster_crow",
+        "trumpet",
+        "waterfall"
+      ],
+      "source_counts": {
+        "A": 26,
+        "B": 26
+      },
+      "concept_counts_by_taxonomy": {
+        "animal_vocalizations": 1,
+        "instruments": 1,
+        "mechanical_or_natural_events": 3,
+        "powered_transport": 3
+      }
+    },
+    "heldout": {
+      "concepts": [
+        "accordion",
+        "acoustic_guitar",
+        "cello",
+        "chainsaw",
+        "diesel_train",
+        "dog_bark",
+        "electric_train",
+        "fireworks",
+        "piano",
+        "steam_train",
+        "violin"
+      ],
+      "source_counts": {
+        "A": 34,
+        "B": 34
+      },
+      "concept_counts_by_taxonomy": {
+        "animal_vocalizations": 1,
+        "instruments": 5,
+        "mechanical_or_natural_events": 2,
+        "powered_transport": 3
+      }
+    }
+  },
+  "readiness": "discovery_candidate_only; requires independently assembled replication cohort and valid routes",
+  "manifest_sha256": "751efe5a3d35087bc392403c316887704eaf789a326964b98a0ec5dbc5f03869"
+}

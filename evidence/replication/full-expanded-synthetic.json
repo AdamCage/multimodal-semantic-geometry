@@ -1,0 +1,42 @@
+{
+  "synthetic_only": true,
+  "manifest_sha256": "f6a56cde02c9d05b22940b4c2adfdcd5a19f802637589aa94c3e3d4427cf02c0",
+  "sources": 282,
+  "holm_family_slots": 384,
+  "statuses": {
+    "measured": 64
+  },
+  "groups": [
+    {
+      "dataset": "commons-discovery",
+      "concept_split": "development",
+      "exact_null_support": 27648,
+      "sampling": "exact",
+      "panels": 16
+    },
+    {
+      "dataset": "commons-discovery",
+      "concept_split": "heldout",
+      "exact_null_support": 27648,
+      "sampling": "exact",
+      "panels": 16
+    },
+    {
+      "dataset": "epic-sounds",
+      "concept_split": "development",
+      "exact_null_support": 34560,
+      "sampling": "exact",
+      "panels": 16
+    },
+    {
+      "dataset": "epic-sounds",
+      "concept_split": "heldout",
+      "exact_null_support": 34560,
+      "sampling": "exact",
+      "panels": 16
+    }
+  ],
+  "protocol_sha256": "e5b4193e0ac8350871f23bb3c97f93adf6b8743d4bed71208fbbd209c1602423",
+  "creator_bootstraps": 20,
+  "scope": "Synthetic numerical vectors share a simulated concept effect. Output verifies only the analysis code."
+}

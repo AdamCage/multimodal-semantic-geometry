@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "analysis_protocol": "protocol.json",
+  "concept_split": ["development", "heldout"],
+  "family_split": ["development", "heldout"],
+  "minimum_concepts_per_panel": 8,
+  "minimum_sources_per_concept_fold": 2,
+  "replication_requires_separate_dataset": true,
+  "alignment_pair_budgets": [16, 64, 256, 1024],
+  "alignment_fit_concepts": "development",
+  "alignment_measurement_concepts": "heldout",
+  "candidates": [
+    {
+      "id": "bge_m3", "modality": "text", "family_split": "development",
+      "model": "baai/bge-m3", "provider": "deepinfra", "response_models": ["BAAI/bge-m3"],
+      "upstream": "https://huggingface.co/BAAI/bge-m3",
+      "api_checkpoint_documentation": "https://routerai.ru/models/baai/bge-m3"
+    },
+    {
+      "id": "qwen3_8b", "modality": "text", "family_split": "heldout",
+      "model": "qwen/qwen3-embedding-8b", "provider": "deepinfra", "response_models": ["Qwen/Qwen3-Embedding-8B"],
+      "upstream": "https://huggingface.co/Qwen/Qwen3-Embedding-8B",
+      "api_checkpoint_documentation": "https://routerai.ru/models/qwen/qwen3-embedding-8b"
+    },
+    {
+      "id": "dinov2", "modality": "image", "family_split": "development",
+      "model": "facebook/dinov2-base", "response_models": ["facebook/dinov2-base"],
+      "upstream": "https://github.com/facebookresearch/dinov2",
+      "api_checkpoint_documentation": null
+    },
+    {
+      "id": "mae", "modality": "image", "family_split": "heldout",
+      "model": "facebook/vit-mae-base", "response_models": ["facebook/vit-mae-base"],
+      "upstream": "https://github.com/facebookresearch/mae",
+      "api_checkpoint_documentation": null
+    },
+    {
+      "id": "beats", "modality": "audio", "family_split": "development",
+      "model": "microsoft/beats", "response_models": ["microsoft/beats"],
+      "upstream": "https://github.com/microsoft/unilm/tree/master/beats",
+      "api_checkpoint_documentation": null
+    },
+    {
+      "id": "audiomae", "modality": "audio", "family_split": "heldout",
+      "model": "facebook/audiomae", "response_models": ["facebook/audiomae"],
+      "upstream": "https://github.com/facebookresearch/AudioMAE",
+      "api_checkpoint_documentation": null
+    },
+    {
+      "id": "videomae", "modality": "video", "family_split": "development",
+      "model": "MCG-NJU/videomae-base", "response_models": ["MCG-NJU/videomae-base"],
+      "upstream": "https://github.com/MCG-NJU/VideoMAE",
+      "api_checkpoint_documentation": null
+    },
+    {
+      "id": "vjepa2", "modality": "video", "family_split": "heldout",
+      "model": "facebook/vjepa2-vitl-fpc64-256", "response_models": ["facebook/vjepa2-vitl-fpc64-256"],
+      "upstream": "https://github.com/facebookresearch/vjepa2",
+      "api_checkpoint_documentation": null
+    }
+  ]
+}

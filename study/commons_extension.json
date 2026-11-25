@@ -1,0 +1,42 @@
+{
+  "instruments": {
+    "bagpipes": "playing bagpipes OR bagpipe performance",
+    "clarinet": "playing clarinet OR clarinet performance",
+    "flute": "playing flute OR flute performance",
+    "harmonica": "playing harmonica OR harmonica performance",
+    "harp": "playing harp OR harp performance",
+    "saxophone": "playing saxophone OR saxophone performance",
+    "snare_drum": "playing snare drum OR snare drum solo",
+    "xylophone": "playing xylophone OR xylophone performance"
+  },
+  "animal_vocalizations": {
+    "bee_buzz": "bees buzzing OR buzzing bee",
+    "cat_meow": "cat meowing OR cat meow",
+    "crow_caw": "crow cawing OR crow calls",
+    "duck_quack": "duck quacking OR duck quack",
+    "elephant_trumpet": "elephant trumpeting OR elephant trumpet call",
+    "frog_croak": "frog croaking OR frog calling",
+    "goose_honk": "goose honking OR geese honking",
+    "sheep_bleat": "sheep bleating OR sheep bleat"
+  },
+  "powered_transport": {
+    "diesel_bus": "diesel bus engine OR bus engine start",
+    "diesel_ship": "ship diesel engine OR ship engine start",
+    "emergency_vehicle_siren": "ambulance siren OR fire engine siren",
+    "motorcycle": "motorcycle engine OR motorcycle revving",
+    "race_car": "race car engine OR racing car onboard",
+    "snowmobile": "snowmobile engine OR snowmobiles engine",
+    "steam_boat": "steamboat whistle OR paddle steamer whistle",
+    "tractor": "tractor engine OR tractor ploughing"
+  },
+  "mechanical_or_natural_events": {
+    "burst_balloon": "balloon popping OR balloon bursting",
+    "fire_alarm": "fire alarm sounding OR fire alarm test",
+    "hair_dryer": "hair dryer running OR hair dryer switched on",
+    "heavy_rain": "heavy rain falling OR heavy rain sound",
+    "power_drill": "power drill drilling OR electric drill drilling",
+    "sewing_machine": "sewing machine running OR using sewing machine",
+    "thunder": "thunderstorm thunder OR thunder rumble",
+    "vacuum_cleaner": "vacuum cleaner running OR vacuuming carpet"
+  }
+}

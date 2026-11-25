@@ -1,0 +1,302 @@
+{
+  "source_sha256": "db65c5900ba0ec2099b620dc1b29825285b87912ad323343957a94dff3b5573b",
+  "geometry_sha256": "9bde5a978f7b3edf9a603199066d2612bae457e68e25e15e6426ec0e4161ab0b",
+  "scope": "same cached features and roster; no independent data, API repeat or reviewer",
+  "outcomes": [
+    {
+      "pair": "text_bge__text_qwen",
+      "condition": "paired",
+      "reanalysis": 0.6766469868241055,
+      "recorded": 0.6766469868241052,
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "pair": "text_bge__text_qwen",
+      "condition": "cross_source",
+      "reanalysis": 0.48729210166318676,
+      "recorded": 0.4872921016631865,
+      "absolute_error": 2.7755575615628914e-16
+    },
+    {
+      "pair": "image_titan__image_voyage",
+      "condition": "paired",
+      "reanalysis": 0.8071435428516573,
+      "recorded": 0.807143542851657,
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "pair": "image_titan__image_voyage",
+      "condition": "cross_source",
+      "reanalysis": 0.5402128782969737,
+      "recorded": 0.5402128782969735,
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "pair": "text_bge__image_titan",
+      "condition": "paired",
+      "reanalysis": 0.5221362229102168,
+      "recorded": 0.5221362229102167,
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "pair": "text_bge__image_titan",
+      "condition": "cross_source",
+      "reanalysis": 0.5920584635322919,
+      "recorded": 0.5920584635322919,
+      "absolute_error": 0.0
+    },
+    {
+      "pair": "text_qwen__image_voyage",
+      "condition": "paired",
+      "reanalysis": 0.496124031007752,
+      "recorded": 0.49612403100775193,
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "pair": "text_qwen__image_voyage",
+      "condition": "cross_source",
+      "reanalysis": 0.5034547723618212,
+      "recorded": 0.503454772361821,
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "pair": "text_bge__image_voyage",
+      "condition": "paired",
+      "reanalysis": 0.48036215710274316,
+      "recorded": 0.4803621571027432,
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "pair": "text_bge__image_voyage",
+      "condition": "cross_source",
+      "reanalysis": 0.5138670890632875,
+      "recorded": 0.5138670890632874,
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "pair": "text_qwen__image_titan",
+      "condition": "paired",
+      "reanalysis": 0.4175330597355221,
+      "recorded": 0.4175330597355222,
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "pair": "text_qwen__image_titan",
+      "condition": "cross_source",
+      "reanalysis": 0.44345525235798117,
+      "recorded": 0.4434552523579812,
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "pair": "text_gemini__image_gemini",
+      "condition": "paired",
+      "reanalysis": 0.5009467924256606,
+      "recorded": 0.5009467924256605,
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "pair": "text_gemini__image_gemini",
+      "condition": "cross_source",
+      "reanalysis": 0.43037295701634387,
+      "recorded": 0.4303729570163438,
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "pair": "text_bge__audio_caption_bge",
+      "condition": "paired",
+      "reanalysis": 0.3214498284013728,
+      "recorded": 0.32144982840137276,
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "pair": "text_bge__audio_caption_bge",
+      "condition": "cross_source",
+      "reanalysis": 0.31908944728442173,
+      "recorded": 0.3190894472844217,
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "pair": "text_bge__video_caption_bge",
+      "condition": "paired",
+      "reanalysis": 0.512560299517604,
+      "recorded": 0.5125602995176037,
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "pair": "text_bge__video_caption_bge",
+      "condition": "cross_source",
+      "reanalysis": 0.5777833777329782,
+      "recorded": 0.5777833777329779,
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "pair": "image_titan__audio_caption_bge",
+      "condition": "paired",
+      "reanalysis": 0.29017447860417117,
+      "recorded": 0.2901744786041711,
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "pair": "image_titan__audio_caption_bge",
+      "condition": "cross_source",
+      "reanalysis": 0.4064439484484125,
+      "recorded": 0.40644394844841225,
+      "absolute_error": 2.220446049250313e-16
+    },
+    {
+      "pair": "image_titan__video_caption_bge",
+      "condition": "paired",
+      "reanalysis": 0.7309405524755803,
+      "recorded": 0.7309405524755798,
+      "absolute_error": 5.551115123125783e-16
+    },
+    {
+      "pair": "image_titan__video_caption_bge",
+      "condition": "cross_source",
+      "reanalysis": 0.5807509539923681,
+      "recorded": 0.5807509539923678,
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "pair": "audio_caption_bge__video_caption_bge",
+      "condition": "paired",
+      "reanalysis": 0.2032723738210095,
+      "recorded": 0.20327237382100935,
+      "absolute_error": 1.3877787807814457e-16
+    },
+    {
+      "pair": "audio_caption_bge__video_caption_bge",
+      "condition": "cross_source",
+      "reanalysis": 0.3204670362637099,
+      "recorded": 0.32046703626370987,
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "pair": "audio_caption_qwen__video_caption_qwen",
+      "condition": "paired",
+      "reanalysis": 0.19706122351021194,
+      "recorded": 0.19706122351021188,
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "pair": "audio_caption_qwen__video_caption_qwen",
+      "condition": "cross_source",
+      "reanalysis": 0.2512227902176783,
+      "recorded": 0.2512227902176783,
+      "absolute_error": 0.0
+    },
+    {
+      "pair": "image_caption_bge__audio_caption_bge",
+      "condition": "paired",
+      "reanalysis": 0.17777257781937747,
+      "recorded": 0.17777257781937744,
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "pair": "image_caption_bge__audio_caption_bge",
+      "condition": "cross_source",
+      "reanalysis": 0.23785849713202298,
+      "recorded": 0.23785849713202287,
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "pair": "image_caption_bge__video_caption_bge",
+      "condition": "paired",
+      "reanalysis": 0.8772685818513453,
+      "recorded": 0.8772685818513447,
+      "absolute_error": 5.551115123125783e-16
+    },
+    {
+      "pair": "image_caption_bge__video_caption_bge",
+      "condition": "cross_source",
+      "reanalysis": 0.6992092063263494,
+      "recorded": 0.6992092063263491,
+      "absolute_error": 3.3306690738754696e-16
+    },
+    {
+      "pair": "text_qwen__audio_caption_qwen",
+      "condition": "paired",
+      "reanalysis": 0.15143638850889196,
+      "recorded": 0.1514363885088919,
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "pair": "text_qwen__audio_caption_qwen",
+      "condition": "cross_source",
+      "reanalysis": 0.20762833897328822,
+      "recorded": 0.20762833897328822,
+      "absolute_error": 0.0
+    },
+    {
+      "pair": "text_qwen__video_caption_qwen",
+      "condition": "paired",
+      "reanalysis": 0.4821261429908561,
+      "recorded": 0.48212614299085604,
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "pair": "text_qwen__video_caption_qwen",
+      "condition": "cross_source",
+      "reanalysis": 0.4972916216670267,
+      "recorded": 0.49729162166702656,
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "pair": "text_bge__audio_signal",
+      "condition": "paired",
+      "reanalysis": 0.1467564259485924,
+      "recorded": 0.14675642594859242,
+      "absolute_error": 2.7755575615628914e-17
+    },
+    {
+      "pair": "text_bge__audio_signal",
+      "condition": "cross_source",
+      "reanalysis": 0.16713466292269663,
+      "recorded": 0.16713466292269658,
+      "absolute_error": 5.551115123125783e-17
+    },
+    {
+      "pair": "image_titan__video_static",
+      "condition": "paired",
+      "reanalysis": 0.25863993088055304,
+      "recorded": 0.25863993088055304,
+      "absolute_error": 0.0
+    },
+    {
+      "pair": "image_titan__video_static",
+      "condition": "cross_source",
+      "reanalysis": 0.2561919504643963,
+      "recorded": 0.2561919504643963,
+      "absolute_error": 0.0
+    },
+    {
+      "pair": "image_titan__video_motion",
+      "condition": "paired",
+      "reanalysis": 0.4066203470372237,
+      "recorded": 0.40662034703722355,
+      "absolute_error": 1.6653345369377348e-16
+    },
+    {
+      "pair": "image_titan__video_motion",
+      "condition": "cross_source",
+      "reanalysis": 0.34094247246022036,
+      "recorded": 0.34094247246022025,
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "pair": "audio_signal__video_motion",
+      "condition": "paired",
+      "reanalysis": 0.2853109175126599,
+      "recorded": 0.2853109175126598,
+      "absolute_error": 1.1102230246251565e-16
+    },
+    {
+      "pair": "audio_signal__video_motion",
+      "condition": "cross_source",
+      "reanalysis": 0.0439952480380157,
+      "recorded": 0.043995248038015675,
+      "absolute_error": 2.7755575615628914e-17
+    }
+  ],
+  "max_absolute_error": 5.551115123125783e-16
+}

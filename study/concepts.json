@@ -1,0 +1,34 @@
+{
+  "instruments": {
+    "acoustic_guitar": "acoustic guitar OR classical guitar",
+    "piano": "piano",
+    "violin": "violin",
+    "cello": "cello",
+    "trumpet": "trumpet",
+    "accordion": "accordion"
+  },
+  "animal_vocalizations": {
+    "dog_bark": "barking",
+    "rooster_crow": "rooster crowing OR cockerel crowing OR cock crowing",
+    "cow_low": "mooing OR cattle lowing",
+    "horse_neigh": "neighing OR whinnying",
+    "donkey_bray": "braying",
+    "lion_roar": "lion roaring OR lion roar"
+  },
+  "powered_transport": {
+    "steam_train": "steam locomotive",
+    "diesel_train": "diesel locomotive",
+    "electric_train": "electric train OR electric locomotive",
+    "propeller_aircraft": "turboprop OR propeller aircraft",
+    "helicopter": "helicopter",
+    "jet_aircraft": "jet airliner OR jet aircraft"
+  },
+  "mechanical_or_natural_events": {
+    "church_bell": "church bells OR church bell",
+    "waterfall": "waterfall",
+    "ocean_waves": "ocean waves OR waves breaking OR waves crashing",
+    "fireworks": "fireworks display",
+    "chainsaw": "chainsaw",
+    "pouring_water": "pouring water OR water pouring"
+  }
+}

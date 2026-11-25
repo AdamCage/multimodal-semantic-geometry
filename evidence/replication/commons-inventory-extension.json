@@ -1,0 +1,532 @@
+{
+  "concepts": {
+    "acoustic_guitar": {
+      "group": "instruments",
+      "query": "acoustic guitar OR classical guitar",
+      "added": false,
+      "page_ids": 76,
+      "authors": 54,
+      "uploaders": 40,
+      "metadata_sha256": "4ccd2acd0fb27f536461cded490d61975941260efa5bbbcccc1f9302616d8c04"
+    },
+    "piano": {
+      "group": "instruments",
+      "query": "piano",
+      "added": false,
+      "page_ids": 39,
+      "authors": 35,
+      "uploaders": 32,
+      "metadata_sha256": "10848ac2347d3497df743a80ccd975a213c962d1d0c855d33ebed813460d2440"
+    },
+    "violin": {
+      "group": "instruments",
+      "query": "violin",
+      "added": false,
+      "page_ids": 40,
+      "authors": 30,
+      "uploaders": 27,
+      "metadata_sha256": "8cd79a1a924f9f5766f1a2d0937a2c46448dcd6418b5b3a715ffc1d9b90bc6e9"
+    },
+    "cello": {
+      "group": "instruments",
+      "query": "cello",
+      "added": false,
+      "page_ids": 41,
+      "authors": 32,
+      "uploaders": 26,
+      "metadata_sha256": "f2bd1489d83214cb599af73e70786dcd6136b27e661be1b8bcf28124ce76657a"
+    },
+    "trumpet": {
+      "group": "instruments",
+      "query": "trumpet",
+      "added": false,
+      "page_ids": 46,
+      "authors": 22,
+      "uploaders": 20,
+      "metadata_sha256": "e874dd1fc4aa3274d3332b37dd621ab1f8ef29956cb55edcd88b53c02c603e01"
+    },
+    "accordion": {
+      "group": "instruments",
+      "query": "accordion",
+      "added": false,
+      "page_ids": 38,
+      "authors": 27,
+      "uploaders": 27,
+      "metadata_sha256": "414750bef1bf755f3d7a6414f442fb30698f8b22cb3c048056d48af1fb548bc5"
+    },
+    "dog_bark": {
+      "group": "animal_vocalizations",
+      "query": "barking",
+      "added": false,
+      "page_ids": 39,
+      "authors": 31,
+      "uploaders": 27,
+      "metadata_sha256": "7be9196b88ffa3350d7a8487660619de006a30570e1d4b5e1efd20e791bc0c6e"
+    },
+    "rooster_crow": {
+      "group": "animal_vocalizations",
+      "query": "rooster crowing OR cockerel crowing OR cock crowing",
+      "added": false,
+      "page_ids": 51,
+      "authors": 30,
+      "uploaders": 28,
+      "metadata_sha256": "f298f1a204102645d93d96704977bb0136b9b1b804d872cf33fba81186f1ab7a"
+    },
+    "cow_low": {
+      "group": "animal_vocalizations",
+      "query": "mooing OR cattle lowing",
+      "added": false,
+      "page_ids": 64,
+      "authors": 29,
+      "uploaders": 23,
+      "metadata_sha256": "53963e214a590e051dcab8959f2531d07e8e8eba3af47d83a03b83df3c60d34e"
+    },
+    "horse_neigh": {
+      "group": "animal_vocalizations",
+      "query": "neighing OR whinnying",
+      "added": false,
+      "page_ids": 17,
+      "authors": 5,
+      "uploaders": 5,
+      "metadata_sha256": "aed44ba64db631cb6c6b018131e34192bf06bc417b1dfc4d52f283bf6a15e375"
+    },
+    "donkey_bray": {
+      "group": "animal_vocalizations",
+      "query": "braying",
+      "added": false,
+      "page_ids": 43,
+      "authors": 36,
+      "uploaders": 33,
+      "metadata_sha256": "1b4b0287237e68a2d084f07b9f823a6d6f0d7edb6d30770424bad92cf8bd344c"
+    },
+    "lion_roar": {
+      "group": "animal_vocalizations",
+      "query": "lion roaring OR lion roar",
+      "added": false,
+      "page_ids": 36,
+      "authors": 18,
+      "uploaders": 11,
+      "metadata_sha256": "9fcc9efab354f797860530b79b7b6ab52b21b4d6e377ce74b1c24da656ad13ec"
+    },
+    "steam_train": {
+      "group": "powered_transport",
+      "query": "steam locomotive",
+      "added": false,
+      "page_ids": 41,
+      "authors": 28,
+      "uploaders": 20,
+      "metadata_sha256": "db9cae749e239cb5cb4199bf094c2f04c00a59b1679b9e867b350c5573d60d01"
+    },
+    "diesel_train": {
+      "group": "powered_transport",
+      "query": "diesel locomotive",
+      "added": false,
+      "page_ids": 46,
+      "authors": 41,
+      "uploaders": 22,
+      "metadata_sha256": "eb61c1078db483aa0e66cb9b3158881ac94c6cf1e89a5c87cb4b67ef54004137"
+    },
+    "electric_train": {
+      "group": "powered_transport",
+      "query": "electric train OR electric locomotive",
+      "added": false,
+      "page_ids": 78,
+      "authors": 55,
+      "uploaders": 22,
+      "metadata_sha256": "90b54c997f76b2263ca8079b0c160a022e78dd332451f99cbafbde0f9934ec5b"
+    },
+    "propeller_aircraft": {
+      "group": "powered_transport",
+      "query": "turboprop OR propeller aircraft",
+      "added": false,
+      "page_ids": 37,
+      "authors": 23,
+      "uploaders": 25,
+      "metadata_sha256": "735cbcebc1ca224638962616b2088bb197e196e6cd28d806388f2bae35413d0b"
+    },
+    "helicopter": {
+      "group": "powered_transport",
+      "query": "helicopter",
+      "added": false,
+      "page_ids": 36,
+      "authors": 28,
+      "uploaders": 27,
+      "metadata_sha256": "d9d059b64df59c025ed78f6cd97398c6de2c242173b6f5c730252d018cd6816b"
+    },
+    "jet_aircraft": {
+      "group": "powered_transport",
+      "query": "jet airliner OR jet aircraft",
+      "added": false,
+      "page_ids": 51,
+      "authors": 48,
+      "uploaders": 40,
+      "metadata_sha256": "c5cb75982a79e26fd08581b3de8f36ae2a448668a9317866bd01d41cb61eb2a4"
+    },
+    "church_bell": {
+      "group": "mechanical_or_natural_events",
+      "query": "church bells OR church bell",
+      "added": false,
+      "page_ids": 47,
+      "authors": 33,
+      "uploaders": 29,
+      "metadata_sha256": "38e29d155b1c3aa019b80184204fe2ebfbbd7a0ecbad374e72df3c26d6ae60df"
+    },
+    "waterfall": {
+      "group": "mechanical_or_natural_events",
+      "query": "waterfall",
+      "added": false,
+      "page_ids": 39,
+      "authors": 30,
+      "uploaders": 29,
+      "metadata_sha256": "aaa33ce7e108576d2ae4081aa0e13d52f04032b497d182f379809d1a0a29a60f"
+    },
+    "ocean_waves": {
+      "group": "mechanical_or_natural_events",
+      "query": "ocean waves OR waves breaking OR waves crashing",
+      "added": false,
+      "page_ids": 97,
+      "authors": 46,
+      "uploaders": 35,
+      "metadata_sha256": "81c2cf3335f76032b27db184e0dfc35219f318d28a88d8175f2dd51df04d4aaa"
+    },
+    "fireworks": {
+      "group": "mechanical_or_natural_events",
+      "query": "fireworks display",
+      "added": false,
+      "page_ids": 46,
+      "authors": 15,
+      "uploaders": 15,
+      "metadata_sha256": "1f93b984c49b2df03f824d2bc7a96056bdb672b5e1cebf9ea01675593b029e2c"
+    },
+    "chainsaw": {
+      "group": "mechanical_or_natural_events",
+      "query": "chainsaw",
+      "added": false,
+      "page_ids": 20,
+      "authors": 12,
+      "uploaders": 12,
+      "metadata_sha256": "901e995622c9ccd8a3993ec8218c4ee371f152ba7b895996dee5fc753eed3fb7"
+    },
+    "pouring_water": {
+      "group": "mechanical_or_natural_events",
+      "query": "pouring water OR water pouring",
+      "added": false,
+      "page_ids": 42,
+      "authors": 38,
+      "uploaders": 31,
+      "metadata_sha256": "0c8626d2400e4e4e1401302f05eea0591d6c9da1bf4a50875d6280e865ce3788"
+    },
+    "bagpipes": {
+      "group": "instruments",
+      "query": "playing bagpipes OR bagpipe performance",
+      "added": true,
+      "page_ids": 4,
+      "authors": 4,
+      "uploaders": 4,
+      "metadata_sha256": "191526b81381802d9b1e43fda2354dc2c248051e3e4522777bae590cf6f3ccbf"
+    },
+    "clarinet": {
+      "group": "instruments",
+      "query": "playing clarinet OR clarinet performance",
+      "added": true,
+      "page_ids": 12,
+      "authors": 11,
+      "uploaders": 9,
+      "metadata_sha256": "2831d32ce0a950e6d4bd2905e94a560c5b555e0f84942190b5f9a1f32aca83e6"
+    },
+    "flute": {
+      "group": "instruments",
+      "query": "playing flute OR flute performance",
+      "added": true,
+      "page_ids": 37,
+      "authors": 30,
+      "uploaders": 25,
+      "metadata_sha256": "f0cf4e2269f9acfe15a45573c781177cfc568109ef167b1dbaefe03ffd36dfa8"
+    },
+    "harmonica": {
+      "group": "instruments",
+      "query": "playing harmonica OR harmonica performance",
+      "added": true,
+      "page_ids": 1,
+      "authors": 1,
+      "uploaders": 1,
+      "metadata_sha256": "2f298dc19e7a48495787fad00c02d68b0c4ee76a4fd738c017cab024d0cdbeda"
+    },
+    "harp": {
+      "group": "instruments",
+      "query": "playing harp OR harp performance",
+      "added": true,
+      "page_ids": 32,
+      "authors": 17,
+      "uploaders": 14,
+      "metadata_sha256": "c9f806402b67f154e6c75dae4b45f94bd5391f77daa51b8b2aa27844effa3a97"
+    },
+    "saxophone": {
+      "group": "instruments",
+      "query": "playing saxophone OR saxophone performance",
+      "added": true,
+      "page_ids": 4,
+      "authors": 4,
+      "uploaders": 4,
+      "metadata_sha256": "b5046738031e6ead6fe86a1f9a2f886f3c0d141f1bd137cd33a2922079e6467e"
+    },
+    "snare_drum": {
+      "group": "instruments",
+      "query": "playing snare drum OR snare drum solo",
+      "added": true,
+      "page_ids": 81,
+      "authors": 59,
+      "uploaders": 54,
+      "metadata_sha256": "a793fe8916b0c1ba208bcdee8a19e0b3da84c0d4f75d731d5d4aab01fe1bada3"
+    },
+    "xylophone": {
+      "group": "instruments",
+      "query": "playing xylophone OR xylophone performance",
+      "added": true,
+      "page_ids": 10,
+      "authors": 9,
+      "uploaders": 9,
+      "metadata_sha256": "dd07c383599e7c9b41415df022914a2e9e88a017a3ba478bfd7660273b81f5e6"
+    },
+    "bee_buzz": {
+      "group": "animal_vocalizations",
+      "query": "bees buzzing OR buzzing bee",
+      "added": true,
+      "page_ids": 3,
+      "authors": 3,
+      "uploaders": 3,
+      "metadata_sha256": "51056b79258d5e5943ecab427ea6a449357f4719ac0d6249d995f1325608302f"
+    },
+    "cat_meow": {
+      "group": "animal_vocalizations",
+      "query": "cat meowing OR cat meow",
+      "added": true,
+      "page_ids": 23,
+      "authors": 17,
+      "uploaders": 17,
+      "metadata_sha256": "481dcf10489b479dd72a84050681d02c75ccb4459d531de393168dac47ecf676"
+    },
+    "crow_caw": {
+      "group": "animal_vocalizations",
+      "query": "crow cawing OR crow calls",
+      "added": true,
+      "page_ids": 53,
+      "authors": 32,
+      "uploaders": 29,
+      "metadata_sha256": "37cdad215d5e6024a86409ffef65d124d627dc2f76f1c60b8ee0432f561626c0"
+    },
+    "duck_quack": {
+      "group": "animal_vocalizations",
+      "query": "duck quacking OR duck quack",
+      "added": true,
+      "page_ids": 43,
+      "authors": 40,
+      "uploaders": 31,
+      "metadata_sha256": "f51dc16160bc173bbad1b841d0769abfa37e4a9d16ea94499b7e1f54b544ba8c"
+    },
+    "elephant_trumpet": {
+      "group": "animal_vocalizations",
+      "query": "elephant trumpeting OR elephant trumpet call",
+      "added": true,
+      "page_ids": 1,
+      "authors": 1,
+      "uploaders": 1,
+      "metadata_sha256": "456de124885db2d8e8bb4e54bb4e0f27b8fb9d252a84009c07f6952af7354673"
+    },
+    "frog_croak": {
+      "group": "animal_vocalizations",
+      "query": "frog croaking OR frog calling",
+      "added": true,
+      "page_ids": 23,
+      "authors": 20,
+      "uploaders": 17,
+      "metadata_sha256": "af40be960a7debb6c0c138ef957c67785e7a67caa8306df742a78c39654a1efb"
+    },
+    "goose_honk": {
+      "group": "animal_vocalizations",
+      "query": "goose honking OR geese honking",
+      "added": true,
+      "page_ids": 1,
+      "authors": 1,
+      "uploaders": 1,
+      "metadata_sha256": "ae394c80030532156faca4711c8c8dca1db60468f83a61084e78d7ce060367e8"
+    },
+    "sheep_bleat": {
+      "group": "animal_vocalizations",
+      "query": "sheep bleating OR sheep bleat",
+      "added": true,
+      "page_ids": 2,
+      "authors": 2,
+      "uploaders": 2,
+      "metadata_sha256": "29d0754c8ac00a9e3c5c6b9fd70d769eb399b9a2653b7ed93d53cc88babc24ea"
+    },
+    "diesel_bus": {
+      "group": "powered_transport",
+      "query": "diesel bus engine OR bus engine start",
+      "added": true,
+      "page_ids": 1,
+      "authors": 1,
+      "uploaders": 1,
+      "metadata_sha256": "de47fc408b417d7a113f1b235e2da1a6df77a58282bbab5722a29b93d0916db7"
+    },
+    "diesel_ship": {
+      "group": "powered_transport",
+      "query": "ship diesel engine OR ship engine start",
+      "added": true,
+      "page_ids": 7,
+      "authors": 3,
+      "uploaders": 3,
+      "metadata_sha256": "c7d0f64008d8e53173315dbb8317092a2cabed5f29ad486ce245fd9e222d634f"
+    },
+    "emergency_vehicle_siren": {
+      "group": "powered_transport",
+      "query": "ambulance siren OR fire engine siren",
+      "added": true,
+      "page_ids": 16,
+      "authors": 10,
+      "uploaders": 9,
+      "metadata_sha256": "0077c4a0aac48ef805405a387bea1e6ee07b4b5d68d60e6fb7c3113e4a5c29f4"
+    },
+    "motorcycle": {
+      "group": "powered_transport",
+      "query": "motorcycle engine OR motorcycle revving",
+      "added": true,
+      "page_ids": 51,
+      "authors": 38,
+      "uploaders": 30,
+      "metadata_sha256": "f7bb574683bf12e4da87741de01901c59c4c297726fb7b8778ce1ffd32a7dae0"
+    },
+    "race_car": {
+      "group": "powered_transport",
+      "query": "race car engine OR racing car onboard",
+      "added": true,
+      "page_ids": 4,
+      "authors": 4,
+      "uploaders": 3,
+      "metadata_sha256": "ea02abd844ff17cd0aeb3fdad0d8234f2fbe5b3c2e68bfcd632316a25955492a"
+    },
+    "snowmobile": {
+      "group": "powered_transport",
+      "query": "snowmobile engine OR snowmobiles engine",
+      "added": true,
+      "page_ids": 0,
+      "authors": 0,
+      "uploaders": 0,
+      "metadata_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "steam_boat": {
+      "group": "powered_transport",
+      "query": "steamboat whistle OR paddle steamer whistle",
+      "added": true,
+      "page_ids": 2,
+      "authors": 2,
+      "uploaders": 2,
+      "metadata_sha256": "7e003a5d2ef74c5412ad5bcea162879f9f703a827e7549782e32a5ff98f33749"
+    },
+    "tractor": {
+      "group": "powered_transport",
+      "query": "tractor engine OR tractor ploughing",
+      "added": true,
+      "page_ids": 51,
+      "authors": 27,
+      "uploaders": 26,
+      "metadata_sha256": "77f2343dd722731eb0dac751c25b29d9e63857b2704f89767083b738415832a7"
+    },
+    "burst_balloon": {
+      "group": "mechanical_or_natural_events",
+      "query": "balloon popping OR balloon bursting",
+      "added": true,
+      "page_ids": 59,
+      "authors": 35,
+      "uploaders": 35,
+      "metadata_sha256": "43f9610fb3101384eecc82c5b76759d9807e9f5cadab0d02a58ff975f33923c8"
+    },
+    "fire_alarm": {
+      "group": "mechanical_or_natural_events",
+      "query": "fire alarm sounding OR fire alarm test",
+      "added": true,
+      "page_ids": 9,
+      "authors": 9,
+      "uploaders": 8,
+      "metadata_sha256": "bb153302efb624a2c9ac6abbbe33683261cf79c461d866e18eeb0b2d351b22f8"
+    },
+    "hair_dryer": {
+      "group": "mechanical_or_natural_events",
+      "query": "hair dryer running OR hair dryer switched on",
+      "added": true,
+      "page_ids": 0,
+      "authors": 0,
+      "uploaders": 0,
+      "metadata_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "heavy_rain": {
+      "group": "mechanical_or_natural_events",
+      "query": "heavy rain falling OR heavy rain sound",
+      "added": true,
+      "page_ids": 23,
+      "authors": 8,
+      "uploaders": 8,
+      "metadata_sha256": "3df940ce41a79381fc4218cbdc2012a6ae7690fca6a94e4dfed2e44a06c98826"
+    },
+    "power_drill": {
+      "group": "mechanical_or_natural_events",
+      "query": "power drill drilling OR electric drill drilling",
+      "added": true,
+      "page_ids": 32,
+      "authors": 15,
+      "uploaders": 14,
+      "metadata_sha256": "7929ee44156731ecaa16048acd894ff0c677da8f2649904c81cb347b5b434d5c"
+    },
+    "sewing_machine": {
+      "group": "mechanical_or_natural_events",
+      "query": "sewing machine running OR using sewing machine",
+      "added": true,
+      "page_ids": 34,
+      "authors": 17,
+      "uploaders": 15,
+      "metadata_sha256": "260b209807b34aad93805f15c8c87b9843e4e2a22770627a2cc3704e4472a654"
+    },
+    "thunder": {
+      "group": "mechanical_or_natural_events",
+      "query": "thunderstorm thunder OR thunder rumble",
+      "added": true,
+      "page_ids": 23,
+      "authors": 17,
+      "uploaders": 15,
+      "metadata_sha256": "e4ea7c1c14416444899f31e4ab5ba0b1b5bf5cda836326c1c8bab7a1d7c472a1"
+    },
+    "vacuum_cleaner": {
+      "group": "mechanical_or_natural_events",
+      "query": "vacuum cleaner running OR vacuuming carpet",
+      "added": true,
+      "page_ids": 0,
+      "authors": 0,
+      "uploaders": 0,
+      "metadata_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    }
+  },
+  "metadata_upper_ceiling_by_minimum_count": {
+    "4": {
+      "instruments": 13,
+      "animal_vocalizations": 10,
+      "powered_transport": 9,
+      "mechanical_or_natural_events": 12
+    },
+    "8": {
+      "instruments": 11,
+      "animal_vocalizations": 9,
+      "powered_transport": 9,
+      "mechanical_or_natural_events": 12
+    },
+    "30": {
+      "instruments": 3,
+      "animal_vocalizations": 2,
+      "powered_transport": 2,
+      "mechanical_or_natural_events": 3
+    }
+  },
+  "new_queries": 32,
+  "unavailable_queries": 0,
+  "limitations": "Metadata is an upper ceiling. Sources can be mislabeled, silent, duplicated, inaccessible, or share author components.",
+  "design_sha256": "db0fab12d6e7022efd2f514be86e0e191985dfe188f85db55684d8b1db320987"
+}

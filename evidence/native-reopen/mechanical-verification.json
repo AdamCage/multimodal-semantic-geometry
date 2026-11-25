@@ -1,0 +1,13 @@
+{
+  "fixture_only": true,
+  "fixture_sources": 128,
+  "panel_status_counts": {
+    "measured": 64
+  },
+  "holm_slots": 384,
+  "permutations": 7680,
+  "first_six_decoded_frames_identical": true,
+  "later_frames_differ": true,
+  "calibration_holdout_disjoint": true,
+  "alignment_empirics": "requires_native_replication"
+}

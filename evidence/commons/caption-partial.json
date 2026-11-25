@@ -1,0 +1,170 @@
+{
+  "features_sha256": "db65c5900ba0ec2099b620dc1b29825285b87912ad323343957a94dff3b5573b",
+  "roster_sha256": "c970b09336c81dc2e47c40c8e7d157bcb0feab2d4cc69c007be6adc460c98d6c",
+  "scope": "adaptive descriptive sensitivity; no causal mediation, no additional inferential family",
+  "label_null": "blocked on broad taxonomy, permuting image and image-caption axes together",
+  "outcomes": [
+    {
+      "left": "text_bge",
+      "right": "image_titan",
+      "nuisance_caption": "image_caption_bge",
+      "concepts": [
+        "dog_bark",
+        "rooster_crow",
+        "accordion",
+        "acoustic_guitar",
+        "cello",
+        "piano",
+        "trumpet",
+        "violin",
+        "chainsaw",
+        "church_bell",
+        "fireworks",
+        "ocean_waves",
+        "waterfall",
+        "diesel_train",
+        "electric_train",
+        "helicopter",
+        "jet_aircraft",
+        "propeller_aircraft",
+        "steam_train"
+      ],
+      "status": "measured",
+      "sources": 120,
+      "cross_source": {
+        "unconditioned": {
+          "estimate": 0.5920584635322917,
+          "null_median": 0.2929296565627475,
+          "null_q95": 0.42717666258669906,
+          "p": 0.0002
+        },
+        "taxonomy_only": {
+          "estimate": 0.49841479486403667,
+          "null_median": 0.00011060396584771206,
+          "null_q95": 0.22150952440678798,
+          "p": 0.0002
+        },
+        "caption_only": {
+          "estimate": 0.37476977630261704,
+          "null_median": 0.1671925475390959,
+          "null_q95": 0.2929330278518539,
+          "p": 0.0012
+        },
+        "taxonomy_and_caption": {
+          "estimate": 0.32330643221178057,
+          "null_median": 0.0030570084275548803,
+          "null_q95": 0.1839539194803801,
+          "p": 0.0008
+        }
+      }
+    },
+    {
+      "left": "text_qwen",
+      "right": "image_voyage",
+      "nuisance_caption": "image_caption_qwen",
+      "concepts": [
+        "dog_bark",
+        "rooster_crow",
+        "accordion",
+        "acoustic_guitar",
+        "cello",
+        "piano",
+        "trumpet",
+        "violin",
+        "chainsaw",
+        "church_bell",
+        "fireworks",
+        "ocean_waves",
+        "waterfall",
+        "diesel_train",
+        "electric_train",
+        "helicopter",
+        "jet_aircraft",
+        "propeller_aircraft",
+        "steam_train"
+      ],
+      "status": "measured",
+      "sources": 120,
+      "cross_source": {
+        "unconditioned": {
+          "estimate": 0.5034547723618211,
+          "null_median": 0.32492380060959514,
+          "null_q95": 0.4066726666186671,
+          "p": 0.0006
+        },
+        "taxonomy_only": {
+          "estimate": 0.3188824186689459,
+          "null_median": -0.0033878179417419635,
+          "null_q95": 0.14527462199629865,
+          "p": 0.0006
+        },
+        "caption_only": {
+          "estimate": 0.22197660441471417,
+          "null_median": 0.16459216720847591,
+          "null_q95": 0.2646829473500372,
+          "p": 0.1808
+        },
+        "taxonomy_and_caption": {
+          "estimate": 0.14021006768514627,
+          "null_median": 0.0011047525179783552,
+          "null_q95": 0.12970486529950437,
+          "p": 0.0382
+        }
+      }
+    },
+    {
+      "left": "text_gemini",
+      "right": "image_gemini",
+      "nuisance_caption": "image_caption_bge",
+      "concepts": [
+        "dog_bark",
+        "rooster_crow",
+        "accordion",
+        "acoustic_guitar",
+        "cello",
+        "piano",
+        "trumpet",
+        "violin",
+        "chainsaw",
+        "church_bell",
+        "fireworks",
+        "ocean_waves",
+        "waterfall",
+        "diesel_train",
+        "electric_train",
+        "helicopter",
+        "jet_aircraft",
+        "propeller_aircraft",
+        "steam_train"
+      ],
+      "status": "measured",
+      "sources": 120,
+      "cross_source": {
+        "unconditioned": {
+          "estimate": 0.43037295701634387,
+          "null_median": 0.16605347157222744,
+          "null_q95": 0.31454472364221076,
+          "p": 0.0006
+        },
+        "taxonomy_only": {
+          "estimate": 0.42413666120652804,
+          "null_median": 0.00016355969641097118,
+          "null_q95": 0.2337046328344374,
+          "p": 0.0006
+        },
+        "caption_only": {
+          "estimate": 0.0968258296729396,
+          "null_median": 0.031203531410396407,
+          "null_q95": 0.1648538831028226,
+          "p": 0.2132
+        },
+        "taxonomy_and_caption": {
+          "estimate": 0.13135331329537622,
+          "null_median": -0.003218365696854242,
+          "null_q95": 0.184051821912628,
+          "p": 0.1202
+        }
+      }
+    }
+  ]
+}

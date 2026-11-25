@@ -1,0 +1,204 @@
+{
+  "captured_utc": "2026-11-25T18:30:29.534794+00:00",
+  "protocol_sha256": "e5b4193e0ac8350871f23bb3c97f93adf6b8743d4bed71208fbbd209c1602423",
+  "service": "https://routerai.ru/api/v1/",
+  "catalog": {
+    "status": 200,
+    "sha256": "a5fb6790b7270de4f530d08e2313a7ba2d1e2afd73531ba5d3d209d182206c01"
+  },
+  "model_count": 611,
+  "advertised_av": [
+    "google/gemini-embedding-2",
+    "google/gemini-embedding-2-preview"
+  ],
+  "native_acquisition_ready": false,
+  "eligible": {
+    "text": [
+      "bge_m3",
+      "qwen3_8b"
+    ],
+    "image": [],
+    "audio": [],
+    "video": []
+  },
+  "candidate_routes": [
+    {
+      "id": "bge_m3",
+      "model": "baai/bge-m3",
+      "modality": "text",
+      "family_split": "development",
+      "catalog_architecture": {
+        "modality": "text->embeddings",
+        "tokenizer": "Other",
+        "instruct_type": null,
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "embeddings"
+        ]
+      },
+      "endpoint_lookup": {
+        "status": 200,
+        "sha256": "d0bd9622392c1a3ed1069ebf40fe396120716ca61f764d2b5479cdd44cd4392a"
+      },
+      "endpoint_names": [
+        "DeepInfra | baai/bge-m3",
+        "Parasail | baai/bge-m3"
+      ],
+      "pinned_provider": "deepinfra",
+      "status": "eligible",
+      "probe": {
+        "transport": "input_sensitive",
+        "aliases": [
+          "BAAI/bge-m3",
+          "BAAI/bge-m3",
+          "BAAI/bge-m3",
+          "BAAI/bge-m3"
+        ],
+        "response_model": "BAAI/bge-m3",
+        "dimension": 1024,
+        "control_gap": 1.0317052267967703,
+        "max_repeat_drift": 0.001059323905001704,
+        "vector_sha256": [
+          "8b6d7bc38746d7ce483a38883ae5df1d50c172fce4e306226c264435e18a8f38",
+          "e65ea27461f0124ae27dbe8ce0a107622b498ce73acc68045b4d1bea0ae22a8a",
+          "a0d1cbb22f8542255440a201d8ff93fe7c7641a7589ffc577b6b06f5fe7ff1a8",
+          "e65ea27461f0124ae27dbe8ce0a107622b498ce73acc68045b4d1bea0ae22a8a"
+        ]
+      }
+    },
+    {
+      "id": "qwen3_8b",
+      "model": "qwen/qwen3-embedding-8b",
+      "modality": "text",
+      "family_split": "heldout",
+      "catalog_architecture": {
+        "modality": "text->embeddings",
+        "tokenizer": "Other",
+        "instruct_type": null,
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "embeddings"
+        ]
+      },
+      "endpoint_lookup": {
+        "status": 200,
+        "sha256": "0dcad920029b51b67ffe0507cd7ffba499638ee7b3ef92c8e9e0e0139f76aa16"
+      },
+      "endpoint_names": [
+        "DeepInfra | qwen/qwen3-embedding-8b",
+        "Nebius | qwen/qwen3-embedding-8b",
+        "SiliconFlow | qwen/qwen3-embedding-8b"
+      ],
+      "pinned_provider": "deepinfra",
+      "status": "eligible",
+      "probe": {
+        "transport": "input_sensitive",
+        "aliases": [
+          "Qwen/Qwen3-Embedding-8B",
+          "Qwen/Qwen3-Embedding-8B",
+          "Qwen/Qwen3-Embedding-8B",
+          "Qwen/Qwen3-Embedding-8B"
+        ],
+        "response_model": "Qwen/Qwen3-Embedding-8B",
+        "dimension": 4096,
+        "control_gap": 1.1388733633538102,
+        "max_repeat_drift": 0.0,
+        "vector_sha256": [
+          "f90dda862d9d2e84f7ec19f1b08dfcb1ab5b7925d6cc86039255ae47472fce17",
+          "6dd9e62d5bb1b27f9fabd0de8fcab33aad330e09b38d3d5ab1988f1fe029f97d",
+          "f90dda862d9d2e84f7ec19f1b08dfcb1ab5b7925d6cc86039255ae47472fce17",
+          "6dd9e62d5bb1b27f9fabd0de8fcab33aad330e09b38d3d5ab1988f1fe029f97d"
+        ]
+      }
+    },
+    {
+      "id": "dinov2",
+      "model": "facebook/dinov2-base",
+      "modality": "image",
+      "family_split": "development",
+      "catalog_architecture": null,
+      "endpoint_lookup": {
+        "status": 404,
+        "sha256": "3f32030f224fd49e0a7d1f895941a677c634df5bdf44c089e80520e998514aa3"
+      },
+      "endpoint_names": [],
+      "pinned_provider": null,
+      "status": "model_not_found"
+    },
+    {
+      "id": "mae",
+      "model": "facebook/vit-mae-base",
+      "modality": "image",
+      "family_split": "heldout",
+      "catalog_architecture": null,
+      "endpoint_lookup": {
+        "status": 404,
+        "sha256": "3f32030f224fd49e0a7d1f895941a677c634df5bdf44c089e80520e998514aa3"
+      },
+      "endpoint_names": [],
+      "pinned_provider": null,
+      "status": "model_not_found"
+    },
+    {
+      "id": "beats",
+      "model": "microsoft/beats",
+      "modality": "audio",
+      "family_split": "development",
+      "catalog_architecture": null,
+      "endpoint_lookup": {
+        "status": 404,
+        "sha256": "3f32030f224fd49e0a7d1f895941a677c634df5bdf44c089e80520e998514aa3"
+      },
+      "endpoint_names": [],
+      "pinned_provider": null,
+      "status": "model_not_found"
+    },
+    {
+      "id": "audiomae",
+      "model": "facebook/audiomae",
+      "modality": "audio",
+      "family_split": "heldout",
+      "catalog_architecture": null,
+      "endpoint_lookup": {
+        "status": 404,
+        "sha256": "3f32030f224fd49e0a7d1f895941a677c634df5bdf44c089e80520e998514aa3"
+      },
+      "endpoint_names": [],
+      "pinned_provider": null,
+      "status": "model_not_found"
+    },
+    {
+      "id": "videomae",
+      "model": "MCG-NJU/videomae-base",
+      "modality": "video",
+      "family_split": "development",
+      "catalog_architecture": null,
+      "endpoint_lookup": {
+        "status": 404,
+        "sha256": "3f32030f224fd49e0a7d1f895941a677c634df5bdf44c089e80520e998514aa3"
+      },
+      "endpoint_names": [],
+      "pinned_provider": null,
+      "status": "model_not_found"
+    },
+    {
+      "id": "vjepa2",
+      "model": "facebook/vjepa2-vitl-fpc64-256",
+      "modality": "video",
+      "family_split": "heldout",
+      "catalog_architecture": null,
+      "endpoint_lookup": {
+        "status": 404,
+        "sha256": "3f32030f224fd49e0a7d1f895941a677c634df5bdf44c089e80520e998514aa3"
+      },
+      "endpoint_names": [],
+      "pinned_provider": null,
+      "status": "model_not_found"
+    }
+  ],
+  "alignment_empirics": "requires_native_replication"
+}

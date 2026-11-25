@@ -1,0 +1,37 @@
+{
+  "taxonomy": {
+    "instruments": 4,
+    "animal_vocalizations": 2,
+    "powered_transport": 4,
+    "mechanical_or_natural_events": 4
+  },
+  "permutation_support_per_panel": 27648,
+  "eligible_concepts_by_group": {
+    "mechanical_or_natural_events": 8,
+    "powered_transport": 9,
+    "instruments": 10,
+    "animal_vocalizations": 5
+  },
+  "attempted_designs": [
+    {
+      "taxonomy": {
+        "instruments": 4,
+        "animal_vocalizations": 2,
+        "powered_transport": 4,
+        "mechanical_or_natural_events": 4
+      },
+      "solver_status": 0
+    }
+  ],
+  "available_creator_components": 186,
+  "screened_manifest_sha256": "e47fc604d0b4e2bfeb1259814a887cf8aa07e6c8905170f6f839f43a435f45ba",
+  "assigned_sources": 170,
+  "manifest_sha256": "81c69779eb6eaabc3eaffd09101406d36c3db92a4250981cec3575cd75f22b91",
+  "sources_by_panel": {
+    "heldout/A": 42,
+    "development/B": 43,
+    "heldout/B": 42,
+    "development/A": 43
+  },
+  "status": "candidate_inputs_materialized"
+}

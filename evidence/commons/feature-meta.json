@@ -1,0 +1,86 @@
+{
+  "roster_sha256": "c970b09336c81dc2e47c40c8e7d157bcb0feab2d4cc69c007be6adc460c98d6c",
+  "feature_sha256": "db65c5900ba0ec2099b620dc1b29825285b87912ad323343957a94dff3b5573b",
+  "models": {
+    "text": {
+      "text_bge": "baai/bge-m3",
+      "text_qwen": "qwen/qwen3-embedding-8b",
+      "text_gemini": "google/gemini-embedding-2"
+    },
+    "image": {
+      "image_titan": "amazon/titan-embed-image-v1",
+      "image_voyage": "mongodb/voyage-multimodal-3.5",
+      "image_gemini": "google/gemini-embedding-2"
+    },
+    "caption": "google/gemini-2.5-flash"
+  },
+  "observed_models": {
+    "image_titan": {
+      "amazon.titan-embed-image-v1": 120
+    },
+    "image_voyage": {
+      "voyage-multimodal-3.5": 120
+    },
+    "image_gemini": {
+      "google/gemini-embedding-2": 120
+    },
+    "text_bge": {
+      "BAAI/bge-m3": 24,
+      "parasail-bge-m3": 96
+    },
+    "text_qwen": {
+      "Qwen/Qwen3-Embedding-8B": 120
+    },
+    "text_gemini": {
+      "google/gemini-embedding-2": 120
+    },
+    "audio_caption_bge": {
+      "BAAI/bge-m3": 12,
+      "parasail-bge-m3": 108
+    },
+    "audio_caption_qwen": {
+      "Qwen/Qwen3-Embedding-8B": 120
+    },
+    "image_caption_bge": {
+      "BAAI/bge-m3": 48,
+      "parasail-bge-m3": 72
+    },
+    "image_caption_qwen": {
+      "Qwen/Qwen3-Embedding-8B": 120
+    },
+    "video_caption_bge": {
+      "BAAI/bge-m3": 60,
+      "parasail-bge-m3": 60
+    },
+    "video_caption_qwen": {
+      "Qwen/Qwen3-Embedding-8B": 120
+    }
+  },
+  "coverage": {
+    "audio_caption_bge": 120,
+    "audio_caption_qwen": 120,
+    "audio_signal": 120,
+    "image_caption_bge": 120,
+    "image_caption_qwen": 120,
+    "image_gemini": 120,
+    "image_titan": 120,
+    "image_voyage": 120,
+    "text_bge": 120,
+    "text_gemini": 120,
+    "text_qwen": 120,
+    "video_caption_bge": 120,
+    "video_caption_qwen": 120,
+    "video_motion": 119,
+    "video_static": 119
+  },
+  "failures": [
+    {
+      "item": "video_motion:commons-157588128",
+      "reason": "nonfinite_or_zero_vector"
+    },
+    {
+      "item": "video_static:commons-157588128",
+      "reason": "nonfinite_or_zero_vector"
+    }
+  ]
+}

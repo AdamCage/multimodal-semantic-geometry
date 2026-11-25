@@ -1,0 +1,212 @@
+{
+  "scope": "local request receipts only; provider token and cost fields when returned",
+  "by_stage": {
+    "commons-v3": {
+      "unique_request_records": 1114,
+      "attempts": 1114,
+      "http_200": 1114,
+      "responses": 1114,
+      "reported_prompt_tokens": 491626,
+      "responses_reporting_prompt_tokens": 1114,
+      "reported_completion_tokens": 61470,
+      "responses_reporting_completion_tokens": 660,
+      "reported_total_tokens": 553096,
+      "responses_reporting_total_tokens": 1114,
+      "reported_cost": 86.66308195459209,
+      "responses_reporting_cost": 660
+    },
+    "clotho": {
+      "unique_request_records": 146,
+      "attempts": 146,
+      "http_200": 146,
+      "responses": 146,
+      "reported_prompt_tokens": 70463,
+      "responses_reporting_prompt_tokens": 146,
+      "reported_total_tokens": 73313,
+      "responses_reporting_total_tokens": 146,
+      "reported_completion_tokens": 2850,
+      "responses_reporting_completion_tokens": 64,
+      "reported_cost": 5.998548172031999,
+      "responses_reporting_cost": 64
+    },
+    "roles": {
+      "unique_request_records": 12,
+      "attempts": 12,
+      "http_200": 12,
+      "responses": 12,
+      "reported_prompt_tokens": 253678,
+      "responses_reporting_prompt_tokens": 12,
+      "reported_completion_tokens": 24595,
+      "responses_reporting_completion_tokens": 12,
+      "reported_total_tokens": 278273,
+      "responses_reporting_total_tokens": 12,
+      "reported_cost": 14.263969612817919,
+      "responses_reporting_cost": 12
+    },
+    "transport-audit": {
+      "unique_request_records": 44,
+      "attempts": 44,
+      "http_400": 22,
+      "http_200": 16,
+      "responses": 16,
+      "reported_prompt_tokens": 1419,
+      "responses_reporting_prompt_tokens": 16,
+      "reported_total_tokens": 1419,
+      "responses_reporting_total_tokens": 16,
+      "http_503": 6
+    },
+    "preflight": {
+      "unique_request_records": 12,
+      "attempts": 12,
+      "http_400": 12
+    },
+    "native-reopen": {
+      "unique_request_records": 3,
+      "attempts": 3,
+      "http_200": 3,
+      "responses": 3,
+      "reported_prompt_tokens": 15517,
+      "responses_reporting_prompt_tokens": 3,
+      "reported_completion_tokens": 9321,
+      "responses_reporting_completion_tokens": 3,
+      "reported_total_tokens": 24838,
+      "responses_reporting_total_tokens": 3,
+      "reported_cost": 2.18570224392,
+      "responses_reporting_cost": 3
+    },
+    "repeat-0": {
+      "unique_request_records": 4,
+      "attempts": 4,
+      "http_200": 4,
+      "responses": 4,
+      "reported_prompt_tokens": 42,
+      "responses_reporting_prompt_tokens": 4,
+      "reported_total_tokens": 42,
+      "responses_reporting_total_tokens": 4
+    },
+    "repeat-1": {
+      "unique_request_records": 4,
+      "attempts": 4,
+      "http_200": 4,
+      "responses": 4,
+      "reported_prompt_tokens": 42,
+      "responses_reporting_prompt_tokens": 4,
+      "reported_total_tokens": 42,
+      "responses_reporting_total_tokens": 4
+    },
+    "replication-roles": {
+      "unique_request_records": 3,
+      "attempts": 3,
+      "http_200": 3,
+      "responses": 3,
+      "reported_prompt_tokens": 1685,
+      "responses_reporting_prompt_tokens": 3,
+      "reported_completion_tokens": 4133,
+      "responses_reporting_completion_tokens": 3,
+      "reported_total_tokens": 5818,
+      "responses_reporting_total_tokens": 3,
+      "reported_cost": 0.7546293149241601,
+      "responses_reporting_cost": 3
+    },
+    "pinned-pilot": {
+      "unique_request_records": 50,
+      "attempts": 50,
+      "http_200": 50,
+      "responses": 50,
+      "reported_prompt_tokens": 22999,
+      "responses_reporting_prompt_tokens": 50,
+      "reported_total_tokens": 22999,
+      "responses_reporting_total_tokens": 50
+    },
+    "expanded-design-roles": {
+      "unique_request_records": 3,
+      "attempts": 3,
+      "http_200": 3,
+      "responses": 3,
+      "reported_prompt_tokens": 1675,
+      "responses_reporting_prompt_tokens": 3,
+      "reported_completion_tokens": 3829,
+      "responses_reporting_completion_tokens": 3,
+      "reported_total_tokens": 5504,
+      "responses_reporting_total_tokens": 3,
+      "reported_cost": 0.72170964667152,
+      "responses_reporting_cost": 3
+    },
+    "expanded-commons-screening": {
+      "unique_request_records": 70,
+      "attempts": 70,
+      "http_200": 70,
+      "responses": 70,
+      "reported_prompt_tokens": 78482,
+      "responses_reporting_prompt_tokens": 70,
+      "reported_completion_tokens": 7164,
+      "responses_reporting_completion_tokens": 70,
+      "reported_total_tokens": 85646,
+      "responses_reporting_total_tokens": 70,
+      "reported_cost": 12.20931900864,
+      "responses_reporting_cost": 70
+    },
+    "pinned-route-repeat-0": {
+      "unique_request_records": 4,
+      "attempts": 4,
+      "http_200": 4,
+      "responses": 4,
+      "reported_prompt_tokens": 42,
+      "responses_reporting_prompt_tokens": 4,
+      "reported_total_tokens": 42,
+      "responses_reporting_total_tokens": 4
+    },
+    "pinned-route-repeat-1": {
+      "unique_request_records": 4,
+      "attempts": 4,
+      "http_200": 4,
+      "responses": 4,
+      "reported_prompt_tokens": 42,
+      "responses_reporting_prompt_tokens": 4,
+      "reported_total_tokens": 42,
+      "responses_reporting_total_tokens": 4
+    },
+    "expanded-route-repeat-0": {
+      "unique_request_records": 4,
+      "attempts": 4,
+      "http_200": 4,
+      "responses": 4,
+      "reported_prompt_tokens": 42,
+      "responses_reporting_prompt_tokens": 4,
+      "reported_total_tokens": 42,
+      "responses_reporting_total_tokens": 4
+    },
+    "expanded-route-repeat-1": {
+      "unique_request_records": 4,
+      "attempts": 4,
+      "http_200": 4,
+      "responses": 4,
+      "reported_prompt_tokens": 42,
+      "responses_reporting_prompt_tokens": 4,
+      "reported_total_tokens": 42,
+      "responses_reporting_total_tokens": 4
+    },
+    "provider-control-repeat-0": {
+      "unique_request_records": 14,
+      "attempts": 14,
+      "http_404": 4,
+      "http_200": 10,
+      "responses": 10,
+      "reported_prompt_tokens": 102,
+      "responses_reporting_prompt_tokens": 10,
+      "reported_total_tokens": 102,
+      "responses_reporting_total_tokens": 10
+    },
+    "provider-control-repeat-1": {
+      "unique_request_records": 14,
+      "attempts": 14,
+      "http_404": 4,
+      "http_200": 10,
+      "responses": 10,
+      "reported_prompt_tokens": 102,
+      "responses_reporting_prompt_tokens": 10,
+      "reported_total_tokens": 102,
+      "responses_reporting_total_tokens": 10
+    }
+  }
+}

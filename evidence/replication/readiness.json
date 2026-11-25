@@ -1,0 +1,95 @@
+{
+  "episteme_commit": "7f5a1a0e43d7c35196cc8b3c9c74a618aa2559c3",
+  "readiness": {
+    "native_acquisition_ready": false,
+    "eligible_family_count": 2,
+    "stable_verified_families": {
+      "text": [
+        "bge_m3",
+        "qwen3_8b"
+      ],
+      "image": [],
+      "audio": [],
+      "video": []
+    },
+    "candidate_statuses": {
+      "bge_m3": "eligible",
+      "qwen3_8b": "eligible",
+      "dinov2": "model_not_found",
+      "mae": "model_not_found",
+      "beats": "model_not_found",
+      "audiomae": "model_not_found",
+      "videomae": "model_not_found",
+      "vjepa2": "model_not_found"
+    },
+    "alignment_empirics_ready": false,
+    "pilot_source_capacity": {
+      "total_sources": 120,
+      "concepts": 19,
+      "sources_by_fold": {
+        "A": 60,
+        "B": 60
+      },
+      "repeated_raw_source_across_folds": 0,
+      "optimistic_unique_training_pairs_per_dyad": 60,
+      "counts_feasible_at_ceiling": {
+        "16": true,
+        "64": false,
+        "256": false,
+        "1024": false
+      },
+      "interpretation": "Count ceiling on the exploratory source roster with fold B reserved. No training, concept holdout, model readiness or independent replication is inferred."
+    },
+    "independent_replication_materialized": {
+      "unique_epic_original_recordings": 64,
+      "unique_epic_participants": 26,
+      "raw_assets_verified": 736,
+      "design_panels": {
+        "commons-discovery/development": {
+          "concepts": 8,
+          "sources": 52
+        },
+        "commons-discovery/heldout": {
+          "concepts": 11,
+          "sources": 68
+        },
+        "epic-sounds/development": {
+          "concepts": 8,
+          "sources": 32
+        },
+        "epic-sounds/heldout": {
+          "concepts": 8,
+          "sources": 32
+        }
+      },
+      "status": "local_inputs_verified_awaiting_native_routes_and_scientific_review"
+    },
+    "taxonomy_resolution_reaches_first_holm": {
+      "commons-discovery/development": false,
+      "commons-discovery/heldout": false,
+      "epic-sounds/development": false,
+      "epic-sounds/heldout": false
+    }
+  },
+  "run": "run-e96bdfa753044c1e",
+  "state": {
+    "root": "C:\\projects\\multimodal-semantic-geometry\\.research\\replication-lab\\ledger\\episteme",
+    "synthetic_demo": false,
+    "event_count": 16,
+    "counts": {
+      "research_question": 1,
+      "hypothesis": 2,
+      "explanation_set": 1,
+      "data_exposure": 5,
+      "protocol": 1,
+      "search_tree": 1,
+      "experiment_node": 1,
+      "search_selection": 1,
+      "run": 1,
+      "result": 1,
+      "search_terminal": 1
+    },
+    "last_event_hash": "14232b176ae49a656a480f4af42d2184dc76971736f6a281084ed3d0f5683385",
+    "claims": []
+  }
+}
